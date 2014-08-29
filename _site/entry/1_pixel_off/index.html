@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>1 pixel off</title>
+	
+	<link rel="alternate" type="application/rss+xml" title="RSS" href="/feed" />
+	<link rel="shortcut icon" href="/favicon.ico" />
+	
+	<link rel="stylesheet" href="/css/geekandmild.css" />  
+
+	<script type="text/javascript" src="http://use.typekit.com/hiv0gya.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+</head>
+
+<body id="home">
+
+
+	<div id="main">
+
+		<h1><a href="/">Geek &amp; Mild by Sean Sperte</a></h1>
+
+		<div class="post">
+	<h2><a href="/entry/1_pixel_off">1 pixel off</a></h2>
+	<p>Tweaking this site has uncovered a slight rendering issue with Safari. It shouldn&#8217;t be a big deal, but it&#8217;s driving me crazy. I&#8217;m searching for answers. 
+I know I shouldn&#8217;t be as bothered by this as I am, but I just cannot seem to let it go. I&#8217;ve scoured the web for a solution and no one seems to even recognize it as an issue.</p>
+
+<p>Here&#8217;s the deal: I&#8217;ve got a single background image (for <code>&lt;body&gt;</code>) set to be center-aligned and repeat vertically. Then, I&#8217;ve got a div container set at 400px wide, centered. Here&#8217;s the basic CSS:</p>
+
+<pre><code>body &#123;
+    margin: 0;
+    padding: 0;
+    font-family: 'lucida grande','trebuchet ms',sans-serif;
+    background: #fff url(/images/bg_fullbody2.gif) top center repeat-y;
+    &#125;
+#container &#123;
+    width: 460px;
+    margin: 0 auto;
+    position: relative;
+    border: 0;
+    &#125;
+</code></pre>
+
+<p><img src="/assets/img/1px_shift.gif" width="90" height="90" alt="Screenshot showing the 1-pixel shift rendered by Safari" class="imgright" />Safari, for some reason God only knows, shifts the container div 1px to the left. I&#8217;m left with three options:</p>
+
+<ol>
+<li>Somehow target only Safari and use <code>left: 1px</code>, which I cannot seem to figure a way to do</li>
+<li>Change the design</li>
+<li>Live with it (please note that this is hardly an option, it just seemed better to list three)</li>
+</ol>
+
+<p>So, being that I have no time for option number two, and option three is out of the question, is there an answer for number one?</p>
+
+</div>
+
+
+		<p id="copyright">&copy; 2014 Sean Sperte, please don't steal. <a href="/about">More info</a>.<br />
+			Handcrafted using <a href="http://www.sublimetext.com/">Sublime Text</a>, powered by <a href="http://jekyllrb.com/">Jekyll</a>.</p>
+
+		</div>
+
+
+	</body>
+
+	</html>

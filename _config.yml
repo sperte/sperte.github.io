@@ -9,6 +9,7 @@ paginate_path: "/page:num"
 url: "http://seansperte.com" # the base hostname & protocol for your site
 twitter_username: sperte
 github_username: sperte
+permalink: /entry/:title
 
 # Build settings
 markdown: kramdown
