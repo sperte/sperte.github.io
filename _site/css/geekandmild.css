@@ -1,0 +1,213 @@
+@import url(normalize.css);
+body {
+  font-family: adelle,chaparral-pro,georgia,serif;
+  line-height: 1.5;
+  color: #333;
+  background: #eaebec url(../img/whitey.jpg);
+  -webkit-font-smoothing: antialiased; }
+
+::selection {
+  color: #eee;
+  background: #333; }
+
+a {
+  color: #000;
+  text-decoration: none;
+  border-bottom: 1px solid #999; }
+
+a:hover {
+  background: #ffc; }
+
+h1 a {
+  display: block;
+  height: 70px;
+  margin: 3em auto 2em;
+  text-indent: -999em;
+  overflow: hidden;
+  background: url(../img/logo.svg) 50% 0 no-repeat !important;
+  background-size: contain;
+  border: none; }
+
+#main {
+  position: relative; }
+
+#intro {
+  margin: 2em auto 4em;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: normal;
+  color: #999;
+  text-shadow: 0 .05em 0 #fff; }
+
+#intro a {
+  color: #777; }
+
+hr {
+  margin: 3em auto;
+  border: 0 none;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #fff; }
+
+.post hr {
+  width: 25%;
+  margin: 2em auto;
+  border-bottom: none; }
+
+.post {
+  position: relative; }
+
+.post h2 a {
+  color: #333;
+  text-shadow: 0 .05em .05em #fff;
+  border: none; }
+
+.post img {
+  max-width: 95%;
+  height: auto;
+  padding: 10px;
+  background: #fff;
+  box-shadow: 0 3px 5px #999; }
+
+img[align="left"],
+img.imgleft {
+  float: left;
+  max-width: 50%;
+  height: auto;
+  margin-right: 1.5em; }
+
+img[align="right"],
+img.imgright {
+  float: right;
+  max-width: 50%;
+  height: auto;
+  margin-left: 1.5em; }
+
+img.imgcenter {
+  display: block;
+  margin: 0 auto; }
+
+.post blockquote {
+  margin: 1em;
+  padding-left: 1em;
+  color: #555;
+  border-left: 1px solid #ccc; }
+
+.post pre,
+.post .code {
+  display: block;
+  max-width: 100%;
+  overflow: scroll;
+  padding: .5em;
+  color: #000;
+  background: #eee;
+  border-radius: 2px;
+  box-shadow: 0 -1px 1px #555; }
+
+.post p code {
+  background: #eee; }
+
+.post h6 {
+  margin: 0;
+  text-transform: lowercase;
+  font-variant: small-caps;
+  font-size: 14px;
+  font-weight: normal; }
+
+.post[class~=link] h6 {
+  top: .4em; }
+
+.post h6 a {
+  color: #999;
+  border: none; }
+
+#fusion {
+  position: absolute;
+  left: 520px;
+  margin: 60px 0 0 50px;
+  font-size: 14px;
+  font-family: georgia,serif; }
+
+#fusion br {
+  display: none; }
+
+#fusion img {
+  display: block;
+  margin-bottom: 10px; }
+
+#fusion h6 {
+  margin: 10px 0;
+  text-transform: uppercase;
+  font-weight: normal; }
+
+#fusion a {
+  color: #555;
+  border: 0; }
+
+#pagination {
+  margin: 3em auto;
+  text-align: center; }
+
+#pagination a {
+  padding: 0 2em;
+  color: #777;
+  font-weight: bold;
+  border: none; }
+
+#pagination a:hover {
+  color: #000;
+  background: none; }
+
+#copyright {
+  float: left;
+  margin: 100px auto 50px;
+  font-size: 75%;
+  color: #777; }
+
+#search {
+  float: right;
+  margin: 1em 0 5em; }
+
+#search input {
+  width: 130px;
+  padding: 5px;
+  font-size: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px -1px 0 #999;
+  outline: none; }
+
+/*  Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  #main {
+    margin: 20px; }
+
+  #fusion {
+    position: relative;
+    left: auto;
+    margin: 0 auto;
+    text-align: center; }
+
+  #fusion img {
+    margin: 0 auto 10px; }
+
+  .post img {
+    display: block;
+    float: none;
+    margin: 1em auto; }
+
+  #search {
+    float: none;
+    width: 130px;
+    margin: 0 auto 2em; } }
+/* Tablet & Desktop */
+@media (min-width: 768px) {
+  #main {
+    width: 520px;
+    margin: 0 auto 100px; }
+
+  .post h6 {
+    position: absolute;
+    top: 10px;
+    left: -200px;
+    width: 170px;
+    text-align: right; } }

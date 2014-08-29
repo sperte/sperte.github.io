@@ -1,0 +1,48 @@
+---
+title: The Remaking of Version 3
+date: 2007-03-10
+slug: the_remaking_of_version_3
+---
+<p>It takes a certain amount of obsessive compulsion, I think, to be good at what you do. This thing called the internets is what I do &#8211; and believe you me, I&#8217;m obsessed. Not more than a day after I launched Version 3 of this site I began revamping the way the site displays blog entries.</p>
+
+<p>Now, instead of using the direct query method I <a href="http://www.seansperte.com/entry/the_making_of_version_3">showed previously</a>, I use an entirely separate blog for links. Not only does this simplify my homepage code and reduce the amount of database queries, it also allows me to more easily manage the entries; where and how they&#8217;re displayed.</p>
+
+<p>This is made possible by <abbr title="ExpressionEngine">EE</abbr>&#8217;s support for multiple weblogs inside one <code>exp:weblog:entries</code> tag. So this:</p>
+
+<ol class="code">
+ <li>&#123;exp:weblog:entries weblog=&quot;blog&quot; limit=&quot;20&quot; paginate=&quot;bottom&quot;&#125;</li>
+</ol>
+
+<p>Becomes this:</p>
+
+<ol class="code">
+ <li>&#123;exp:weblog:entries weblog=&quot;blog|quickblog&quot; limit=&quot;20&quot; paginate=&quot;bottom&quot;&#125;</li>
+</ol>
+
+<p>Another benefit of using this method is that I can now use the auxiliary &#8220;quickblog&#8221; for more than just links. Every category is now available to me &#8211; so if I have a quick thought about, say, design, I can just post it in the design category and not worry that it&#8217;s being displayed as a major article.</p>
+
+<p>Additionally, the separation of quick-natured blog posts from those that require more attention (and time to read) creates an opportunity for isolating them in aggregation, for example, in an RSS feed.</p>
+
+<p>For those wondering, yes, this is very much like a tumblelog. In fact, I&#8217;m experimenting with Andrew Weaver&#8217;s sweet, new FeedGrab plugin in order to pull in my Ma.gnolia links, Twitter statuses, Flickr photos, and Newsvine seeds. We&#8217;ll see how that goes.</p>
+
+<h3>Howsit done?</h3>
+
+<p>So here&#8217;s my new homepage code:</p>
+
+<ol class="code">
+ <li>&#123;exp:weblog:entries weblog=&quot;seanblog|quickblog&quot; limit=&quot;20&quot; paginate=&quot;bottom&quot;&#125;</li>
+ <li>&#123;if weblog_id != &quot;8&quot;&#125;</li>
+ <li>&lt;div class=&quot;link&quot;&gt;</li>
+ <li>&#123;exp:markypants&#125;&#123;summary&#125;&#123;/exp:markypants&#125;</li>
+ <li>&lt;h6&gt;&lt;a href=&quot;&#123;url_title_path=entry&#125;&quot;&gt;&amp;raquo;&lt;/a&gt;&lt;/h6&gt;</li>
+ <li>&#123;if:else&#125;&lt;div class=&quot;post&quot;&gt;</li>
+ <li>&lt;h2&gt;&lt;em&gt;&#123;entry_date format=&quot;%M %j%S&quot;&#125; &lt;/em&gt;&lt;a href=&quot;&#123;url_title_path=entry&#125;&quot;&gt;&#123;title&#125;&lt;/a&gt;&lt;/h2&gt;</li>
+ <li>&#123;exp:markypants&#125;&#123;summary&#125;&#123;/exp:markypants&#125;</li>
+ <li>&#123;if body&#125;&#123;exp:markypants&#125;&#123;body&#125;&#123;/exp:markypants&#125;&#123;/if&#125;</li>
+ <li>&lt;h6 class=&quot;post-links&quot;&gt;&lt;a href=&quot;&#123;url_title_path=entry&#125;#comments&quot;&gt;&#123;comment_total&#125; comment&#123;if comment_total != &apos;1&apos;&#125;s&#123;/if&#125;&lt;/a&gt;&lt;span&gt; | &lt;/span&gt;&lt;a href=&quot;&#123;url_title_path=entry&#125;&quot;&gt;permalink&lt;/a&gt;&lt;/h6&gt;</li>
+ <li>&#123;/if&#125;&lt;/div&gt;</li>
+</ol>
+
+<p>You can see I&#8217;m able to pull entries from two different weblogs using the same <code>&#123;exp:weblog:entries&#125;</code> tag. I just separate each using the pipe character. Then I use the <code>weblog_id</code> for the conditional and display entries uniquely based on which blog they came from, regardless of category. Again, this allows me to quickly post a thought, image, quote or link in the &#8220;quickblog&#8221; without it being displayed as a full-fledged post.</p>
+
+<p>Questions, comments, concerns?</p>

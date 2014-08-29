@@ -1,0 +1,24 @@
+---
+title: The Mysterious Opera Browser
+date: 2010-12-31
+slug: the_mysterious_opera_browser
+---
+<p>For weeks Opera, the web browser that just won&#8217;t go away, has been vying for file ownership and default web browsing on my MacBook Pro. I never installed it, so it puzzled me to see it listed in the list of potential applications to open, say, an HTML file. Spotlight searches turned up nothing, as did casual browsing through system and application support folders. I should have done it sooner, but I finally turned to my friend, Google.</p>
+
+<p>It turns out Opera is installed with Adobe CS4. (Now there&#8217;s a funny word: &#8220;installed&#8221;.) I take offense to that. You see, I never gave Adobe permission to install an alternative web browser on my computer, I don&#8217;t care what the 900-page Terms and Conditions said. When I installed CS4 I wanted and expected graphics-making software, not web browsing software. Aside from the fact that what I expect is often furthest from what I get with Adobe software, even if I was somehow tricked into agreeing to receive a fresh copy of an extraneous web browser, it would be a nice courtesy to place it in the Applications folder. But instead, it&#8217;s embedded into the package contents of Adobe Bridge CS4 application, two folders down. Did you read that? It was <em>embedded in another application</em>. Not in the Application Support folder, or Library folder(s), or Utilities folder, or AdobeHelperToolsAndApplications folder, or any other rationally sane location.</p>
+
+<p><img src="/assets/img/Screen_shot_2010-12-30_at_111.png" alt="Screen shot 2010-12-30 at 11.03.05 PM.png" title="Screen shot 2010-12-30 at 11.03.05 PM.png" border="0" width="500" height="216" class="imgcenter" /></p>
+
+<p>I can only think of three possible reasons to embed an application inside another application:</p>
+
+<ol>
+<li>To display Help files &#8211; but then, why not just use the system&#8217;s default web browser?</li>
+<li>To power a feature/function of the containing app that isn&#8217;t a part of its core design &#8211; but then, why not build it in using WebKit?</li>
+<li>To satisfy a contract wherein Adobe must illegitimately install a copy of Opera on users&#8217; computers in exchange for fame and fortune and a week timeshare in Cabo.</li>
+</ol>
+
+<p>I&#8217;m being only slightly facetious here. Honestly, I can&#8217;t think of any other reason to justify the logic of including a copy of Opera.</p>
+
+<p>Okay, maybe one more: to confuse and/or annoy people. And if Adobe did include Opera for that reason, they succeeded with me.</p>
+
+<p>Anyway, <em>deleted</em>.</p>

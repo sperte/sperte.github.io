@@ -1,0 +1,30 @@
+---
+title: 'I don&#8217;t know'
+date: 2005-09-01
+slug: i_dont_know
+---
+<p>The focus of this blog is (hopefully) pretty evident: technology and all things geek. It&#8217;s only been active for one week now, but already I must break face and write about what truly matters. 
+The events surrounding Hurricane Katrina and the aftermath that is now taking place have forced me to consider my position and do what I can to help. I&#8217;m literally in shock at how devastated New Orleans is &#8211; how those people are. It takes a strong person to say, &#8220;I don&#8217;t know,&#8221; and I&#8217;m doing that now: I don&#8217;t know what&#8217;s going on down there, I don&#8217;t know how I should feel about it, and I don&#8217;t know what to do.</p>
+
+<p>I&#8217;ve heard from someone who has close friends near the city (I don&#8217;t believe they&#8217;re refugees but, rather, live in a small city outside of New Orleans) saying that the media has sugar-coated what&#8217;s happening. If that&#8217;s the case, and <em><a href="http://seattletimes.nwsource.com/html/nationworld/2002463400_katrinasuperdome01.html">this</a></em> is sugar-coated, then I&#8217;m at a loss for words. I cannot even imagine what those people are going through &#8230; and I feel terribly sorry for them.</p>
+
+<p>Everyone wants to blame someone or something in this situation. It&#8217;s understandable. I mean, we&#8217;d like to have an explanation for our kids (and ourselves). I honestly don&#8217;t know how to explain this. I know one thing, though: God isn&#8217;t to blame, and neither is the American people. We didn&#8217;t bring this upon ourselves, as some are arguing (in the same way they did with <abbr title="September 11, 2001 World Trade Center attacks">9/11</abbr>). This isn&#8217;t some judgment because of <em>Mardi Gras</em> &#8211; please.</p>
+
+<p>There are four kinds of people I&#8217;m praying for right now:</p>
+
+<ul>
+<li>Those refugees who heeded the call for evacuation and fled the city but now have nothing to return to and nowhere to go</li>
+<li>The relief workers and military who are trying to construct some sort of peaceable order and offer aid</li>
+<li>Women, children and elderly who <em>got caught</em> in the storm and (for some reason or another) couldn&#8217;t evacuate fast enough &#8211; and who are still hanging on for their lives</li>
+<li>Leaders in local and federal government who are making decisions on how to handle the situation</li>
+</ul>
+
+<p>Then there are those I&#8217;m praying <em>against</em>:</p>
+
+<ul>
+<li>Demon-inspired looters and rebels &#8211; those that are shooting at relief workers, raping women, stealing valuables and causing disorder</li>
+<li>Apathetic Americans who are too caught up in their own lives and lifestyles to notice what&#8217;s taking place in their own country &#8211; God forbid anything happen to <em>them</em> and their fellow countrymen continue without so much as a second look</li>
+<li>Arrogant and self-seeking church leaders who appear on television or preach from their pulpits that this natural disaster is a result of America&#8217;s sin</li>
+</ul>
+
+<p>Beyond prayer, money and thoughts (written or spoken), <strong>I don&#8217;t know</strong> what else I can do.</p>

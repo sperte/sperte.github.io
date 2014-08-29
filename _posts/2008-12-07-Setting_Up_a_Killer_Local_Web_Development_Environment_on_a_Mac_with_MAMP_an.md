@@ -1,0 +1,91 @@
+---
+title: Setting Up a Killer, Local Web Development Environment on a Mac with MAMP and VirtualHostX
+date: 2008-12-07
+slug: Setting_Up_a_Killer_Local_Web_Development_Environment_on_a_Mac_with_MAMP_an
+---
+<p>With a keen sense of internet awareness (Powered by Twitter&#8482;), I&#8217;ve observed a large amount of Switchers <a href="http://snook.ca/archives/other/new-macbook-pro/">whose day job is to build the web</a>. Because of this, I thought I&#8217;d provide a bit of a welcome gift, in the form of a small tutorial on setting up a killer work environment.</p>
+
+<p>The setup I&#8217;m going to describe isn&#8217;t novel, nor is it for everyone. My workflow allows me to have a great deal of flexibility with how I develop (since I&#8217;m basically a one-man-department), so keep that in mind as you read. You may need to &#8220;season to taste&#8221;, so to speak.</p>
+
+<p>Let&#8217;s get started.</p>
+
+<h3>MAMP</h3>
+
+<p>The heart and soul of the environment we&#8217;re going to build comes from MAMP &#8211; Mac, Apache, MySQL, PHP. <a href="http://www.mamp.info/en/mamp.html">The free version of MAMP</a> contains everything most developers need. Simply download, install and run it as you would any normal application. We&#8217;re going to make a couple of easy changes in the MAMP preferences.</p>
+
+<p>The first is to change the ports that MAMP uses. Click on the &#8220;Ports&#8221; tab and set the Apache and MySQL ports to their defaults (80 and 3306, respectively). You&#8217;ll be prompted for your admin password.</p>
+
+<p><img src="/assets/img/mamp-ports.jpg" alt="MAMP port settings" border="0" width="359" height="239" class="imgcenter" /></p>
+
+<p>Secondly, I like to uncheck all of the options in the &#8220;Start/Stop&#8221; section. This comes with some potential performance and security hits since it means you&#8217;ll have to manually stop the servers if/when you&#8217;re not using them.</p>
+
+<p>Don&#8217;t worry about any other options. We&#8217;re going to circumvent MAMP&#8217;s default document root with virtual hosts.</p>
+
+<h3>VirtualHostX</h3>
+
+<p><img src="/assets/img/vhx-icon2.jpg" alt="vhx-icon2.jpg" class="imgright" />Now that we&#8217;re serving Apache+PHP, we can access whatever document root we have setup in the MAMP preference via a web browser with the URL http://localhost &#8211; but that sucks. Instead, we&#8217;re going to use virtual hosts, allowing any URL to any document root we want. That&#8217;s right. Any URL to any directory.</p>
+
+<p>To do this, we can edit the Apache httpd.conf and hosts files manually, or use <a href="http://clickontyler.com/virtualhostx/">Tyler Hall&#8217;s fabulous VirtualHostX</a>, a $19 utility that provides a clean and simple GUI for adding virtual hosts.</p>
+
+<p>On first launch, VHX will ask you to create a backup of the current configuration &#8211; which you should do. It also provides an option for installing MAMP support.</p>
+
+<p>Creating a virtual host is simple:</p>
+
+<ul>
+<li>Enter the domain name you&#8217;d like to use</li>
+<li>Choose a &#8220;website folder&#8221; to be the document root for the domain</li>
+<li>Apply changes</li>
+</ul>
+
+<p><img src="/assets/img/vhx2.jpg" alt="vhx2.jpg" class="imgcenter" /></p>
+
+<p>That&#8217;s it! (You can add advanced, custom directives if you&#8217;re into that sort of thing.)</p>
+
+<p>One quick note: anytime you update the virtual hosts you should restart Apache (httpd) by stopping and starting the servers in VirtualHostX (command+shift+R).</p>
+
+<h3>VMware Fusion</h3>
+
+<p>At this point we have a near-perfect local development environment &#8211; except for testing. Sure this works great for testing in all the browsers you have available on your Mac (just type in the domain you chose in VHX in any browser you have installed). But what about testing how your sites look on a PC?</p>
+
+<p>That&#8217;s where <a href="http://www.vmware.com/products/fusion/">VMware Fusion</a> (or another virtualization program) comes into play. Most of us (developers) already use virtualization in some form for testing, but in order to take advantage of this particular environment &#8211; MAMP with virtual hosts &#8211; we need to update the hosts file on the virtual machine so that it resolves the domains to the Mac&#8217;s IP.</p>
+
+<p>One catch: if you&#8217;re on a latop, chances are the Mac&#8217;s IP will change often. That&#8217;s why we need to get the secret IP the VM uses to talk to the Mac. (Yeah, I didn&#8217;t know such a thing existed either.) Here&#8217;s how we find it:</p>
+
+<p>Type <code>ifconfig vmnet1</code> into a Terminal window. You should get a return like this:</p>
+
+<pre><code>vmnet1: flags=8863&lt;UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST&gt; mtu 1500
+    inet 192.168.115.1 netmask 0xffffff00 broadcast 192.168.115.255
+    ether 00:50:56:c0:00:01
+</code></pre>
+
+<p>The &#8220;inet&#8221; number is your &#8220;secret&#8221; IP (in my case, 192.168.115.1).</p>
+
+<p>Now that we have that number, we can edit the hosts file on the VM. We find it in: <code>C:/WINDOWS/system32/drivers/etc</code>. Just open the host file with Notepad, and add each virtual host (domain) on it&#8217;s own line at the end of the document, like so:</p>
+
+<pre><code>192.168.115.1  dev.triumphofgrace.com
+</code></pre>
+
+<p>&#8230; and save. Afterwards refresh the VM&#8217;s DNS cache by typing <code>ipconfig /flushdns</code> in a command line window.</p>
+
+<p>(Do this for each virtual host you added in VHX.)</p>
+
+<p>Voila! Now you should be able to access the custom virtual hosts you created in VHX on your PC using that wonderful browser we all love, Internet Explorer.</p>
+
+<h3>Recap</h3>
+
+<p>So here&#8217;s what we did, in a nutshell:</p>
+
+<ol>
+<li><a href="http://www.mamp.info/en/download.html">Download and launch MAMP</a></li>
+<li>Change default ports MAMP uses</li>
+<li><a href="http://clickontyler.com/virtualhostx/">Download and launch VirtualHostX</a></li>
+<li>Backup settings (using VHX&#8217;s startup guide)</li>
+<li>Add the virtual hosts we want to use</li>
+<li>Restart Apache</li>
+<li>Add any virtual hosts we created in VHX to the PC hosts file</li>
+<li>Rock on!</li>
+</ol>
+
+<p>There you have it. A killer, local development platform on your Mac. Once you have everything setup, you can now install and run your choice CMS (such as <a href="http://www.expressionengine.com/index.php?affiliate=sperte">ExpressionEngine</a>) right on your Mac. How cool is that?</p>
+
+<p>Go forth and make the web a better place.</p>

@@ -1,0 +1,25 @@
+---
+title: Key control
+date: 2005-09-20
+slug: key_control
+---
+<p>I&#8217;ve been on the lookout for the perfect keystroke controller for iTunes. Name it and I&#8217;ve tried it; probably twice, actually. I think I&#8217;ve finally settled on Sizzling Keys from <a href="http://www.yellowmug.com/" title="Yellow Mug">Yellow Mug</a>. Here&#8217;s why &#8230; 
+I have a simple set of needs for an iTunes controller:</p>
+
+<ol>
+<li>Quick and efficient to setup and use</li>
+<li>Free or cheap (under $10)</li>
+<li>Nice-looking (Apple-esque)</li>
+<li>Virtually transparent to user (no buttons, extra controller, doesn&#8217;t take up screen real estate, etc.) &#8211; what do I need extra buttons for if I&#8217;ve got iTunes?</li>
+<li>Ability to rate songs</li>
+</ol>
+
+<p>While many of the shareware options out there do meet these needs, they do so either with a (relatively) high price tag, or at the cost of performance. I&#8217;ve tried Synergy, iMote, Barquee, ByteController, and others. Each fell short in one area or another and caused me to continue my search.</p>
+
+<p>I remember trying Sizzling Keys a long time ago when it was first released &#8230; I wasn&#8217;t impressed. Now, however, it&#8217;s at version 1.6.2, and I think it&#8217;s got just enough polish and punch to warrant a Sean-Sperte-stamp-of-approval.</p>
+
+<p>Truth be told, Sizzling Keys could still use some help in the interface design department. The floater fonts and graphics have a horrible shadow, and the preference pane icon and controls are ugly as sin.</p>
+
+<p>What I like best about it, though, is the ability to set so many different keystrokes to so many different iTunes options. There&#8217;s an option to hide/show iTunes, one to bring up a search floater, and another to &#8220;almost mute&#8221; the audio.</p>
+
+<p>If you&#8217;re in the market for a good iTunes controller, I recommend <a href="http://www.yellowmug.com/sk4it/">Sizzling Keys</a>. There&#8217;s a lot of bang for your buck &#8230; oh, yeah: I forgot to mention it&#8217;s <strong>FREE</strong>!</p>

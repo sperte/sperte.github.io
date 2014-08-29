@@ -1,0 +1,36 @@
+---
+title: Reepicheep
+date: 2007-02-02
+slug: reepicheep
+---
+<p>Ladies and gentlemen, say hello to my new lil&#8217; friend: Reepicheep.</p>
+
+<p><a href="http://www.flickr.com/photos/seansperte/378046345/"><img src="http://farm1.static.flickr.com/166/378046345_c8567074a4.jpg" width="500" height="375" alt="3616 Reepicheep" class="imgcenter" /></a></p>
+
+<p>(<a href="http://en.wikipedia.org/wiki/Reepicheep">Named, of course, after the heroic mouse from the Narnia series</a>.)</p>
+
+<h3>It was meant to be</h3>
+
+<p>I&#8217;d been debating the purchase of one of the new colored shuffles all week (well, since the announcement anyway) and happened by my local Apple Store last night. It must&#8217;ve been the <a href="http://en.wikipedia.org/wiki/Reality_distortion_field">RDF</a> that sucked me in because five minutes later I found myself back outside the store, iPod shuffle in hand, and $85.95 poorer.</p>
+
+<p>As for my impressions thus far, I can say that I&#8217;m mostly impressed with the accompanying earbuds that Apple has supplied. They are an upgrade to the standard iPod earbuds, and were introduced when the 2nd generation nano was unveiled. They&#8217;re <em>much</em> more comfortable to wear, have a shorter length cable, and have slightly better sound quality. After using them for a full day now I would recommend them to anyone, even for the $29.99 retail price!</p>
+
+<h3>Justification</h3>
+
+<p>You&#8217;re right, by the way, if you&#8217;re thinking, &#8220;but don&#8217;t you already have a perfectly good iPod nano?&#8221; <span class="pullquote">The truth is, I have no need for it</span>. Not only do I already own an iPod, but I also intend on buying an iPhone (also a wide-/touch-screen iPod) come June. Even I don&#8217;t need that diverse of a gadget lineup.</p>
+
+<p>Still, therein lies my reasoning. Bear with me here.</p>
+
+<p>The iPhone will <em>replace</em> my iPod nano &#8211; by the way, anyone looking to buy a nearly-perfect, white, 4GB iPod nano? &#8211; and take its place as player for podcasts, favorite songs, and specific playlists. It will also store the latest episode of The Office.</p>
+
+<p>Reepicheep, then, will be my &#8220;work iPod.&#8221; I&#8217;ll load it up at the beginning of my work day with tunes I think fit my mood and will drive my creativity. I tried it out today, and even though the novelty of owning a new iPod affected my overall opinion, I thought it served its purpose great. In fact, I finally kicked out some logo comps that have been months-due. Yay for creativity!</p>
+
+<h3>If only&#8217;s</h3>
+
+<p>Now, if only I could keep the iPod&#8217;s playlist in the source list. To me, that feature was one of the benefits the shuffle models offered. When did that go away?</p>
+
+<p>Also, if only I didn&#8217;t have to use the (included) dock to sync with my Mac. The standard USB connector on the first-gen shuffles was definitely under-appreciated.</p>
+
+<p>And, if only I loved the orange color without condition. I chose orange, but only because it was the new, trendy, cool-kid color. In reality, I would have been just as happy with green, blue or silver. Heck, even the pink one is pretty hot. Like <a href="http://www.seansperte.com/entry/colored_ipod_shuffles/">I said</a>, I want them all!</p>
+
+<p>After all, there <em>are</em> five days of the work week, and I need all the creativity I can get!</p>

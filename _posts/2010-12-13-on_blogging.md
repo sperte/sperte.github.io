@@ -1,0 +1,28 @@
+---
+title: On Blogging
+date: 2010-12-13
+slug: on_blogging
+---
+<p>The various tech devices I own, such as the iPad, make the consumption of content &#8211; blogs, tweets, video, and miscellaneous web things &#8211; a joy. (Actually, I guess it&#8217;s more the software on the devices: Twitter for iPhone, <a href="http://reederapp.com/">Reeder</a>, <a href="http://www.instapaper.com/">Instapaper</a>, <a href="http://www.flipboard.com/">Flipboard</a>, and <a href="http://fanzter.com/products/summizer">Summizer</a>.) Because of that I&#8217;m finding myself, here in December 2010, more motivated to read and watch content online, than I am to create it. Which, for me, is a new thing.</p>
+
+<p>With Twitter, I still have <em>some</em> <a href="http://twitter.com/sperte">creative outlet</a> &#8211; in the form of short, concise statements. And I admit, it&#8217;s easy to become obsessed with drafting the Perfect Tweet. (The number of retweets, favorites and @replies help provide a subjective metric for which to gauge a tweet&#8217;s relative perfection, just so you know.) Twitter is a great medium for recording the moments of life that usually happen too quickly to remember, or for capturing fleeting thoughts. Or for sharing a link or photo. In fact, since starting Geek &amp; Mild in 2005, I&#8217;ve always published links I want to share inline with blog posts &#8211; a format used by <a href="http://kottke.org/">Jason Kottke</a> and <a href="http://daringfireball.net/">John Gruber</a>. But now that I&#8217;m using Twitter to share links, Geek &amp; Mild sits mostly inactive.</p>
+
+<p>Anyway, I&#8217;ve been thinking about all this; all the reasons I haven&#8217;t been writing or blogging. Lack of time has little to do with it. I think it&#8217;s more a motivation thing. I just haven&#8217;t been motivated to blog.</p>
+
+<p>I&#8217;d like to change that.</p>
+
+<p>What I&#8217;ve decided is that I&#8217;m going to start experimenting with some new formatting for Geek &amp; Mild.</p>
+
+<p>First, I&#8217;m going to completely remove and archive the &#8216;asides&#8217;. They&#8217;ll still be accessible for searching and viewing, but will no longer be inline with blog posts.</p>
+
+<p>Secondly, the obligatory redesign. I&#8217;m going to update the design and aesthetic.</p>
+
+<p>And finally, and most importantly, I&#8217;m going to stop worrying about trying to be perfect. I think one of the primary reasons for my lack of motivation is the desire to only publish perfect posts. And by perfect, I don&#8217;t mean &#8220;technically perfect&#8221;. God knows I&#8217;d never publish <em>anything</em> if perfect grammar was the standard. I mean perfect in vision; worth-while for a reader. I&#8217;ve decided to let that worry go.</p>
+
+<p>After all, who cares? I&#8217;ve realized Geek &amp; Mild is as much for me as it is for its readers. Actually, it&#8217;s probably more for me. I need to write &#8211; or spew &#8211; more than the world needs to read. That&#8217;s why I&#8217;ve decided to do any of this in the first place. I considered just shutting down my blog, but the thought of not having an outlet for writing bummed me out. Twitter&#8217;s great, but <a href="http://twitter.com/ConanOBrien/status/11550525229105152">there&#8217;s only so much you can fit into 140 characters</a>.</p>
+
+<p>So, timeline? I&#8217;m not sure. Sooner rather than later. In fact, I may start refactoring the blog format immediately after publishing this. I already have a few ideas for a new look that I might start to mock up, too.</p>
+
+<p>Stick around, if you want.</p>
+
+<p><strong>Update:</strong> Last night after publishing this post I prepared to archive all the aside posts and came across <a href="http://seansperte.com/entry/shawn_blanc_on_the_link_post/">one from last year</a> in which I listed the reasons I post asides. Needless to say, I re-convinced myself of their place on Geek &amp; Mild, and in my digital life.</p>

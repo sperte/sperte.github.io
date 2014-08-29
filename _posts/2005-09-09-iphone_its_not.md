@@ -1,0 +1,17 @@
+---
+title: 'iPhone it&#8217;s not'
+date: 2005-09-09
+slug: iphone_its_not
+---
+<p>A brief collection of misrepresented story headlines, and why Apple has a PR mess on their hands. 
+Apple has some work to do after announcing <em>Motorola&#8217;s</em> new ROKR phone on Wednesday. The media is getting it all wrong, calling the ROKR the &#8220;iPhone,&#8221; &#8220;iPod phone,&#8221; or &#8220;iTunes phone.&#8221; I&#8217;m not saying I blame, them, it&#8217;s been hyped for over a year now as such. But it just goes to show you the extent of the branding mess Apple&#8217;s put themselves into by partnering with Motorola on this thing.</p>
+
+<ul>
+<li><a href="http://www.iht.com/articles/2005/09/07/business/apple.php">Apple adds an iPod phone</a></li>
+<li><a href="http://news.com.com/2061-10801_3-5852671.html">Jobs announces iTunes phone, tiny new iPod</a></li>
+<li><a href="http://news.yahoo.com/s/ap/20050909/ap_on_hi_te/apple_computer;_ylt=Av_qMvhagGDWroKK9gir3bUjtBAF;_ylu=X3oDMTBiMW04NW9mBHNlYwMlJVRPUCUl">Apple launches new iTunes phone and iPod</a></li>
+<li><a href="http://news.yahoo.com/s/afp/20050908/tc_afp/uscomputermusicapple;_ylt=AreqlRw3a4qf3powARJGi_kxVrIF;_ylu=X3oDMTBiMW04NW9mBHNlYwMlJVRPUCUl">Apple delivers new mobile phone iPod, pencil-thin player</a></li>
+<li><a href="http://www.sci-tech-today.com/news/Apple-Poised-To-Deliver-iPod-Phone/story.xhtml?story_id=012001C8DSTO">Apple Poised To Deliver iPod Phone</a> (before the fact, but still creates the problem)</li>
+</ul>
+
+<p>As mentioned in my <a href="http://www.seansperte.com/index.php/seansperte/entry/hello_and_goodbye_moto/">previous post</a>, to clean this up Apple should get to work immediately on more iTunes clients for alternate mobile devices &#8211; or, of course, release their <em>own</em>.</p>

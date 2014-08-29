@@ -1,0 +1,83 @@
+---
+title: What is Twitter?
+date: 2007-04-23
+slug: what_is_twitter
+---
+<p>[This article has been updated <a href="http://twitter.com/blog/2007/07/friends-followers-and-notifications.html">after Twitter made some changes</a> to the semantics of their services, especially regarding &#8220;friends&#8221; and notifications.]</p>
+
+<p><img src="/assets/img/twitter-logo.jpg" border="0" height="75" width="229" alt="Twitter" align="right" class="imgright" />That&#8217;s the question that everyone&#8217;s been asking and trying to answer for a year. What, exactly, is Twitter? Or, even better, why should you care?</p>
+
+<p>It&#8217;s been labeled as web-based chat, microblogging, and &#8220;<a href="http://www.smallbusinessbrief.com/articles/marketing/008115.html">mobile social software</a>&#8221;. John Gruber, web and technology pundit, said, &#8220;<a href="http://daringfireball.net/linked/2007/march#wed-21-kottke_twitter">Twitter is to IM and SMS what weblogs were to email and Usenet</a>&#8221;, while critics say it&#8217;s just another social networking website, or <a href="http://www.usatoday.com/tech/columnist/andrewkantor/2007-04-05-twitter_N.htm">an added distraction</a> in an already over-distracted culture.</p>
+
+<p>I think Twitter is more than all that &#8211; or at least the <em>idea</em> behind Twitter is.</p>
+
+<h3>The basics</h3>
+
+<p>Twitter, at the core, is a <strong>method of communication</strong>. It is, in fact, not a new method, but it&#8217;s a simple one. <span class="pullquote">What makes it special is the mobile support</span>, wherein a user can interact with Twitter via <abbr title="Short Message Service">SMS</abbr>.</p>
+
+<p>Before I go further, let&#8217;s look at what protocols (or methods) Twitter uses. There are three main ones:</p>
+
+<ol>
+<li>Web</li>
+<li>IM</li>
+<li>Mobile</li>
+</ol>
+
+<p>All three protocols allow you to answer the question, &#8220;What are you doing?&#8221; and have it posted on your Twitter profile page (and, as I&#8217;ll show you, also forwarded onto those &#8220;following&#8221; you). To answer, simply text-message, IM or enter into web-form field whenever &#8211; or wherever &#8211; you want.</p>
+
+<p><img src="/assets/img/twitter-statuses.jpg" border="0" height="98" width="200" alt="My Twitter status page" align="right" class="imgright" />Once you&#8217;ve sent your update (also known as &#8220;status&#8221; or &#8220;tweet&#8221; or a number of other terms relating), it appears on your Twitter profile page, and is automatically forwarded to other users who&#8217;ve chosen to follow you. This is where it gets a little tricky, though, because not everyone who choses to follow you will also chose to be notified. But I&#8217;m getting ahead of myself &#8230;</p>
+
+<h3>Followers</h3>
+
+<p>There are two levels of Twitter profiles: <em>public</em> and <em>private</em>. A public profile is viewable online by everyone, but that user&#8217;s updates only get forwarded directly to users who follow them. A private profile is only viewable by those who&#8217;re set as friends by the owner of the profile. By default, a profile is set as public.</p>
+
+<p>Following is inherently one-way &#8211; meaning if you choose to follow someone, you&#8217;ll receive their updates, but they won&#8217;t receive yours &#8230; that is, until they&#8217;ve reciprocally chosen to follow you.</p>
+
+<p>Additionally, if you set your profile to private, you must approve followers. Once you do, the account relationship is automatically set both-ways and you&#8217;ll not only allow that follower to receive your updates, but you&#8217;ll also receive theirs.</p>
+
+<p>If, say, you&#8217;ve chosen to follow a person but no longer wish to receive their updates on your phone or IM, you can set unique notification preferences to off. Their Twitter updates will still appear on your profile, and they will remain a followee (or friend) of yours.</p>
+
+<p>It&#8217;s important to note, now, that most (if not, all) handling of relationships and updates can be done via mobile phone using simple, natural commands. For example, if I wanted to turn off all notifications because I was in a meeting, I&#8217;d I&#8217;d simply text: <code>off</code>. Twitter will cease sending me any updates until I turn notifications back on.</p>
+
+<p>To add a new followee, I simply text <code>follow [username]</code>. To invite a non-Twitter member: <code>invite [10-digit phone number]</code>. To turn off all notifications: <code>off</code>. Almost every function you&#8217;d need to be have mobile access to, you do.</p>
+
+<p>You can even send a private message to a friend from a mobile phone, even if you don&#8217;t have their number. This came in handy for me while I was in Austin last month for SXSW. I was able to stay in constant communication with people I&#8217;d only met online and whose numbers I didn&#8217;t have, all through Twitter.</p>
+
+<h3>So what?</h3>
+
+<p>As I said, all this stuff isn&#8217;t really new. Twitter doesn&#8217;t bring <em>innovation</em> to the table so much as new <em>interaction</em> with innovation. What&#8217;s causing <a href="http://www.waxy.org/archive/2007/03/15/tracking.shtml">Twitter&#8217;s astronomical growth</a> must have something to do with the uses people are coming up with for it. As a church staff member, I can think of at least a half-dozen off the top of my head!</p>
+
+<ul>
+<li>Communication with members</li>
+<li>Communication with staff and pastors</li>
+<li>Prayer alerts</li>
+<li>Thought of the day from pastor</li>
+<li>Mission trip communication (<a href="http://help.twitter.com/index.php?pg=kb.page&amp;id=44">Twitter supports international numbers</a>, too!)</li>
+<li>Multi-site service coordination (we&#8217;re already testing this possible use out)</li>
+<li>Small group leader can keep in touch with members</li>
+<li>Volunteer network can receive updates of schedule or procedure</li>
+</ul>
+
+<p><a href="http://twitter.com/johnedwards">John Edwards</a>, politician and presidential candidate, is on Twitter. <a href="http://twitter.com/foxnews">Fox News</a> and <a href="http://twitter.com/wsj">The Wall Streen Journal</a> tweet their headlines. <span class="pullquote">Heck, even <a href="http://twitter.com/santaclaus">Santa&#8217;s Twittering</a></span> now!</p>
+
+<p><a href="http://groups.google.com/group/twitter-development-talk/web/api-documentation">Twitter&#8217;s <abbr title="Application Programming Interface">API</abbr></a> has even made possible some cool third-party applications: <a href="http://twittervision.com/">Twittervision</a>, <a href="http://twitterholic.com/">Twitterholic</a>, <a href="http://wordpress.org/extend/plugins/twitter-tools/">Twitter Tools</a>, and <a href="http://iconfactory.com/software/twitterrific">Twitterific</a>, to name a few.</p>
+
+<p>You get the point.</p>
+
+<p>It&#8217;s my opinion that anyone wanting to take advantage of web, mobile or new media technology needs to get on the Twitter bandwagon &#8211; if for no other reason, for research and ideas. Like I said, the <em>idea</em> behind Twitter is one that I think will drive a new wave of social interaction.</p>
+
+<p>Besides that, though, it&#8217;s just plain fun.</p>
+
+<h3>Resources</h3>
+
+<ul>
+<li><a href="http://twitter.com/">Twitter</a> (and <a href="http://help.twitter.com/">Twitter Support</a>)</li>
+<li><a href="http://www.webware.com/8301-1_109-9697867-2.html">Newbie&#8217;s guide to Twitter</a></li>
+<li><a href="http://iconfactory.com/software/twitterrific">Twitterific</a> (Mac software)</li>
+<li><a href="http://www.tweet-r.com/">Tweetr</a> (cross-platform software)</li>
+<li><a href="http://www.time.com/time/nation/article/0,8599,1603637,00.html">TIME: Why Everyone&#8217;s Talking About Twitter</a></li>
+<li><a href="http://online.wsj.com/public/article/SB117373145818634482-ZwdoPQ0PqPrcFMDHDZLz_P6osnI_20080315.html">Wall Street Journal: Friends Swap Twitters, and Frustration</a></li>
+<li><a href="http://www.pronetadvertising.com/articles/three-hidden-dangers-of-twitter.html">Three Hidden Dangers of Twitter</a></li>
+<li><a href="http://slackermanager.com/2007/03/the-several-habits-of-wildly-successful-twitter-users.html">The Several Habits of a Widly Successful Twitter User</a></li>
+<li><a href="http://with.gilbert.org/2007/03/12/twitter-as-microblogging-timelog-and-team-tool/">Twitter as Microblogging, Timelog, and Team Tool</a> [Added: 04/24/07]</li>
+</ul>

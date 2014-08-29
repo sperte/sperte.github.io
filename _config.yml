@@ -1,0 +1,23 @@
+# Site settings
+title: Geek & Mild
+email: sean@sperte.com
+description: > # this means to ignore newlines until "baseurl:"
+  Hello. Welcome to the weblog of Sean Sperte. I've been posting my thoughts related to design, technology, and faith here since 2005.
+baseurl: "" # the subpath of your site, e.g. /blog/
+paginate: 10
+paginate_path: "/page:num"
+url: "http://seansperte.com" # the base hostname & protocol for your site
+twitter_username: sperte
+github_username: sperte
+
+# Build settings
+markdown: kramdown
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "post"
+    values:
+      layout: "post"

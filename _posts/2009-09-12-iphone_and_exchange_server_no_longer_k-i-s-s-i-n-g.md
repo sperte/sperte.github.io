@@ -1,0 +1,59 @@
+---
+title: iPhone and Exchange Server, No Longer K-I-S-S-I-N-G
+date: 2009-09-12
+slug: iphone_and_exchange_server_no_longer_k-i-s-s-i-n-g
+---
+<p>As is being <a href="http://www.tuaw.com/2009/09/10/iphone-os-3-1-now-enforces-exchange-encryption-policy-may-block/">reported at The Unofficial Apple Weblog</a>, iPhone 3G (and first-generation) owners can no longer get their Exchange email, contacts, or calendars after upgrading to iPhone OS 3.1 if their IT departments have &#8220;require device encryption&#8221; enabled on the Exchange Server. Apple posted a <a href="http://support.apple.com/kb/TS2941">Knowledge Base article</a> acknowledging the issue, and recommending only that the requirement be disabled at the server-side.</p>
+
+<p>The error users see reads thus:</p>
+
+<blockquote>
+  <h4>Policy Requirement</h4>
+  
+  <p>The account &#8220;&#8211;&#8221; requires encryption which is not supported on this iPhone</p>
+</blockquote>
+
+<p>I would imagine there are tens of thousands of people whom this affects.</p>
+
+<p>At <a href="http://thecity.org">The City Church</a>, our IT department enforces strict security policies, so we have &#8220;require device encryption&#8221; enabled. Our employees who have iPhone models prior to the iPhone 3GS now have only two options:</p>
+
+<ul>
+<li>Do not upgrade iPhone OS software</li>
+<li>Buy the iPhone 3GS</li>
+</ul>
+
+<p>Thankfully, we caught this issue early &#8211; after two of our staff members reported issues after upgrading to OS 3.1 &#8211; and are now recommending everyone with an iPhone 3G ignore the upgrade notices they get from iTunes.</p>
+
+<p>Our two unfortunate staff members who already upgraded took their iPhones to the local Apple Store Genius Bar. After several unsuccessfully attempts to downgrade iPhone back to OS 3.0, the Genius(es) finally gave up and just swapped out their phones.</p>
+
+<p>With how widespread this issue could be, it&#8217;s probably in Apple&#8217;s best interest to come up with a better solution than swapping out upgraded iPhones.</p>
+
+<h3>A Masquerade</h3>
+
+<p>The issue here is not that iPhone 3.1 now (correctly) enforces the server requirement. Apple fixed a security hole and is further advancing iPhone software security. The problem is iPhone OS previously worked with servers that required device encryption, even when the hardware did not support it.</p>
+
+<p>I did some investigative work (if you can call using Google &#8220;investigation&#8221;) and was able to find old versions of the iPhone Enterprise Deployment Guide. Prior to the current, third edition, the guide did not include a reference to device encryption. Incidentally, I don&#8217;t remember hardware encryption ever being promoted or advertised as a feature of the iPhone, prior to the 3GS.</p>
+
+<p>However, one of the reasons our IT department gave the green light to the iPhone is because it had been tested (for two months) with Exchange, with device encryption required &#8211; and it had worked. You&#8217;d forgive any IT administrator if, after such a test, they&#8217;d assume device encryption was working and supported.</p>
+
+<p>We don&#8217;t know how device encryption is enforced by Exchange Server, but if the iPhone was able to masquerade as a device having encryption, one has to wonder how secure the requirement really is.</p>
+
+<p>Also in question is whether Apple knowingly allowed the requirement to work despite the iPhone&#8217;s inability to meet it.</p>
+
+<h3>What Now?</h3>
+
+<p>As I mentioned, iPhone 3G owners who wish to access their Exchange email now have only two options, and most will just choose to forego upgrading software. That can&#8217;t be what Apple wants. They&#8217;d prefer people either stay up-to-date, with the latest OS software and security fixes, or &#8211; and this has to be the best solution for all parties involved &#8211; upgrade to the iPhone 3GS.</p>
+
+<p>So how can Apple get current iPhone 3G owners &#8211; specifically those who access Exchange Server &#8211; to upgrade?</p>
+
+<p>I&#8217;ve thought a lot about this and it seems to me the best way is to provide some sort of discounted price to those eligible. The way to do this is to require a user (1) upgrade their iPhone 3G to OS 3.1, (2) bring it in to an Apple Genius and (3) show they are attempting to access an Exchange Server with device encryption required. It&#8217;s a potentially nightmarish scenario logistically, but at least Apple could avoid a similar nightmare in PR.</p>
+
+<p>But there is another solution here that might be better for everyone: Apple&#8217;s recommendation from the KB article. Allow me to digress for a moment.</p>
+
+<p>Since we know that device encryption can be masked at the handheld level, does it even make sense to require it? Logic would suggest yes: it still does make sense, because the honest (those who own the device before it falls into the wrong hands) have no reason to circumvent the requirement. Unfortunately, this is not always the case. As we&#8217;re sure to witness, those with the knowledge that their device is not encrypting their data will continue to access Exchange Servers that require encryption &#8211; using iPhone OS 3.0. To the average user, availability is more important than accessibility.</p>
+
+<p>This leads me to the question: what exactly is device encryption? And, more importantly, why should the average user care enough to voluntarily give up their privileges?</p>
+
+<p>Frankly, I don&#8217;t know the answer to those questions.</p>
+
+<p>I&#8217;m just glad I have an iPhone 3GS.</p>

@@ -1,0 +1,37 @@
+---
+title: The MacBook Pro
+date: 2006-01-11
+slug: the_macbook_pro
+---
+<p><img src="/assets/img/macbookpro.jpg" width="100" height="78" class="imgright" />I&#8217;ve read several reactions to yesterday&#8217;s keynote, most of which are positive concerning the <a href="http://www.apple.com/macbookpro">MacBook Pro</a> (and other new offerings from Apple), but there&#8217;s also a low rumble of complaint against the <em>name</em> of &#8220;MacBook Pro.&#8221; 
+Just to get readers up to speed, here&#8217;s what the MacBook Pro really is:</p>
+
+<ul>
+<li>Intel-powered duo-core processor running at 1.67ghz and 1.83ghz</li>
+<li>Up to <strong>four times</strong> faster than current PowerBook models</li>
+<li>Same aluminum casing as PowerBook G4</li>
+<li>15.5&#8221; screen, as bright as Cinema Displays</li>
+<li>Same weight as 15&#8221; PowerBook G4</li>
+<li>As thin as 17&#8221; PowerBook G4</li>
+<li>New features include (but aren&#8217;t limited to): Built-in iSight camera, &#8220;MagSafe&#8221; power slot, IR port and Apple Remote, pre-installed Front Row</li>
+</ul>
+
+<p>So that&#8217;s the MacBook Pro. Of course, I want one.</p>
+
+<p><img src="/assets/img/macbook_isight.jpg" width="380" height="205" class="imgcenter" /></p>
+
+<p>Steve Jobs said something key during the &#8230; uh &#8211; keynote. He said &#8220;we wanted all of our product line to have the name &#8216;Mac&#8217; in its title.&#8221; This tells you that the name was deeply considered before it was adopted. Other names have been suggested by the Mac community, but there are problems with each:</p>
+
+<ul>
+<li>iBook Pro - The iBook is branded as a consumer product already and simply adding a &#8220;Pro&#8221; to the title would confuse an already delicate branding situation. There&#8217;s also the fact that this is a <em>new product line</em>.</li>
+<li>iMac Mobile/Portable - This makes no sense. The iMac is a desktop system and has been adopted as such; and again, it doesn&#8217;t say &#8220;I&#8217;m a new product.&#8221;</li>
+<li>MobileMac - Would <em>you</em> want to walk into an Apple Store and ask for a &#8220;MobileMac?&#8221; Me neither.</li>
+<li>MacPad - Doesn&#8217;t make as much sense as &#8220;book&#8221; and sounds more like an Apple accessory than a Pro product.</li>
+<li>pMac - This is the best suggestion I&#8217;ve read/heard as it retains the &#8220;Mac&#8221; in the title while remaining simple and Apple-esque. The problem here is that the &#8220;p&#8221; would actually stand for something, while the &#8220;i&#8221; in iBook and iMac hasn&#8217;t ever been defined. Plus, &#8220;pMac&#8221; (probably) doesn&#8217;t look very cool when etched onto the aluminum casing.</li>
+</ul>
+
+<p>So, when you really think about it the name makes sense &#8230; and it&#8217;s starting to grow on me.</p>
+
+<p>More of my thoughts soon.</p>
+
+<p><strong>UPDATE</strong>: I came across <a href="http://discussions.apple.com/thread.jspa?threadID=311872&tstart=0">a thread</a> on the Apple Discussions site in which one person had a great recommendation for the new laptop name: Macintosh ProBook. Now <em>that&#8217;s</em> a solid product name. Fits the bill, gets it done. Apple, are you listening?</p>

@@ -1,0 +1,22 @@
+---
+title: How to unsubscribe from LinkedIn email
+date: 2012-03-19
+slug: how_to_unsubscribe_from_linkedin_email
+---
+<p>In what I consider a necessary evil, I&#8217;ve re-joined LinkedIn to, you know, <em>network</em>. It&#8217;s not really my choice, but I have to live with it.</p>
+
+<p>Part of living with it is figuring out how to lessen the pain of dealing with all the  email they send. They&#8217;re notorious for it. I&#8217;ve done what I can in my profile settings, but unfortunately LinkedIn doesn&#8217;t provide a toggle for receiving notifications of new connections. That means I&#8217;m getting a new email for <em>every single new connection</em> that is made.</p>
+
+<p>There are three ways to deal with this:</p>
+
+<ol>
+<li><p>Delete your LinkedIn account. I&#8217;ve already taken this approach once, but it comes with the cost of not being able to, you know, <em>network</em>.</p></li>
+<li><p>Set up some sort of client-side filter system. This doesn&#8217;t work for me since the iPhone Mail app doesn&#8217;t have filters. (Neither does <a href="http://sparrowmailapp.com/iphone.php">Sparrow</a> at this point, by the way.)</p></li>
+<li><p>Use another email address as your primary email. This is actually so smart, I&#8217;m not sure why I hadn&#8217;t already used it across all my various profiles.</p></li>
+</ol>
+
+<p>The idea that you use a custom email alias (e.g. &#8220;linkedin@domain.com&#8221;) and a single email account/inbox that&#8217;s not your primary address. Think of it like an email junk drawer. The requirements, obviously, are that you have control of your own domain, and that you can easily create email aliases.</p>
+
+<p>The way I have mine set up is similar to my <a href="http://seansperte.com/entry/spam_free_email_for_the_iphone">spam-free email setup</a>. I have an email account called &#8216;spam&#8217;, and I&#8217;m pointing <code>linkedin@*</code> to that account. That way I can still access the account when/if I need (for confirmations, password resets, etc.), but don&#8217;t get the obnoxious notifications or newsletters.</p>
+
+<p>The only caveat is that friends and family won&#8217;t be able to find my profile using my email address when they sign up or look for contacts. And, obviously, I&#8217;m not really unsubscribed. But now I won&#8217;t have my inbox flooded with LinkedIn Connection notifications either.</p>

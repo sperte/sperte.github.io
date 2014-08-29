@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>Geek & Mild</title>
+	
+	<link rel="alternate" type="application/rss+xml" title="RSS" href="/feed" />
+	<link rel="shortcut icon" href="/favicon.ico" />
+	
+	<link rel="stylesheet" href="/css/geekandmild.css" />  
+
+	<script type="text/javascript" src="http://use.typekit.com/hiv0gya.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+</head>
+
+<body id="home">
+
+
+	<div id="main">
+
+		<h1><a href="/">Geek &amp; Mild by Sean Sperte</a></h1>
+
+		  <h2 id="intro">Hello. Welcome to the weblog of Sean Sperte. I've been posting my thoughts related to design, technology, and faith here since 2005.
+ <a href="/about">More info &rarr;</a></h2>
+
+  
+  <div class="post">
+    <h2><a href="/2012/03/12/a_story_about_an_ipad_browser_that_never_was.html">A story about an iPad browser that never was</a></h2>
+    <p>When we founded <a href="http://skyballoonstudio.com">Sky Balloon</a> we endeavored to do one thing: make iOS (or, at the time, iPhone) software that we wanted. Because of that, after we successfully shipped our first iPhone app, <a href="http://skyballoonstudio.com/rhema">Rhema</a>, we decided to tackle something a bit more ambitious.</p>
+
+<p>It was May or June of 2010 (I can&#8217;t remember exactly) and we were loving our brand new iPads … except for the web browser, Safari. While advancements had been made in terms of its speed, we felt it still lacked in features and experience implementation &#8211; or UI. So we had the brilliant idea to make a new browser for the iPad.</p>
+
+<p>Actually, I should say, <em>I</em> had the idea, because <em>I</em> had no idea what it took to build software, and <em>I</em> figured we could do it. You know, with our three-man team that only met for a few hours per week. And because, after all, we were only going to be building a great &#8220;frame&#8221; around a UIWebView. And Apple already did the hard part by building the renderer. And, how hard could it be? Right?</p>
+
+<p>It turns out that building a browser is curse-word hard, even if you don&#8217;t have to worry about the rendering of web pages. At the time, though, we didn&#8217;t know this. Well, maybe the other two thirds of our little company did. But they were brave enough to follow me and my naivety into battle anyway, despite their better judgment, and armed only with Xcode and <a href="http://seansperte.com/share/breeze-mockups/">some mockups</a> I had whipped up.</p>
+
+<p>The idea was that we&#8217;d create a browser that we would want to use, market to all our internet buddies, hopefully get featured on <a href="http://daringfireball.net">Daring Fireball</a> or <a href="http://www.macworld.com/channels/ios.html">Macworld</a> or <a href="http://twit.tv/mbw">MacBreak Weekly</a> or <a href="http://www.tuaw.com/">TUAW</a> or some other hugely populated website full of enthusiasts, be spotlighted by Apple as an example of innovation on the iPad (despite competing toe-to-toe with Safari), and make millions. Then we&#8217;d keep making apps and stuff. From our yachts.</p>
+
+<p>Come to think of it, I&#8217;m not sure we actually had a plan. We just knew we wanted a better browser &#8211; one with the features I&#8217;m about to outline &#8211; and I had imagined one up.</p>
+
+<p><img src="/assets/img/breeze-icon.jpg" alt="Breeze icon" border="0" width="130" height="147" class="imgright" />We called it Breeze. Like, &#8220;this browser is such a breeze to use&#8221; or &#8220;wow, browsing with this app is so easy&#8221; or &#8220;honey, come look at these chumps who made a web browser like Safari and are trying to be cool naming it a one-word, nondescript noun&#8221;. The tagline was, &#8220;Browse more awesomely on iPad.&#8221;</p>
+
+<p>I&#8217;m so embarrassed.</p>
+
+<p>Oh, but the features. Check out these features.</p>
+
+<p>First, we&#8217;d rid the toolbar of the two distinct input fields &#8211; only one <a href="http://www.chromium.org/user-experience/omnibox">omnibox</a>-inspired location bar, capable of both search and URL input.</p>
+
+<p>Next &#8211; and this seemed so obvious to us we were sure Apple would steal it for Safari &#8211; a history popover when you tap-and-hold the back button. This, as expected, was added to Safari later. We&#8217;re still uncertain how Apple hacked into our Dropbox accounts, but they somehow got their hands on the idea. (I think the guys suspect I was responsible, since I have some friends at Apple. But whatever.)</p>
+
+<p>Of course, our UI was going to be cleaner and more refined, since, you know, I&#8217;m so much better a graphic designer than those hacks at Apple, Inc. So the polished UI was also to be a feature listed on the App Store description.</p>
+
+<p>Now we come to the good stuff. Our tabs really were something to behol&#8211;oh, crap. I forgot, Apple added our tabs to Safari recently. Anyway, this is what they looked like:</p>
+
+<p><img src="/assets/img/breeze-tabs_1.jpg" alt="Breeze tabs" border="0" width="600" height="84" class="imgcenter" /></p>
+
+<p>Those were coded up, by the way. That&#8217;s not a Photoshop mockup. And you have to remember, back then Safari&#8217;s tabs weren&#8217;t tabs at all. They were a 3x3 grid view of web pages that often needed to be reloaded once switched to.</p>
+
+<p>We only had three tabs shown in the view, but the tab bar was horizontally scrollable to allow for unlimited tabs. We also didn&#8217;t show the tab bar until there were two tabs. <a href="http://daringfireball.net/linked/2012/03/05/safari-52-tabs">Gruber would (have) be(en) proud</a>.</p>
+
+<p>For our spotlight feature we were going to include, get this, a &#8220;reading mode&#8221;. Months prior I had discovered a bookmarklet for Safari on the Mac called Readability, that, when activated, would isolate just the text (and any relevant images) on a web page. We thought this was wonderful, and <em>needed</em> to be on the iPad.</p>
+
+<p>Apparently, Apple thought it <em>needed</em> to be on the Mac too, because only a few weeks after we began development, Safari for Mac shipped with &#8220;Reader Mode&#8221;, powered by the Readability script.</p>
+
+<p><img src="/assets/img/breeze-readingmode.jpg" alt="Breeze readingmode" border="0" width="269" height="358" class="imgright" />Although we knew Safari for iPad would likely get Reader Mode, we thought we could either (1) get there first, or (2) do ours better. We designed a couple of really great themes for Breeze&#8217;s Reading Mode, and decided that, even if Apple beat us to the punch, our themes might be enough to hedge out a healthy and loyal user base.</p>
+
+<p>Incidentally, I even got in touch with the company behind Readability (now <a href="http://www.readability.com/">a stand alone product and service</a>), <a href="http://arc90.com/">Arc90</a>, and asked if they&#8217;d be willing to take a look at Breeze once we were ready to show. <a href="http://arc90.com/people/rich-ziade/">Rich Ziade&#8217;s</a> reply was enthusiastic, and he agreed. (In hindsight, I&#8217;m pretty sure he was humoring me. Roles reversed, I would have.)</p>
+
+<p>Then there were all the features we knew we couldn&#8217;t include in Breeze 1.0, but knew we wanted:</p>
+
+<ul>
+<li>Ad blocking</li>
+<li>Sharing modules (for social sites)</li>
+<li>Extensions</li>
+<li>Built-in child-protection and accountability</li>
+<li>User profiles</li>
+<li>Keyword URL support (m = gmail.com)</li>
+<li>Find on page</li>
+<li>Gestures</li>
+</ul>
+
+<p>There were more, but I&#8217;m too embarrassed to share. (Okay, one was &#8220;Bing support&#8221;. There, happy?)</p>
+
+<p>The sad part is that we really did get a lot of it built. In fact, by the time Apple finally shipped Safari with proper tabs we were readying a private beta.</p>
+
+<p>Safari&#8217;s slow-but-steady evolution, coupled with the third-party browser market (which had continued to expand to include great apps like <a href="http://itunes.apple.com/app/icab-mobile-web-browser/id308111628?mt=8">iCab</a> and <a href="http://www.grazingbrowser.com/">Grazing</a>), made Breeze&#8217;s success harder and harder to imagine. We also realized that not shipping after about 14 months of development meant we&#8217;d bitten off more than we could chew. And by then the delusions of grandeur that said we could be featured by Apple, or even John Gruber &amp; Co., had worn off.</p>
+
+<p>We made the hard decision to abandon the project, at what we estimate was 75% in.</p>
+
+<p>We learned a lot, though. Not just about iOS development, but also ourselves, the business of software, and about what we might be capable of if we didn&#8217;t have just a few hours per week.</p>
+
+<p>(Also: I can&#8217;t wait &#8216;til you see what we&#8217;re working on now.)</p>
+
+    <h6><a href="/2012/03/12/a_story_about_an_ipad_browser_that_never_was.html">12 March 2012</a></h6>
+  </div>
+  <hr>
+  
+  <div class="post">
+    <h2><a href="/2011/12/09/connecting_discovering_on_twitter.html">Connecting &amp; Discovering on Twitter</a></h2>
+    <p>Twitter sure stirred things up yesterday with their release of new versions of the iPhone, Android, and web apps. For every marked improvement there&#8217;s an <a href="http://daringfireball.net/2011/12/new_twitter">opposing opinion</a> — or <a href="http://tech.fortune.cnn.com/2011/04/14/troubletwitter/">two</a>, or <a href="http://gizmodo.com/5866408/five-apps-that-are-better-than-the-new-official-twitter-app-train-wreck?tag=twitter">three</a> — about how the change is actually a step backward. I&#8217;d like to focus on one thing respected Mac and iOS developer <a href="http://inessential.com/2011/12/08/on_the_tab_labels_in_the_new_twitter_app">Brent Simmons posted about the chosen nomenclature of the new app(s)</a>:</p>
+
+<blockquote>
+  <p>Nobody wants to <em>connect</em> or <em>discover</em>. People want to talk, send email, chat, share, post to Facebook, tweet, and so on.</p>
+</blockquote>
+
+<p>His main point is with regard to the labels used on the tabs of the mobile app. He doesn&#8217;t like them. Here&#8217;s what Twitter chose:</p>
+
+<ul>
+<li>Home — main timeline</li>
+<li>Connect — formerly &#8220;Mentions&#8221;, now includes a listing of every interaction with your account; favorites, retweets, follows, etc.</li>
+<li>Discover — a listing of &#8220;stories&#8221;, which, I can only assume, are selected manually by Twitter among trending topics; trends; recommended users to follow; et al.</li>
+<li>Me — a conglomeration of everything else otherwise missing: accounts, DMs, lists, saved searches, drafts, settings, etc.</li>
+</ul>
+
+<p>Simmons says he would have labeled them:</p>
+
+<ul>
+<li>Home</li>
+<li>Mentions</li>
+<li>Find</li>
+<li>Me</li>
+</ul>
+
+<p>I see the logic, and <em>used</em> to subscribe to his same premise. Which is, I assume, that words like &#8220;connect&#8221; and &#8220;discover&#8221; are ambiguous (at best) — requiring some amount of additional cognitive investment over more conventional terms — and therefore shouldn&#8217;t be used.</p>
+
+<p>We faced a similar design problem with the main navigation of <a href="http://thecity.org/">The City Church website</a> recently. It was suggested that we use some internal nomenclature (&#8220;the 5 Gs&#8221;) for the site structure and navigation labels. I argued for conventional labels and site architecture, asserting that premise — the &#8220;<a href="http://www.sensible.com/dmmt.html">don&#8217;t make me think</a>&#8221; methodology.</p>
+
+<p>In <a href="http://www.amazon.com/Dont-Make-Me-Think-Usability/dp/0321344758">Steve Krug&#8217;s excellent book</a>, he uses the analogy of a retail store for a website. Imagine walking into a grocery store that was organized with the check-out stands in the rear, the ice cream on one side but the frozen pizza on the other, the fruit in the center along with the canned goods, and the bakery all the way around the perimeter. How frustrating would that be?</p>
+
+<p>Krug explains how conventional navigation and nomenclature reduce cognitive overhead and help get people to where they want to go. Makes sense. And, moreover, it&#8217;s proven.</p>
+
+<p>That&#8217;s the reason I usually argue in favor of clearer, more conventional labels and navigation. <em>Usually</em>.</p>
+
+<p>In the case of The City Church&#8217;s website, what I came to realize was that, for our purposes, the goal of &#8220;getting people where they wanted to go&#8221; was actually a red herring. I started to think of our goal less like a typical retail store and more like an IKEA — <a href="http://en.wikipedia.org/wiki/IKEA#Layout">a guided experience</a>.</p>
+
+<p>Labels like <em>connect</em> and <em>discover</em> cause users to ask themselves, &#8220;what the heck does that mean?&#8221; For a professional user experience designer, those questions normally signal a problem with the design. But what if that question is actually a positive? What if the goals of the project actually call for those questions to be asked by the user?</p>
+
+<p>The Twitter mobile app isn&#8217;t a retail store (or even e-commerce website). It&#8217;s an <em>immersive experience</em>. (Ugh, sorry.) Are the <em>connect</em> and <em>discover</em> labels really going to stop people from tapping on them? If anything, I&#8217;d argue that they do the opposite. If &#8220;Find&#8221; were used (along with the traditional magnifying glass icon), it&#8217;s likely some users would just skip that tab on their first experience of the app. They would assume they knew what the tab includes.</p>
+
+<p>Going back to Simmons&#8217; quote saying that, &#8220;nobody wants to <em>connect</em> or <em>discover</em>&#8221;, I&#8217;d like to humbly suggest that he&#8217;s wrong. That&#8217;s exactly what people want to do. That&#8217;s why they use Twitter. They don&#8217;t use Twitter to tweet.</p>
+
+    <h6><a href="/2011/12/09/connecting_discovering_on_twitter.html">09 December 2011</a></h6>
+  </div>
+  <hr>
+  
+  <div class="post">
+    <h2><a href="/2011/10/13/jobs.html">Jobs</a></h2>
+    <p>This isn&#8217;t a post about Steve Jobs. Or maybe it is.</p>
+
+<p>Here&#8217;s the short story: after almost 12 years of working for <a href="http://thecity.org">The City Church</a>, I&#8217;m going to exit employment and enter the technology/web space. I&#8217;m still not sure exactly what I&#8217;ll be doing, but I have several opportunities in front of me, and I&#8217;m excited for the future. 
+The long version of the story starts on July 10th, when God dropped an idea into my head that I couldn&#8217;t ignore. It was one of those disruptive ideas that, anecdotally, has the potential to change the face of the Internet &#8211; to put a dent in the universe. I told my wife and a few close friends, and everyone I told agreed.</p>
+
+<p>There&#8217;s a story Jesus tells in the Bible about a master who gives three servants each money (&#8220;talents&#8221;) and then goes away on a journey. The three servants each steward the money differently, and one ends up just burying the money because, as Jesus tells the story, he knew his master to be shrewd. When the master returns, the three servants report what they&#8217;d done. The first two servants had invested the money and had gotten double the return. Obviously the master was pleased. The third, however, got a stern rebuke and the money that had been given to him was taken away and given to another servant.</p>
+
+<p>There are many lessons in the story, but for me, I learned I cannot bury that which has been given to me.</p>
+
+<p>After weeks of prayer and counsel with mentors and pastors, evaluating the risks, and considering the season that both my family and the church are in, I&#8217;ve made the decision to leave the job I&#8217;ve had for over 10 years in order to pursue this idea God gave me. Starting October 31st I&#8217;ll no longer be employed by The City Church.</p>
+
+<p>It&#8217;s a bitter-sweet decision. I&#8217;ve always felt that working for the church has been more than a job. It&#8217;s been a calling. And while I realize I don&#8217;t have to work there to still contribute to the vision, the job made it more practical. The word &#8220;volunteer&#8221; has been used a lot in this process, and I&#8217;ll obviously be doing that, but applying my skills in a volunteer capacity won&#8217;t yield near the return as being able to work 40+ hours a week does. And that&#8217;s a hard thing to reconcile. I&#8217;ve been able to do what I love, for a purpose I believe in, while getting paid for it.</p>
+
+<p>Jobs are temporary though. Our callings &#8211; what we&#8217;re designed to do &#8211; go beyond our jobs. That&#8217;s what I&#8217;m learning.</p>
+
+<p>I feel accountable to this thing God&#8217;s given me. I don&#8217;t want to &#8220;bury my talent&#8221;. Even though I may not be able to execute on this idea immediately &#8211; it still requires some time to formulate and develop &#8211; I have to start the process.</p>
+
+<p>In November I&#8217;ll either have taken another job working for a startup, or will be self-employed and taking freelance projects. Or there might be a completely different opportunity for me to take by then. In the meantime, I&#8217;ll be working to brand (or rebrand) myself online; discovering my new voice and personae. That means my website (and this blog) will likely get an overhaul. You&#8217;ve been warned.</p>
+
+<p>As I said, I&#8217;m excited for the future. How can I not be? I&#8217;m doing what I feel I&#8217;m supposed to, and my wife is in agreement, it&#8217;s great timing, and I have great opportunities in front of me.</p>
+
+<p>I wonder if this is how Steve Jobs must have felt in 1976.</p>
+
+    <h6><a href="/2011/10/13/jobs.html">13 October 2011</a></h6>
+  </div>
+  <hr>
+  
+  <div class="post">
+    <h2><a href="/2011/10/05/thanks_steve.html">Thanks, Steve.</a></h2>
+    <p><a href="http://www.apple.com/stevejobs/">Steve Jobs, 1955–2011</a>.</p>
+
+    <h6><a href="/2011/10/05/thanks_steve.html">05 October 2011</a></h6>
+  </div>
+  <hr>
+  
+  <div class="post">
+    <h2><a href="/2011/08/24/watching.html">Watching</a></h2>
+    <p><a href="http://www.apple.com/pr/library/2011/08/24Letter-from-Steve-Jobs.html">This wasn&#8217;t unexpected</a>, it had to happen eventually. I&#8217;m not sure why it was such a shock &#8211; what I was thinking: that maybe Jobs would lead Apple until he died of old age, some 40-50 years from now. Now, of course, that thought seems blatantly naive.<br />
+<br />
+It&#8217;s the sudden nature of the announcement &#8211; the tone of the letter, and Apple&#8217;s short but unecessary delay in posting the press release and updating <a href="http://www.apple.com/pr/bios/">the bios page</a> &#8211; that bothers me. <a href="http://kottke.org/11/08/steve-jobs-resigns-from-apple">Like Jason Kottke</a>, I can&#8217;t help assuming Jobs&#8217; health is a factor in the timing. Like Kottke, I hope I&#8217;m wrong.<br />
+<br />
+In the past we&#8217;ve seen the company falter without him. More recently, they&#8217;ve been able to sustain momentum and profitability without him in active duty, but he&#8217;s been around as figurehead. He may not have been turning the wheel, but he still wore the captain&#8217;s uniform.<br />
+<br />
+The org chart at Apple may keep the products and profits coming, but it isn&#8217;t enough to hold it on course &#8211; Jobs&#8217; course. The <em>culture</em> he created must be maintained. Unfortunately, it&#8217;s hard to argue against that premise that Apple&#8217;s culture was built on Jobs&#8217; personality. (There&#8217;s a piece of Steve Jobs in every product Apple produces. The voice inside the heads of thousands of Apple developers, designers, and retail employees must have belonged to Steve Jobs, regardless of if they&#8217;d ever met him personally.)<br />
+<br />
+So the million dollar &#8211; or <a href="http://www.marketwatch.com/story/apple-crowned-no-1-with-biggest-market-cap-2011-08-10">337 billion dollar</a> &#8211; question is whether or not Jobs and his leadership team have been able to align Apple&#8217;s internal culture to Jobs&#8217; principles instead of his personality. The only way we&#8217;ll know the answer is by watching.<br />
+<br />
+We&#8217;ll have to watch and see how <em>Apple</em> Apple, Inc. really is. That&#8217;s what Steve Jobs is doing.</p>
+
+    <h6><a href="/2011/08/24/watching.html">24 August 2011</a></h6>
+  </div>
+  <hr>
+  
+  <div class="post">
+    <h2><a href="/2011/08/15/mused.html">Mused</a></h2>
+    <p>How can you be a chef if you don&#8217;t know how to cook? Adobe seems to be attempting to solve that question with their <a href="http://muse.adobe.com/">latest product, code named Muse</a>. It&#8217;s a WYSIWYG HTML editor for designers. In the introduction video the development team tout Muse&#8217;s unique toolset for designers: a code-free workflow. (Because, you know, it&#8217;s <a href="http://en.wikipedia.org/wiki/Adobe_PageMill">worked</a> <a href="http://en.wikipedia.org/wiki/Adobe_GoLive">so</a> <a href="http://en.wikipedia.org/wiki/Adobe_Dreamweaver">well</a> <a href="http://en.wikipedia.org/wiki/Adobe_Contribute">before</a>.)</p>
+
+<p>As <a href="http://elliotjaystocks.com/blog/adobe-muse-a-step-in-the-wrong-direction/">Elliot Jay Stocks mentions</a>, Adobe&#8217;s goals are admirable (his words were &#8220;noble&#8221;). Rewind 15 years and I would have been a major proponent for such an application. However, as Stocks also says, as web designers, code is one of our greatest assets.</p>
+
+<p>Okay, so maybe my analogy is slightly flawed. Really, since I&#8217;m comparing design to the culinary arts, it would be more accurate to say that a chef wanting to prepare a particular kind of food &#8211; say, desert &#8211; must understand the food. I&#8217;m a big Top Chef fan, and I&#8217;ve seen chefs fail miserably when challenged to prepare food they&#8217;re not familiar with. While most trained chefs have basic knowledge of all types of food, most specialize in a particular kind. The same is true of designers, who might have a general knowledge of all design, but specialize in a particular field.</p>
+
+<p>For instance, as a designer I have an appreciation for and love of industrial design &#8211; created objects. But just because I value and generically understand the basic theory of object design doesn&#8217;t mean I&#8217;m qualified to actually do it.</p>
+
+<p>I feel for print designers wanting to design for the web, I really do. I have friends who are extremely talented but don&#8217;t know how to code. They&#8217;re stuck with three options:</p>
+
+<ol>
+<li>Learn to code HTML+CSS+JavaScript</li>
+<li>Rely on a web developer or someone who knows code</li>
+<li>Don&#8217;t design for the web</li>
+</ol>
+
+<p>All three are pretty crummy options, especially when you consider the current cultural landscape. The first requires a lot of time and resources, and even then isn&#8217;t guaranteed &#8211; some people just aren&#8217;t wired to be able to easily understand or write code. Nobody wants to be forced into the second option, which requires dependence on another person or team. And the third option might as well not exist; it&#8217;s 2011.</p>
+
+<p>That&#8217;s why it&#8217;s admirable that Adobe would be attempting to introduce a fourth option: the ability to design without the constraints of knowing code. Admirable, but unrealistic. And, in my opinion, their approach only underscores their complete lack of understanding when it comes to the web.</p>
+
+<p>So, to clarify, I think Adobe&#8217;s goals are admirable, but their philosophy is completely warped. Disregarding that the app itself is built on Adobe&#8217;s Air platform &#8211; if you can call it that &#8211; let&#8217;s take a look at some of the statements the Muse development team (from their <a href="http://muse.adobe.com/video-meet-muse-and-the-people-behind-it.html">introduction video</a>):</p>
+
+<ul>
+<li>00:06: &#8220;Muse is a tool for the graphic designer&#8221; &#8211; meaning they&#8217;re not making Muse for web designers, but for graphic designers to create websites. This is where I applaud Adobe for their goals.</li>
+<li>00:11: &#8220;… someone who wants to just focus on design&#8221; &#8211; wait, what? If a graphic designer wants to design for the web, don&#8217;t they have to focus on <em>web</em> design?</li>
+<li>00:55: &#8220;They can completely design freeform using traditional print metaphors, or design metaphors&#8221; &#8211; uh huh. Like chefs &#8220;can prepare desert using traditional seafood techniques, or cooking tools.&#8221;</li>
+<li>01:34: &#8220;Absolutely no code. We want you to focus on being creative; to express your ideas without letting technology get in the way.&#8221; &#8211; yeah, I always hate when technology gets in the way of my creativity. &#8216;Cause, like, code sucks the creative juices right out of me. Down with code! Let&#8217;s get to makin&#8217; creative websites! NO CODE! NO CODE!</li>
+<li>01:55: &#8220;You&#8217;re not thinking, you know, &#8216;what is the CSS attribute to change the background color?&#8217; You point at something, you apply a swatch, and &#8211; bang &#8211; the color&#8217;s changed.&#8221; &#8211; because remembering &#8220;background-color&#8221; is <em>so</em> hard when you want to just change the background color, you know?</li>
+</ul>
+
+<p>Oh man, I should stop there, I&#8217;m getting worked up.</p>
+
+<p>Okay, one more:</p>
+
+<ul>
+<li>04:10: &#8220;People don&#8217;t hand-edit PostScript or PDF files for print &#8211; you know &#8211; and in five–ten years I don&#8217;t think very many people will be coding in order to design websites&#8221; &#8211; ugh. With all due respect to Jason Prozora-Plein, who made that quote, he might as well be saying something as stupid as &#8220;in five–ten years I don&#8217;t think very many people will be writing to produce articles.&#8221;</li>
+</ul>
+
+<p>If Adobe really wants to help print designers break into the web, they need to focus their efforts on actually teaching print designers how to design for the web &#8211; which <em>requires</em> knowing code.</p>
+
+<p>In fact, here&#8217;s a little tidbit Adobe could take to heart: I learned how to code using Dreamweaver. That&#8217;s right, I used Layout mode to design, then I switched to Source mode to learn. Once I was confident enough, I began fine tuning my designs using code, and then eventually was able to write code without the aid of the WYSIWYG editor.</p>
+
+<p>Muse is a terrific idea, but should have stayed an idea. I shudder to think of the websites that will be created using it, and hope we don&#8217;t look back on Adobe&#8217;s efforts as doing more harm than good.</p>
+
+    <h6><a href="/2011/08/15/mused.html">15 August 2011</a></h6>
+  </div>
+  <hr>
+  
+  <div class="post">
+    <h2><a href="/2011/07/25/driven.html">Driven</a></h2>
+    <p>There are some lessons I don&#8217;t want to learn the hard way, and the danger of operating a mobile phone while driving is one. That&#8217;s the truth I remind myself of every time I&#8217;m tempted to send a text message or check my email when I&#8217;m in the driver&#8217;s seat.</p>
+
+<p>Now, if you&#8217;re a long-time reader of Geek &amp; Mild, you&#8217;re probably thinking that this subject is a bit off-topic for me. I promise I&#8217;ll get back to the normal stuff, like my take on Apple&#8217;s latest products or how I approach a design problem, after I get this off my chest.</p>
+
+<h3>We&#8217;re all agreed, so let&#8217;s agree</h3>
+
+<p>This isn&#8217;t a controversial subject. There are no activist groups arguing how it&#8217;s safe to operate a mobile phone while driving. Even if we haven&#8217;t seen the terrible and graphic images from campaigns against texting-while-driving, most of us are already convinced of its dangers. We&#8217;ve at least heard the stats, stories or laws surrounding the issue.</p>
+
+<p>Further, what separates this issue from, say, cigarette smoking &#8211; which also has proven statistics to back up claims of its dangers &#8211; is that there are no companies lobbying for the removal of government restrictions. I guess even big business knows enough to stay away from it.</p>
+
+<p>The reality is, even though we all agree it&#8217;s dangerous, very few of us make a conscious effort to stop doing it.</p>
+
+<h3>I am chief</h3>
+
+<p>I&#8217;m not exempt, so please don&#8217;t think I&#8217;m writing this from a soap box. Actually, it&#8217;s probably more like a courtroom Defense chair. I&#8217;m sorry to admit it, but the irony here is that I might be one of the worst offenders &#8211; I&#8217;m a geek and have an iPhone, after all. I&#8217;m writing this more for me than anyone else.</p>
+
+<p>I wish I could tell you my motivations to get serious about this have been sheer moral righteousness, civil sense of duty, or from higher-level reasoning. Nope. Last year the Washington State legislature passed a law prohibiting texting while driving &#8230; I started out wanting to avoid the $124 penalty.</p>
+
+<p>It&#8217;s something I&#8217;m now serious about, though; actively working on. Because like I said, I don&#8217;t want to learn the hard way. I don&#8217;t want you to either. That&#8217;s why I&#8217;m writing this: to share both my conviction, and my struggle, in hopes that you&#8217;ll join me in a grassroots crusade against distracted driving. If geeks like you and me start taking this seriously, maybe more will follow our example.</p>
+
+<h3>The battlefront</h3>
+
+<p>One of the negative side affects of living in this instant-access culture is the sense of obligation we have to reply to someone who sends an email or text &#8211; or tweet or Facebook message, etc. &#8211; <em>right now</em>. For me, this is much more a problem than other types of mobile phone uses, such as browsing the internet or playing music. So-and-so texts a simple question so I feel the need to reply immediately. It&#8217;s even worse if so-and-so is a family member or close friend.</p>
+
+<p>Here&#8217;s the thing: the obligation is often self-imposed. <em>I</em> feel the need to reply immediately, not them. In my opinion, this is the battlefront of the issue. This is where the rubber meets the road (no pun intended), because I, at this moment, am the one carrying all the cards. Either I properly prioritize my actions and exercise self-discipline, or I make excuses and take unnecessary risks.</p>
+
+<p>In plain terms, no one is forcing me to pick up my iPhone while I&#8217;m driving. The problem is, like drinking and driving, it&#8217;s an activity that must be self-disciplined.</p>
+
+<h3>&#8220;I love you too much to text you right now&#8221;</h3>
+
+<p>For me, the stats and stories helped, but it wasn&#8217;t until I thought about it in real, raw, personal terms that it clicked. I imagined myself as a character in one of the stories &#8211; a number in a terrifying statistic.</p>
+
+<p>That&#8217;s when I told my wife I love her too much to reply to a text or email if I&#8217;m driving. And you know what? She actually understood. Here&#8217;s the thing, like I mentioned previously, no one is going to argue that it would be safe for me to reply while I&#8217;m driving.</p>
+
+<p>Trust me: an immediate response is <em>not</em> required.</p>
+
+<h3>Start spreadin&#8217; the news, I&#8217;m leaving today</h3>
+
+<p>Another key for me has been to realize I don&#8217;t have to always be driving when in my car. A trick I&#8217;ve been using is to text my wife right after I start my engine, but before actually pulling out. That way she knows I&#8217;ll be on the road for the next few minutes. I do this as a part of my normal &#8220;pre-flight&#8221; check. (E.g. seatbelt, mirrors, gauges, etc.) It&#8217;s a small thing, but I&#8217;ve noticed the urge to check my phone or reply to incoming texts is lessoned when I do it.</p>
+
+<p>In addition, I&#8217;ve also resolved to pull over somewhere if and when I feel I actually <em>must</em> reply to a text message or call. It&#8217;s inconvenient, yes, but far less inconvenient than spending a week in ICU.</p>
+
+<h3>Enjoy the ride</h3>
+
+<p>One thing I realized in regards to the actual act of driving since owning a mobile phone: I haven&#8217;t been enjoying it like I used to. That&#8217;s sort of a bummer. Especially since I used to really love driving.</p>
+
+<p>So, in order to kick the habit of using my phone while driving, I&#8217;ve begun to look forward to the drive itself again. I don&#8217;t drive a fancy car or anything, nor do I have a beautiful (or even long) commute. However, I can still find a sense of innocent joy at the idea of moving at high velocities, being in control of a powerful mechanical device, and seeing varied and weathered scenery breeze past as I drive.</p>
+
+<p>Maybe I&#8217;m being a bit nostalgic &#8211; or even narcissistic &#8211; but there&#8217;s no denying that, for me, enjoying driving helps me stay alert and focused.</p>
+
+<h3>Cheating (death)</h3>
+
+<p>As I said, I&#8217;m chief offender. And the reality is, sometimes it&#8217;s just unavoidable and I have to use my phone when driving. In fact, that&#8217;s one of the reasons I enlisted the help of my company, Sky Balloon, to make an app to assist. <a href="http://skyballoonstudio.com/canned">Canned</a> is a text message template app designed to help you get in and out in as few taps as possible. I have templates for:</p>
+
+<ul>
+<li>On my way</li>
+<li>I&#8217;m driving, I&#8217;ll get back to you ASAP</li>
+<li>Stuck in traffic</li>
+<li>Running late</li>
+<li>Be there in 5</li>
+</ul>
+
+<p>Another app I&#8217;ve relied on for speedy, frictionless communication is <a href="http://dialvetica.com">Dialvetica</a>, which helps me contact (call, text or email) a person in my address book with only a few taps.</p>
+
+<p>There also another gem of an app I use while driving: <a href="http://itunes.apple.com/us/app/dragon-dictation/id341446764?mt=8">Dragon Dictation</a> by Nuance. It wasn&#8217;t until I used this app on the road that I realized how incredibly useful it is. I just launch, tap, and dictate. Dragon Dictation is accurate and quick, and allows me to draft full text message replies only a few taps.</p>
+
+<h3>Risk assessment</h3>
+
+<p>The bottom line, though, is it&#8217;s not worth it. The conveniences designed to enrich our lives are pointless if, while using them, we endanger our lives. The risks are too great. We just have to be motivated enough to exercise self-discipline. For me, it hasn&#8217;t worked to just make a decision once, I literally have to remind myself every time I drive: it&#8217;s not worth it.</p>
+
+<p>So if you don&#8217;t hear back from me, it&#8217;s likely because I&#8217;m on the road &#8211; and I love you.</p>
+
+    <h6><a href="/2011/07/25/driven.html">25 July 2011</a></h6>
+  </div>
+  <hr>
+  
+  <div class="post">
+    <h2><a href="/2011/05/21/mac_defender.html">MAC Defender</a></h2>
+    <p>There is currently a form of malware (if you can call it that) for the Mac circulating, called MAC Defender. <a href="http://arstechnica.com/apple/news/2011/05/malware-on-the-mac.ars/">Ars Technica has a report about its affects</a>, which, so far, are both interesting and alarming. Interesting in that the malware is actually posing as malware <em>protection</em> for the Mac. And alarming because, despite the Mac security model of requiring an admin password, MAC Defender is actually shaping up to be a pretty big problem with casual users. Ars quotes an Apple Store Genius:</p>
+
+<blockquote>
+  <p>The beauty of Mac OS X is its security model. That people blindly enter a password is going to be the undoing of it.</p>
+</blockquote>
+
+<p>It&#8217;s not a big deal if you&#8217;re a smart and safe Mac user. You should rarely have to enter your admin password to install any software anyway, so when you&#8217;re prompted, you should always be 100% sure of the software&#8217;s origin and purpose.</p>
+
+<p>What you need to know/do:</p>
+
+<ol>
+<li>Do not install anything that requires your password without being absolutely sure of its origins. (This is Rule #1 for protection anyway.)</li>
+<li>Do not believe any on-screen reports that your Mac has been &#8220;infected&#8221;.</li>
+<li>Uncheck the &#8220;Open &#8216;Safe&#8217; Files&#8221; preference in Safari</li>
+</ol>
+
+<p>If by chance you&#8217;ve actually fallen prey to this thing, visit <a href="http://www.tuaw.com/2011/05/19/macdefender-malware-protection-and-removal-guide/">TUAW&#8217;s guide for removing MAC Defender</a>.</p>
+
+    <h6><a href="/2011/05/21/mac_defender.html">21 May 2011</a></h6>
+  </div>
+  <hr>
+  
+  <div class="post">
+    <h2><a href="/2011/05/17/design_sabotage_gasp.html">Design sabotage, gasp!</a></h2>
+    <p>Every once and awhile an article about crowdsourcing design pops up, and I normally just ignore them. Usually they&#8217;re whiney and self-inflated; and I don&#8217;t really see the value behind writing them.</p>
+
+<p>At first, as I read idsgn.org&#8217;s <a href="http://idsgn.org/posts/crowdsourcing-sabotaging-our-value/">article about how crowdsourcing is supposedly sabotaging the design industry</a>, I thought, &#8220;who cares? There&#8217;s enough design need to go around.&#8221; If we&#8217;re going to use the food analogy &#8211; as the article does &#8211; then it&#8217;s like complaining that McDonalds is somehow undercutting a gourmet restaurant. Well, duh, but there are more than enough hungry people, and besides, if you&#8217;re the gourmet chef, you wouldn&#8217;t want the same clientele as McDonalds.</p>
+
+<p>That&#8217;s what I thought <em>at first</em>. But as I continued to read, I realized the author was speaking to the fact that it&#8217;s good (gourmet) design being crowdsourced, and how the act of giving away good design begins to undervalue design as a whole. The article was written to speak to fellow designers, not clients. Essentially he&#8217;s saying, &#8220;stop it, you&#8217;re worth more. We all are.&#8221;</p>
+
+<p>It&#8217;s food for thought (no pun intended), but my only contention is that if good design is to be truly compared with gourmet cooking, then why is good design being crowdsourced while gourmet cooking is not? Is it just a matter of having the right platform and tools? If so, someone should create a tool to crowdsource gourmet food!</p>
+
+    <h6><a href="/2011/05/17/design_sabotage_gasp.html">17 May 2011</a></h6>
+  </div>
+  <hr>
+  
+  <div class="post">
+    <h2><a href="/2011/04/16/giving_credit_versus_giving_appreciation.html">Giving credit versus giving appreciation</a></h2>
+    <p>The way I see it, I should credit the original author or creator of a work, without question. However, I&#8217;m <a href="http://chuckskoda.com/entry/my-via-code-of-conduct/">not going to stress</a> over giving credit (e.g. &#8220;via so-and-so&#8221;) to the person or website that relays the link to the work to me via RSS, tweet, email or otherwise. If I can &#8211; meaning the tools are there for me to automatically do so &#8211; I will. Otherwise, I&#8217;m not going to go out of my way to credit someone for merely passing on a link. (It&#8217;s the internet, after all. It&#8217;s made of links.)</p>
+
+<p>I&#8217;m not saying posting a link to something isn&#8217;t worthy of some appreciation. That&#8217;s different. I will do my best to thank those that link to something I take an interest in, and/or pass on to my followers and readers. And, where possible, I&#8217;ll do so using the same medium. For example, if I follow a link in a tweet that I find interesting, I&#8217;ll reply using Twitter.</p>
+
+<p>In other words, you don&#8217;t always have to reward the messenger, just thank them.</p>
+
+    <h6><a href="/2011/04/16/giving_credit_versus_giving_appreciation.html">16 April 2011</a></h6>
+  </div>
+  <hr>
+  
+
+
+  <div id="pagination">
+    
+      <a href="/index.html" id="newer">&larr; Newer</a>
+    
+    
+      <a href="/page3" id="older">Older &rarr;</a>
+    
+  </div>
+
+
+		<p id="copyright">&copy; 2014 Sean Sperte, please don't steal. <a href="/about">More info</a>.<br />
+			Handcrafted using <a href="http://www.sublimetext.com/">Sublime Text</a>, powered by <a href="http://jekyllrb.com/">Jekyll</a>.</p>
+
+		</div>
+
+
+	</body>
+
+	</html>
