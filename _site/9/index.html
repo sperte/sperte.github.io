@@ -31,6 +31,24 @@
 
   
   <div class="post">
+    <h2><a href="/entry/expression_engine_and_the_power_of_url_segments">ExpressionEngine and the Power of URL Segments</a></h2>
+    <p>I <a href="http://blog.virb.com/entries/blog-import-feature-is-live">had need</a> today to serve a separated RSS feed of just my blog articles &#8211; sans links and quick-posts. At first I thought I&#8217;d simply duplicate my RSS template and call it something like <code>rss-blog.php</code>.</p>
+
+<p>Yeah right. Not with ExpressionEngine and its support for URL segment conditionals around. Ladies and gentlemen, pay attention, because this is all it took: <code>if segment_3 != 'blog'</code></p>
+
+<p>Now, the when the URL is <code>http://seansperte.com/rss/blog</code> I can show unique content by placing it inside the <code>if</code> statement, like so:</p>
+
+<ol class="code">
+<li>weblog=&quot;blog1&#123;if segment_3 != &apos;blog&apos;&#125;|blog2&#123;/if&#125;&quot;</li>
+</ol>
+
+<p>See how that works? See how easy?</p>
+
+    <h6><a href="/entry/expression_engine_and_the_power_of_url_segments">24 April 2007</a></h6>
+  </div>
+  <hr>
+  
+  <div class="post">
     <h2><a href="/entry/what_is_twitter">What is Twitter?</a></h2>
     <p>[This article has been updated <a href="http://twitter.com/blog/2007/07/friends-followers-and-notifications.html">after Twitter made some changes</a> to the semantics of their services, especially regarding &#8220;friends&#8221; and notifications.]</p>
 
@@ -497,24 +515,6 @@ Here&#8217;s the issue: in order to activate NewsFire you must enter the email a
 <p>So, for those I was expecting to meet up with at SXSW &#8211; namely <a href="http://www.31three.com">Jesse</a> &#8211; I&#8217;m sorry. The Wii playing and shop-talk will have to wait until Sunday.</p>
 
     <h6><a href="/entry/duty">09 March 2007</a></h6>
-  </div>
-  <hr>
-  
-  <div class="post">
-    <h2><a href="/entry/hot_dogs">Hot Dogs</a></h2>
-    <p>While deciding on a place to eat lunch, The Wife suggested (in all seriousness) a hot dog vendor located in the middle of <a href="http://www.redmondtowncenter.com/">Redmond Town Center</a>.</p>
-
-<p>&#8220;Absolutely not,&#8221; I replied. &#8220;The only time I eat hot dogs is during a sporting event.&#8221;</p>
-
-<p>&#8220;You could run around RTC,&#8221; she said.</p>
-
-<p>Rolling my eyes, I replied, &#8220;no, I mean, a sporting event in which I am a spectator.&#8221;</p>
-
-<p>&#8220;<em>I</em> could run around it and you could watch.&#8221;</p>
-
-<p>We decided on something else.</p>
-
-    <h6><a href="/entry/hot_dogs">05 March 2007</a></h6>
   </div>
   <hr>
   

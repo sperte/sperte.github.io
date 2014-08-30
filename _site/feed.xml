@@ -6,9 +6,28 @@
 </description>
     <link>http://seansperte.com/</link>
     <atom:link href="http://seansperte.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 29 Aug 2014 11:25:15 -0700</pubDate>
-    <lastBuildDate>Fri, 29 Aug 2014 11:25:15 -0700</lastBuildDate>
+    <pubDate>Fri, 29 Aug 2014 16:44:23 -0700</pubDate>
+    <lastBuildDate>Fri, 29 Aug 2014 16:44:23 -0700</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
+    
+      <item>
+        <title>Jekyll</title>
+        <description>&lt;p&gt;It turns out, hosting a blog on Tumblr doesn’t help motivate more writing or posting. That, plus the fact that I’ve been meaning to learn about new publishing systems, means it’s time to move things back “in-house”. So I’m back to hosting Geek &amp;amp; Mild myself. Well, not &lt;em&gt;myself&lt;/em&gt; technically.&lt;/p&gt;
+
+&lt;p&gt;For this version I’ve chosen to revive a previous design and use &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; – hosted on Github Pages. I lost some Tumblr posts along the way, but I ain’t cryin’.&lt;/p&gt;
+
+&lt;p&gt;The process to port the site wasn’t too bad. I used a lot of &lt;a href=&quot;https://twitter.com/mrwarren&quot;&gt;Brian Warren’s&lt;/a&gt; tips from his &lt;a href=&quot;http://begoodnotbad.com/article/Migrating-from-ExpressionEngine-to-Kirby&quot;&gt;post about porting ExpressionEngine to Kirby&lt;/a&gt;. Converting all my previous blog entries was a bit of a chore, but the hardest part was learning the Jekyll templating language. (I still haven’t really learned it, actually.)&lt;/p&gt;
+
+&lt;p&gt;What I like about this setup is it allows me to draft and publish new posts in a familiar way to which I work: write, save, commit (via git). Once I ‘commit’, git and Jekyll (and Github Pages) do the rest.&lt;/p&gt;
+
+&lt;p&gt;Incidentally, Geek &amp;amp; Mild is now open source, so if you’re interesting in seeing how I’ve got things hooked up you can &lt;a href=&quot;https://github.com/sperte/sperte.github.io&quot;&gt;peruse the code&lt;/a&gt; – for now a least.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 29 Aug 2014 00:00:00 -0700</pubDate>
+        <link>http://seansperte.com/entry/jekyll</link>
+        <guid isPermaLink="true">http://seansperte.com/entry/jekyll</guid>
+        
+        
+      </item>
     
       <item>
         <title>Jailbreaking for the rest of us</title>
@@ -396,66 +415,6 @@ That term: following. I used it a lot over the last six days. &amp;#8220;I&amp;#
         <pubDate>Mon, 19 Mar 2012 00:00:00 -0700</pubDate>
         <link>http://seansperte.com/entry/how_to_unsubscribe_from_linkedin_email</link>
         <guid isPermaLink="true">http://seansperte.com/entry/how_to_unsubscribe_from_linkedin_email</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Plain text in a field</title>
-        <description>&lt;p&gt;Let me start off this post by ensuring you that I have, in fact, tried the notes app you use and love and think is the best and want to recommend to me. I&amp;#8217;ve tried them all. A few I can recite, from memory: Byword, Elements, iA Writer, Quick Note, Note, Simplenote, Notational Velocity, nvAlt, Nottingham, Apple Mail, Write Room, VoodooPad, Notesy, Evernote, PlainText, OneNote, DEVONthink…&lt;/p&gt;
-
-&lt;p&gt;Maybe I&amp;#8217;m being too ambitious, thinking I can have a simple text editor combo (desktop and mobile app) that is just the right amount of simplicity without sacrificing function. Maybe I&amp;#8217;m naive to think that Apple&amp;#8217;s Notes app on iOS is &lt;em&gt;almost&lt;/em&gt; perfect, but would be better if it supported some form of simple organization scheme. Maybe I&amp;#8217;m stupid to suggest that a desktop app feel like it was made for the Mac, but not weighed down with feature-bloat and mostly useless functionality.&lt;/p&gt;
-
-&lt;p&gt;Maybe not.&lt;/p&gt;
-
-&lt;p&gt;Here&amp;#8217;s what, in my mind, would make for the perfect desktop and mobile combination note taking apps.&lt;/p&gt;
-
-&lt;h3&gt;Desktop&lt;/h3&gt;
-
-&lt;p&gt;On the desktop it doesn&amp;#8217;t take much. &lt;a href=&quot;http://notational.net/&quot;&gt;Notational Velocity&lt;/a&gt; is almost there, but drives me nuts with it&amp;#8217;s strange (to the Mac) experience conventions. One example is with the creation of a new note &amp;#8211; why in the world can&amp;#8217;t I create a new note with ⌘-N? Those kinds of oddities or omissions are deal-breakers for me.&lt;/p&gt;
-
-&lt;p&gt;The perfect desktop notes app would:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Be a single window&lt;/li&gt;
-&lt;li&gt;Contain a listing of notes in a sidebar (I don&amp;#8217;t want to have to use an open dialog or the Finder to open a note)&lt;/li&gt;
-&lt;li&gt;Have search&lt;/li&gt;
-&lt;li&gt;Be completely useable with only the keyboard&lt;/li&gt;
-&lt;li&gt;Be light weight and quick, and feel native&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.apple.com/macosx/mountain-lion/features.html#notes&quot;&gt;Mountain Lion&amp;#8217;s Notes app&lt;/a&gt; looks promising, but is limited by lack of organizational functionality. Same goes for the iOS version(s).&lt;/p&gt;
-
-&lt;h3&gt;iOS&lt;/h3&gt;
-
-&lt;p&gt;The perfect mobile notes app should be similarly focussed. &lt;a href=&quot;http://simplenoteapp.com/&quot;&gt;Simplenote&lt;/a&gt; is near pitch-perfect here. It&amp;#8217;s just plain text in a field. It has a simple organizational schema (via tags), is quick and light weight, and has search. It&amp;#8217;s most glaring problem, for me, is its lack of desktop counterpart.&lt;/p&gt;
-
-&lt;p&gt;So, my ideal mobile notes app would:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Be just like Simplenote, but have a desktop counterpart (and an icon that hints at its function, not its brand)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;(As an aside, can someone tell me why it&amp;#8217;s so hard for an iOS app to support moving of notes/files from one location on Dropbox to another?)&lt;/p&gt;
-
-&lt;h3&gt;The combination&lt;/h3&gt;
-
-&lt;p&gt;When it comes down to it, it&amp;#8217;s the combination of &lt;em&gt;desktop plus mobile&lt;/em&gt; that I can&amp;#8217;t seem to find. I actually don&amp;#8217;t mind &lt;a href=&quot;http://evernote.com/&quot;&gt;Evernote&lt;/a&gt; on the Mac (even though it&amp;#8217;s overkill for what I want), but don&amp;#8217;t like its iOS version(s). I like Simplenote on my iPhone, but there&amp;#8217;s no version for Mac (and the iPad version is sort of ho-hum). I&amp;#8217;m stuck in this no-man&amp;#8217;s land of apps that get passable grades on one platform but flunk the other.&lt;/p&gt;
-
-&lt;p&gt;For me, a notes app combo must:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Be just plain text&lt;/li&gt;
-&lt;li&gt;Not require a title for a note&lt;/li&gt;
-&lt;li&gt;Have a simple organizational scheme (folders or tags, either one works)&lt;/li&gt;
-&lt;li&gt;Sync (without fail)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;That&amp;#8217;s it. That&amp;#8217;s all it takes to win me as a customer. If you want to charge me $19.99 for each app, that&amp;#8217;s fine. If you want to charge me $45 per year, that&amp;#8217;s fine, too. As long as you deliver on those items I listed above, you can have my money.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 15 Mar 2012 00:00:00 -0700</pubDate>
-        <link>http://seansperte.com/entry/plain_text_in_a_field</link>
-        <guid isPermaLink="true">http://seansperte.com/entry/plain_text_in_a_field</guid>
         
         
       </item>
