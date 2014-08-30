@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Geek &amp; Mild</title>
-    <description>Hello. Welcome to the weblog of Sean Sperte. I&#39;ve been posting my thoughts related to design, technology, and faith here since 2005.
+    <description>Hello. Welcome to Geek &amp; Mild, the weblog of Sean Sperte. This is a collection of notes related to design, technology, and faith.
 </description>
     <link>http://seansperte.com/</link>
     <atom:link href="http://seansperte.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 29 Aug 2014 16:44:23 -0700</pubDate>
-    <lastBuildDate>Fri, 29 Aug 2014 16:44:23 -0700</lastBuildDate>
+    <pubDate>Sat, 30 Aug 2014 01:16:22 -0700</pubDate>
+    <lastBuildDate>Sat, 30 Aug 2014 01:16:22 -0700</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
     
       <item>
@@ -20,7 +20,7 @@
 
 &lt;p&gt;What I like about this setup is it allows me to draft and publish new posts in a familiar way to which I work: write, save, commit (via git). Once I ‘commit’, git and Jekyll (and Github Pages) do the rest.&lt;/p&gt;
 
-&lt;p&gt;Incidentally, Geek &amp;amp; Mild is now open source, so if you’re interesting in seeing how I’ve got things hooked up you can &lt;a href=&quot;https://github.com/sperte/sperte.github.io&quot;&gt;peruse the code&lt;/a&gt; – for now a least.&lt;/p&gt;
+&lt;p&gt;Incidentally, Geek &amp;amp; Mild is now open source, so if you’re interested in seeing how I’ve got things hooked up you can &lt;a href=&quot;https://github.com/sperte/sperte.github.io&quot;&gt;peruse the code&lt;/a&gt; – for now a least.&lt;/p&gt;
 </description>
         <pubDate>Fri, 29 Aug 2014 00:00:00 -0700</pubDate>
         <link>http://seansperte.com/entry/jekyll</link>
@@ -83,7 +83,7 @@ The hacker/developers—or whatever they call themselves—who do these jailbrea
 
 &lt;p&gt;Now that we’re jailbroken and have Cydia, we can begin installing apps and tweaks. Yes, tweaks. As in, “I love this phone, mostly, but just wish I could tweak this one feature.”&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://d262ilb51hltx0.cloudfront.net/max/451/1*X57VeduSVtExv92eqNGy6A.png&quot; alt=&quot;&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;https://d262ilb51hltx0.cloudfront.net/max/451/1*X57VeduSVtExv92eqNGy6A.png&quot; alt=&quot;&quot; class=&quot;imgleft&quot; /&gt;
 &lt;em&gt;Cydia’s main screen—we’re not in Kansas anymore, Toto&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;This is where the fun starts. Actually, no. This is where it gets really hairy.&lt;/p&gt;
@@ -162,7 +162,7 @@ The hacker/developers—or whatever they call themselves—who do these jailbrea
 
 &lt;h3 id=&quot;bonus-ayeris-theme&quot;&gt;Bonus: ayeris theme&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://d262ilb51hltx0.cloudfront.net/max/1024/1*MrD76wRudQqodGI3QulS-Q.jpeg&quot; alt=&quot;&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;https://d262ilb51hltx0.cloudfront.net/max/1024/1*MrD76wRudQqodGI3QulS-Q.jpeg&quot; alt=&quot;&quot; class=&quot;imgcenter&quot; /&gt;
 &lt;em&gt;The Photos icon from the ayeris theme—photo credit: &lt;a href=&quot;http://www.idownloadblog.com/2014/02/21/ayeris/&quot;&gt;iDownloadBlog&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;I’m not usually big on theming the interface of iOS. For the most part I prefer to keep things pretty stock—funny, I know, considering I’m writing about jailbreaking. But I’ve made a very special exception in the case of &lt;a href=&quot;http://www.surenix.me/ayeris&quot;&gt;ayeris&lt;/a&gt;, a beautifully designed theme from known designer Thientam Bach (Apple, if you’re listening, hire this guy).&lt;/p&gt;

@@ -2,23 +2,28 @@
 layout: default
 ---
 
-  <h2 id="intro">{{ site.description }} <a href="/about">More info &rarr;</a></h2>
-
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-    {{ post.content }}
-    <h6><a href="{{ post.url }}">{{ post.date | date_to_long_string }}</a></h6>
-  </div>
-  <hr>
-  {% endfor %}
+<hgroup id="intro">
+	<p>{{ site.description }}&nbsp;<a href="/about">More&nbsp;info&nbsp;&rarr;</a></p>
+</hgroup>
 
 
-  <div id="pagination">
-    {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path }}" id="newer">&larr; Newer</a>
-    {% endif %}
-    {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path }}" id="older">Older &rarr;</a>
-    {% endif %}
-  </div>
+<section>
+	{% for post in paginator.posts %}
+	<article>
+		<time><a href="{{ post.url }}">{{ post.date | date_to_long_string }}</a></time>
+		{% if post.type != 'link' %}<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>{% endif %}
+		{{ post.content }}
+	</article>
+	<hr>
+	{% endfor %}
+</section>
+
+
+<section id="pagination">
+	{% if paginator.previous_page %}
+	<a href="{{ paginator.previous_page_path }}" id="newer">&larr; Newer</a>
+	{% endif %}
+	{% if paginator.next_page %}
+	<a href="{{ paginator.next_page_path }}" id="older">Older &rarr;</a>
+	{% endif %}
+</section>

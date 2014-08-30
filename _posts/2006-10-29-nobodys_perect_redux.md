@@ -1,5 +1,6 @@
 ---
-title: Nobody&#8217;s perect (redux)
+title: Nobody’s perect (redux)
+type: link
 date: 2006-10-29
 slug: nobodys_perect_redux
 ---

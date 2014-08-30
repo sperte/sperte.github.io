@@ -46,7 +46,7 @@ The process usually takes a good 5-10 minutes, and afterwards leaves your device
 
 Now that we’re jailbroken and have Cydia, we can begin installing apps and tweaks. Yes, tweaks. As in, “I love this phone, mostly, but just wish I could tweak this one feature.”
 
-![](https://d262ilb51hltx0.cloudfront.net/max/451/1*X57VeduSVtExv92eqNGy6A.png)
+![](https://d262ilb51hltx0.cloudfront.net/max/451/1*X57VeduSVtExv92eqNGy6A.png){: .imgleft}
 *Cydia’s main screen—we’re not in Kansas anymore, Toto*
 
 This is where the fun starts. Actually, no. This is where it gets really hairy.
@@ -125,7 +125,7 @@ SwitchSpring is a handy little tweak that makes it easy to quit all active, back
 
 ### Bonus: ayeris theme
 
-![](https://d262ilb51hltx0.cloudfront.net/max/1024/1*MrD76wRudQqodGI3QulS-Q.jpeg)
+![](https://d262ilb51hltx0.cloudfront.net/max/1024/1*MrD76wRudQqodGI3QulS-Q.jpeg){: .imgcenter}
 *The Photos icon from the ayeris theme—photo credit: [iDownloadBlog](http://www.idownloadblog.com/2014/02/21/ayeris/)*
 
 I’m not usually big on theming the interface of iOS. For the most part I prefer to keep things pretty stock—funny, I know, considering I’m writing about jailbreaking. But I’ve made a very special exception in the case of [ayeris](http://www.surenix.me/ayeris), a beautifully designed theme from known designer Thientam Bach (Apple, if you’re listening, hire this guy).

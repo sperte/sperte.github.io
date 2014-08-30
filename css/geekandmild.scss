@@ -1,89 +1,110 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
+# Geek & Mild Styles
 ---
 
-@import url(normalize.css); 
+// Normalize everything
+// http://necolas.github.io/normalize.css
+@import "normalize";
 
-body {
-	font-family: adelle,chaparral-pro,georgia,serif;
-	line-height: 1.5;
-	color: #333;
-	background: #eaebec url(../img/whitey.jpg);
-	-webkit-font-smoothing: antialiased;
+
+// Set some variables
+$base-font-family: minion-pro,serif;
+$base-font-size: 18px;
+$base-line-height: 1.7;
+$alt-font-family: myriad-pro,sans-serif;
+$text-color: #333;
+$background-color: #eaebec;
+$highlight-color: #ffc;
+$grey-color: #555;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+
+// Now on to our styles
+html {
+	background: $background-color;
+	font-family: $base-font-family;
+	font-size: $base-font-size;
+	line-height: $base-line-height;
+	color: $text-color;
 }
 
-::selection {
-	color: #eee;
-	background: #333;
+body {
+	width: 50vw;
+	margin: 0 auto;
+	@media (max-width: 767px) {
+		width: calc(100% - 2rem);
+	}
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: $alt-font-family;
 }
 
 a {
-	color: #000;
+	color: black;
 	text-decoration: none;
-	border-bottom: 1px solid #999;
+	&:hover {
+		background-color: $highlight-color;
+	}
 }
 
-a:hover {
-	background: #ffc;
+::selection {
+	color: $background-color;
+	background: $text-color;
 }
 
 h1 a {
 	display: block;
-	height: 70px;
-	margin: 3em auto 2em;
+	height: 5rem;
+	margin: 3rem auto;
 	text-indent: -999em;
 	overflow: hidden;
-	background: url(../img/logo.svg) 50% 0 no-repeat !important;
+	background: url(../img/logo.svg) 50% 0 no-repeat;
 	background-size: contain;
-	border: none;
-}
-
-#main {
-	position: relative;
+	&:hover {
+		background-color: transparent;
+	}
 }
 
 #intro {
-	margin: 2em auto 4em;
-	font-size: 20px;
-	font-style: italic;
-	font-weight: normal;
-	color: #999;
-	text-shadow: 0 .05em 0 #fff;
-}
+	margin: 3rem auto;
+	padding: 1rem;
+	background: lighten($background-color, 10%);
+	box-shadow: 0 3px 5px $grey-color-light;
+	p {
+		margin: 0;
+		font-style: italic;
+		color: #777;
+	}
+} 
 
-#intro a {
-	color: #777;
+section {
+	position: relative;
+	a:hover {
+		
+	}
 }
 
 hr {
-	margin: 3em auto;
+	margin: 3rem auto;
 	border: 0 none;
-	border-top: 1px solid #ccc;
-	border-bottom: 1px solid #fff;
+	border-top: 1px solid $grey-color-light;
 }
 
-.post hr {
-	width: 25%;
-	margin: 2em auto;
-	border-bottom: none;
-}
 
-.post {
-	position: relative;
-}
-
-.post h2 a {
-	color: #333;
-	text-shadow: 0 .05em .05em #fff;
-	border: none;
-}
-
-.post img {
-	max-width: 95%;
-	height: auto;
-	padding: 10px;
-	background: #fff;
-	box-shadow: 0 3px 5px #999;
+// Media
+img,
+iframe {
+	max-width: calc(100% - 1rem);
+	padding: .5rem;
+	background: lighten($background-color, 10%);
+	box-shadow: 0 3px 5px $grey-color-light;
 }
 
 img[align="left"],
@@ -91,7 +112,7 @@ img.imgleft {
 	float: left;
 	max-width: 50%;
 	height: auto;
-	margin-right: 1.5em;
+	margin-right: 1.5rem;
 }
 
 img[align="right"],
@@ -99,7 +120,7 @@ img.imgright {
 	float: right;
 	max-width: 50%;
 	height: auto;
-	margin-left: 1.5em;
+	margin-left: 1.5rem;
 }
 
 img.imgcenter {
@@ -107,154 +128,93 @@ img.imgcenter {
 	margin: 0 auto;
 }
 
-.post blockquote {
-	margin: 1em;
-	padding-left: 1em;
-	color: #555;
-	border-left: 1px solid #ccc;
+
+// Posts
+article {
+	position: relative;
+	hr {
+		width: 25%;
+		margin: 2em auto;
+		border-bottom: none;
+	}
+	h2 a {
+		color: $grey-color;
+	}
+	time a {
+		color: $grey-color-light;
+	}
+	p {
+		color: $grey-color;
+		a {
+			border-bottom: 1px solid $grey-color-light;
+		}
+	}
+	blockquote {
+		font-family: $alt-font-family;
+		font-size: 90%;
+	}
+	pre,
+	.code {
+		display: block;
+		max-width: 100%;
+		overflow: scroll;
+		padding: .5em;
+		color: #000;
+		background: #eee;
+		border-radius: 2px;
+		box-shadow: 0 -1px 1px #555;
+	}
+	p code {
+		background: #eee;
+	}
 }
 
-.post pre,
-.post .code {
-	display: block;
-	max-width: 100%;
-	overflow: scroll;
-	padding: .5em;
-	color: #000;
-	background: #eee;
-	border-radius: 2px;
-	box-shadow: 0 -1px 1px #555;
+
+#pagination {
+	margin: 3rem auto;
+	text-align: center;
+	a {
+		padding: 0 2rem;
+		color: $grey-color;
+		font-weight: bold;
+		border: none;
+		&:hover {
+			color: #000;
+			background-color: transparent;
+		}
+	}
 }
 
-.post p code {
-	background: #eee;
+
+footer {
+	margin: 3rem auto;
+	color: $grey-color-light;
+	line-height: 1.2;
 }
 
-.post h6 {
-	margin: 0;
-	text-transform: lowercase;
-	font-variant: small-caps;
-	font-size: 14px;
-	font-weight: normal;
-}
 
-.post[class~=link] h6 {
-	top: .4em;
-}
-
-.post h6 a {
-	color: #999;
-	border: none;
-}
-
+// Fusion ads (deprecated; kept for posterity)
 #fusion {
 	position: absolute;
 	left: 520px;
 	margin: 60px 0 0 50px;
 	font-size: 14px;
 	font-family: georgia,serif;
-}
-
-#fusion br {
-	display: none;
-}
-
-#fusion img {
-	display: block;
-	margin-bottom: 10px;
-}
-
-#fusion h6 {
-	margin: 10px 0;
-	text-transform: uppercase;
-	font-weight: normal;
-}
-
-#fusion a {
-	color: #555;
-	border: 0;
-}
-
-#pagination {
-	margin: 3em auto;
-	text-align: center;
-}
-
-#pagination a {
-	padding: 0 2em;
-	color: #777;
-	font-weight: bold;
-	border: none;
-}
-
-#pagination a:hover {
-	color: #000;
-	background: none;
-}
-
-#copyright {
-	float: left;
-	margin: 100px auto 50px;
-	font-size: 75%;
-	color: #777;
-}
-
-
-
-#search {
-	float: right;
-	margin: 1em 0 5em;
-}
-
-#search input {
-	width: 130px;
-	padding: 5px;
-	font-size: 12px;
-	border: 1px solid #ccc;
-	border-radius: 5px;
-	box-shadow: 0px -1px 0 #999;
-	outline: none;
-}
-
-
-/*  Landscape phone to portrait tablet */
-@media (max-width: 767px) { 
-	#main {
-		margin: 20px;
+	br {
+		display: none;
 	}
-	#fusion {
-		position: relative;
-		left: auto;
-		margin: 0 auto;
-		text-align: center;
-	}
-	#fusion img {
-		margin: 0 auto 10px;
-	}
-	.post img {
+	img {
 		display: block;
-		float: none;
-		margin: 1em auto;
+		margin-bottom: 10px;
 	}
-	#search {
-		float: none;
-		width: 130px;
-		margin: 0 auto 2em;
+	h6 {
+		margin: 10px 0;
+		text-transform: uppercase;
+		font-weight: normal;
 	}
-}
-
-/* Tablet & Desktop */
-@media (min-width: 768px) {
-	#main {
-		width: 520px;
-		margin: 0 auto 100px;
-	}
-	.post h6 {
-		position: absolute;
-		top: 10px;
-		left: -200px;
-		width: 170px;
-		text-align: right;
+	a {
+		color: #555;
+		border: 0;
 	}
 }
 

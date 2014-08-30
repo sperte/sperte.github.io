@@ -16,23 +16,29 @@
 
 	<script type="text/javascript" src="http://use.typekit.com/hiv0gya.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	<script type="text/javascript" src="https://raw.githubusercontent.com/toddmotto/fluidvids/master/src/fluidvids.js"></script>
 
 </head>
 
-<body id="home">
+
+<body class="default">
+
+	<header>
+		<h1><a href="/">Geek &amp; Mild by Sean Sperte</a></h1>		
+	</header>
+
+	<hgroup id="intro">
+	<p>Hello. Welcome to Geek & Mild, the weblog of Sean Sperte. This is a collection of notes related to design, technology, and faith.
+&nbsp;<a href="/about">More&nbsp;info&nbsp;&rarr;</a></p>
+</hgroup>
 
 
-	<div id="main">
-
-		<h1><a href="/">Geek &amp; Mild by Sean Sperte</a></h1>
-
-		  <h2 id="intro">Hello. Welcome to the weblog of Sean Sperte. I've been posting my thoughts related to design, technology, and faith here since 2005.
- <a href="/about">More info &rarr;</a></h2>
-
-  
-  <div class="post">
-    <h2><a href="/entry/expression_engine_and_the_power_of_url_segments">ExpressionEngine and the Power of URL Segments</a></h2>
-    <p>I <a href="http://blog.virb.com/entries/blog-import-feature-is-live">had need</a> today to serve a separated RSS feed of just my blog articles &#8211; sans links and quick-posts. At first I thought I&#8217;d simply duplicate my RSS template and call it something like <code>rss-blog.php</code>.</p>
+<section>
+	
+	<article>
+		<time><a href="/entry/expression_engine_and_the_power_of_url_segments">24 April 2007</a></time>
+		<h2><a href="/entry/expression_engine_and_the_power_of_url_segments">ExpressionEngine and the Power of URL Segments</a></h2>
+		<p>I <a href="http://blog.virb.com/entries/blog-import-feature-is-live">had need</a> today to serve a separated RSS feed of just my blog articles &#8211; sans links and quick-posts. At first I thought I&#8217;d simply duplicate my RSS template and call it something like <code>rss-blog.php</code>.</p>
 
 <p>Yeah right. Not with ExpressionEngine and its support for URL segment conditionals around. Ladies and gentlemen, pay attention, because this is all it took: <code>if segment_3 != 'blog'</code></p>
 
@@ -44,13 +50,13 @@
 
 <p>See how that works? See how easy?</p>
 
-    <h6><a href="/entry/expression_engine_and_the_power_of_url_segments">24 April 2007</a></h6>
-  </div>
-  <hr>
-  
-  <div class="post">
-    <h2><a href="/entry/what_is_twitter">What is Twitter?</a></h2>
-    <p>[This article has been updated <a href="http://twitter.com/blog/2007/07/friends-followers-and-notifications.html">after Twitter made some changes</a> to the semantics of their services, especially regarding &#8220;friends&#8221; and notifications.]</p>
+	</article>
+	<hr>
+	
+	<article>
+		<time><a href="/entry/what_is_twitter">23 April 2007</a></time>
+		<h2><a href="/entry/what_is_twitter">What is Twitter?</a></h2>
+		<p>[This article has been updated <a href="http://twitter.com/blog/2007/07/friends-followers-and-notifications.html">after Twitter made some changes</a> to the semantics of their services, especially regarding &#8220;friends&#8221; and notifications.]</p>
 
 <p><img src="/assets/img/twitter-logo.jpg" border="0" height="75" width="229" alt="Twitter" align="right" class="imgright" />That&#8217;s the question that everyone&#8217;s been asking and trying to answer for a year. What, exactly, is Twitter? Or, even better, why should you care?</p>
 
@@ -129,13 +135,13 @@
 <li><a href="http://with.gilbert.org/2007/03/12/twitter-as-microblogging-timelog-and-team-tool/">Twitter as Microblogging, Timelog, and Team Tool</a> [Added: 04/24/07]</li>
 </ul>
 
-    <h6><a href="/entry/what_is_twitter">23 April 2007</a></h6>
-  </div>
-  <hr>
-  
-  <div class="post">
-    <h2><a href="/entry/software_so_good">Software So Good ...</a></h2>
-    <p>&#8230; it makes users bend over backwards to use it.</p>
+	</article>
+	<hr>
+	
+	<article>
+		<time><a href="/entry/software_so_good">16 April 2007</a></time>
+		<h2><a href="/entry/software_so_good">Software So Good ...</a></h2>
+		<p>&#8230; it makes users bend over backwards to use it.</p>
 
 <p><img src="/assets/img/newsfire-icon.jpg" border="0" height="140" width="144" alt="NewsFire icon" align="right" class="imgright" />John Gruber today <a href="http://daringfireball.net/linked/2007/april#mon-16-miller">published a link</a> to a <a href="http://fishbowl.pastiche.org/2007/04/15/product_activation_sucks">blog post written by Charles Miller</a> about <a href="http://www.newsfirerss.com">NewsFire</a> and its [abnormal] activation scheme. In case you&#8217;ve not been a reader of Geek &amp; Mild for at least a year, you might need to know that I&#8217;ve had a similar experience in dealing with David Watanabe, the creator of NewsFire. 
 Here&#8217;s the issue: in order to activate NewsFire you must enter the email address you used to register the software. In my (and I assume Charles&#8217;) case, a commonly-known, public email address. The address is sent and checked with a server somewhere and verified.</p>
@@ -160,13 +166,13 @@ Here&#8217;s the issue: in order to activate NewsFire you must enter the email a
 
 <p>In complete contrast to <a href="http://seansperte.com/entry/developers_your_software_doesnt_work_unless_it_does_what_i_want/">my recent post about bad software ruining the experience</a>, NewsFire&#8217;s interface actually creates an experience wherein I willingly swallow my pride and practically beg to continue its use.</p>
 
-    <h6><a href="/entry/software_so_good">16 April 2007</a></h6>
-  </div>
-  <hr>
-  
-  <div class="post">
-    <h2><a href="/entry/developers_your_software_doesnt_work_unless_it_does_what_i_want">Developers, Your Software Doesn&#8217;t Work Unless it Does What I Want</a></h2>
-    <p><img src="/assets/img/sncrz25n_z_20070414_20070414.jpg" border="0" height="200" width="200" alt="Sony IP Camera" align="right" class="imgright" />We&#8217;ve been demoing some new IP-based cameras for two our satellite campuses, Plateau and University. They&#8217;re <a href="http://bssc.sel.sony.com/BroadcastandBusiness/DisplayModel?id=78447">Sony SNC-RZ25N</a>&#8217;s, meant for security applications, but work quite well for what we&#8217;re intending them for: Low-fidelity interactivity with the pastor/speaker.</p>
+	</article>
+	<hr>
+	
+	<article>
+		<time><a href="/entry/developers_your_software_doesnt_work_unless_it_does_what_i_want">14 April 2007</a></time>
+		<h2><a href="/entry/developers_your_software_doesnt_work_unless_it_does_what_i_want">Developers, Your Software Doesn&#8217;t Work Unless it Does What I Want</a></h2>
+		<p><img src="/assets/img/sncrz25n_z_20070414_20070414.jpg" border="0" height="200" width="200" alt="Sony IP Camera" align="right" class="imgright" />We&#8217;ve been demoing some new IP-based cameras for two our satellite campuses, Plateau and University. They&#8217;re <a href="http://bssc.sel.sony.com/BroadcastandBusiness/DisplayModel?id=78447">Sony SNC-RZ25N</a>&#8217;s, meant for security applications, but work quite well for what we&#8217;re intending them for: Low-fidelity interactivity with the pastor/speaker.</p>
 
 <p>The image quality is good, considering the settings and environment they&#8217;re set in. They have an 18x optical zoom, as well as an additional 12x digital zoom. They have automatic and manual settings for everything from white balance, to aperture, to pan/tilt/zoom, to codec, to bitrate, etc. I&#8217;m really impressed with the features, and quality.</p>
 
@@ -188,13 +194,13 @@ Here&#8217;s the issue: in order to activate NewsFire you must enter the email a
 
 <p>So, again: Developers, it doesn&#8217;t matter how long it takes you to create, how great it is, or how many features it includes, your software doesn&#8217;t work unless it does what your user wants it to do.</p>
 
-    <h6><a href="/entry/developers_your_software_doesnt_work_unless_it_does_what_i_want">14 April 2007</a></h6>
-  </div>
-  <hr>
-  
-  <div class="post">
-    <h2><a href="/entry/powering_an_audio_archive_with_expressionengine">Powering an Audio Archive With ExpressionEngine</a></h2>
-    <p>One of the most often-asked questions I receive is about how <a href="http://thecity.org/audio">The City Church&#8217;s audio archive</a> is powered. It&#8217;s easier than you&#8217;d expect, but does require a bit of explanation. So, as promised, here&#8217;s a look under the hood.</p>
+	</article>
+	<hr>
+	
+	<article>
+		<time><a href="/entry/powering_an_audio_archive_with_expressionengine">02 April 2007</a></time>
+		<h2><a href="/entry/powering_an_audio_archive_with_expressionengine">Powering an Audio Archive With ExpressionEngine</a></h2>
+		<p>One of the most often-asked questions I receive is about how <a href="http://thecity.org/audio">The City Church&#8217;s audio archive</a> is powered. It&#8217;s easier than you&#8217;d expect, but does require a bit of explanation. So, as promised, here&#8217;s a look under the hood.</p>
 
 <h3>Custom fields and weblog preferences</h3>
 
@@ -312,13 +318,13 @@ Here&#8217;s the issue: in order to activate NewsFire you must enter the email a
 
 <p>I&#8217;m yawning just thinking about how little I have to do to keep it all going. ExpressionEngine rocks.</p>
 
-    <h6><a href="/entry/powering_an_audio_archive_with_expressionengine">02 April 2007</a></h6>
-  </div>
-  <hr>
-  
-  <div class="post">
-    <h2><a href="/entry/adobe_announces_creative_suite_3">Adobe Announces Creative Suite 3</a></h2>
-    <p><img src="/assets/img/cs3-productgrid_20070327.jpg" border="0" height="233" width="300" alt="Adobe's CS3 Product Grid" class="imgright" />Today <a href="http://www.adobe.com/products/creativesuite/">Adobe announced Creative Suite 3</a>. The accompanying product matrix makes even Microsoft&#8217;s Windows Vista version grid look simple. It&#8217;s a mess to sort out, even for a veteran Adobe user.</p>
+	</article>
+	<hr>
+	
+	<article>
+		<time><a href="/entry/adobe_announces_creative_suite_3">27 March 2007</a></time>
+		<h2><a href="/entry/adobe_announces_creative_suite_3">Adobe Announces Creative Suite 3</a></h2>
+		<p><img src="/assets/img/cs3-productgrid_20070327.jpg" border="0" height="233" width="300" alt="Adobe's CS3 Product Grid" class="imgright" />Today <a href="http://www.adobe.com/products/creativesuite/">Adobe announced Creative Suite 3</a>. The accompanying product matrix makes even Microsoft&#8217;s Windows Vista version grid look simple. It&#8217;s a mess to sort out, even for a veteran Adobe user.</p>
 
 <p>Visiting the product page I thought to myself, &#8220;it would be nice if they offered some sort of &#8216;select the products you use/need and we&#8217;ll show you which package to buy&#8217; feature.&#8221; Further exploration revealed a handy <a href="http://www.adobe.com/products/creativesuite/?cs3Tabs=cs3products">Product Selector applet</a> (Flash, of course) that seemed to fit the bill perfectly. Unfortunately, as soon as it was done pre-loading I realized it fell short; offering <em>areas</em> of design, rather than specific products for use.</p>
 
@@ -361,13 +367,13 @@ Here&#8217;s the issue: in order to activate NewsFire you must enter the email a
 
 <p>Maybe I&#8217;ll just upgrade Photoshop.</p>
 
-    <h6><a href="/entry/adobe_announces_creative_suite_3">27 March 2007</a></h6>
-  </div>
-  <hr>
-  
-  <div class="post">
-    <h2><a href="/entry/removing_www_from_a_domain">Removing &#8220;www&#8221; From a Domain</a></h2>
-    <p>Here&#8217;s what I do to remove &#8220;www&#8221; from my domain. I put this code in my .htaccess file:</p>
+	</article>
+	<hr>
+	
+	<article>
+		<time><a href="/entry/removing_www_from_a_domain">25 March 2007</a></time>
+		<h2><a href="/entry/removing_www_from_a_domain">Removing &#8220;www&#8221; From a Domain</a></h2>
+		<p>Here&#8217;s what I do to remove &#8220;www&#8221; from my domain. I put this code in my .htaccess file:</p>
 
 <ol class="code">
  <li>RewriteEngine On</li>
@@ -385,13 +391,13 @@ Here&#8217;s the issue: in order to activate NewsFire you must enter the email a
 
 <p>For more information, and a technical explanation of what each line does, <a href="http://daringfireball.net/2006/05/htaccess_redirection">read John Gruber&#8217;s post</a> (and subsequent opinion of why one would want to do this) from May 2006.</p>
 
-    <h6><a href="/entry/removing_www_from_a_domain">25 March 2007</a></h6>
-  </div>
-  <hr>
-  
-  <div class="post">
-    <h2><a href="/entry/southbye">Southbye</a></h2>
-    <p><img src="/assets/img/sxsw-logo2007.gif" border="0" height="159" width="180" alt="SXSW logo" class="imgright" />On Sunday night I flew into Austin, the site of SXSW, an annual film, music and interactive design festival. It was my first time attending, so I was apprehensive about it. Thankfully, I didn&#8217;t have to go it alone &#8211; the Great Canadian, <a href="http://www.31three.com">Jesse Bennett-Chamberlain</a>, and I were Southby Rookies together.</p>
+	</article>
+	<hr>
+	
+	<article>
+		<time><a href="/entry/southbye">14 March 2007</a></time>
+		<h2><a href="/entry/southbye">Southbye</a></h2>
+		<p><img src="/assets/img/sxsw-logo2007.gif" border="0" height="159" width="180" alt="SXSW logo" class="imgright" />On Sunday night I flew into Austin, the site of SXSW, an annual film, music and interactive design festival. It was my first time attending, so I was apprehensive about it. Thankfully, I didn&#8217;t have to go it alone &#8211; the Great Canadian, <a href="http://www.31three.com">Jesse Bennett-Chamberlain</a>, and I were Southby Rookies together.</p>
 
 <h3>The laptop culture</h3>
 
@@ -452,13 +458,13 @@ Here&#8217;s the issue: in order to activate NewsFire you must enter the email a
 
 <p>And next year I&#8217;ll be sure to bring an umbrella.</p>
 
-    <h6><a href="/entry/southbye">14 March 2007</a></h6>
-  </div>
-  <hr>
-  
-  <div class="post">
-    <h2><a href="/entry/the_remaking_of_version_3">The Remaking of Version 3</a></h2>
-    <p>It takes a certain amount of obsessive compulsion, I think, to be good at what you do. This thing called the internets is what I do &#8211; and believe you me, I&#8217;m obsessed. Not more than a day after I launched Version 3 of this site I began revamping the way the site displays blog entries.</p>
+	</article>
+	<hr>
+	
+	<article>
+		<time><a href="/entry/the_remaking_of_version_3">10 March 2007</a></time>
+		<h2><a href="/entry/the_remaking_of_version_3">The Remaking of Version 3</a></h2>
+		<p>It takes a certain amount of obsessive compulsion, I think, to be good at what you do. This thing called the internets is what I do &#8211; and believe you me, I&#8217;m obsessed. Not more than a day after I launched Version 3 of this site I began revamping the way the site displays blog entries.</p>
 
 <p>Now, instead of using the direct query method I <a href="http://www.seansperte.com/entry/the_making_of_version_3">showed previously</a>, I use an entirely separate blog for links. Not only does this simplify my homepage code and reduce the amount of database queries, it also allows me to more easily manage the entries; where and how they&#8217;re displayed.</p>
 
@@ -502,40 +508,38 @@ Here&#8217;s the issue: in order to activate NewsFire you must enter the email a
 
 <p>Questions, comments, concerns?</p>
 
-    <h6><a href="/entry/the_remaking_of_version_3">10 March 2007</a></h6>
-  </div>
-  <hr>
-  
-  <div class="post">
-    <h2><a href="/entry/duty">Duty</a></h2>
-    <p>I&#8217;m supposed to be on a plane to <a href="http://www.sxsw.com">Austin</a> right now. As luck would have it, the church&#8217;s video switcher wasn&#8217;t working this morning as I attempted to give a run-down of operations to my stand-in for Sunday services. Quick and unsuccessful attempts to troubleshoot the problem led to a last-minute decision: I&#8217;m going to fly out after services, on Sunday afternoon.</p>
+	</article>
+	<hr>
+	
+	<article>
+		<time><a href="/entry/duty">09 March 2007</a></time>
+		<h2><a href="/entry/duty">Duty</a></h2>
+		<p>I&#8217;m supposed to be on a plane to <a href="http://www.sxsw.com">Austin</a> right now. As luck would have it, the church&#8217;s video switcher wasn&#8217;t working this morning as I attempted to give a run-down of operations to my stand-in for Sunday services. Quick and unsuccessful attempts to troubleshoot the problem led to a last-minute decision: I&#8217;m going to fly out after services, on Sunday afternoon.</p>
 
 <p>I&#8217;ve been anticipating going to &#8220;<a href="http://www.sxswblog.com/">Southby</a>&#8221; for months. It&#8217;s a bummer that I can&#8217;t make the entire thing, but I completely understand the decision and need for me to stay. Actually, I feel better. I was beginning to feel anxious about leaving my (weekend) duties to someone else. Even though they&#8217;re capable, the system they must run is not &#8211; another story entirely.</p>
 
 <p>So, for those I was expecting to meet up with at SXSW &#8211; namely <a href="http://www.31three.com">Jesse</a> &#8211; I&#8217;m sorry. The Wii playing and shop-talk will have to wait until Sunday.</p>
 
-    <h6><a href="/entry/duty">09 March 2007</a></h6>
-  </div>
-  <hr>
-  
+	</article>
+	<hr>
+	
+</section>
 
 
-  <div id="pagination">
-    
-      <a href="/8" id="newer">&larr; Newer</a>
-    
-    
-      <a href="/10" id="older">Older &rarr;</a>
-    
-  </div>
+<section id="pagination">
+	
+	<a href="/8" id="newer">&larr; Newer</a>
+	
+	
+	<a href="/10" id="older">Older &rarr;</a>
+	
+</section>
+	<footer>
+	<small>Site by Sean Sperte, please don't steal. <a href="/about">More info</a>.<br />
+	Handcrafted using <a href="http://www.sublimetext.com/">Sublime Text</a>, powered by <a href="http://jekyllrb.com/">Jekyll</a> and hosted on <a href="https://pages.github.com/">Github Pages</a>.</small>
+</footer>
 
 
-		<p id="copyright">&copy; 2014 Sean Sperte, please don't steal. <a href="/about">More info</a>.<br />
-			Handcrafted using <a href="http://www.sublimetext.com/">Sublime Text</a>, powered by <a href="http://jekyllrb.com/">Jekyll</a>.</p>
+</body>
 
-		</div>
-
-
-	</body>
-
-	</html>
+</html>
