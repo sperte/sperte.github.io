@@ -1,5 +1,5 @@
 # Site settings
-title: Geek & Mild
+title: "Geek &amp; Mild"
 email: sean@sperte.com
 description: > # this means to ignore newlines until "baseurl:"
   Hello. Welcome to Geek & Mild, the weblog of Sean Sperte. This is a collection of notes related to design, technology, and faith.
@@ -22,3 +22,7 @@ defaults:
       type: "post"
     values:
       layout: "post"
+
+# Plugins
+gems:
+  - jekyll-redirect-from
