@@ -6,8 +6,8 @@
 </description>
     <link>http://seansperte.com/</link>
     <atom:link href="http://seansperte.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 19 Dec 2014 00:26:05 -0800</pubDate>
-    <lastBuildDate>Fri, 19 Dec 2014 00:26:05 -0800</lastBuildDate>
+    <pubDate>Fri, 19 Dec 2014 00:35:32 -0800</pubDate>
+    <lastBuildDate>Fri, 19 Dec 2014 00:35:32 -0800</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
     
       <item>
@@ -25,165 +25,6 @@
         <pubDate>Fri, 29 Aug 2014 00:00:00 -0700</pubDate>
         <link>http://seansperte.com/entry/jekyll</link>
         <guid isPermaLink="true">http://seansperte.com/entry/jekyll</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Jailbreaking for the rest of us</title>
-        <description>&lt;p&gt;[Article originally &lt;a href=&quot;https://medium.com/philosophy-logic/8cbda12cdff7&quot;&gt;posted to Medium&lt;/a&gt;]&lt;/p&gt;
-
-&lt;p&gt;I’ll keep this introduction short and sweet. The reason I’m writing this is I’ve discovered enough benefit from &lt;a href=&quot;http://en.wikipedia.org/wiki/IOS_jailbreaking&quot;&gt;jailbreaking iOS&lt;/a&gt; that I risk whatever crazy repercussions might come, but have noticed many of my colleagues haven’t. And I think it’s just because they haven’t ever seen an example of how to do it right. So this is as much to show off as it is to inform.&lt;/p&gt;
-
-&lt;p&gt;Demystifying jailbreaking Before going any further, I want to make sure you have a basic understanding of what it means to jailbreak your iDevice. As with most things on the internet, there is a ton of misinformation and misunderstanding surrounding jailbreaking, so here are some key facts to know:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;Jailbreaking is &lt;strong&gt;legal&lt;/strong&gt;&lt;br /&gt;
-In contrast to what the name would imply, when you jailbreak your device you aren’t breaking any laws—&lt;a href=&quot;http://en.wikipedia.org/wiki/IOS_jailbreaking#Legal_status&quot;&gt;at least in the U.S.&lt;/a&gt; (What’s not legal is pirating apps or cracking DRM.) There are many who say that if you jailbreak your device it voids the warranty, and that may be true, but if you ever get to the point where the warranty needs to be exercised, it’s easy to revert your device to a default state. (Disclaimer: I’m not a legal expert and cannot give legal counsel or advice.)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Jailbreaking is &lt;strong&gt;safe&lt;/strong&gt;&lt;br /&gt;
-If you jailbreak your device and find it to be too unstable or that you don’t like the result, it’s easy to revert to a previous state. Provided, of course, that you’ve performed a backup prior to jailbreaking and can restore the backup. But, in any case, you can always restore iOS to its default.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Jailbreaking is &lt;strong&gt;easy&lt;/strong&gt;&lt;br /&gt;
-The hacker/developers—or whatever they call themselves—who do these jailbreak ‘exploits’ (more on that next) have really done a good job making the process easy. The current, most popular jailbreak technique literally requires you (a) download a desktop app, (b) plug in your iPhone, and (c) click a button.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://d262ilb51hltx0.cloudfront.net/max/1067/1*0TJDAM0czxBKSD6201W_CQ.jpeg&quot; alt=&quot;&quot; /&gt;
-&lt;em&gt;A custom icon for the Settings app on iPhone — one big reason to jailbreak: skin those ugly, default Apple icons&lt;/em&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;what-is-jailbreaking&quot;&gt;What is jailbreaking?&lt;/h2&gt;
-
-&lt;p&gt;No two ways around it: when you jailbreak your device, you’re punching holes in an otherwise pretty structured system (“Designed by Apple in California”). Jailbreaking is exploiting weaknesses in iOS in order to gain root access and control the system. What that means is: you’re more likely to experience quirks, bugs, and crashes—and it’s at your own risk. Apple’s position on the matter could be classified as passive aggressive tolerance-to-a-point. Still, jailbreaking is pretty benign from a “breaking the rules” standpoint, and, in many ways, very important to Apple’s ecosystem. (Many jailbreak developers have been hired by Apple, for example.)&lt;/p&gt;
-
-&lt;h2 id=&quot;how-to-jailbreak&quot;&gt;How to jailbreak&lt;/h2&gt;
-
-&lt;p&gt;As of this writing, the easiest and best way to jailbreak your iDevice is using the &lt;a href=&quot;http://evasi0n.com/&quot;&gt;evasi0n iOS 7 jailbreak&lt;/a&gt;. Aaaaand there it is. Before we’ve even begun, we’re introduced to one particularly strange element of the jailbreak community: naming convention. Why in the world a zero must be used in place of a perfectly good ‘O’, I have no idea. But get used to it. We’re now in the world of numbers instead of vowels, unconventional abbreviations, strange acronyms, and NoSpacesBetweenWords.&lt;/p&gt;
-
-&lt;p&gt;As I mentioned, jailbreaking using evasi0n (ugh) is as simple as:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Download and launch the app&lt;/li&gt;
-  &lt;li&gt;Plug in your iPhone&lt;/li&gt;
-  &lt;li&gt;Hit the ‘Jailbreak’ button&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://d262ilb51hltx0.cloudfront.net/max/800/1*l-wcLhytrR8uGwIlsjmj_g.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;If there does happen to be extra steps involved, they’re likely related to temporarily disabling your password lock or upgrading/downgrading versions of iOS, and evasi0n will walk you through them.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Speaking of iOS versions, a brief (and important) word of warning: make sure to check jailbreaking news sources before updating to new versions of iOS. It’s a constant game of cat and mouse Apple and the jailbreaking community play, and many times it takes a couple months before jailbreakers find ways around iOS patches.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;The process usually takes a good 5-10 minutes, and afterwards leaves your device in pretty much the exact same condition—save for one new app, the soul of the jailbreak universe: Cydia.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-not-so-wonderful-world-of-cydia&quot;&gt;The [not-so] wonderful world of Cydia&lt;/h2&gt;
-
-&lt;p&gt;Now that we’re jailbroken and have Cydia, we can begin installing apps and tweaks. Yes, tweaks. As in, “I love this phone, mostly, but just wish I could tweak this one feature.”&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://d262ilb51hltx0.cloudfront.net/max/451/1*X57VeduSVtExv92eqNGy6A.png&quot; alt=&quot;&quot; class=&quot;imgleft&quot; /&gt;
-&lt;em&gt;Cydia’s main screen—we’re not in Kansas anymore, Toto&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;This is where the fun starts. Actually, no. This is where it gets really hairy.&lt;/p&gt;
-
-&lt;p&gt;Before I show you what jailbreak apps and tweaks I use, I need to share the most important rule for downloading stuff with Cydia.&lt;/p&gt;
-
-&lt;p&gt;Right now if you download an app from the App Store, it’s like you’re walking in to a Best Buy. There’s a selection of stuff from various sources, but it’s all been curated and vetted. Conversely, when you launch Cydia, it’s more like visiting a flea market, where anyone who wants to can come, set up shop, and sell their wares. Because of this, you can’t always trust the original source. There’s no app approval process or gatekeeper making sure what’s available is safe, working, or relevant.&lt;/p&gt;
-
-&lt;p&gt;What this means is there is just a ton of crap out there, and no real good way of finding the good stuff. With that in mind, can you guess what the most important rule for jailbreaking is? &lt;strong&gt;Don’t trust the label&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;Instead find trusted sources (outside Cydia’s interface) to vet apps, tweaks, repos, and developers, before you try them. (This article is a trusted source, just FYI.)&lt;/p&gt;
-
-&lt;p&gt;One source I turn to for jailbreak news is &lt;a href=&quot;http://www.idownloadblog.com/tag/jailbreak/&quot;&gt;iDownloadBlog&lt;/a&gt;. They have good coverage of the latest tweaks, and provide a layer of quality control that helps me know what’s worth looking at. Additionally, both &lt;a href=&quot;http://9to5mac.com/&quot;&gt;9to5Mac&lt;/a&gt; and &lt;a href=&quot;http://lifehacker.com/tag/jailbreak&quot;&gt;Lifehacker&lt;/a&gt; cover jailbreak news occasionally, when something of note pops up.&lt;/p&gt;
-
-&lt;p&gt;Okay, &lt;em&gt;now&lt;/em&gt; we can get to the fun stuff…&lt;/p&gt;
-
-&lt;h2 id=&quot;how-i-jailbreak&quot;&gt;How I jailbreak&lt;/h2&gt;
-
-&lt;p&gt;I believe the iPhone is the best mobile device in the world. I simply love it. But it’s not perfect, which is why I like to jailbreak. However, I’m very cautious about it. I apply one of my professional idioms to my jailbreaking habits: just because you can doesn’t mean you should.&lt;/p&gt;
-
-&lt;p&gt;At first, installing apps and tweaks from Cydia feels foreign. The process begins with a full-screen window that resembles a terminal that outputs the downloading, unpackaging, and installing of the app or tweak—verbosely. Afterward, if required, Cydia will require you to ‘respring’ your device, which basically just restarts iOS (without a full device reboot).&lt;/p&gt;
-
-&lt;p&gt;With that in mind, here are the apps or tweaks I have currently installed:&lt;/p&gt;
-
-&lt;h3 id=&quot;multiiconmover&quot;&gt;MultiIconMover+&lt;/h3&gt;
-
-&lt;p&gt;This tweak allows you to move multiple app icons between SpringBoard (that’s your homescreen, where all your apps live) at once. It’s a huge time saver for those who obsessively organize and re-organize their apps, like me.&lt;/p&gt;
-
-&lt;h3 id=&quot;noslowanimations&quot;&gt;NoSlowAnimations&lt;/h3&gt;
-
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/9QVauEYWWM4&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;em&gt;A demonstration of the NoSlowAnimations jailbreak tweak—just look how much faster my iPhone feels!&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;As the name implies—which is the case with many of these tweaks—NoSlowAnimations speeds up the animation speeds in iOS. The end effect is drastic: a huge perceptual performance increase.&lt;/p&gt;
-
-&lt;h3 id=&quot;open-in-app-for-photos&quot;&gt;Open In App for Photos&lt;/h3&gt;
-
-&lt;p&gt;One huge omission in the stock Photos app is the ability to open a photo in another app straight from your library. It’s so bizarre that friends I’ve told haven’t believed me, and have to see it for themselves. This simple tweak fixes that by adding a simple “Open In…” button.&lt;/p&gt;
-
-&lt;h3 id=&quot;showcase-and-swipeselectionpro&quot;&gt;ShowCase and SwipeSelectionPro&lt;/h3&gt;
-
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/a9sFoUewc4Q&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;em&gt;A demonstration of the ShowCase and SwipeSelectionPro jailbreak tweaks&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;ShowCase is a great solution to &lt;a href=&quot;https://twitter.com/gruber/status/424345205303943168&quot;&gt;ShiftGate&lt;/a&gt;, where, on the iOS 7 keyboard, the shift button has never looked right. It makes the letter characters on the keys show their case (a la Android phones).&lt;/p&gt;
-
-&lt;p&gt;Meanwhile, SwipeSelectionPro gives you the ability to quickly change the cursor position while typing by swiping left or right on the keyboard. It’s tricky to get used to, but sublime to use once you do.&lt;/p&gt;
-
-&lt;h3 id=&quot;activator&quot;&gt;Activator&lt;/h3&gt;
-
-&lt;p&gt;Keep Uncle Ben’s advice in mind when using this one—with great power comes great responsibility. Activator allows you to map just about any kind of action, gesture, or activity to any function. For instance, I was able to swap the double-press of Home and swipe-up-from-bottom; so now I can get to the app switcher by swiping up from the bottom of the screen, and activate Control Center by double-pressing Home.&lt;/p&gt;
-
-&lt;h3 id=&quot;couria&quot;&gt;Couria&lt;/h3&gt;
-
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/ndVRzdqChrc&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;em&gt;A demonstration of Couria, a quick-reply tweak for Messages&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Couria adds quick reply and compose mechanisms to messaging apps—mostly notably, Messages. Previously I used a separate app called BiteSMS for this, but Couria is a new and promising alternative that feels more focused and polished.&lt;/p&gt;
-
-&lt;h3 id=&quot;ncallonly-and-ncsingletapclear&quot;&gt;NCAllOnly and NCSingleTapClear&lt;/h3&gt;
-
-&lt;p&gt;A hilariously worthless element of the iOS 7 experience is the “Missed” tab in Notification Center. And, for me, the “Today” tab is similarly superfluous. NCAllOnly allows you to hide one or both of those tabs.&lt;/p&gt;
-
-&lt;p&gt;NCSingleTapClear addresses another irritation I have with Notification Center: those tiny dismiss buttons in the notification group headers. It makes it so you only have to tap the ‘X’ once to dismiss notifications.&lt;/p&gt;
-
-&lt;h3 id=&quot;ccclockopentoalarm&quot;&gt;CCClockOpenToAlarm&lt;/h3&gt;
-
-&lt;p&gt;The introduction of quick-launch functions in iOS 7’s Control Center is awesome. Not as awesome is the fact that every time you launch the Clock app, it opens in the Timer tab—regardless of &lt;em&gt;whether or not you ever use the timer and only ever launch the clock app for one reason and that is to set your alarm&lt;/em&gt;. Anyway, CCClockOpenToAlarm fixes that issue.&lt;/p&gt;
-
-&lt;h3 id=&quot;switchspring&quot;&gt;SwitchSpring&lt;/h3&gt;
-
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/aCOQpJzvCuU&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;em&gt;Quitting all background apps with SwitchSpring&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;SwitchSpring is a handy little tweak that makes it easy to quit all active, background apps with a single swipe-and-tap. (It also makes it easy to ‘respring’ your device.)&lt;/p&gt;
-
-&lt;h3 id=&quot;bonus-ayeris-theme&quot;&gt;Bonus: ayeris theme&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://d262ilb51hltx0.cloudfront.net/max/1024/1*MrD76wRudQqodGI3QulS-Q.jpeg&quot; alt=&quot;&quot; class=&quot;imgcenter&quot; /&gt;
-&lt;em&gt;The Photos icon from the ayeris theme—photo credit: &lt;a href=&quot;http://www.idownloadblog.com/2014/02/21/ayeris/&quot;&gt;iDownloadBlog&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;I’m not usually big on theming the interface of iOS. For the most part I prefer to keep things pretty stock—funny, I know, considering I’m writing about jailbreaking. But I’ve made a very special exception in the case of &lt;a href=&quot;http://www.surenix.me/ayeris&quot;&gt;ayeris&lt;/a&gt;, a beautifully designed theme from known designer Thientam Bach (Apple, if you’re listening, hire this guy).&lt;/p&gt;
-
-&lt;p&gt;Where most themers overdesign their themes, Bach shows restraint. His design reveals an understanding of iOS, but still introduces new (and, I think, more appropriate) aesthetics. In his words:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Design is not always about changing things just to say it’s different, that’s easy. The hardest part is to take something that is already good, and make it better, with a different approach.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;If you decide to download ayeris, it’ll also install Winterboard as part of its list of dependencies. Don’t worry: that’s the theming engine that most themes run on top of; making it possible for themers to easily apply their designs to various elements of the UI.&lt;/p&gt;
-
-&lt;p&gt;The cost of jailbreaking Speaking of ayeris, one thing I haven’t yet mentioned is that not every app/tweak (or theme) available through Cydia is free. In fact, many of the ones I listed above aren’t.&lt;/p&gt;
-
-&lt;p&gt;To pay for jailbreak apps you’ll need to use either a Google or Facebook account to verify your identity, and either an Amazon or PayPal account to process the payment. (I use Facebook and PayPal.) The process is simple enough, but does take quite a bit more—in terms of taps—than with the App Store.&lt;/p&gt;
-
-&lt;p&gt;If you decide to try jailbreaking your iDevice, I can offer you no better advice than this: don’t go overboard. iOS is already awesome, and while certain jailbreak apps/tweaks can make it awesomer, don’t allow the near-limitless options to steal from the simple and pure experience Apple designed for you.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 22 Feb 2014 00:00:00 -0800</pubDate>
-        <link>http://seansperte.com/entry/jailbreaking-for-the-rest-of-us</link>
-        <guid isPermaLink="true">http://seansperte.com/entry/jailbreaking-for-the-rest-of-us</guid>
         
         
       </item>
@@ -232,32 +73,14 @@ The hacker/developers—or whatever they call themselves—who do these jailbrea
       </item>
     
       <item>
-        <title>Well begun</title>
-        <description>&lt;p&gt;There are probably dozens of scientific studies that show … dang, what am I even talking about? I have no idea how to write. I’m not a journalism or English major. I’m probably breaking rules already, just with this opening paragraph.&lt;/p&gt;
-
-&lt;p&gt;Anyway, what I’m trying to say is that I assume most of the science of being productive has to do with just getting started. The whole “get off the couch” thing, or “well begun is half done”, as Mary Poppins would say. Like a train leaving the station, in order for us to get anywhere, we’ve got to put a lot of effort towards that first step: from Stop to Go.&lt;/p&gt;
-
-&lt;p&gt;This is one of the reasons that, as a designer/developer, I need to pay close attention into the amount of friction I put into the products I build. People already have a hard enough time learning new things. I should aim to make it as effortless as possible to “engage”.&lt;/p&gt;
-
-&lt;p&gt;It’s also the reason I’m clumsily trudging back into the world of blogging – or whatever you call this; publishing random thoughts to the web. I have no clear objective, haven’t written or sketched out a game plan, don’t know who I’m writing for, and obviously am not qualified. I’ve just … begun. Again.&lt;/p&gt;
-
-&lt;p&gt;It’s the first day of the New Year – well, it’s the evening of the first day. Whatever endeavor awaits your (whoever you are) involvement, my challenge to you is just do it.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 01 Jan 2014 00:00:00 -0800</pubDate>
-        <link>http://seansperte.com/entry/well-begun</link>
-        <guid isPermaLink="true">http://seansperte.com/entry/well-begun</guid>
-        
-        
-      </item>
-    
-      <item>
         <title>People of the Internet</title>
-        <description>&lt;p&gt;The internet is awesome. Actually, no. The &lt;em&gt;people&lt;/em&gt; of the internet are awesome. The reason I know this is because last week I attended two conferences where I got to be with a lot of them. Some I&amp;#8217;d just met, but some I&amp;#8217;d been following for years &amp;#8211; even a decade or more. 
-That term: following. I used it a lot over the last six days. &amp;#8220;I&amp;#8217;ve been following you for a long time.&amp;#8221;&lt;/p&gt;
+        <description>&lt;p&gt;The internet is awesome. Actually, no. The &lt;em&gt;people&lt;/em&gt; of the internet are awesome. The reason I know this is because last week I attended two conferences where I got to be with a lot of them. Some I’d just met, but some I’d been following for years – even a decade or more. &lt;/p&gt;
 
-&lt;p&gt;I said it to &lt;a href=&quot;http://shauninman.com/&quot;&gt;Shaun Inman&lt;/a&gt;, &lt;a href=&quot;http://mezzoblue.com/&quot;&gt;Dave Shea&lt;/a&gt;, &lt;a href=&quot;http://www.cameronmoll.com/&quot;&gt;Cameron Moll&lt;/a&gt;, &lt;a href=&quot;http://tincorporated.com/&quot;&gt;Tom Watson&lt;/a&gt; (well, his wife, actually), &lt;a href=&quot;http://drewwarkentin.com/&quot;&gt;Drew Warkentin&lt;/a&gt;, &lt;a href=&quot;http://shop.ugmonk.com/&quot;&gt;Jeff Sheldon&lt;/a&gt;, &lt;a href=&quot;http://www.brandclay.com/&quot;&gt;Sean Ferrell&lt;/a&gt;, &lt;a href=&quot;http://paularmstrong.me/&quot;&gt;Paul Armstrong&lt;/a&gt;, and many others. What I realized is that I&amp;#8217;d been &amp;#8220;following&amp;#8221; these people long before Twitter, so the statement sounded trite and didn&amp;#8217;t communicate the level of respect I have them. What I wanted to tell them, actually, was that their work had inspired and mentored me from afar.&lt;/p&gt;
+&lt;p&gt;That term: following. I used it a lot over the last six days. “I’ve been following you for a long time.”&lt;/p&gt;
 
-&lt;p&gt;Circles Conference was held in Dallas and organized by &lt;a href=&quot;http://burciaga.co/&quot;&gt;Ismael Burciaga&lt;/a&gt;. Its emphasis was on creativity, design, and art &amp;#8211; and, ultimately, the inspiration of all those things. The talks themselves were great, and I enjoyed hearing from every speaker. But I was more inspired by meeting and speaking with the people who made up the conference. For instance:&lt;/p&gt;
+&lt;p&gt;I said it to &lt;a href=&quot;http://shauninman.com/&quot;&gt;Shaun Inman&lt;/a&gt;, &lt;a href=&quot;http://mezzoblue.com/&quot;&gt;Dave Shea&lt;/a&gt;, &lt;a href=&quot;http://www.cameronmoll.com/&quot;&gt;Cameron Moll&lt;/a&gt;, &lt;a href=&quot;http://tincorporated.com/&quot;&gt;Tom Watson&lt;/a&gt; (well, his wife, actually), &lt;a href=&quot;http://drewwarkentin.com/&quot;&gt;Drew Warkentin&lt;/a&gt;, &lt;a href=&quot;http://shop.ugmonk.com/&quot;&gt;Jeff Sheldon&lt;/a&gt;, &lt;a href=&quot;http://www.brandclay.com/&quot;&gt;Sean Ferrell&lt;/a&gt;, &lt;a href=&quot;http://paularmstrong.me/&quot;&gt;Paul Armstrong&lt;/a&gt;, and many others. What I realized is that I’d been “following” these people long before Twitter, so the statement sounded trite and didn’t communicate the level of respect I have them. What I wanted to tell them, actually, was that their work had inspired and mentored me from afar.&lt;/p&gt;
+
+&lt;p&gt;Circles Conference was held in Dallas and organized by &lt;a href=&quot;http://burciaga.co/&quot;&gt;Ismael Burciaga&lt;/a&gt;. Its emphasis was on creativity, design, and art – and, ultimately, the inspiration of all those things. The talks themselves were great, and I enjoyed hearing from every speaker. But I was more inspired by meeting and speaking with the people who made up the conference. For instance:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://twitter.com/tiffapiffa&quot;&gt;Tiffany Duening&lt;/a&gt;&lt;/li&gt;
@@ -300,13 +123,13 @@ That term: following. I used it a lot over the last six days. &amp;#8220;I&amp;#
     
       <item>
         <title>On #hashtags</title>
-        <description>&lt;p&gt;Every time I read a geek opine about social trends it reminds me of Maciej Ceglowski&amp;#8217;s post from a few years ago entitled &lt;a href=&quot;http://blog.pinboard.in/2011/11/the_social_graph_is_neither/&quot;&gt;The Social Graph is Neither&lt;/a&gt;. His main assertion was that we are a bunch of admittedly non-social engineers designing and building software &amp;#8211; social networks &amp;#8211; for a system that is so wildly complex that it cannot be graphed. What&amp;#8217;s so entertaining to me, is not only do we attempt to design, build, and graph it, we also love to criticize it.&lt;/p&gt;
+        <description>&lt;p&gt;Every time I read a geek opine about social trends it reminds me of Maciej Ceglowski’s post from a few years ago entitled &lt;a href=&quot;http://blog.pinboard.in/2011/11/the_social_graph_is_neither/&quot;&gt;The Social Graph is Neither&lt;/a&gt;. His main assertion was that we are a bunch of admittedly non-social engineers designing and building software – social networks – for a system that is so wildly complex that it cannot be graphed. What’s so entertaining to me, is not only do we attempt to design, build, and graph it, we also love to criticize it.&lt;/p&gt;
 
-&lt;p&gt;A couple of years ago, when hashtags first started appearing in my Twitter timeline, I just sort of shrugged them off. I couldn&amp;#8217;t see their value through the visual damage they imposed. Even today, I have a hard time #taking #anyone #seriously when they use more than one or two #hashtags for a #single #tweet &amp;#8211; mostly because they just &lt;em&gt;look&lt;/em&gt; bad.&lt;/p&gt;
+&lt;p&gt;A couple of years ago, when hashtags first started appearing in my Twitter timeline, I just sort of shrugged them off. I couldn’t see their value through the visual damage they imposed. Even today, I have a hard time #taking #anyone #seriously when they use more than one or two #hashtags for a #single #tweet – mostly because they just &lt;em&gt;look&lt;/em&gt; bad.&lt;/p&gt;
 
-&lt;p&gt;Daniel Victor recently &lt;a href=&quot;http://www.niemanlab.org/2013/03/hashtags-considered-harmful/&quot;&gt;wrote about this&lt;/a&gt;, saying he believes &amp;#8220;a tweet free of hashtags is more pleasing to the eye, more easily consumed, and thus more likely to be retweeted (which is a proven way of growing your audience)&amp;#8221;.&lt;/p&gt;
+&lt;p&gt;Daniel Victor recently &lt;a href=&quot;http://www.niemanlab.org/2013/03/hashtags-considered-harmful/&quot;&gt;wrote about this&lt;/a&gt;, saying he believes “a tweet free of hashtags is more pleasing to the eye, more easily consumed, and thus more likely to be retweeted (which is a proven way of growing your audience)”.&lt;/p&gt;
 
-&lt;p&gt;Now here&amp;#8217;s where I have to admit I have come to realize three important facts about hashtags:&lt;/p&gt;
+&lt;p&gt;Now here’s where I have to admit I have come to realize three important facts about hashtags:&lt;/p&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Hashtags are used by both users and marketers&lt;/strong&gt;. Like it or not, you cannot deny usage of hashtags is on the rise. The most compelling thing about this is that hashtags weren&amp;#8217;t created as a marketing tactic, yet their use has demanded marketer adoption.&lt;/p&gt;&lt;/li&gt;
@@ -314,9 +137,9 @@ That term: following. I used it a lot over the last six days. &amp;#8220;I&amp;#
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Hashtags actually do increase engagement&lt;/strong&gt;. It may be tough to recognize through subjectivity, but the reality is, hashtags provide a mechanism for easier discovery, encourage brevity, promote a single key binding for disparate data, and even help inject tone/personality.&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;Those three factors are so strong, in fact, that &lt;a href=&quot;http://tagboard.com&quot;&gt;I co-founded a company&lt;/a&gt; that basically attempts to reconcile them with my inherent distain for the way hashtags look. At Tagboard, we&amp;#8217;re building tools that help both users and marketers use hashtags in a way that benefits both parties.&lt;/p&gt;
+&lt;p&gt;Those three factors are so strong, in fact, that &lt;a href=&quot;http://tagboard.com&quot;&gt;I co-founded a company&lt;/a&gt; that is basically built on top of hashtags. At Tagboard, we’re building tools that help both users and marketers use hashtags in a way that benefits both parties.&lt;/p&gt;
 
-&lt;p&gt;My opinion of hashtags is admitted bias, and equally manic. The thrust of my argument against hashtags is rooted in my design sense, while the engineer in me sees the yet-unrealized potential they have. Meanwhile, Sensible Sean sees hashtags as just harmless and fun.&lt;/p&gt;
+&lt;p&gt;My opinion of hashtags is admittedly biased, and the root of my distaste for them is my design sense; they just look bad. Meanwhile, the engineer in me sees the yet-unrealized potential hashtags have. And then “Sensible Sean” sees hashtags as just harmless and fun.&lt;/p&gt;
 </description>
         <pubDate>Thu, 28 Mar 2013 00:00:00 -0700</pubDate>
         <link>http://seansperte.com/entry/on_hashtags</link>
@@ -415,6 +238,140 @@ That term: following. I used it a lot over the last six days. &amp;#8220;I&amp;#
         <pubDate>Mon, 19 Mar 2012 00:00:00 -0700</pubDate>
         <link>http://seansperte.com/entry/how_to_unsubscribe_from_linkedin_email</link>
         <guid isPermaLink="true">http://seansperte.com/entry/how_to_unsubscribe_from_linkedin_email</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Plain text in a field</title>
+        <description>&lt;p&gt;Let me start off this post by ensuring you that I have, in fact, tried the notes app you use and love and think is the best and want to recommend to me. I&amp;#8217;ve tried them all. A few I can recite, from memory: Byword, Elements, iA Writer, Quick Note, Note, Simplenote, Notational Velocity, nvAlt, Nottingham, Apple Mail, Write Room, VoodooPad, Notesy, Evernote, PlainText, OneNote, DEVONthink…&lt;/p&gt;
+
+&lt;p&gt;Maybe I&amp;#8217;m being too ambitious, thinking I can have a simple text editor combo (desktop and mobile app) that is just the right amount of simplicity without sacrificing function. Maybe I&amp;#8217;m naive to think that Apple&amp;#8217;s Notes app on iOS is &lt;em&gt;almost&lt;/em&gt; perfect, but would be better if it supported some form of simple organization scheme. Maybe I&amp;#8217;m stupid to suggest that a desktop app feel like it was made for the Mac, but not weighed down with feature-bloat and mostly useless functionality.&lt;/p&gt;
+
+&lt;p&gt;Maybe not.&lt;/p&gt;
+
+&lt;p&gt;Here&amp;#8217;s what, in my mind, would make for the perfect desktop and mobile combination note taking apps.&lt;/p&gt;
+
+&lt;h3&gt;Desktop&lt;/h3&gt;
+
+&lt;p&gt;On the desktop it doesn&amp;#8217;t take much. &lt;a href=&quot;http://notational.net/&quot;&gt;Notational Velocity&lt;/a&gt; is almost there, but drives me nuts with it&amp;#8217;s strange (to the Mac) experience conventions. One example is with the creation of a new note &amp;#8211; why in the world can&amp;#8217;t I create a new note with ⌘-N? Those kinds of oddities or omissions are deal-breakers for me.&lt;/p&gt;
+
+&lt;p&gt;The perfect desktop notes app would:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Be a single window&lt;/li&gt;
+&lt;li&gt;Contain a listing of notes in a sidebar (I don&amp;#8217;t want to have to use an open dialog or the Finder to open a note)&lt;/li&gt;
+&lt;li&gt;Have search&lt;/li&gt;
+&lt;li&gt;Be completely useable with only the keyboard&lt;/li&gt;
+&lt;li&gt;Be light weight and quick, and feel native&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.apple.com/macosx/mountain-lion/features.html#notes&quot;&gt;Mountain Lion&amp;#8217;s Notes app&lt;/a&gt; looks promising, but is limited by lack of organizational functionality. Same goes for the iOS version(s).&lt;/p&gt;
+
+&lt;h3&gt;iOS&lt;/h3&gt;
+
+&lt;p&gt;The perfect mobile notes app should be similarly focussed. &lt;a href=&quot;http://simplenoteapp.com/&quot;&gt;Simplenote&lt;/a&gt; is near pitch-perfect here. It&amp;#8217;s just plain text in a field. It has a simple organizational schema (via tags), is quick and light weight, and has search. It&amp;#8217;s most glaring problem, for me, is its lack of desktop counterpart.&lt;/p&gt;
+
+&lt;p&gt;So, my ideal mobile notes app would:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Be just like Simplenote, but have a desktop counterpart (and an icon that hints at its function, not its brand)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;(As an aside, can someone tell me why it&amp;#8217;s so hard for an iOS app to support moving of notes/files from one location on Dropbox to another?)&lt;/p&gt;
+
+&lt;h3&gt;The combination&lt;/h3&gt;
+
+&lt;p&gt;When it comes down to it, it&amp;#8217;s the combination of &lt;em&gt;desktop plus mobile&lt;/em&gt; that I can&amp;#8217;t seem to find. I actually don&amp;#8217;t mind &lt;a href=&quot;http://evernote.com/&quot;&gt;Evernote&lt;/a&gt; on the Mac (even though it&amp;#8217;s overkill for what I want), but don&amp;#8217;t like its iOS version(s). I like Simplenote on my iPhone, but there&amp;#8217;s no version for Mac (and the iPad version is sort of ho-hum). I&amp;#8217;m stuck in this no-man&amp;#8217;s land of apps that get passable grades on one platform but flunk the other.&lt;/p&gt;
+
+&lt;p&gt;For me, a notes app combo must:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Be just plain text&lt;/li&gt;
+&lt;li&gt;Not require a title for a note&lt;/li&gt;
+&lt;li&gt;Have a simple organizational scheme (folders or tags, either one works)&lt;/li&gt;
+&lt;li&gt;Sync (without fail)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;That&amp;#8217;s it. That&amp;#8217;s all it takes to win me as a customer. If you want to charge me $19.99 for each app, that&amp;#8217;s fine. If you want to charge me $45 per year, that&amp;#8217;s fine, too. As long as you deliver on those items I listed above, you can have my money.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 15 Mar 2012 00:00:00 -0700</pubDate>
+        <link>http://seansperte.com/entry/plain_text_in_a_field</link>
+        <guid isPermaLink="true">http://seansperte.com/entry/plain_text_in_a_field</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>A story about an iPad browser that never was</title>
+        <description>&lt;p&gt;When we founded &lt;a href=&quot;http://skyballoonstudio.com&quot;&gt;Sky Balloon&lt;/a&gt; we endeavored to do one thing: make iOS (or, at the time, iPhone) software that we wanted. Because of that, after we successfully shipped our first iPhone app, &lt;a href=&quot;http://skyballoonstudio.com/rhema&quot;&gt;Rhema&lt;/a&gt;, we decided to tackle something a bit more ambitious.&lt;/p&gt;
+
+&lt;p&gt;It was May or June of 2010 (I can&amp;#8217;t remember exactly) and we were loving our brand new iPads … except for the web browser, Safari. While advancements had been made in terms of its speed, we felt it still lacked in features and experience implementation &amp;#8211; or UI. So we had the brilliant idea to make a new browser for the iPad.&lt;/p&gt;
+
+&lt;p&gt;Actually, I should say, &lt;em&gt;I&lt;/em&gt; had the idea, because &lt;em&gt;I&lt;/em&gt; had no idea what it took to build software, and &lt;em&gt;I&lt;/em&gt; figured we could do it. You know, with our three-man team that only met for a few hours per week. And because, after all, we were only going to be building a great &amp;#8220;frame&amp;#8221; around a UIWebView. And Apple already did the hard part by building the renderer. And, how hard could it be? Right?&lt;/p&gt;
+
+&lt;p&gt;It turns out that building a browser is curse-word hard, even if you don&amp;#8217;t have to worry about the rendering of web pages. At the time, though, we didn&amp;#8217;t know this. Well, maybe the other two thirds of our little company did. But they were brave enough to follow me and my naivety into battle anyway, despite their better judgment, and armed only with Xcode and &lt;a href=&quot;http://seansperte.com/share/breeze-mockups/&quot;&gt;some mockups&lt;/a&gt; I had whipped up.&lt;/p&gt;
+
+&lt;p&gt;The idea was that we&amp;#8217;d create a browser that we would want to use, market to all our internet buddies, hopefully get featured on &lt;a href=&quot;http://daringfireball.net&quot;&gt;Daring Fireball&lt;/a&gt; or &lt;a href=&quot;http://www.macworld.com/channels/ios.html&quot;&gt;Macworld&lt;/a&gt; or &lt;a href=&quot;http://twit.tv/mbw&quot;&gt;MacBreak Weekly&lt;/a&gt; or &lt;a href=&quot;http://www.tuaw.com/&quot;&gt;TUAW&lt;/a&gt; or some other hugely populated website full of enthusiasts, be spotlighted by Apple as an example of innovation on the iPad (despite competing toe-to-toe with Safari), and make millions. Then we&amp;#8217;d keep making apps and stuff. From our yachts.&lt;/p&gt;
+
+&lt;p&gt;Come to think of it, I&amp;#8217;m not sure we actually had a plan. We just knew we wanted a better browser &amp;#8211; one with the features I&amp;#8217;m about to outline &amp;#8211; and I had imagined one up.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/breeze-icon.jpg&quot; alt=&quot;Breeze icon&quot; border=&quot;0&quot; width=&quot;130&quot; height=&quot;147&quot; class=&quot;imgright&quot; /&gt;We called it Breeze. Like, &amp;#8220;this browser is such a breeze to use&amp;#8221; or &amp;#8220;wow, browsing with this app is so easy&amp;#8221; or &amp;#8220;honey, come look at these chumps who made a web browser like Safari and are trying to be cool naming it a one-word, nondescript noun&amp;#8221;. The tagline was, &amp;#8220;Browse more awesomely on iPad.&amp;#8221;&lt;/p&gt;
+
+&lt;p&gt;I&amp;#8217;m so embarrassed.&lt;/p&gt;
+
+&lt;p&gt;Oh, but the features. Check out these features.&lt;/p&gt;
+
+&lt;p&gt;First, we&amp;#8217;d rid the toolbar of the two distinct input fields &amp;#8211; only one &lt;a href=&quot;http://www.chromium.org/user-experience/omnibox&quot;&gt;omnibox&lt;/a&gt;-inspired location bar, capable of both search and URL input.&lt;/p&gt;
+
+&lt;p&gt;Next &amp;#8211; and this seemed so obvious to us we were sure Apple would steal it for Safari &amp;#8211; a history popover when you tap-and-hold the back button. This, as expected, was added to Safari later. We&amp;#8217;re still uncertain how Apple hacked into our Dropbox accounts, but they somehow got their hands on the idea. (I think the guys suspect I was responsible, since I have some friends at Apple. But whatever.)&lt;/p&gt;
+
+&lt;p&gt;Of course, our UI was going to be cleaner and more refined, since, you know, I&amp;#8217;m so much better a graphic designer than those hacks at Apple, Inc. So the polished UI was also to be a feature listed on the App Store description.&lt;/p&gt;
+
+&lt;p&gt;Now we come to the good stuff. Our tabs really were something to behol&amp;#8211;oh, crap. I forgot, Apple added our tabs to Safari recently. Anyway, this is what they looked like:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/breeze-tabs_1.jpg&quot; alt=&quot;Breeze tabs&quot; border=&quot;0&quot; width=&quot;600&quot; height=&quot;84&quot; class=&quot;imgcenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Those were coded up, by the way. That&amp;#8217;s not a Photoshop mockup. And you have to remember, back then Safari&amp;#8217;s tabs weren&amp;#8217;t tabs at all. They were a 3x3 grid view of web pages that often needed to be reloaded once switched to.&lt;/p&gt;
+
+&lt;p&gt;We only had three tabs shown in the view, but the tab bar was horizontally scrollable to allow for unlimited tabs. We also didn&amp;#8217;t show the tab bar until there were two tabs. &lt;a href=&quot;http://daringfireball.net/linked/2012/03/05/safari-52-tabs&quot;&gt;Gruber would (have) be(en) proud&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;For our spotlight feature we were going to include, get this, a &amp;#8220;reading mode&amp;#8221;. Months prior I had discovered a bookmarklet for Safari on the Mac called Readability, that, when activated, would isolate just the text (and any relevant images) on a web page. We thought this was wonderful, and &lt;em&gt;needed&lt;/em&gt; to be on the iPad.&lt;/p&gt;
+
+&lt;p&gt;Apparently, Apple thought it &lt;em&gt;needed&lt;/em&gt; to be on the Mac too, because only a few weeks after we began development, Safari for Mac shipped with &amp;#8220;Reader Mode&amp;#8221;, powered by the Readability script.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/breeze-readingmode.jpg&quot; alt=&quot;Breeze readingmode&quot; border=&quot;0&quot; width=&quot;269&quot; height=&quot;358&quot; class=&quot;imgright&quot; /&gt;Although we knew Safari for iPad would likely get Reader Mode, we thought we could either (1) get there first, or (2) do ours better. We designed a couple of really great themes for Breeze&amp;#8217;s Reading Mode, and decided that, even if Apple beat us to the punch, our themes might be enough to hedge out a healthy and loyal user base.&lt;/p&gt;
+
+&lt;p&gt;Incidentally, I even got in touch with the company behind Readability (now &lt;a href=&quot;http://www.readability.com/&quot;&gt;a stand alone product and service&lt;/a&gt;), &lt;a href=&quot;http://arc90.com/&quot;&gt;Arc90&lt;/a&gt;, and asked if they&amp;#8217;d be willing to take a look at Breeze once we were ready to show. &lt;a href=&quot;http://arc90.com/people/rich-ziade/&quot;&gt;Rich Ziade&amp;#8217;s&lt;/a&gt; reply was enthusiastic, and he agreed. (In hindsight, I&amp;#8217;m pretty sure he was humoring me. Roles reversed, I would have.)&lt;/p&gt;
+
+&lt;p&gt;Then there were all the features we knew we couldn&amp;#8217;t include in Breeze 1.0, but knew we wanted:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Ad blocking&lt;/li&gt;
+&lt;li&gt;Sharing modules (for social sites)&lt;/li&gt;
+&lt;li&gt;Extensions&lt;/li&gt;
+&lt;li&gt;Built-in child-protection and accountability&lt;/li&gt;
+&lt;li&gt;User profiles&lt;/li&gt;
+&lt;li&gt;Keyword URL support (m = gmail.com)&lt;/li&gt;
+&lt;li&gt;Find on page&lt;/li&gt;
+&lt;li&gt;Gestures&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;There were more, but I&amp;#8217;m too embarrassed to share. (Okay, one was &amp;#8220;Bing support&amp;#8221;. There, happy?)&lt;/p&gt;
+
+&lt;p&gt;The sad part is that we really did get a lot of it built. In fact, by the time Apple finally shipped Safari with proper tabs we were readying a private beta.&lt;/p&gt;
+
+&lt;p&gt;Safari&amp;#8217;s slow-but-steady evolution, coupled with the third-party browser market (which had continued to expand to include great apps like &lt;a href=&quot;http://itunes.apple.com/app/icab-mobile-web-browser/id308111628?mt=8&quot;&gt;iCab&lt;/a&gt; and &lt;a href=&quot;http://www.grazingbrowser.com/&quot;&gt;Grazing&lt;/a&gt;), made Breeze&amp;#8217;s success harder and harder to imagine. We also realized that not shipping after about 14 months of development meant we&amp;#8217;d bitten off more than we could chew. And by then the delusions of grandeur that said we could be featured by Apple, or even John Gruber &amp;amp; Co., had worn off.&lt;/p&gt;
+
+&lt;p&gt;We made the hard decision to abandon the project, at what we estimate was 75% in.&lt;/p&gt;
+
+&lt;p&gt;We learned a lot, though. Not just about iOS development, but also ourselves, the business of software, and about what we might be capable of if we didn&amp;#8217;t have just a few hours per week.&lt;/p&gt;
+
+&lt;p&gt;(Also: I can&amp;#8217;t wait &amp;#8216;til you see what we&amp;#8217;re working on now.)&lt;/p&gt;
+</description>
+        <pubDate>Mon, 12 Mar 2012 00:00:00 -0700</pubDate>
+        <link>http://seansperte.com/entry/a_story_about_an_ipad_browser_that_never_was</link>
+        <guid isPermaLink="true">http://seansperte.com/entry/a_story_about_an_ipad_browser_that_never_was</guid>
         
         
       </item>

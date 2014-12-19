@@ -41,118 +41,6 @@
 <section>
 	
 	<article>
-		<time><a href="/entry/Setting_Up_a_Killer_Local_Web_Development_Environment_on_a_Mac_with_MAMP_an">07 December 2008</a></time>
-		<h2><a href="/entry/Setting_Up_a_Killer_Local_Web_Development_Environment_on_a_Mac_with_MAMP_an">Setting Up a Killer, Local Web Development Environment on a Mac with MAMP and VirtualHostX</a></h2>
-		<p>With a keen sense of internet awareness (Powered by Twitter&#8482;), I&#8217;ve observed a large amount of Switchers <a href="http://snook.ca/archives/other/new-macbook-pro/">whose day job is to build the web</a>. Because of this, I thought I&#8217;d provide a bit of a welcome gift, in the form of a small tutorial on setting up a killer work environment.</p>
-
-<p>The setup I&#8217;m going to describe isn&#8217;t novel, nor is it for everyone. My workflow allows me to have a great deal of flexibility with how I develop (since I&#8217;m basically a one-man-department), so keep that in mind as you read. You may need to &#8220;season to taste&#8221;, so to speak.</p>
-
-<p>Let&#8217;s get started.</p>
-
-<h3>MAMP</h3>
-
-<p>The heart and soul of the environment we&#8217;re going to build comes from MAMP &#8211; Mac, Apache, MySQL, PHP. <a href="http://www.mamp.info/en/mamp.html">The free version of MAMP</a> contains everything most developers need. Simply download, install and run it as you would any normal application. We&#8217;re going to make a couple of easy changes in the MAMP preferences.</p>
-
-<p>The first is to change the ports that MAMP uses. Click on the &#8220;Ports&#8221; tab and set the Apache and MySQL ports to their defaults (80 and 3306, respectively). You&#8217;ll be prompted for your admin password.</p>
-
-<p><img src="/assets/img/mamp-ports.jpg" alt="MAMP port settings" border="0" width="359" height="239" class="imgcenter" /></p>
-
-<p>Secondly, I like to uncheck all of the options in the &#8220;Start/Stop&#8221; section. This comes with some potential performance and security hits since it means you&#8217;ll have to manually stop the servers if/when you&#8217;re not using them.</p>
-
-<p>Don&#8217;t worry about any other options. We&#8217;re going to circumvent MAMP&#8217;s default document root with virtual hosts.</p>
-
-<h3>VirtualHostX</h3>
-
-<p><img src="/assets/img/vhx-icon2.jpg" alt="vhx-icon2.jpg" class="imgright" />Now that we&#8217;re serving Apache+PHP, we can access whatever document root we have setup in the MAMP preference via a web browser with the URL http://localhost &#8211; but that sucks. Instead, we&#8217;re going to use virtual hosts, allowing any URL to any document root we want. That&#8217;s right. Any URL to any directory.</p>
-
-<p>To do this, we can edit the Apache httpd.conf and hosts files manually, or use <a href="http://clickontyler.com/virtualhostx/">Tyler Hall&#8217;s fabulous VirtualHostX</a>, a $19 utility that provides a clean and simple GUI for adding virtual hosts.</p>
-
-<p>On first launch, VHX will ask you to create a backup of the current configuration &#8211; which you should do. It also provides an option for installing MAMP support.</p>
-
-<p>Creating a virtual host is simple:</p>
-
-<ul>
-<li>Enter the domain name you&#8217;d like to use</li>
-<li>Choose a &#8220;website folder&#8221; to be the document root for the domain</li>
-<li>Apply changes</li>
-</ul>
-
-<p><img src="/assets/img/vhx2.jpg" alt="vhx2.jpg" class="imgcenter" /></p>
-
-<p>That&#8217;s it! (You can add advanced, custom directives if you&#8217;re into that sort of thing.)</p>
-
-<p>One quick note: anytime you update the virtual hosts you should restart Apache (httpd) by stopping and starting the servers in VirtualHostX (command+shift+R).</p>
-
-<h3>VMware Fusion</h3>
-
-<p>At this point we have a near-perfect local development environment &#8211; except for testing. Sure this works great for testing in all the browsers you have available on your Mac (just type in the domain you chose in VHX in any browser you have installed). But what about testing how your sites look on a PC?</p>
-
-<p>That&#8217;s where <a href="http://www.vmware.com/products/fusion/">VMware Fusion</a> (or another virtualization program) comes into play. Most of us (developers) already use virtualization in some form for testing, but in order to take advantage of this particular environment &#8211; MAMP with virtual hosts &#8211; we need to update the hosts file on the virtual machine so that it resolves the domains to the Mac&#8217;s IP.</p>
-
-<p>One catch: if you&#8217;re on a latop, chances are the Mac&#8217;s IP will change often. That&#8217;s why we need to get the secret IP the VM uses to talk to the Mac. (Yeah, I didn&#8217;t know such a thing existed either.) Here&#8217;s how we find it:</p>
-
-<p>Type <code>ifconfig vmnet1</code> into a Terminal window. You should get a return like this:</p>
-
-<pre><code>vmnet1: flags=8863&lt;UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST&gt; mtu 1500
-    inet 192.168.115.1 netmask 0xffffff00 broadcast 192.168.115.255
-    ether 00:50:56:c0:00:01
-</code></pre>
-
-<p>The &#8220;inet&#8221; number is your &#8220;secret&#8221; IP (in my case, 192.168.115.1).</p>
-
-<p>Now that we have that number, we can edit the hosts file on the VM. We find it in: <code>C:/WINDOWS/system32/drivers/etc</code>. Just open the host file with Notepad, and add each virtual host (domain) on it&#8217;s own line at the end of the document, like so:</p>
-
-<pre><code>192.168.115.1  dev.triumphofgrace.com
-</code></pre>
-
-<p>&#8230; and save. Afterwards refresh the VM&#8217;s DNS cache by typing <code>ipconfig /flushdns</code> in a command line window.</p>
-
-<p>(Do this for each virtual host you added in VHX.)</p>
-
-<p>Voila! Now you should be able to access the custom virtual hosts you created in VHX on your PC using that wonderful browser we all love, Internet Explorer.</p>
-
-<h3>Recap</h3>
-
-<p>So here&#8217;s what we did, in a nutshell:</p>
-
-<ol>
-<li><a href="http://www.mamp.info/en/download.html">Download and launch MAMP</a></li>
-<li>Change default ports MAMP uses</li>
-<li><a href="http://clickontyler.com/virtualhostx/">Download and launch VirtualHostX</a></li>
-<li>Backup settings (using VHX&#8217;s startup guide)</li>
-<li>Add the virtual hosts we want to use</li>
-<li>Restart Apache</li>
-<li>Add any virtual hosts we created in VHX to the PC hosts file</li>
-<li>Rock on!</li>
-</ol>
-
-<p>There you have it. A killer, local development platform on your Mac. Once you have everything setup, you can now install and run your choice CMS (such as <a href="http://www.expressionengine.com/index.php?affiliate=sperte">ExpressionEngine</a>) right on your Mac. How cool is that?</p>
-
-<p>Go forth and make the web a better place.</p>
-
-	</article>
-	<hr>
-	
-	<article>
-		<time><a href="/entry/tools_for_creation">11 September 2008</a></time>
-		<h2><a href="/entry/tools_for_creation">Tools for Creation</a></h2>
-		<p>In case you&#8217;ve been curious, here&#8217;s a few projects I&#8217;ve been busy with:</p>
-
-<ul>
-<li><a href="http://thecity.org/library">/library</a> &#8211; A promo page dedicated to our new Library.</li>
-<li>Implemented jQuery and converted the carousel thingy on our <a href="http://thecity.org">homepage</a> to use jCarousel.</li>
-<li>Whipped up a <a href="https://www.thecity.org/groups/new">quick-fix</a> for a <a href="http://expressionengine.com/forums/viewthread/90558/">processing error we had</a> with our Groups registration form.</li>
-<li><a href="http://blog.thecity.org">blog.thecity.org</a> &#8211; Moved and <a href="http://www.alistapart.com/articles/redesignrealign">re-aligned</a> Pastor Wendell&#8217;s blog.</li>
-<li><a href="http://thecity.org/big/">/big</a> &#8211; A promo page for the next two weeks and beginning of the Anniversary year.</li>
-<li><a href="http://thecity.org/pwp">/pwp</a> &#8211; A promo page for our upcoming conference.</li>
-</ul>
-
-<p>There is, of course, a common thread throughout all of those projects: <a href="http://expressionengine.com/">ExpressionEngine</a>, <a href="http://www.blueprintcss.org/">Blueprint CSS</a> and <a href="http://jquery.com/">jQuery</a>. Without them there&#8217;s no way I would have been able to accomplish that list &#8211; in the 8 days I took.</p>
-
-	</article>
-	<hr>
-	
-	<article>
 		<time><a href="/entry/lines">17 July 2008</a></time>
 		<h2><a href="/entry/lines">Lines</a></h2>
 		<p>So I just got back from the local Apple Store (empty-handed thanks to their policy about requiring the primary account holder to be present, yadda yadda &#8211; don&#8217;t get me started), and I thought I&#8217;d post this bit of interesting info about people lining up for the iPhone 3G.</p>
@@ -317,6 +205,114 @@ This project marks the first time I&#8217;ve publicly utilized the <a href="http
 <p>Additionally, I used <a href="http://www.ndoherty.com/blog/2007/10/29/coda-slider-11/">Coda-Slider.js</a> for the (<a href="http://panic.com/coda">Panic</a>-inspired) navigation, and <a href="http://jquery.com/demo/thickbox/">ThickBox.js</a> for the light-boxed bios.</p>
 
 <p><a href="http://generationchurch.org/conference/2008">Have a look</a>. (Don&#8217;t miss my favorite part &#8211; the &#8220;Register&#8221; button.)</p>
+
+	</article>
+	<hr>
+	
+	<article>
+		<time><a href="/entry/an_introduction_to_expression_engine">26 January 2008</a></time>
+		<h2><a href="/entry/an_introduction_to_expression_engine">An Introduction to ExpressionEngine</a></h2>
+		<p><img src="/assets/img/ee-logo.jpg" alt="ee-logo.jpg" border="0" width="272" height="70" class="imgright" />People may refer to ExpressionEngine as a blogging application, and it&#8217;s true that the design evolved from one; but it&#8217;s much more. Underneath the hood (get it?), <abbr title="ExpressionEngine">EE</abbr> has the power to drive even most large-scale websites. If you&#8217;re looking for a reason to invest some time and effort into learning and installing it, keep reading. This article is intended for those who might already have a website, but who want to upgrade to using a content management system, or for those who might be disillusioned by their current <abbr title="content management system">CMS</abbr>. 
+Before continuing, you should know that I&#8217;m assuming: (1) that you know what a <abbr title="content management system">CMS</abbr> is, (2) that you have a basic understanding of the technologies that power a <abbr title="content management system">CMS</abbr>, and (3) that you have already explored, or at least browsed, the <a href="http://expressionengine.com">ExpressionEngine website</a> and have a general idea of what it does. I don&#8217;t want you to get hung up on terminology or technical concepts and disregard ExpressionEngine as too complicated. One of the reasons for choosing <abbr title="ExpressionEngine">EE</abbr> over another content management system is because it&#8217;s easy to learn, deploy and use.</p>
+
+<h3>The weblog module</h3>
+
+<p>ExpressionEngine is modular, and is built for scaling. However, there is one primary module that could be considered the heart of the app: the &#8220;weblog&#8221; module. This module is where most content is stored and is extremely flexible. Case in point is the ability to change the name of the module itself &#8211; or, at least, the ability to put an alternate label on it. In fact, for the sake of clarity, and to underscore the dynamic range the module has, I&#8217;ll start referring to &#8220;weblogs&#8221; as &#8220;channels&#8221;.</p>
+
+<p>Channels can be anything. They can be product catalogs, media archives, calendars, graphic libraries, et al. Think of a channel as a container of items, and the items as basically anything you want. ExpressionEngine allows for multiple (limitless, even) channels.</p>
+
+<p>Perhaps the best way to illustrate this is by using <a href="http://thecity.org">The City Church website</a> as an example. On our site we have multiple channels, all simultaneously available, and all accessed using the same (&#8220;weblog&#8221;) module. One obvious channel is our audio archive, where each message/sermon is an entry. Other channels contain our homepage content, small groups catalog, and online bookstore. Each channel is unique in both form and function, and, as I said, each is powered by the same module.</p>
+
+<h3>Field, category and status groups</h3>
+
+<p>If channels are the heart of <abbr title="ExpressionEngine">EE</abbr>, then groups are its arteries. Each channel has three group assignments as part of its setup: a custom field group, a category group, and a status group. These groups are separated from the channel so they may be actively accessible to other channels. This allows channels to share, say, the same categories, but still have different custom fields.</p>
+
+<p>Custom field groups are comprised of &#8230; yep, custom fields. The default set of fields (Title, URL Title, Summary, and Body) are typical to a blog, but if your channel is meant to be something besides a blog, you can create new custom fields for it. For instance, for The City Church&#8217;s audio archive channel, I&#8217;ve created a custom fields that apply to a message and its audio file, such as &#8220;Speaker&#8221;, &#8220;Campus&#8221;, &#8220;Service Time&#8221;, &#8220;File ID&#8221; etc. (<a href="/entry/powering_an_audio_archive_with_expressionengine">Read more on how the audio archive is powered</a>.)</p>
+
+<p>Category and status groups are basically the same. Statuses, though, play an important role as they have the ability to control an entry&#8217;s ranking or position.</p>
+
+<p>More on groups can be found in the <a href="http://expressionengine.com/docs">exhaustive ExpressionEngine documentation</a>.</p>
+
+<h3>Templates</h3>
+
+<p>You can think of templates in ExpressionEngine just like web pages. In their simplest form, that&#8217;s all they are. Keeping the same analogous theme, templates could be considered the skin of an EE-powered website &#8230; beautiful, external, and flexible; yes, that works.</p>
+
+<p><span class="pullquote">ExpressionEngine&#8217;s templates are what makes it so unique</span>, but they&#8217;re also where most newcomers to <abbr title="ExpressionEngine">EE</abbr> get stuck. I think the flexibility they offer is, ironically, where the confusion comes in. Templates in <abbr title="ExpressionEngine">EE</abbr> lack the rigidity found in other <abbr title="content management systems">CMS</abbr>s. Instead of having a clear and obvious framework, <abbr title="ExpressionEngine">EE</abbr>&#8217;s templates allow you to think outside the box when architecting. The concepts are strange at first, however, the system is forgiving enough that when you finally get a handle on how it all works you&#8217;ll wonder how you ever did dynamic websites before.</p>
+
+<p>The first thing to understand with <abbr title="ExpressionEngine">EE</abbr> templates is that they&#8217;re stored in the main, MySQL database, and are not actual files. (There is a caveat to this, though, because <abbr title="ExpressionEngine">EE</abbr> does let users save templates to the server as files.) Actually, when visitors browse an <abbr title="ExpressionEngine">EE</abbr>-powered website, they&#8217;re only ever accessing one file: index.php. That one file is able to reference the whole of the system, including templates, modules, and plugins.</p>
+
+<p>Templates are grouped into &#8220;template groups&#8221;. Template groups are more than just organizational, and can be extremely versatile in function &#8211; more on that later. First, let&#8217;s look at the ExpressionEngine URL structure, and how template groups and templates come into play:</p>
+
+<p><code>http://www.example.com/index.php/template_group/template</code></p>
+
+<p>After the domain is the index.php file I mentioned. Again, that one file is the key to engaging the EE system. Once <abbr title="ExpressionEngine">EE</abbr> is invoked, it takes the URL request, and breaks it down; first looking for a template group, then an individual template. This URL structure is &#8220;human-friendly&#8221; (versus, say, www.domain.com/index.php?page=1&amp;id=2), and also <a href="http://expressionengine.com/docs/general/urls.html">search engine optimized</a>.</p>
+
+<p>The tendency is to think of templates and template groups as files and directories &#8211; and that&#8217;s just what the EE documentation suggests &#8211; but that might lead to more frustration than anything else. I prefer to think of template groups as &#8220;topics&#8221; or &#8220;themes&#8221;, and templates as &#8220;functions&#8221;. I think of them this way because templates can be embedded into other templates, and template groups represent more than just groupings of templates.</p>
+
+<p>When building a site in <abbr title="ExpressionEngine">EE</abbr>, you can use individual templates for each screen your visitors will see, or, if you&#8217;re clever, you could build one template &#8211; a Lord of the Rings type thing; one template to rule them all. How, you ask? Through the power of URL segments.</p>
+
+<h3>URL segments, global variables, and other such trickery</h3>
+
+<p>I mentioned that one of the primary reasons to choose ExpressionEngine is because it&#8217;s easy to learn, deploy and use; and that&#8217;s true. But <span class="pullquote">the main reason I use it is because of its power and flexibility</span> &#8211; most of which is found in features exclusive to EE.</p>
+
+<p>The first such feature is URL segments. As I&#8217;ve <a href="/entry/expression_engine_and_the_power_of_url_segments">illustrated previously on my blog</a>, URL segments can be extremely useful when coupled with templates. Since ExpressionEngine is essentially taking over the job of serving a website (from the server itself), it also actively processes URL requests, no matter how long, and breaks them down into what are called segments. So in our example above, EE would see the URL and assign <code>&#123;segment_1&#125;</code> as &#8220;template_group&#8221; and <code>&#123;segment_2&#125;</code> as &#8220;template&#8221;. It&#8217;s not hard to imagine how beneficial having that kind of association can be. I&#8217;ll give you an example.</p>
+
+<p>Let&#8217;s say you&#8217;ve been asked to make some changes to the &#8220;About Us&#8221; section of a website. No, problem, right? Just pull up the &#8220;about&#8221; template, make the changes, and hit &#8220;Finished&#8221;. But what if, before the changes are published, you have to get them approved? You could create a new template, call it &#8220;about-preview&#8221;, and copy/paste the &#8220;about&#8221; template in, make the changes, and send the new URL to your client for approval. Or, by using URL segments, you can make it much easier and transparent. You&#8217;d just open the &#8220;about&#8221; template, wrap the changes in a conditional statement &#8211; <code>&#123;if segment_3 == "preview"&#125;</code> &#8211; and tell your client to add &#8220;/preview&#8221; to the end of the URL.</p>
+
+<p>We can even take this example further, and apply some other cool ExpressionEngine features like global variables, member groups, and plugins.</p>
+
+<p>To protect the changes from prying eyes, you could also require your client be logged in before viewing the changes. You&#8217;d do this by changing the conditional statement to <code>&#123;if logged_in AND segment_3 == "preview"&#125;</code>. Or you might want to make sure only they can see it, not another logged in member: <code>&#123;if username == "client_name" AND segment_3 == "preview"&#125;</code>. Even better, let&#8217;s make an idiot-proof link they can click to see the changes:</p>
+
+<p><code>&#123;if username == "client_name" AND segment_3 == ""&#125;&lt;a href="&#123;path=template_group/about/preview&#125;"&gt;Click here to see changes&lt;/a&gt;&#123;/if&#125;</code></p>
+
+<p>To show your client that they are, in fact, viewing the latest revision of changes, you could include a time-stamp, showing the time the &#8220;about&#8221; template was last edited: <code>(Edited: &#123;template_edit_date format="%%F %d, %Y at %h:%i %A"&#125;)</code>, which would render as &#8220;(Edited: January 26, 2008 at 4:53 PM)&#8221;. You could even include the time since they last visited by employing a third-party plugin called &#8220;Since Last Visit&#8221;.</p>
+
+<p>Can you see how powerful (and even fun) ExpressionEngine can be?</p>
+
+<h3>Flexibility at a premium</h3>
+
+<p>What makes ExpressionEngine so flexible could also be considered its greatest weakness. That you have to edit and save templates inside a web browser makes for a terrible development workflow. Who wants to write code in a text area field? Yes, <a href="http://expressionengine.com/docs/templates/flat_file_templates.html">there&#8217;s a way around it</a>, but even that method comes with its fair-share of issues. It&#8217;s peculiar, but I believe the template model itself, though versatile and dynamic, is the Achilles heel of ExpressionEngine.</p>
+
+<h3>Start your Engines</h3>
+
+<p>Despite some small flaws, ExpressionEngine remains a highly capable, extremely flexible website <abbr title="content management systems">CMS</abbr> solution. Even the <a href="http://expressionengine.com/overview/pricing/">free</a>, Core version packs enough punch to handle a typical blog or small site. I&#8217;ve been using it since version 1.0 (actually, since pMachine Pro), and I continue to be amazed and inspired by each new release.</p>
+
+<p>If you&#8217;re considering making the switch, I hope you found this quick introduction motivating enough to get started. I suggest you take the next step and <a href="https://secure.expressionengine.com/download.php?ACT=agreement&amp;id=34">download the Core version</a>. You should also browse the <a href="http://expressionengine.com/docs">documentation</a> and <a href="http://expressionengine.com/knowledge_base/">Knowledge Base</a>, both of which are well-maintained and written.</p>
+
+<p>In addition, the EE Forums remain the best resource for learning ExpressionEngine, hands down. The support community on the forums is responsive, helpful and passionate.</p>
+
+<p>You might also be interested to know that some highly respected designers and studios already use ExpressionEngine; <a href="http://happycog.com/">Happy Cog</a>, for example. Others include:</p>
+
+<ul>
+<li><a href="http://veerle.duoh.com/">Veerle Pieters</a></li>
+<li><a href="http://31three.com/weblog">Jesse Bennett-Chamberlain</a></li>
+<li><a href="http://begoodnotbad.com/">Brian Warren</a></li>
+<li><a href="http://www.markbixby.com/">Mark Bixby</a></li>
+<li><a href="http://www.colly.com/">Simon Collison</a></li>
+<li><a href="http://www.markboulton.co.uk/">Mark Boulton</a></li>
+</ul>
+
+<p>So, to answer the most-oft question I receive via email: yes, I highly recommend <a href="http://www.expressionengine.com/index.php?affiliate=sperte">ExpressionEngine</a> [affiliate link].</p>
+
+	</article>
+	<hr>
+	
+	<article>
+		<time><a href="/entry/more_hey_apple_dont_make_me_think">23 January 2008</a></time>
+		<h2><a href="/entry/more_hey_apple_dont_make_me_think">More &#8220;Hey Apple, Don’t Make Me Think&#8221;</a></h2>
+		<p>Derek Powazek <a href="http://powazek.com/posts/880">is pointing out</a> an oddity found when comparing the interface of Safari on a desktop to the one found on the iPhone. Basically the order of elements in the toolbar at the top of the window is completely opposite &#8211; which forces users to take an extra few milliseconds to process.</p>
+
+<p>Apple has to change this on the iPhone, and soon, in order to unify the two interfaces; but my guess is that they won&#8217;t because the context of the two interfaces differs so much (e.g. desktop versus handheld), and because 4-million-plus iPhones are already floating around. I also wonder how close the benefit-to-detriment ratio is. Have users already gotten used to the refresh button being located to the right of the location bar?</p>
+
+<h3>No, seriously. Stop making me think!</h3>
+
+<p>Stranger &#8211; and of higher priority to me &#8211; is the conflicting behavior of the multi-touch trackpad on the MacBook Air and the multi-touch display on the iPhone. On the iPhone, for example, to <em>advance</em>, you swipe from right to left. <a href="http://movies.apple.com/movies/us/apple/mac/macbookair/2008/apple_macbookair_swipe_20080115_r320-13cie.mov">It appears</a>, though, it&#8217;s the opposite on the MacBook Air! Oh, boy.</p>
+
+<p>I already have a hard enough time switching between the iPhone and my PowerBook equipped with a two-finger sensitive trackpad. In MobileSafari, I swipe from bottom to top to scroll down. On the PowerBook, I do the exact opposite. The first time I accidentally used the iPhone method on my PowerBook, I actually got my hopes up, thinking my trackpad had died &#8211; after all, if that were the case, I&#8217;d be forced to upgrade to a MacBook Pro, right?</p>
+
+<p>And I know I&#8217;m not the only one to deal with this. [Reference link forthcoming.]</p>
+
+<p>I understand this whole multi-touch thing is a new world for Apple, and I&#8217;m willing &#8220;sacrifice&#8221; myself and my time (the seconds-worth it requires) while they work these things out. However, I do hope they understand they&#8217;re training the world to a new interface right now. I wonder, if they&#8217;d been this all-over-the-map with the iPod scroll-wheel, would it be the success it is today?</p>
 
 	</article>
 	<hr>

@@ -41,140 +41,6 @@
 <section>
 	
 	<article>
-		<time><a href="/entry/rip_ipod">23 February 2010</a></time>
-		<h2><a href="/entry/rip_ipod">RIP iPod</a></h2>
-		<p>Here&#8217;s why <a href="http://twitter.com/sperte/status/8438749658">I think the introduction of the iPad spells certain doom for the iPod line of products</a>: Apple &#8216;skates to where the puck is going to be&#8217;. Meaning the touch OS is the future of mobile computing, and despite the iPod&#8217;s success, future mobile devices from Apple are not going to be running the iPod software.</p>
-
-<p>One reason for this is there&#8217;s really no one at Apple championing the iPod anymore. Ever since <a href="http://online.wsj.com/article/SB122577427707796495.html">Tony Fadell stepped down as VP of the iPod Division</a> (remember Fadell took over the job from Jon Rubinstein, who&#8217;s now at Palm) we&#8217;ve seen very little advancement in the product line. Certainly the evolution of the iPod has slowed over the last 18 or so months.</p>
-
-<p>Perhaps better support for my prediction, though, is Apple&#8217;s history of replacing their own successful products with newer or different models, even at the height of their popularity. They did it with the iMac, iPod Mini, original Nano, etc. Apple rarely leaves a product on the market long enough for it to become stale.</p>
-
-<p>There&#8217;s also the marketing perspective. Killing the iPod is a genius move. After all, it is one of the most decorated consumer electronic devices of the last decade. What the iPod represents culturally might even outweigh what it represents technologically. Killing it would create a virtual black hole of headlines.</p>
-
-<p>From the consumer&#8217;s perspective, I don&#8217;t see a compelling reason to keep the iPod around. If presented with the option of either an iPod Classic or Nano model or a touch OS device for the same price, I suspect 19 out of 20 people would select the Touch.</p>
-
-<p>(And before you race to the comment box to remind me that iPods are great for exercising or that your 49TB music collection won&#8217;t fit on an iPod Touch, let me just ask one question: what&#8217;s stopping Apple from making a &#8216;Touch Shuffle&#8217;, or a higher-capacity/HDD-based version of the Touch? Just because those product don&#8217;t exist today doesn&#8217;t mean they won&#8217;t be introduced in September, in time for the Holiday lineup. Plus, those segments of users are fringe, not median.)</p>
-
-<p>But there&#8217;s another reason Apple would want to do this that seems so obvious to me. Doesn&#8217;t it make sense for Apple to kill the iPod to force people to upgrade to the touch OS? Think about it. The only iPod able to purchase and download content direct from the iTunes Store is the Touch. The touch OS represents opportunity for continued profit like no other Apple product. Where you might have one or two Macs in a household, it&#8217;s not unrealistic to think every member of that same home could own a touch OS device &#8211; maybe even two. Business-wise, there&#8217;s a lot to be gained from the death of the iPod. Why wouldn&#8217;t they kill it? Sentiment?</p>
-
-<p>Really, it&#8217;s not that bold to say the iPod&#8217;s days are numbered. Even my prediction of 1-3 years seems a bit conservative. Especially if you know how Apple thinks: different.</p>
-
-	</article>
-	<hr>
-	
-	<article>
-		<time><a href="/entry/a_neat_subtle_archives_widget">23 February 2010</a></time>
-		<h2><a href="/entry/a_neat_subtle_archives_widget">A Neat, Subtle Archives Widget</a></h2>
-		<p><strong>Update:</strong> I&#8217;ve removed the archives widget in favor of a <a href="/archive">dedicated page/section</a>. The widget was a fun experiment, but never really worked the way I wanted it to. I&#8217;m leaving this article up for posterity and so others can still use and adapt the widget if they so desire.</p>
-
-<hr />
-
-<p>You may have noticed I rearranged some elements of Geek &amp; Mild over the weekend. Or maybe you didn&#8217;t.</p>
-
-<p>The biggest change is the location of the archives widget timeline thing, which I moved to the opposite side of the window. The reasoning has to do with <a href="http://particletree.com/features/visualizing-fittss-law/">Fitt&#8217;s law</a> and the widget sharing vicinity with the browser scrollbar. I was never comfortable with how close the two interface elements were.</p>
-
-<p>I&#8217;m still unsure if the widget works for its purpose, but since I haven&#8217;t gotten any particularly negative feedback about it, I figure it must do its job adequately.</p>
-
-<p>The widget itself &#8211; the code, I mean &#8211; is so simple I thought I&#8217;d share it.</p>
-
-<h3>The HTML (plus ExpressionEngine)</h3>
-
-<div style="text-align:left;color:#000000; background-color:#ffffff; border:solid black 1px; padding:0.5em 1em 0.5em 1em; overflow:auto;font-size:small; font-family:monospace; "><span style="color:#881280;">&lt;ul </span><span style="color:#994500;">id</span><span style="color:#881280;">=</span><span style="color:#1a1aa6;">&quot;archives&quot;</span><span style="color:#881280;">&gt;</span><br />
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#881280;">&lt;li </span><span style="color:#994500;">id</span><span style="color:#881280;">=</span><span style="color:#1a1aa6;">&quot;now&quot;</span><span style="color:#881280;">&gt;&lt;a </span><span style="color:#994500;">href</span><span style="color:#881280;">=</span><span style="color:#1a1aa6;">&quot;/&quot;</span><span style="color:#881280;">&gt;&lt;span&gt;</span>Now<span style="color:#881280;">&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;</span><br />
-&nbsp;&nbsp;&nbsp;&nbsp;&#123;exp:weblog:month_links&#125;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#881280;">&lt;li </span><span style="color:#994500;">id</span><span style="color:#881280;">=</span><span style="color:#1a1aa6;">&quot;a&#123;year&#125;-&#123;month_num&#125;&quot;</span><span style="color:#881280;">&gt;&lt;a </span><span style="color:#994500;">href</span><span style="color:#881280;">=</span><span style="color:#1a1aa6;">&quot;&#123;path=index&#125;&quot;</span><span style="color:#881280;">&gt;&lt;span&gt;</span>&#123;month&#125; &#123;year&#125;<span style="color:#881280;">&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;</span><br />
-&nbsp;&nbsp;&nbsp;&nbsp;&#123;/exp:weblog:month_links&#125;<br />
-<span style="color:#881280;">&lt;/ul&gt;</span><br />
-</div>
-
-<h3>The CSS</h3>
-
-<div style="text-align:left;color:#000000; background-color:#ffffff; border:solid black 1px; padding:0.5em 1em 0.5em 1em; overflow:auto;font-size:small; font-family:monospace; ">#archives &#123;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">position</span>: <span style="color:#9b4400;">absolute</span>;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">top</span>: <span style="color:#0000ff;">185px</span>;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">left</span>: <span style="color:#0000ff;">0</span>;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">width</span>: <span style="color:#0000ff;">75px</span>;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">margin</span>: -<span style="color:#0000ff;">20px</span> <span style="color:#0000ff;">0</span>;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">padding</span>: <span style="color:#0000ff;">20px</span> <span style="color:#0000ff;">0 20px</span> <span style="color:#0000ff;">0</span>;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">overflow</span>: <span style="color:#9b4400;">hidden</span>;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">list-style</span>: <span style="color:#9b4400;">none</span>;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">font</span>: <span style="color:#9b4400;">bold</span> <span style="color:#0000ff;">10px</span>/<span style="color:#0000ff;">1 </span><span style="color:#760f15;">&#8216;helvetica neue&#8217;</span>, helvetica, <span style="color:#9b4400;">sans-serif</span>;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">text-transform</span>: <span style="color:#9b4400;">uppercase</span>;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">list-style</span>: <span style="color:#9b4400;">none</span>;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">z-index</span>: <span style="color:#0000ff;">2</span>;<br />
-&#125;<br />
-<br />
-#archives:hover &#123;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">width</span>: <span style="color:#0000ff;">150px</span>;<br />
-&#125;<br />
-<br />
-#archives li &#123;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">margin-left</span>: -<span style="color:#0000ff;">120px</span>;<br />
-&#125;<br />
-<br />
-#archives:hover li &#123;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">margin-left</span>: -<span style="color:#0000ff;">10px</span>;<br />
-&#125;<br />
-<br />
-#archives li a &#123;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">display</span>: <span style="color:#9b4400;">block</span>;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">position</span>: <span style="color:#9b4400;">relative</span>;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">width</span>: <span style="color:#0000ff;">120px</span>;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">height</span>: <span style="color:#0000ff;">6px</span>;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">margin</span>: <span style="color:#0000ff;">0 0 4px</span>;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">padding</span>: <span style="color:#0000ff;">0 4px</span>;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">text-align</span>: <span style="color:#9b4400;">right</span>;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">color</span>: <span style="color:#760f15;">#ededed</span>;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">background</span>: <span style="color:#760f15;">#ccc</span>;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">border</span>: <span style="color:#9b4400;">none</span>;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">-moz-border-radius</span>: <span style="color:#0000ff;">2px</span>;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">-webkit-border-radius</span>: <span style="color:#0000ff;">2px</span>;<br />
-&#125;<br />
-<br />
-<br />
-#archives li a:hover &#123;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">height</span>: <span style="color:#0000ff;">10px</span>;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">margin</span>: -<span style="color:#0000ff;">4px</span> <span style="color:#0000ff;">0 0</span>;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">padding</span>: <span style="color:#0000ff;">2px</span> <span style="color:#0000ff;">4px</span>;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">color</span>: <span style="color:#760f15;">#ededed</span>;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">background</span>: <span style="color:#760f15;">#222</span>;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">z-index</span>: <span style="color:#0000ff;">2</span>;<br />
-&#125;<br />
-<br />
-#archives li a span &#123;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">visibility</span>: <span style="color:#9b4400;">hidden</span>;<br />
-&#125;<br />
-<br />
-#archives li a:hover span &#123;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">visibility</span>: <span style="color:#9b4400;">visible</span>;<br />
-&#125;<br />
-</div>
-
-<p>Then I stick this in the <code>&amp;lt;head&amp;gt;</code> of the index page:</p>
-
-<div style="text-align:left;color:#000000; background-color:#ffffff; border:solid black 1px; padding:0.5em 1em 0.5em 1em; overflow:auto;font-size:small; font-family:monospace; ">&#123;if segment_1 != <span style="color:#760f15;">&quot;entry&quot;</span> &amp;&amp; segment_1 != <span style="color:#760f15;">&quot;&quot;</span>&#125;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;#archives #a&#123;segment_2&#125;-&#123;segment_3&#125; a &#123;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">width</span>: <span style="color:#0000ff;">130px</span>;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">margin-left</span>: -<span style="color:#0000ff;">5px</span>;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">background</span>: <span style="color:#760f15;">#222</span>;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&#125;<br />
-&#123;if:else&#125;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;#archives #now a &#123;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">width</span>: <span style="color:#0000ff;">130px</span>;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">margin-left</span>: -<span style="color:#0000ff;">5px</span>;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">background</span>: <span style="color:#760f15;">#222</span>;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&#125;<br />
-&#123;/if&#125;<br />
-</div>
-
-<p>There you have it. Feel free to reuse and repurpose the widget for your own project or website. Let me know if you do, I&#8217;d love to see how it&#8217;s adapted.</p>
-
-<p>(Thanks to <a href="http://panic.com/coda">Coda</a> for the code formatting via &#8216;copy-as-XHTML&#8217; function!)</p>
-
-	</article>
-	<hr>
-	
-	<article>
 		<time><a href="/entry/creative_liberties_in_the_new_world">29 January 2010</a></time>
 		<h2><a href="/entry/creative_liberties_in_the_new_world">Creative Liberties in the New World</a></h2>
 		<p>I highly respect Alex Payne, and always enjoy reading his posts. <a href="http://al3x.net/2010/01/28/ipad.html">His thoughts on the iPad</a>, though, don&#8217;t make sense to me.</p>
@@ -441,6 +307,34 @@
 <p>Save (File &gt; Save), title, and enjoy! Your new Service will be saved in the &#8220;Text&#8221; category of the Keyboard Shortcuts Preference Pane. From there you can assign a global keyboard shortcut.</p>
 
 <p><strong>Update</strong>: John points to a <a href="http://plasmasturm.org/code/titlecase/">new version of his script by Aristotle Pagaltzis</a>, which, he says, is &#8216;better in every way&#8217;. (Thanks to Jordan Yee for the tip in the comments below.)</p>
+
+	</article>
+	<hr>
+	
+	<article>
+		<time><a href="/entry/lucy_annabelle">18 June 2009</a></time>
+		<h2><a href="/entry/lucy_annabelle">Lucy Annabelle</a></h2>
+		<p>Allow me to introduce Lucy Annabelle. She was born at 12:04am by Caesarean section. She was 8 pounds even, and 21 inches long.</p>
+
+<p><img src="/assets/img/lucyannabelle-newborn1.jpg" alt="Lucy Annabelle" border="0" width="480" height="640" class="imgcenter" /></p>
+
+<p>As could be expected, she&#8217;s already got <a href="http://lucyannabelle.com">her own website</a>.</p>
+
+	</article>
+	<hr>
+	
+	<article>
+		<time><a href="/entry/on_text_editors">01 June 2009</a></time>
+		<h2><a href="/entry/on_text_editors">On Text Editors</a></h2>
+		<p><img src="/assets/img/texteditors.png" alt="texteditors.png" border="0" width="242" height="102" class="imgright" />A web developer&#8217;s workflow hinges on their text editor. For me, <a href="http://macromates.com/">TextMate</a> is the perfect text editor. I use it both for web development and casual text manipulation. I like that it&#8217;s both powerful &#8211; with shortcuts, bundles and expandability &#8211; and light weight &#8211; in that it launches quickly and performs actions fast.</p>
+
+<p>I&#8217;ve tried, and have licensed copies for, both <a href="http://www.panic.com/coda/">Coda</a> and <a href="http://macrabbit.com/espresso/">Espresso</a>, and I really like both, but not enough to switch from TextMate. I&#8217;ve been thinking about why, and I think it&#8217;s because I&#8217;ve never been educated on how to actually use them. I&#8217;ve read all the marketing copy, watched the developer screencasts, and even tried both in real-world situations. I must be doing something wrong, though, because I still don&#8217;t see the appeal over TextMate.</p>
+
+<p>For instance, in TextMate, to &#8220;Insert Open/Close Tag&#8221; and add a paragraph, I type: <code>?+&lt;</code>, then <code>tab</code>, then write my paragraph, then <code>tab</code> again (to place the I-beam back outside the tag). Besides the actual paragraph, it takes three keystrokes. In Espresso there&#8217;s a similar &#8220;Insert Tag&#8221; icon in the menu bar, but no equivalent keystroke command, and even that doesn&#8217;t allow you to tab out of the tag. I haven&#8217;t found command like this in Coda.</p>
+
+<p>So am I missing something?</p>
+
+<p><strong>Update</strong>: Indeed, I <em>was</em> missing something. Thanks to <a href="http://seansperte.com/entry/on_text_editors/#c4">Ian Beck</a>, I&#8217;ve discovered <a href="http://wiki.macrabbit.com/forums/viewthread/160/">TEA</a>, and the powerful potential of &#8220;sugars&#8221; for Espresso. I&#8217;ve posted <a href="http://seansperte.com/entry/evaluating_espresso/">a video demonstration evaluating how Espresso and TEA are used</a>. Very nice.</p>
 
 	</article>
 	<hr>
