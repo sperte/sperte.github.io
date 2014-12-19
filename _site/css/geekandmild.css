@@ -354,10 +354,10 @@ th {
 
 html {
   background: #eaebec;
-  font-family: minion-pro, serif;
+  font-family: "Input Sans", Menlo, Courier, monospace;
   font-size: 18px;
   line-height: 1.7;
-  color: #333333; }
+  color: #777; }
 
 body {
   width: 50vw;
@@ -366,44 +366,24 @@ body {
     body {
       width: calc(100% - 2rem); } }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: myriad-pro, sans-serif; }
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  border: 0 none; }
 
 a {
   color: black;
-  text-decoration: none; }
+  text-decoration: none;
+  border-bottom: 1px solid #bbbbbb; }
   a:hover {
-    background-color: #ffffcc; }
+    background-color: #bbbbbb; }
 
 ::selection {
   color: #eaebec;
-  background: #333333; }
-
-h1 a {
-  display: block;
-  height: 5rem;
-  margin: 3rem auto;
-  text-indent: -999em;
-  overflow: hidden;
-  background: url(../img/logo.svg) 50% 0 no-repeat;
-  background-size: contain; }
-  h1 a:hover {
-    background-color: transparent; }
-
-#intro {
-  margin: 3rem auto;
-  padding: 1rem;
-  background: white;
-  box-shadow: 0 3px 5px #bbbbbb; }
-  #intro p {
-    margin: 0;
-    font-style: italic;
-    color: #777; }
+  background: #777; }
 
 section {
   position: relative; }
@@ -445,16 +425,16 @@ article {
     margin: 2em auto;
     border-bottom: none; }
   article h2 a {
-    color: #555555; }
+    color: #555; }
   article time a {
-    color: #bbbbbb; }
+    color: #bbbbbb;
+    border: 0 none; }
   article p {
-    color: #555555; }
+    color: #555; }
     article p a {
       border-bottom: 1px solid #bbbbbb; }
   article blockquote {
-    font-family: myriad-pro, sans-serif;
-    font-size: 90%; }
+    font-family: sans-serif; }
   article pre,
   article .code {
     display: block;
@@ -473,7 +453,7 @@ article {
   text-align: center; }
   #pagination a {
     padding: 0 2rem;
-    color: #555555;
+    color: #555;
     font-weight: bold;
     border: none; }
     #pagination a:hover {
@@ -484,22 +464,3 @@ footer {
   margin: 3rem auto;
   color: #bbbbbb;
   line-height: 1.2; }
-
-#fusion {
-  position: absolute;
-  left: 520px;
-  margin: 60px 0 0 50px;
-  font-size: 14px;
-  font-family: georgia,serif; }
-  #fusion br {
-    display: none; }
-  #fusion img {
-    display: block;
-    margin-bottom: 10px; }
-  #fusion h6 {
-    margin: 10px 0;
-    text-transform: uppercase;
-    font-weight: normal; }
-  #fusion a {
-    color: #555;
-    border: 0; }

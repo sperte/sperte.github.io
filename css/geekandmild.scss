@@ -1,5 +1,5 @@
 ---
-# Geek & Mild Styles
+# Sean Sperte Styles
 ---
 
 // Normalize everything
@@ -8,11 +8,11 @@
 
 
 // Set some variables
-$base-font-family: minion-pro,serif;
+$base-font-family: "Input Sans",Menlo,Courier,monospace;
 $base-font-size: 18px;
 $base-line-height: 1.7;
-$alt-font-family: myriad-pro,sans-serif;
-$text-color: #333;
+$alt-font-family: sans-serif;
+$text-color: #777;
 $background-color: #eaebec;
 $highlight-color: #ffc;
 $grey-color: #555;
@@ -43,14 +43,17 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: $alt-font-family;
+	a {
+		border: 0 none;
+	}
 }
 
 a {
 	color: black;
 	text-decoration: none;
+	border-bottom: 1px solid $grey-color-light;
 	&:hover {
-		background-color: $highlight-color;
+		background-color: $grey-color-light;
 	}
 }
 
@@ -59,36 +62,8 @@ a {
 	background: $text-color;
 }
 
-h1 a {
-	display: block;
-	height: 5rem;
-	margin: 3rem auto;
-	text-indent: -999em;
-	overflow: hidden;
-	background: url(../img/logo.svg) 50% 0 no-repeat;
-	background-size: contain;
-	&:hover {
-		background-color: transparent;
-	}
-}
-
-#intro {
-	margin: 3rem auto;
-	padding: 1rem;
-	background: lighten($background-color, 10%);
-	box-shadow: 0 3px 5px $grey-color-light;
-	p {
-		margin: 0;
-		font-style: italic;
-		color: #777;
-	}
-} 
-
 section {
 	position: relative;
-	a:hover {
-		
-	}
 }
 
 hr {
@@ -142,6 +117,7 @@ article {
 	}
 	time a {
 		color: $grey-color-light;
+		border: 0 none;
 	}
 	p {
 		color: $grey-color;
@@ -151,7 +127,6 @@ article {
 	}
 	blockquote {
 		font-family: $alt-font-family;
-		font-size: 90%;
 	}
 	pre,
 	.code {
@@ -191,30 +166,3 @@ footer {
 	color: $grey-color-light;
 	line-height: 1.2;
 }
-
-
-// Fusion ads (deprecated; kept for posterity)
-#fusion {
-	position: absolute;
-	left: 520px;
-	margin: 60px 0 0 50px;
-	font-size: 14px;
-	font-family: georgia,serif;
-	br {
-		display: none;
-	}
-	img {
-		display: block;
-		margin-bottom: 10px;
-	}
-	h6 {
-		margin: 10px 0;
-		text-transform: uppercase;
-		font-weight: normal;
-	}
-	a {
-		color: #555;
-		border: 0;
-	}
-}
-
