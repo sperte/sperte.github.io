@@ -7,4 +7,4 @@ slug: when_not_to_reboot
 
 <p><del>(Look for <a href="http://www.thecity.org">The City Church&#8217;s</a> new site sometime this weekend, only <a href="http://www.cssreboot.com">a week late</a>.)</del></p>
 
-<p class="update"<a href="http://www.thecity.org">Bam!</a> I never arrive on time to a party anyway. ;)</p>
+<p class="update"><a href="http://www.thecity.org">Bam!</a> I never arrive on time to a party anyway. ;)</p>
