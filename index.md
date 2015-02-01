@@ -16,7 +16,7 @@ In 2009, I co-founded a company called [Sky Balloon](http://skyballoonstudio.com
 
 In 2011, I left my career of almost 12 years to help start Tagboard, a social media curation platform based on the hashtag. I lead the product development team, and drive the product roadmap.
 
-<li>Follow me on <a href="http://twitter.com/sperte">Twitter</a></li>
-<li>Connect with me on <a href="https://www.linkedin.com/in/sperte">LinkedIn</a></li>
-<li>Browse my blog <a href="/archive">archive</a></li>
-<li><a href="mailto:sean@sperte.com">Email me</a></li>
+- Follow me on [Twitter](http://twitter.com/sperte)
+- Connect with me on [LinkedIn](https://www.linkedin.com/in/sperte)
+- Browse my blog [archive](/archive)
+- [Email me](mailto:sean@sperte.com)
