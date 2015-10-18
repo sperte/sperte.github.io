@@ -79,7 +79,10 @@ hr {
 // Media
 img,
 iframe {
+	display: block;
+	margin: 0 auto;
 	max-width: calc(100% - 1rem);
+	max-height: 50vh;
 	padding: .5rem;
 	background: lighten($background-color, 10%);
 	box-shadow: 0 3px 5px $grey-color-light;
