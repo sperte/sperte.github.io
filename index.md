@@ -4,7 +4,7 @@ layout: default
 
 Currently Chief Product Officer at [Tagboard](https://tagboard.com). I'm a product designer with 20 years experience in web, graphics, desktop publishing, media, and marketing.
 
-My last name is pronounced “spur-tee” (but I don't mind if it's mispronounced). It's French, but I'm actually French-Irish-Jewish &emdash; a mutt of nationalities, really. This is what I look like:
+My last name is pronounced “spur-tee” (but I don't mind if it's mispronounced). It's French, but I'm actually French-Irish-Jewish &mdash; a mutt of nationalities, really. This is what I look like:
 
 <img src="http://tgb.d.pr/1eeKR.jpg" alt="Sean Sperte" class="photo_img">
 
