@@ -2,7 +2,7 @@
 layout: default
 ---
 
-Currently Chief Creative Officer at [Tagboard](https://tagboard.com).
+Currently Chief of Staff at [Tagboard](https://tagboard.com).
 
 I'm a designer with 20 years experience in products, media, and marketing.
 
