@@ -10,7 +10,7 @@ My last name is pronounced “spur-tee” (but I don't mind if it's mispronounce
 
 <img src="http://tgb.d.pr/tNUF.jpg" alt="Sean Sperte" class="photo_img">
 
-I’m 35 years-old, happily married, and have <del>three</del> <ins>four</ins> awesome kids. I love my family.
+I’m 36 years-old, happily married, and have <del>three</del> <ins>four</ins> awesome kids. I love my family.
 
 I was born and raised in Colorado and moved around a lot during my formative years, finally landing in Seattle, Washington in 1998. I've been here ever since.
 
