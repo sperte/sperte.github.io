@@ -8,7 +8,7 @@ I'm a designer with 20 years experience in products, media, and marketing.
 
 My last name is pronounced “spur-tee” (but I don't mind if it's mispronounced). It's French, but I'm actually French-Irish-Jewish &mdash; a mutt of nationalities, really. This is what I look like:
 
-<img src="http://tgb.d.pr/1eeKR.jpg" alt="Sean Sperte" class="photo_img">
+<img src="http://tgb.d.pr/tNUF.jpg" alt="Sean Sperte" class="photo_img">
 
 I’m 35 years-old, happily married, and have <del>three</del> <ins>four</ins> awesome kids. I love my family.
 
