@@ -4,6 +4,8 @@ layout: default
 
 <img src="http://tgb.d.pr/tNUF.jpg" alt="Sean Sperte" class="photo_img">
 
+# Sean Sperte
+
 Currently Chief of Staff at [Tagboard], I'm a designer with 20 years experience in products, media, and marketing.
 
 I started designing professionally as a teenager and landed my first job in 1995 designing yellow page advertisements for local businesses.
