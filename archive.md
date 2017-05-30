@@ -3,6 +3,10 @@ layout: default
 permalink: /archive/
 ---
 
+# Archives
+
+[&larr; back](/)
+
 <ul>
 {% for post in site.posts %}
 {% if post.type != 'link' %}
