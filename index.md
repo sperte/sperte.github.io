@@ -13,7 +13,7 @@ Currently looking for a new role, I'm a designer with 20 years experience in pro
 
 My professional career began as a teenager in 1995 with my first job designing yellow page advertisements for local businesses. Prior to that I'd dabbled with some graphic design as a hobby and had even won a few logo design competitions.
 
-For almost 12 years I helped lead digital and media productions at [The City Church](http://thecity.org), where I launched several award-winning websites and campaigns, the most notable being "Jesus Is ____", which was [nationally recognized](http://www.churchmarketingsucks.com/2011/03/jesus-is/) and inspired dozens of lookalike projects and installations.
+For almost 12 years I helped lead digital and media productions at [The City Church](http://thecity.org), where I launched several **award-winning websites and campaigns**, the most notable being "Jesus Is ____", which was [nationally recognized](http://www.churchmarketingsucks.com/2011/03/jesus-is/) and inspired dozens of lookalike projects and installations.
 
 During that time I also co-founded a side business called [Sky Balloon](http://skyballoonstudio.com) with two friends. We developed iPhone apps in our spare time. Our most popular app (with over 300k downloads) was a quick-launch video camera called [Capture](https://www.wired.com/2011/07/capture-app-a-record-button-for-your-home-screen/). It got some good press when it was released, but we've since removed it from the App Store and shuttered the business.
 
@@ -24,7 +24,7 @@ In 2011, I left my career at the church to help start [Tagboard], a social media
 
 ## What I know and do
 
-My core competencies are **software design, user experience design, and product management**. I'm a bit rusty with the actual tools (Photoshop, Sketch, typography, color, etc.) but can pick up and start using most modern software with ease. Lately, my preferred tools have been words (written and verbal) and whiteboards.
+My core competencies are **software design, user experience design, and product management**. I'm fluent with most design tools (Photoshop, Sketch, typography, color, etc.) and can pick up and start using modern software with ease. Lately, my preferred tools have been words (written and verbal) and whiteboards.
 
 Because of my experience path, I lack some tactical skills common to trained managers. Like, I don't really know what scrum is, or how to create a gantt chart. But I make up for it with technical knowledge and intuition. **I know how to code** HTML and CSS (including SASS and LESS), and can at least do some damage with JavaScript. (I also git and grunt and all that.)
 
@@ -56,7 +56,7 @@ A rule that plays out through both my design acumen and leadership is "**just be
 
 With me, **what you see is what you get**. I believe in [extreme candor and authenticity](http://firstround.com/review/radical-candor-the-surprising-secret-to-being-a-good-boss/). While I'm always careful to guard against inappropriate sharing of information, I default to transparency. I think the foundation of good teamwork is vulnerability, and I strive to get and remain vulnerable.
 
-I believe in **diversity**, and I believe diverse teams perform better. I'm a strong defender and proponent for females and minorities. I'm sickened by the current state of the technology industry in this regard. We can do better... and I want to help.
+I believe in **diversity**, and I believe diverse teams perform better. I'm a strong defender and proponent for females and minorities. I'm passionate about changing the current state of the technology industry in this regard. We can do better... and I want to help.
 
 
 ## More and elsewhere
