@@ -4,9 +4,9 @@ layout: default
 
 # Capture
 
-<img src="/img/capture/hero.png">
-
 As a new father I found myself missing important moments while fumbling through my iPhone's user interface, trying to get to the video camera. I knew there had to be a better way...
+
+<img src="/img/capture/hero.png">
 
 ## A record button for your homescreen
 
@@ -17,6 +17,18 @@ The biggest challenge with Capture from a design standpoint was making sure the 
 <img src="/img/capture/icons.png">
 
 Another design challenge was the icon itself. I wanted to make it distinct yet familiar -- and also wanted it to beg to be tapped. I settled on the metaphor of an actual record button on a video camera and iterated through a bunch of different texture and lighting treatments.
+
+## A matter of perpective
+
+Because there wasn't much to say about the app's features or functionality, I knew the website promo/landing page for the app would be simple -- if not, sparse -- and that I'd need to capture (pun intended) attention in a non-traditional way.
+
+At the time I'd admired the work [Adam Lisagor](http://adamlisagor.com) was doing to help promote apps using video, so I came up with the idea of recording a quick, unscripted video of myself explaining what Capture did.
+
+<img src="/img/capture/website.jpg">
+
+I ended up compositing the video on top of a product shot of an iPhone and skewing the video player using code so that it would actually play back at the perspective of the preview cover image. The effect was pretty cool, even if it was a bit gimmicky.
+
+## Topping the charts
 
 <div style="text-align: center;">
   <img src="/img/capture/IMG_0151.PNG" style="display: inline-block; margin-right: 10px;">
