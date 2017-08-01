@@ -29,7 +29,7 @@ After a couple of quick design iterations, I landed on a tiled presentation, whe
 
 <div class="image-group">
   <img src="/jesusis/submit-form.png">
-  <img src="/jesusis/example.png">
+  <img src="/jesusis/example-answer.png">
 </div>
 
 Because the site invited answers from anyone, I also built a moderation and approval mechanism and workflow for someone to monitor. As you can imagine, that wasn't always an easy job, particularly when the community on 4chan got wind of the site.
