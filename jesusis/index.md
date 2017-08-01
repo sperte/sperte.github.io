@@ -36,10 +36,12 @@ Because the site invited answers from anyone, I also built a moderation and appr
 
 One of the coolest aspects of the site was the homepage, which selected from the pool of approved answers and randomly rotated them through 11 spots -- with one kept empty, inviting the visitor to answer for themselves.
 
+I was also incredibly proud of how the community adopted the idea and made it thier own. We've spotted several lookalikes and iterations over the years, and they always bring a smile to my face.
+
 <div class="image-group">
   <img src="/jesusis/yoda-bumpersticker.JPG">
   <img src="/jesusis/enrollment-poster.JPG">
   <img src="jesustaco.jpg">
 </div>
 
-The site received over 160,000 submissions and is still going today, as is the JESUS IS ____ brand.
+During the official campaign period, the site received over 160,000 submissions, but it's still active today, as the JESUS IS ____ brand is still being used for books and other resources.
