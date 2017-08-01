@@ -30,9 +30,9 @@ I ended up compositing the video on top of a product shot of an iPhone and skewi
 
 ## Topping the charts
 
-<div style="text-align: center;">
-  <img src="/capture/IMG_0151.PNG" style="display: inline-block; margin-right: 10px;">
-  <img src="/capture/IMG_0198.PNG" style="display: inline-block;">
+<div class="image-group">
+  <img src="/capture/IMG_0151.PNG">
+  <img src="/capture/IMG_0198.PNG">
 </div>
 
 Capture ranked in the top 3 apps in the Photography category and in the top 100 of all apps on the App Store in its first week. It was also featured on [CNN](http://www.cnn.com/2011/TECH/web/07/20/useful.apps.sites.tools/index.html), [CNET](https://www.cnet.com/news/record-video-in-an-instant-with-capture-app/), [Gizmodo](https://gizmodo.com/5818925/captures-big-fat-video-icon-starts-recording-as-soon-as-its-pressed), [Lifehacker](https://lifehacker.com/5819454/add-an-instant-record-button-to-your-home-screen-and-never-miss-the-money-shot), [Wired](https://www.wired.com/2011/07/capture-app-a-record-button-for-your-home-screen/), and dozens of [smaller publications and blogs](https://www.macstories.net/reviews/capture-the-fastest-app-to-record-video-on-your-iphone/).

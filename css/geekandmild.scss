@@ -119,6 +119,17 @@ img.imgcenter {
 	margin: 0 auto;
 }
 
+.image-group {
+	text-align: center;
+	img {
+		display: inline-block;
+		float: none;
+		margin-right: 10px;
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+}
 
 // Posts
 article {
