@@ -16,23 +16,30 @@ I can't take credit for the timeless composition of the logotype but did help se
 
 <div class="image-group">
   <img src="/jesusis/billboard.jpg">
-  <img src="/jesusis/bus.jpg"
+  <img src="/jesusis/bus.jpg">
 </div>
 
-##
+## A customizable answer
 
 I instinctively knew that pouring resources into a marketing blitz would be in vain, so I suggested we create a call to action to actually, yanno, fill in the blank... on a website.
 
-[site screenshot]
+<img src="/jesusis/site-screenshot.png">
 
 After a couple of quick design iterations, I landed on a tiled presentation, where each answer (fill-in) would be its own tile, and have either a randomized or customized background. The goal was to show how different people's opinions are, but how beautiful they can be when combined.
 
-[submission form screenshot] + [example]
+<div class="image-group">
+  <img src="/jesusis/submit-form.png">
+  <img src="/jesusis/example.png">
+</div>
 
 Because the site invited answers from anyone, I also built a moderation and approval mechanism and workflow for someone to monitor. As you can imagine, that wasn't always an easy job, particularly when the community on 4chan got wind of the site.
 
 One of the coolest aspects of the site was the homepage, which selected from the pool of approved answers and randomly rotated them through 11 spots -- with one kept empty, inviting the visitor to answer for themselves.
 
-[lookalikes]
+<div class="image-group">
+  <img src="/jesusis/yoda-bumpersticker.JPG">
+  <img src="/jesusis/enrollment-poster.JPG">
+  <img src="jesustaco.jpg">
+</div>
 
 The site received over 160,000 submissions and is still going today, as is the JESUS IS ____ brand.
