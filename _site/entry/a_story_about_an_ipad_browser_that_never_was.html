@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>A story about an iPad browser that never was</title>
+	
+	<link rel="alternate" type="application/rss+xml" title="Sean Sperte" href="/feed.xml">
+	<link rel="shortcut icon" href="/favicon.ico">
+	
+	<link rel="stylesheet" href="//cloud.webtype.com/css/fa92cf68-f469-44c7-8d0f-335148ff8952.css">
+	<link rel="stylesheet" href="/css/geekandmild.css">
+
+	<script type="text/javascript" src="https://raw.githubusercontent.com/toddmotto/fluidvids/master/src/fluidvids.js"></script>
+
+</head>
+
+
+<body class="post">
+
+	<article>
+	<h2>A story about an iPad browser that never was</h2>
+	<h4>12 March 2012</h4>
+	<p>When we founded <a href="http://skyballoonstudio.com">Sky Balloon</a> we endeavored to do one thing: make iOS (or, at the time, iPhone) software that we wanted. Because of that, after we successfully shipped our first iPhone app, <a href="http://skyballoonstudio.com/rhema">Rhema</a>, we decided to tackle something a bit more ambitious.</p>
+
+<p>It was May or June of 2010 (I can&#8217;t remember exactly) and we were loving our brand new iPads … except for the web browser, Safari. While advancements had been made in terms of its speed, we felt it still lacked in features and experience implementation &#8211; or UI. So we had the brilliant idea to make a new browser for the iPad.</p>
+
+<p>Actually, I should say, <em>I</em> had the idea, because <em>I</em> had no idea what it took to build software, and <em>I</em> figured we could do it. You know, with our three-man team that only met for a few hours per week. And because, after all, we were only going to be building a great &#8220;frame&#8221; around a UIWebView. And Apple already did the hard part by building the renderer. And, how hard could it be? Right?</p>
+
+<p>It turns out that building a browser is curse-word hard, even if you don&#8217;t have to worry about the rendering of web pages. At the time, though, we didn&#8217;t know this. Well, maybe the other two thirds of our little company did. But they were brave enough to follow me and my naivety into battle anyway, despite their better judgment, and armed only with Xcode and <a href="http://seansperte.com/share/breeze-mockups/">some mockups</a> I had whipped up.</p>
+
+<p>The idea was that we&#8217;d create a browser that we would want to use, market to all our internet buddies, hopefully get featured on <a href="http://daringfireball.net">Daring Fireball</a> or <a href="http://www.macworld.com/channels/ios.html">Macworld</a> or <a href="http://twit.tv/mbw">MacBreak Weekly</a> or <a href="http://www.tuaw.com/">TUAW</a> or some other hugely populated website full of enthusiasts, be spotlighted by Apple as an example of innovation on the iPad (despite competing toe-to-toe with Safari), and make millions. Then we&#8217;d keep making apps and stuff. From our yachts.</p>
+
+<p>Come to think of it, I&#8217;m not sure we actually had a plan. We just knew we wanted a better browser &#8211; one with the features I&#8217;m about to outline &#8211; and I had imagined one up.</p>
+
+<p><img src="/assets/img/breeze-icon.jpg" alt="Breeze icon" border="0" width="130" height="147" class="imgright" />We called it Breeze. Like, &#8220;this browser is such a breeze to use&#8221; or &#8220;wow, browsing with this app is so easy&#8221; or &#8220;honey, come look at these chumps who made a web browser like Safari and are trying to be cool naming it a one-word, nondescript noun&#8221;. The tagline was, &#8220;Browse more awesomely on iPad.&#8221;</p>
+
+<p>I&#8217;m so embarrassed.</p>
+
+<p>Oh, but the features. Check out these features.</p>
+
+<p>First, we&#8217;d rid the toolbar of the two distinct input fields &#8211; only one <a href="http://www.chromium.org/user-experience/omnibox">omnibox</a>-inspired location bar, capable of both search and URL input.</p>
+
+<p>Next &#8211; and this seemed so obvious to us we were sure Apple would steal it for Safari &#8211; a history popover when you tap-and-hold the back button. This, as expected, was added to Safari later. We&#8217;re still uncertain how Apple hacked into our Dropbox accounts, but they somehow got their hands on the idea. (I think the guys suspect I was responsible, since I have some friends at Apple. But whatever.)</p>
+
+<p>Of course, our UI was going to be cleaner and more refined, since, you know, I&#8217;m so much better a graphic designer than those hacks at Apple, Inc. So the polished UI was also to be a feature listed on the App Store description.</p>
+
+<p>Now we come to the good stuff. Our tabs really were something to behol&#8211;oh, crap. I forgot, Apple added our tabs to Safari recently. Anyway, this is what they looked like:</p>
+
+<p><img src="/assets/img/breeze-tabs_1.jpg" alt="Breeze tabs" border="0" width="600" height="84" class="imgcenter" /></p>
+
+<p>Those were coded up, by the way. That&#8217;s not a Photoshop mockup. And you have to remember, back then Safari&#8217;s tabs weren&#8217;t tabs at all. They were a 3x3 grid view of web pages that often needed to be reloaded once switched to.</p>
+
+<p>We only had three tabs shown in the view, but the tab bar was horizontally scrollable to allow for unlimited tabs. We also didn&#8217;t show the tab bar until there were two tabs. <a href="http://daringfireball.net/linked/2012/03/05/safari-52-tabs">Gruber would (have) be(en) proud</a>.</p>
+
+<p>For our spotlight feature we were going to include, get this, a &#8220;reading mode&#8221;. Months prior I had discovered a bookmarklet for Safari on the Mac called Readability, that, when activated, would isolate just the text (and any relevant images) on a web page. We thought this was wonderful, and <em>needed</em> to be on the iPad.</p>
+
+<p>Apparently, Apple thought it <em>needed</em> to be on the Mac too, because only a few weeks after we began development, Safari for Mac shipped with &#8220;Reader Mode&#8221;, powered by the Readability script.</p>
+
+<p><img src="/assets/img/breeze-readingmode.jpg" alt="Breeze readingmode" border="0" width="269" height="358" class="imgright" />Although we knew Safari for iPad would likely get Reader Mode, we thought we could either (1) get there first, or (2) do ours better. We designed a couple of really great themes for Breeze&#8217;s Reading Mode, and decided that, even if Apple beat us to the punch, our themes might be enough to hedge out a healthy and loyal user base.</p>
+
+<p>Incidentally, I even got in touch with the company behind Readability (now <a href="http://www.readability.com/">a stand alone product and service</a>), <a href="http://arc90.com/">Arc90</a>, and asked if they&#8217;d be willing to take a look at Breeze once we were ready to show. <a href="http://arc90.com/people/rich-ziade/">Rich Ziade&#8217;s</a> reply was enthusiastic, and he agreed. (In hindsight, I&#8217;m pretty sure he was humoring me. Roles reversed, I would have.)</p>
+
+<p>Then there were all the features we knew we couldn&#8217;t include in Breeze 1.0, but knew we wanted:</p>
+
+<ul>
+<li>Ad blocking</li>
+<li>Sharing modules (for social sites)</li>
+<li>Extensions</li>
+<li>Built-in child-protection and accountability</li>
+<li>User profiles</li>
+<li>Keyword URL support (m = gmail.com)</li>
+<li>Find on page</li>
+<li>Gestures</li>
+</ul>
+
+<p>There were more, but I&#8217;m too embarrassed to share. (Okay, one was &#8220;Bing support&#8221;. There, happy?)</p>
+
+<p>The sad part is that we really did get a lot of it built. In fact, by the time Apple finally shipped Safari with proper tabs we were readying a private beta.</p>
+
+<p>Safari&#8217;s slow-but-steady evolution, coupled with the third-party browser market (which had continued to expand to include great apps like <a href="http://itunes.apple.com/app/icab-mobile-web-browser/id308111628?mt=8">iCab</a> and <a href="http://www.grazingbrowser.com/">Grazing</a>), made Breeze&#8217;s success harder and harder to imagine. We also realized that not shipping after about 14 months of development meant we&#8217;d bitten off more than we could chew. And by then the delusions of grandeur that said we could be featured by Apple, or even John Gruber &amp; Co., had worn off.</p>
+
+<p>We made the hard decision to abandon the project, at what we estimate was 75% in.</p>
+
+<p>We learned a lot, though. Not just about iOS development, but also ourselves, the business of software, and about what we might be capable of if we didn&#8217;t have just a few hours per week.</p>
+
+<p>(Also: I can&#8217;t wait &#8216;til you see what we&#8217;re working on now.)</p>
+
+<article>
+	<footer>
+	<small>Site handcrafted using <a href="http://www.sublimetext.com/">Sublime Text</a>, powered by <a href="http://jekyllrb.com/">Jekyll</a> and hosted on <a href="https://pages.github.com/">Github Pages</a>.</small>
+</footer>
+
+
+</body>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-46810847-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</html>

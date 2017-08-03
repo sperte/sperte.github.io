@@ -10,26 +10,26 @@ layout: default
 
 The first thing to do was figure out how to invite a conversation without offending. After the bold suggestion of literally just using "JESUS" as the conversation starter ([a la Jim Gaffigan](https://www.youtube.com/watch?v=2k_9mXpNdgU)), I came up with the idea of adding a blank, and inviting people to fill it in. "JESUS IS ____" was born.
 
-<img src="/jesusis/wall.JPG">
+<a href="/jesusis/wall.jpg"><img src="/jesusis/wall.JPG"></a>
 
 I can't take credit for the timeless composition of the logotype but did help select the typeface and provide feedback on the sizing and layout.
 
-<div class="image-group">
-  <img src="/jesusis/billboard.jpg">
-  <img src="/jesusis/bus.jpg">
+<div class="image-group-2">
+  <a href="/jesusis/billboard.jpg"><img src="/jesusis/billboard.jpg"></a>
+  <a href="/jesusis/bus.jpg"><img src="/jesusis/bus.jpg"></a>
 </div>
 
 ## A customizable answer
 
 I instinctively knew that pouring resources into a marketing blitz would be in vain, so I suggested we create a call to action to actually, yanno, fill in the blank... on a website.
 
-<img src="/jesusis/site-screenshot.png">
+<a href="/jesusis/site-screenshot.png"><img src="/jesusis/site-screenshot.png"></a>
 
 After a couple of quick design iterations, I landed on a tiled presentation, where each answer (fill-in) would be its own tile, and have either a randomized or customized background. The goal was to show how different people's opinions are, but how beautiful they can be when combined.
 
-<div class="image-group">
-  <img src="/jesusis/submit-form.png">
-  <img src="/jesusis/example-answer.png">
+<div class="image-group-2">
+  <a href="/jesusis/submit-form.png"><img src="/jesusis/submit-form.png"></a>
+  <a href="/jesusis/example-answer.png"><img src="/jesusis/example-answer.png"></a>
 </div>
 
 Because the site invited answers from anyone, I also built a moderation and approval mechanism and workflow for someone to monitor. As you can imagine, that wasn't always an easy job, particularly when the community on 4chan got wind of the site.
@@ -38,10 +38,10 @@ One of the coolest aspects of the site was the homepage, which selected from the
 
 I was also incredibly proud of how the community adopted the idea and made it thier own. We've spotted several lookalikes and iterations over the years, and they always bring a smile to my face.
 
-<div class="image-group">
-  <img src="/jesusis/yoda-bumpersticker.JPG">
-  <img src="/jesusis/enrollment-poster.JPG">
-  <img src="jesustaco.jpg">
+<div class="image-group-3">
+  <a href="/jesusis/yoda-bumpersticker.jpg"><img src="/jesusis/yoda-bumpersticker.JPG"></a>
+  <a href="/jesusis/enrollment-poster.jpg"><img src="/jesusis/enrollment-poster.JPG"></a>
+  <a href="/jesusis/jesustaco.jpg"><img src="/jesusis/jesustaco.jpg"></a>
 </div>
 
 During the official campaign period, the site received over 160,000 submissions, but it's still active today, as the JESUS IS ____ brand is still being used for books and other resources.

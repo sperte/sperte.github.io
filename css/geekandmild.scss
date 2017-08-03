@@ -119,17 +119,31 @@ img.imgcenter {
 	margin: 0 auto;
 }
 
-.image-group {
+[class^='image-group'] {
+	width: 120%;
+	margin-left: -10%;
 	text-align: center;
+	vertical-align: middle;
+	a,
 	img {
 		display: inline-block;
 		float: none;
-		margin-right: 10px;
-		&:last-child {
-			margin-right: 0;
-		}
+		vertical-align: middle;
 	}
 }
+.image-group-2 > * {
+	max-width: calc(50% - 1rem);
+}
+.image-group-3 > * {
+	max-width: calc(33.333% - 1rem);
+}
+.image-group-4 > * {
+	max-width: calc(25% - 1rem);
+}
+.image-group-5 > * {
+	max-width: calc(20% - 1rem);
+}
+
 
 // Posts
 article {
