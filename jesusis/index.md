@@ -36,7 +36,7 @@ Because the site invited answers from anyone, I also built a moderation and appr
 
 One of the coolest aspects of the site was the homepage, which selected from the pool of approved answers and randomly rotated them through 11 spots -- with one kept empty, inviting the visitor to answer for themselves.
 
-I was also incredibly proud of how the community adopted the idea and made it thier own. We've spotted several lookalikes and iterations over the years, and they always bring a smile to my face.
+I was also surprised and humbled by how the community adopted the idea and made it their own. Over the years I've spotted several lookalikes and iterations, and they always bring a smile to my face.
 
 <div class="image-group-3">
   <a href="/jesusis/yoda-bumpersticker.jpg"><img src="/jesusis/yoda-bumpersticker.JPG"></a>
@@ -44,4 +44,4 @@ I was also incredibly proud of how the community adopted the idea and made it th
   <a href="/jesusis/jesustaco.jpg"><img src="/jesusis/jesustaco.jpg"></a>
 </div>
 
-During the official campaign period, the site received over 160,000 submissions, but it's still active today, as the JESUS IS ____ brand is still being used for books and other resources.
+During the official campaign period, the site received over 160,000 submissions, and it's still active today. The JESUS IS ____ brand is also still being used for books and other resources.
