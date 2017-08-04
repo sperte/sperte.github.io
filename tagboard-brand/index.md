@@ -12,7 +12,7 @@ Research for the brand started months earlier as I surveyed various visual eleme
 
 <a href="logotype-iterations.png"><img src="logotype-iterations.png"></a>
 
-After test driving a bunch of typefaces and logotype combinations, I landed on a modified version of the brand name set in Seravek, from the same foundry as did Facebook font, Klavika. It satisfied the requirements of being familiar and friendly but was also customizable and felt high-brow.
+After test driving a bunch of typefaces and logotype combinations, I landed on a modified version of the brand name set in [Seravek](https://processtypefoundry.com/fonts/seravek/), from the same foundry as the Facebook font, [Klavika](https://processtypefoundry.com/fonts/klavika/). It satisfied the requirements of being familiar and friendly but was also customizable and felt high-brow.
 
 <a href="logotype-comparison.jpg"><img src="logotype-comparison.jpg"></a>
 

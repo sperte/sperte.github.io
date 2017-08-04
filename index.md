@@ -66,7 +66,7 @@ I love Disneyland.
 
 ## My philosophy
 
-A rule that plays out through both my design acumen and leadership is "**just because you can doesn't mean you should**". I have a strong bias towards being intentional or [purpose-driven](https://www.fastcompany.com/3048197/why-purpose-driven-companies-are-often-more-successful). I believe as a creative professional I have a moral responsibility for what I put out into the world. In other words, I'm not in it for [the paycheck](http://startupquote.com/post/859040744).
+A rule that plays out through both my design and leadership is "**just because you can doesn't mean you should**". I have a strong bias towards being intentional or [purpose-driven](https://www.fastcompany.com/3048197/why-purpose-driven-companies-are-often-more-successful). I believe as a creative professional I have a moral responsibility for what I put out into the world. In other words, I'm not in it for [the paycheck](http://startupquote.com/post/859040744).
 
 With me, **what you see is what you get**. I believe in [extreme candor and authenticity](http://firstround.com/review/radical-candor-the-surprising-secret-to-being-a-good-boss/). While I'm always careful to guard against inappropriate sharing of information, I default to transparency. I think the foundation of good teamwork is vulnerability, and I strive to get and remain vulnerable.
 

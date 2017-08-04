@@ -4,7 +4,7 @@ layout: portfolio
 
 # JESUS IS ____
 
-"Let's get people to talk about Jesus in Seattle" was the directive that came down from my pastor and boss at The City Church. That was it. There was little more to go off of, and no other goal(s).
+"Let's get people to talk about Jesus in Seattle" was the directive that came down from my pastor and boss at The City Church. That was it. There wasn't more to go off of, and no other goal(s).
 
 ## Inviting a conversation
 
