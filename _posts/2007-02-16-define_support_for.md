@@ -7,4 +7,4 @@ slug: define_support_for
 
 <p>So, what would you expect &#8220;support for&#8221; to mean? Yeah me too. But apparently it doesn&#8217;t. <a href="/entry/reepicheep">Reepicheep</a> is still silver.</p>
 
-<p><img src="/assets/img/reepicheep-info.gif" border="0" height="134" width="370" alt="Reepicheep is still silver (screenshot)" class="imgcenter" /></p>
+<p><img src="/assets/img/reepicheep-info.gif" border="0" height="134" width="370" alt="Reepicheep is still silver (screenshot)"  /></p>

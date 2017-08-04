@@ -7,6 +7,6 @@ slug: help_fontexplorer_using_network_home
 
 <p>I know it&#8217;s still beta, but why can&#8217;t it just work like every other program seems to?</p>
 
-<p><img src="/assets/img/beta_warning.jpg" width="239" height="99" class="imgcenter" alt="Beta Warning" /></p>
+<p><img src="/assets/img/beta_warning.jpg" width="239" height="99"  alt="Beta Warning" /></p>
 
 <p>Any help/advice/suggestions would be appreciated. I&#8217;m stuck.</p>

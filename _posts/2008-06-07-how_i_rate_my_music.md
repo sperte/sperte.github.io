@@ -3,7 +3,7 @@ title: How I Rate My Music
 date: 2008-06-07
 slug: how_i_rate_my_music
 ---
-<p><img src="/assets/img/itunes-playlists.jpg" alt="Screenshot of iTunes Playlists" border="0" width="175" height="177" class="imgright" />A proper (read as &#8220;useful&#8221;) method for rating my music &#8211; with stars, in iTunes &#8211; has eluded me ever since the feature was introduced. Here&#8217;s a new method I&#8217;m trying; which I couldn&#8217;t fit into a 140-character Tweet:</p>
+<p><img src="/assets/img/itunes-playlists.jpg" alt="Screenshot of iTunes Playlists" border="0" width="175" height="177" align="right" />A proper (read as &#8220;useful&#8221;) method for rating my music &#8211; with stars, in iTunes &#8211; has eluded me ever since the feature was introduced. Here&#8217;s a new method I&#8217;m trying; which I couldn&#8217;t fit into a 140-character Tweet:</p>
 
 <ul>
 <li>5 stars = &#8220;I could listen to this song anytime, in any mood&#8221;</li>

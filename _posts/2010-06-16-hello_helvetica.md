@@ -9,27 +9,27 @@ slug: hello_helvetica
 
 <p>Open the Settings app and tap on <strong>General</strong>.</p>
 
-<p><img src="/assets/img/hh-settings.jpg" alt="hh-settings.jpg" class="imgcenter" /></p>
+<p><img src="/assets/img/hh-settings.jpg" alt="hh-settings.jpg"  /></p>
 
 <p>Then tap on <strong>Keyboard</strong>.</p>
 
-<p><img src="/assets/img/hh-keyboard.jpg" alt="hh-keyboard.jpg" class="imgcenter" /></p>
+<p><img src="/assets/img/hh-keyboard.jpg" alt="hh-keyboard.jpg"  /></p>
 
 <p>Then tap <strong>International Keyboards</strong>.</p>
 
-<p><img src="/assets/img/hh-intlkeyboards.jpg" alt="hh-intlkeyboards.jpg" class="imgcenter" /></p>
+<p><img src="/assets/img/hh-intlkeyboards.jpg" alt="hh-intlkeyboards.jpg"  /></p>
 
 <p>Then tap on <strong>Chinese - Simplified (Handwriting)</strong>.</p>
 
-<p><img src="/assets/img/hh-simpchinese.jpg" alt="hh-simpchinese.jpg" class="imgcenter" /></p>
+<p><img src="/assets/img/hh-simpchinese.jpg" alt="hh-simpchinese.jpg"  /></p>
 
 <p>Now go back to your home screen and open the Notes app. Select a note, and tap anywhere to bring up the keyboard. Now tap on the <strong>International Keyboards</strong> key to bring up the character drawing interface.</p>
 
-<p><img src="/assets/img/hh-intlkey.jpg" alt="hh-intlkey.jpg" class="imgcenter" /></p>
+<p><img src="/assets/img/hh-intlkey.jpg" alt="hh-intlkey.jpg"  /></p>
 
 <p>Draw a line, and the font your note uses will change to Helvetica.</p>
 
-<p><img src="/assets/img/hh-chinesedraw.jpg" alt="hh-chinesedraw.jpg" class="imgcenter" /></p>
+<p><img src="/assets/img/hh-chinesedraw.jpg" alt="hh-chinesedraw.jpg"  /></p>
 
 <p>Tap <strong>Done</strong>. Hello, Helvetica.</p>
 

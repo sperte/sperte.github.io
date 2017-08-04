@@ -3,22 +3,22 @@ title: 'Newsvine: This changes everything'
 date: 2006-01-05
 slug: newsvine_this_changes_everything
 ---
-<p><img src="/assets/img/newsvine_logo.jpg" width="155" height="41" class="imgright" />Back in November <a href="http://www.mikeindustries.com/blog">Mike Davidson</a> announced what he&#8217;d been up to since leaving Disney&#8217;s media group and starting his own business. <a href="http://www.newsvine.com">Newsvine</a>, he said, was to be the new hotness in news, &#8220;just like your favorite news site, only smarter.&#8221; 
+<p><img src="/assets/img/newsvine_logo.jpg" width="155" height="41" align="right" />Back in November <a href="http://www.mikeindustries.com/blog">Mike Davidson</a> announced what he&#8217;d been up to since leaving Disney&#8217;s media group and starting his own business. <a href="http://www.newsvine.com">Newsvine</a>, he said, was to be the new hotness in news, &#8220;just like your favorite news site, only smarter.&#8221; 
 I have been (extremely) fortunate to be able to participate in the beta launch of Newsvine for the past few weeks and let me tell you &#8230; it lives up to the <a href="http://www.google.com/search?client=safari&rls=en&q=newsvine&ie=UTF-8&oe=UTF-8" title="Do a Google search for 'newsvine'">hype</a>. News hasn&#8217;t been the same for me lately.</p>
 
 <h3>What Newsvine does right</h3>
 
-<p><img src="/assets/img/newsvine_voting.jpg" width="110" height="29" class="imgright" />The way Newsvine makes news smarter is by giving control to the readers. This is done by enabling voting, live chat, and comment systems for every article (and seed, a submitted link to an external article). It sounds more simple than it is. But it sounds less powerful than it is, too. The potential this type of interaction has is truly culture-shocking &#8211; we may soon witness a shift in the way journalism is approached.</p>
+<p><img src="/assets/img/newsvine_voting.jpg" width="110" height="29" align="right" />The way Newsvine makes news smarter is by giving control to the readers. This is done by enabling voting, live chat, and comment systems for every article (and seed, a submitted link to an external article). It sounds more simple than it is. But it sounds less powerful than it is, too. The potential this type of interaction has is truly culture-shocking &#8211; we may soon witness a shift in the way journalism is approached.</p>
 
 <p>&#8220;We believe in turning news into conversation,&#8221; Mike says. &#8220;It is only when readers interact with it that it achieves its full impact.&#8221; The life of a news story only comes from those who read it. No readers, no life. That&#8217;s what makes the current news medium so lifeless and Newsvine so &#8230; living. It&#8217;s the interaction, the personality, the relationship.</p>
 
 <h3>The power of the &#8216;Vine</h3>
 
-<p><img src="/assets/img/newsvine_mycolumn.jpg" width="175" height="216" class="imgleft" />Readers of Newsvine have the ability to create their own &#8220;column,&#8221; in which they post articles (similar to blog entries) and seed external articles. Seeding an article to the &#8216;Vine allows other readers the ability to view the article, comment on the seed, vote for it, discuss it in a chat room, add tags, and more.</p>
+<p><img src="/assets/img/newsvine_mycolumn.jpg" width="175" height="216" align="left" />Readers of Newsvine have the ability to create their own &#8220;column,&#8221; in which they post articles (similar to blog entries) and seed external articles. Seeding an article to the &#8216;Vine allows other readers the ability to view the article, comment on the seed, vote for it, discuss it in a chat room, add tags, and more.</p>
 
 <p>On the front page of Newsvine (above the fold), news is displayed based on user activity, popularity, and post time. Only the most relevant stories are displayed; making the news seem more &#8220;living,&#8221; even before you read it. It feels revolutionary, really.</p>
 
-<p><img src="/assets/img/newsvine_homepage.jpg" width="350" height="263" class="imgcenter" /></p>
+<p><img src="/assets/img/newsvine_homepage.jpg" width="350" height="263"  /></p>
 
 <p>I&#8217;ve had similar feelings before, but never in relationship to news &#8211; it&#8217;s been with things like iTunes, text messaging, wireless internet, real-time playback of uncompressed video. News, to me, is usually always boring. I&#8217;m much more of a skimmer: You know, glance at the headline, skim the text for relevancy, check out the photos &#8230; I&#8217;m definitely not the news-hound. With Newsvine, though, the news is living and current.</p>
 

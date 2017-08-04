@@ -15,7 +15,7 @@ slug: Setting_Up_a_Killer_Local_Web_Development_Environment_on_a_Mac_with_MAMP_a
 
 <p>The first is to change the ports that MAMP uses. Click on the &#8220;Ports&#8221; tab and set the Apache and MySQL ports to their defaults (80 and 3306, respectively). You&#8217;ll be prompted for your admin password.</p>
 
-<p><img src="/assets/img/mamp-ports.jpg" alt="MAMP port settings" border="0" width="359" height="239" class="imgcenter" /></p>
+<p><img src="/assets/img/mamp-ports.jpg" alt="MAMP port settings" border="0" width="359" height="239"  /></p>
 
 <p>Secondly, I like to uncheck all of the options in the &#8220;Start/Stop&#8221; section. This comes with some potential performance and security hits since it means you&#8217;ll have to manually stop the servers if/when you&#8217;re not using them.</p>
 
@@ -23,7 +23,7 @@ slug: Setting_Up_a_Killer_Local_Web_Development_Environment_on_a_Mac_with_MAMP_a
 
 <h3>VirtualHostX</h3>
 
-<p><img src="/assets/img/vhx-icon2.jpg" alt="vhx-icon2.jpg" class="imgright" />Now that we&#8217;re serving Apache+PHP, we can access whatever document root we have setup in the MAMP preference via a web browser with the URL http://localhost &#8211; but that sucks. Instead, we&#8217;re going to use virtual hosts, allowing any URL to any document root we want. That&#8217;s right. Any URL to any directory.</p>
+<p><img src="/assets/img/vhx-icon2.jpg" alt="vhx-icon2.jpg" align="right" />Now that we&#8217;re serving Apache+PHP, we can access whatever document root we have setup in the MAMP preference via a web browser with the URL http://localhost &#8211; but that sucks. Instead, we&#8217;re going to use virtual hosts, allowing any URL to any document root we want. That&#8217;s right. Any URL to any directory.</p>
 
 <p>To do this, we can edit the Apache httpd.conf and hosts files manually, or use <a href="http://clickontyler.com/virtualhostx/">Tyler Hall&#8217;s fabulous VirtualHostX</a>, a $19 utility that provides a clean and simple GUI for adding virtual hosts.</p>
 
@@ -37,7 +37,7 @@ slug: Setting_Up_a_Killer_Local_Web_Development_Environment_on_a_Mac_with_MAMP_a
 <li>Apply changes</li>
 </ul>
 
-<p><img src="/assets/img/vhx2.jpg" alt="vhx2.jpg" class="imgcenter" /></p>
+<p><img src="/assets/img/vhx2.jpg" alt="vhx2.jpg"  /></p>
 
 <p>That&#8217;s it! (You can add advanced, custom directives if you&#8217;re into that sort of thing.)</p>
 

@@ -3,7 +3,7 @@ title: Twitterrific 2
 date: 2009-05-08
 slug: twitterrific_2
 ---
-<p><img src="/assets/img/twitterrific2.jpg" alt="twitterrific2.jpg" border="0" width="200" height="200" class="imgright" />The old pair of sneakers just got a new soul. <a href="http://twitterrific.com/iphone">Twitterrific</a>, the first-to-market iPhone Twitter client with a lickable UI, has been updated to version 2. And what an update!</p>
+<p><img src="/assets/img/twitterrific2.jpg" alt="twitterrific2.jpg" border="0" width="200" height="200" align="right" />The old pair of sneakers just got a new soul. <a href="http://twitterrific.com/iphone">Twitterrific</a>, the first-to-market iPhone Twitter client with a lickable UI, has been updated to version 2. And what an update!</p>
 
 <p>The previous version of Twitterrific fell short of being perfect because it lacked many of the normal user functions that make up the Twitter experience. You couldn&#8217;t follow/unfollow, search, view conversations, use multiple accounts, or basically do anything beyond view and post tweets. With Twitterrific 2, you get all those and more.</p>
 
@@ -21,7 +21,7 @@ slug: twitterrific_2
 
 <p>The compose screen is my favorite part of Twitterrific 2. You get all the normal functions &#8211; such as the ability to add a photo, your location, shorten URL&#8217;s, etc. &#8211; but there are some cool, unique features available as well. For instance, there&#8217;s a &#8220;Peak&#8221; button, labeled with an eye, that toggles a view of the timeline, so you can quickly reference a tweet. While in &#8220;Peak&#8221; mode you can instantly copy links and @usernames to the tweet you&#8217;re composing by tapping on them. Also, there&#8217;s a &#8220;Compress Text&#8221; function that attempts to shorten URLs and certain words as well as remove unnecessary spaces.</p>
 
-<p><img src="/assets/img/twitterrific2b.png" alt="twitterrific2b.png" border="0" width="320" height="480" class="imgcenter" /></p>
+<p><img src="/assets/img/twitterrific2b.png" alt="twitterrific2b.png" border="0" width="320" height="480"  /></p>
 
 <p>Depending on context (whether you&#8217;ve selected a tweet before composing or not), you get three different inverted tabs for composing your tweet. One is for a normal tweet, one is a pre-populated reply pane (with the @username), and the last is a pre-populated Direct Message pane.</p>
 

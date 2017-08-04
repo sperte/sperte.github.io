@@ -3,7 +3,7 @@ title: 'Developers, Your Software Doesn&#8217;t Work Unless it Does What I Want'
 date: 2007-04-14
 slug: developers_your_software_doesnt_work_unless_it_does_what_i_want
 ---
-<p><img src="/assets/img/sncrz25n_z_20070414_20070414.jpg" border="0" height="200" width="200" alt="Sony IP Camera" align="right" class="imgright" />We&#8217;ve been demoing some new IP-based cameras for two our satellite campuses, Plateau and University. They&#8217;re <a href="http://bssc.sel.sony.com/BroadcastandBusiness/DisplayModel?id=78447">Sony SNC-RZ25N</a>&#8217;s, meant for security applications, but work quite well for what we&#8217;re intending them for: Low-fidelity interactivity with the pastor/speaker.</p>
+<p><img src="/assets/img/sncrz25n_z_20070414_20070414.jpg" border="0" height="200" width="200" alt="Sony IP Camera" align="right" align="right" />We&#8217;ve been demoing some new IP-based cameras for two our satellite campuses, Plateau and University. They&#8217;re <a href="http://bssc.sel.sony.com/BroadcastandBusiness/DisplayModel?id=78447">Sony SNC-RZ25N</a>&#8217;s, meant for security applications, but work quite well for what we&#8217;re intending them for: Low-fidelity interactivity with the pastor/speaker.</p>
 
 <p>The image quality is good, considering the settings and environment they&#8217;re set in. They have an 18x optical zoom, as well as an additional 12x digital zoom. They have automatic and manual settings for everything from white balance, to aperture, to pan/tilt/zoom, to codec, to bitrate, etc. I&#8217;m really impressed with the features, and quality.</p>
 

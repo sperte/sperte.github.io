@@ -8,9 +8,9 @@ This project marks the first time I&#8217;ve publicly utilized the <a href="http
 
 <p>This is also the first time I&#8217;ve launched a website without first testing in Internet Explorer 6. It feels good. It feels <em>real</em> good.</p>
 
-<p><img src="/assets/img/gcconf08ss-home.jpg" alt="gcconf08ss-home.jpg" border="0" width="480" height="374" class="imgcenter" /></p>
+<p><img src="/assets/img/gcconf08ss-home.jpg" alt="gcconf08ss-home.jpg" border="0" width="480" height="374"  /></p>
 
-<p><img src="/assets/img/gcconf08ss-sub.jpg" alt="gcconf08ss-sub.jpg" border="0" width="480" height="382" class="imgcenter" /></p>
+<p><img src="/assets/img/gcconf08ss-sub.jpg" alt="gcconf08ss-sub.jpg" border="0" width="480" height="382"  /></p>
 
 <p>Additionally, I used <a href="http://www.ndoherty.com/blog/2007/10/29/coda-slider-11/">Coda-Slider.js</a> for the (<a href="http://panic.com/coda">Panic</a>-inspired) navigation, and <a href="http://jquery.com/demo/thickbox/">ThickBox.js</a> for the light-boxed bios.</p>
 

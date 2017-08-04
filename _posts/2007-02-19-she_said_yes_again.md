@@ -17,7 +17,7 @@ slug: she_said_yes_again
 
 <h3>Relive the moment</h3>
 
-<p><img src="/assets/img/shesaidyes_screenshot.jpg" border="0" height="494" width="250" alt="Screenshot of the new She Said Yes! website"  class="imgright" />This past weekend I decided I&#8217;d resurrect the site, clean it up, give it a fresh look, and relaunch it. The Wife was gracious enough to permit me to post the video clips on YouTube so we may save bandwidth, and ensure a more compatible deployment across OSes and browsers.</p>
+<p><img src="/assets/img/shesaidyes_screenshot.jpg" border="0" height="494" width="250" alt="Screenshot of the new She Said Yes! website"  align="right" />This past weekend I decided I&#8217;d resurrect the site, clean it up, give it a fresh look, and relaunch it. The Wife was gracious enough to permit me to post the video clips on YouTube so we may save bandwidth, and ensure a more compatible deployment across OSes and browsers.</p>
 
 <p>In fact, I just checked out the site using my Wii and the beta Opera browser &#8211; the video loads and plays just fine. Ah! Geekout moment! Embedded Flash video; on my TV; on a website; on my Wii!</p>
 

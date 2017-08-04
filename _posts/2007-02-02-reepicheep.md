@@ -5,7 +5,7 @@ slug: reepicheep
 ---
 <p>Ladies and gentlemen, say hello to my new lil&#8217; friend: Reepicheep.</p>
 
-<p><a href="http://www.flickr.com/photos/seansperte/378046345/"><img src="http://farm1.static.flickr.com/166/378046345_c8567074a4.jpg" width="500" height="375" alt="3616 Reepicheep" class="imgcenter" /></a></p>
+<p><a href="http://www.flickr.com/photos/seansperte/378046345/"><img src="http://farm1.static.flickr.com/166/378046345_c8567074a4.jpg" width="500" height="375" alt="3616 Reepicheep"  /></a></p>
 
 <p>(<a href="http://en.wikipedia.org/wiki/Reepicheep">Named, of course, after the heroic mouse from the Narnia series</a>.)</p>
 

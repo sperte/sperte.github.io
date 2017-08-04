@@ -3,7 +3,7 @@ title: Nip &amp; Tuck for Geek &amp; Mild
 date: 2009-05-05
 slug: nip_tuck_for_geek_mild
 ---
-<p><img src="/assets/img/gmredesign.jpg" alt="gmredesign.jpg" border="0" width="200" height="200" class="imgright" />Last night I launched a redesign of Geek &amp; Mild. Here&#8217;s some of the backstory on it, if you&#8217;re curious.</p>
+<p><img src="/assets/img/gmredesign.jpg" alt="gmredesign.jpg" border="0" width="200" height="200" align="right" />Last night I launched a redesign of Geek &amp; Mild. Here&#8217;s some of the backstory on it, if you&#8217;re curious.</p>
 
 <h3>The ampersand</h3>
 

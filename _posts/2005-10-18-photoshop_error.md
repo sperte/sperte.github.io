@@ -5,7 +5,7 @@ slug: photoshop_error
 ---
 <p>Never gotten this error before:</p>
 
-<p><img src="/assets/img/photoshop_error.jpg" width="376" height="145" class="imgcenter" /></p>
+<p><img src="/assets/img/photoshop_error.jpg" width="376" height="145"  /></p>
 
 <p>&#8230; this <em>just after</em> launching Photoshop (CS2).</p>
 

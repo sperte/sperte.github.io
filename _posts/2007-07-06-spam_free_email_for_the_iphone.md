@@ -5,7 +5,7 @@ slug: spam_free_email_for_the_iphone
 ---
 <p>Something I&#8217;ve been meaning to do for years is strategically route all my email to a single, private account, and use a reply-to address that&#8217;s already known, memorable and branded. Ironically, the iPhone, and its lack of spam filter, became the perfect catalyst for me to set it up. (And no, I [still] don&#8217;t have an iPhone. I did this in enthusiastic preparation for my future iPhone purchase.)</p>
 
-<p><img src="/assets/img/email-routing.gif" border="0" height="430" width="300" alt="Diagram showing my email routing scheme" class="imgright" />First, I made sure all my publicly-known email addresses route to my <a href="http://gmail.com">Gmail</a> account. Google&#8217;s email application is quick, accessible, and free. Better than that, though, their spam protection is just about perfect; almost never returning false-positives, and never in need of an update.</p>
+<p><img src="/assets/img/email-routing.gif" border="0" height="430" width="300" alt="Diagram showing my email routing scheme" align="right" />First, I made sure all my publicly-known email addresses route to my <a href="http://gmail.com">Gmail</a> account. Google&#8217;s email application is quick, accessible, and free. Better than that, though, their spam protection is just about perfect; almost never returning false-positives, and never in need of an update.</p>
 
 <p>Still, even with all its pluses, Gmail isn&#8217;t my final solution. The &#8220;conversational&#8221; approach doesn&#8217;t translate well across multiple platforms (such as the iPhone), and since it doesn&#8217;t support the IMAP protocol, it&#8217;s not ideal for using multiple clients &#8211; desktop or mobile.</p>
 

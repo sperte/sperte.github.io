@@ -4,7 +4,7 @@ date: 2006-02-28
 slug: abuse_of_power
 ---
 <p>It was with great anticipation and enthusiasm that common-folk stopped doing their day jobs at 10AM PST today. We all tuned into our choice rumor site (those that could handle the stress) and eagerly awaited each update as they came in, play-by-play. We, to put it lightly, were let down. 
-<img src="/assets/img/intel-mini.jpg" alt="The new Intel-based Mac mini" class="imgcenter" /></p>
+<img src="/assets/img/intel-mini.jpg" alt="The new Intel-based Mac mini"  /></p>
 
 <p>Apple today introduced a new revision to their Mac mini computer, which now sports and Intel process (available in single and duo core). The Mac mini now comes in two flavors: Too-Expensive and Way-Too-Expensive. Meh.</p>
 
@@ -14,7 +14,7 @@ slug: abuse_of_power
 
 <h3>An event? For this?</h3>
 
-<p><img src="/assets/img/apple-event.jpg" alt="Steve Jobs unveiling the new Intel Mac mini" class="imgright" />Apple events are big. They&#8217;re, like, bigger than big. When Engadget.com goes down because of the stress on their server you know something&#8217;s big (not even <a href="http://ces.engadget.com/">CES</a> did that). There wasn&#8217;t one pre-event headline or article that didn&#8217;t call this event &#8220;big&#8221;. Even Leo Laporte (of the <a href="http://www.thisweekintech.com/">This Week in Tech</a> podcast) said it was supposed to be big.</p>
+<p><img src="/assets/img/apple-event.jpg" alt="Steve Jobs unveiling the new Intel Mac mini" align="right" />Apple events are big. They&#8217;re, like, bigger than big. When Engadget.com goes down because of the stress on their server you know something&#8217;s big (not even <a href="http://ces.engadget.com/">CES</a> did that). There wasn&#8217;t one pre-event headline or article that didn&#8217;t call this event &#8220;big&#8221;. Even Leo Laporte (of the <a href="http://www.thisweekintech.com/">This Week in Tech</a> podcast) said it was supposed to be big.</p>
 
 <p>Was it big event? No.</p>
 
@@ -24,7 +24,7 @@ slug: abuse_of_power
 
 <h3>A hundred bucks? For that?</h3>
 
-<p><img src="/assets/img/ipod-case.jpg" alt="Leather iPod case" class="imgleft" />In addition to the Mac minitel (minintel?), and the iPod Why?-Fi, Apple also graciously introduced a stunningly lame iPod leather case. Priced at an unbelievable $99, the case&#8217;s only qualifying features are a stamped Apple logo and &#8220;iPod&#8221; wording&mdash;and <em>maybe</em> the tab-pull thing. Again, meh.</p>
+<p><img src="/assets/img/ipod-case.jpg" alt="Leather iPod case" align="left" />In addition to the Mac minitel (minintel?), and the iPod Why?-Fi, Apple also graciously introduced a stunningly lame iPod leather case. Priced at an unbelievable $99, the case&#8217;s only qualifying features are a stamped Apple logo and &#8220;iPod&#8221; wording&mdash;and <em>maybe</em> the tab-pull thing. Again, meh.</p>
 
 <p>I told a friend I would have likely purchased the case had it been priced at $29, and maybe heavily weighed the cost at $39. But for $99? I think we&#8217;re seeing some price-gouging going on.</p>
 

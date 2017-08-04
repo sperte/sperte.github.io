@@ -15,9 +15,23 @@ My professional career began as a teenager in 1995 with my first job designing y
 
 For almost 12 years I helped lead digital and media productions at [The City Church](http://thecity.org), where I launched several **award-winning websites and campaigns**, the most notable being "Jesus Is ____", which was [nationally recognized](http://www.churchmarketingsucks.com/2011/03/jesus-is/) and inspired dozens of lookalike projects and installations.
 
+<div class="image-group-2">
+  <a href="/jesusis"><img src="/img/thumb-jesusis.png">JESUS IS ____</a>
+</div>
+
 During that time I also co-founded a side business called [Sky Balloon](http://skyballoonstudio.com) with two friends. We developed iPhone apps in our spare time to hone our skills. We worked on over a dozen apps and shipped five. Our most popular app (with over 300k downloads) was a quick-launch video camera called Capture, which was featured on [CNN](http://www.cnn.com/2011/TECH/web/07/20/useful.apps.sites.tools/index.html), [CNET](https://www.cnet.com/news/record-video-in-an-instant-with-capture-app/), [Gizmodo](https://gizmodo.com/5818925/captures-big-fat-video-icon-starts-recording-as-soon-as-its-pressed), [Lifehacker](https://lifehacker.com/5819454/add-an-instant-record-button-to-your-home-screen-and-never-miss-the-money-shot), [Wired](https://www.wired.com/2011/07/capture-app-a-record-button-for-your-home-screen/), and dozens of [smaller publications and blogs](https://www.macstories.net/reviews/capture-the-fastest-app-to-record-video-on-your-iphone/).
 
+<div class="image-group-2">
+  <a href="/capture"><img src="/img/thumb-capture.png">Capture app</a>  
+  <a href="/rhema"><img src="/img/thumb-rhema.png">Rhema app</a>
+</div>
+
 In 2011, I left my career at the church to help start [Tagboard], a social media software company. After creating the brand, **I helped lead the product team** to build, deliver, and manage the whole of Tagboard's product offering, and then transitioned to a more central role in the company as Chief of Staff.
+
+<div class="image-group-2">
+  <a href="/tagboard-brand"><img src="/img/thumb-tagboard-brand.png">Tagboard brand</a>
+  <a href="/tagboard-site"><img src="/img/thumb-tagboard-site.jpg">Tagboard site</a>  
+</div>
 
 [Tagboard]: https://tagboard.com
 
@@ -63,9 +77,9 @@ I believe in **diversity**, and I believe diverse teams perform better. I'm a st
 
 - Follow me on [Twitter](http://twitter.com/sperte)
 - Connect with me on [LinkedIn](https://www.linkedin.com/in/sperte)
+- [Download my resume](/assets/sperte-resume.pdf) (updated: 3-Aug 2017)
 - See glimpses of some of my work on [Dribbble](https://dribbble.com/sperte)
 - Stalk me on [Instagram](https://www.instagram.com/sperte/)
 - Browse my [blog archive](/archive)
 - [Google me](https://www.google.com/#q=%22sean+sperte%22)
 - [Email me](mailto:sean@sperte.com)
-- (My resume and portfolio are available; just ask!)

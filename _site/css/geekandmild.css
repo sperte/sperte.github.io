@@ -406,25 +406,32 @@ iframe {
   background: white;
   box-shadow: 0 3px 5px #bbbbbb; }
 
-img[align="left"],
-img.imgleft {
+img[align="left"] {
   float: left;
   max-width: 50%;
   height: auto;
   margin-right: 1.5rem;
   margin-left: -10%; }
 
-img[align="right"],
-img.imgright {
+img[align="right"] {
   float: right;
   max-width: 50%;
   height: auto;
   margin-left: 1.5rem;
   margin-right: -10%; }
 
-img.imgcenter {
-  display: block;
-  margin: 0 auto; }
+img.full {
+  width: calc(100% - 1rem);
+  max-height: none; }
+
+img.hero {
+  max-width: none;
+  max-height: none;
+  width: 100vw;
+  margin-left: -50%;
+  padding: 0;
+  background: transparent;
+  box-shadow: none; }
 
 [class^='image-group'] {
   width: 120%;
@@ -435,7 +442,13 @@ img.imgcenter {
   [class^='image-group'] img {
     display: inline-block;
     float: none;
-    vertical-align: middle; }
+    max-height: none;
+    font-size: 12.06px;
+    color: #777;
+    vertical-align: middle;
+    border: none; }
+  [class^='image-group'] a:hover {
+    background: none; }
 
 .image-group-2 > * {
   max-width: calc(50% - 1rem); }

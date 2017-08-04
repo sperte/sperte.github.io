@@ -13,7 +13,7 @@ slug: bar_tending
 
 <p>Later, I audited my menubar and revised it:</p>
 
-<p><img src="/assets/img/menubar.jpg" alt="My menubar" class="imgcenter" /></p>
+<p><img src="/assets/img/menubar.jpg" alt="My menubar"  /></p>
 
 <p>From left to right: <a href="http://droplr.com">Droplr</a>, <a href="http://dropbox.com">Dropbox</a>, VPN (built-in), Battery status, Wi-Fi, date and clock, Accounts (built-in), and Spotlight.</p>
 

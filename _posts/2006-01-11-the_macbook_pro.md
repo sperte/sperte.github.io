@@ -3,7 +3,7 @@ title: The MacBook Pro
 date: 2006-01-11
 slug: the_macbook_pro
 ---
-<p><img src="/assets/img/macbookpro.jpg" width="100" height="78" class="imgright" />I&#8217;ve read several reactions to yesterday&#8217;s keynote, most of which are positive concerning the <a href="http://www.apple.com/macbookpro">MacBook Pro</a> (and other new offerings from Apple), but there&#8217;s also a low rumble of complaint against the <em>name</em> of &#8220;MacBook Pro.&#8221; 
+<p><img src="/assets/img/macbookpro.jpg" width="100" height="78" align="right" />I&#8217;ve read several reactions to yesterday&#8217;s keynote, most of which are positive concerning the <a href="http://www.apple.com/macbookpro">MacBook Pro</a> (and other new offerings from Apple), but there&#8217;s also a low rumble of complaint against the <em>name</em> of &#8220;MacBook Pro.&#8221; 
 Just to get readers up to speed, here&#8217;s what the MacBook Pro really is:</p>
 
 <ul>
@@ -18,7 +18,7 @@ Just to get readers up to speed, here&#8217;s what the MacBook Pro really is:</p
 
 <p>So that&#8217;s the MacBook Pro. Of course, I want one.</p>
 
-<p><img src="/assets/img/macbook_isight.jpg" width="380" height="205" class="imgcenter" /></p>
+<p><img src="/assets/img/macbook_isight.jpg" width="380" height="205"  /></p>
 
 <p>Steve Jobs said something key during the &#8230; uh &#8211; keynote. He said &#8220;we wanted all of our product line to have the name &#8216;Mac&#8217; in its title.&#8221; This tells you that the name was deeply considered before it was adopted. Other names have been suggested by the Mac community, but there are problems with each:</p>
 

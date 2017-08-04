@@ -24,7 +24,7 @@ slug: powering_an_audio_archive_with_expressionengine
 <li><code>scriptures</code></li>
 </ul>
 
-<p><img src="/assets/img/tccaa-fields.jpg" border="0" height="261" width="600" alt="Screenshot of the audio archive custom field group" class="imgcenter" /></p>
+<p><img src="/assets/img/tccaa-fields.jpg" border="0" height="261" width="600" alt="Screenshot of the audio archive custom field group"  /></p>
 
 <p>Each custom field comes with preference settings for type, formatting, hiding/showing, and instructions. Setting these preferences, I&#8217;m able to simplify the publish form as much as possible, but still give some advanced options to the publisher.</p>
 
@@ -40,7 +40,7 @@ slug: powering_an_audio_archive_with_expressionengine
 
 <p>The fun stuff is in the templates. That&#8217;s where the magic happens. When displayed on a webpage, each message entry has links to listen, download, buy, etc.</p>
 
-<p><img src="/assets/img/tccaa-styledmessage_20070401.jpg" border="0" height="63" width="506" alt="Screenshot of a styled message entry" class="imgcenter" /></p>
+<p><img src="/assets/img/tccaa-styledmessage_20070401.jpg" border="0" height="63" width="506" alt="Screenshot of a styled message entry"  /></p>
 
 <p>Here&#8217;s an example of a typical archive listing:</p>
 
@@ -75,7 +75,7 @@ slug: powering_an_audio_archive_with_expressionengine
 <li>The <strong>comments</strong> link uses a bunch of conditionals to either display the number of comments or &#8220;Add comment&#8221;.</li>
 </ul>
 
-<p><img src="/assets/img/tccaa-unstyledmessage.jpg" border="0" height="61" width="200" alt="Screenshot of an unstyled message entry" class="imgright" />When unstyled, this code-block is relatively plain and [arguably] semantic. The only point of contention comes from the use of a transparent GIF for the form submit button. In hindsight I suppose I could&#8217;ve just used <code>input type="image"</code>, but I was preoccupied in trying to utilize CSS for all images.</p>
+<p><img src="/assets/img/tccaa-unstyledmessage.jpg" border="0" height="61" width="200" alt="Screenshot of an unstyled message entry" align="right" />When unstyled, this code-block is relatively plain and [arguably] semantic. The only point of contention comes from the use of a transparent GIF for the form submit button. In hindsight I suppose I could&#8217;ve just used <code>input type="image"</code>, but I was preoccupied in trying to utilize CSS for all images.</p>
 
 <p>Of course, ExpressionEngine has built-in support for XML templates, so serving a podcast is just as simple:</p>
 

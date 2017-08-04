@@ -7,4 +7,4 @@ slug: quicktip_scroll_to_here
 
 <p>Incidentally, this feature also works with the &#8220;coverflow&#8221; view in iTunes (which is how I discovered it). Very cool!</p>
 
-<p><img src="/assets/img/coverflow.jpg" border="0" height="342" width="376" alt="Coverflow" class="imgcenter" /></p>
+<p><img src="/assets/img/coverflow.jpg" border="0" height="342" width="376" alt="Coverflow"  /></p>

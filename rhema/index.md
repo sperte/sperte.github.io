@@ -1,14 +1,14 @@
 ---
-layout: default
+layout: portfolio
 ---
 
-# Rhema
+# Rhema app
 
 "Rhema cards" as they were called, were categorized and personalized verses from the Bible, formatted to be easily read during meditation or study. But they were awkward and analog...
 
-## Digitizing ageless resources
+## Personalized scripture in your pocket
 
-Me and two others took it upon ourselves to design and build a Rhema card iPhone app. We weren't sure if it was something others would want, but we did -- and we wanted to hone our skills for creating mobile apps.
+Me and two others took on designing and building a Rhema card iPhone app. We weren't sure if it was something others would want, but we did -- and we wanted to hone our skills for creating mobile apps.
 
 <div class="image-group-5">
   <a href="browse-1.jpg"><img src="browse-1.jpg"></a>

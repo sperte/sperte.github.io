@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: portfolio
 ---
 
-# Capture
+# Capture app
 
 As a new father I found myself missing important moments while fumbling through my iPhone's user interface, trying to get to the video camera. I knew there had to be a better way...
 

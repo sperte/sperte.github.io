@@ -15,7 +15,7 @@ slug: a_story_about_an_ipad_browser_that_never_was
 
 <p>Come to think of it, I&#8217;m not sure we actually had a plan. We just knew we wanted a better browser &#8211; one with the features I&#8217;m about to outline &#8211; and I had imagined one up.</p>
 
-<p><img src="/assets/img/breeze-icon.jpg" alt="Breeze icon" border="0" width="130" height="147" class="imgright" />We called it Breeze. Like, &#8220;this browser is such a breeze to use&#8221; or &#8220;wow, browsing with this app is so easy&#8221; or &#8220;honey, come look at these chumps who made a web browser like Safari and are trying to be cool naming it a one-word, nondescript noun&#8221;. The tagline was, &#8220;Browse more awesomely on iPad.&#8221;</p>
+<p><img src="/assets/img/breeze-icon.jpg" alt="Breeze icon" border="0" width="130" height="147" align="right" />We called it Breeze. Like, &#8220;this browser is such a breeze to use&#8221; or &#8220;wow, browsing with this app is so easy&#8221; or &#8220;honey, come look at these chumps who made a web browser like Safari and are trying to be cool naming it a one-word, nondescript noun&#8221;. The tagline was, &#8220;Browse more awesomely on iPad.&#8221;</p>
 
 <p>I&#8217;m so embarrassed.</p>
 
@@ -29,7 +29,7 @@ slug: a_story_about_an_ipad_browser_that_never_was
 
 <p>Now we come to the good stuff. Our tabs really were something to behol&#8211;oh, crap. I forgot, Apple added our tabs to Safari recently. Anyway, this is what they looked like:</p>
 
-<p><img src="/assets/img/breeze-tabs_1.jpg" alt="Breeze tabs" border="0" width="600" height="84" class="imgcenter" /></p>
+<p><img src="/assets/img/breeze-tabs_1.jpg" alt="Breeze tabs" border="0" width="600" height="84"  /></p>
 
 <p>Those were coded up, by the way. That&#8217;s not a Photoshop mockup. And you have to remember, back then Safari&#8217;s tabs weren&#8217;t tabs at all. They were a 3x3 grid view of web pages that often needed to be reloaded once switched to.</p>
 
@@ -39,7 +39,7 @@ slug: a_story_about_an_ipad_browser_that_never_was
 
 <p>Apparently, Apple thought it <em>needed</em> to be on the Mac too, because only a few weeks after we began development, Safari for Mac shipped with &#8220;Reader Mode&#8221;, powered by the Readability script.</p>
 
-<p><img src="/assets/img/breeze-readingmode.jpg" alt="Breeze readingmode" border="0" width="269" height="358" class="imgright" />Although we knew Safari for iPad would likely get Reader Mode, we thought we could either (1) get there first, or (2) do ours better. We designed a couple of really great themes for Breeze&#8217;s Reading Mode, and decided that, even if Apple beat us to the punch, our themes might be enough to hedge out a healthy and loyal user base.</p>
+<p><img src="/assets/img/breeze-readingmode.jpg" alt="Breeze readingmode" border="0" width="269" height="358" align="right" />Although we knew Safari for iPad would likely get Reader Mode, we thought we could either (1) get there first, or (2) do ours better. We designed a couple of really great themes for Breeze&#8217;s Reading Mode, and decided that, even if Apple beat us to the punch, our themes might be enough to hedge out a healthy and loyal user base.</p>
 
 <p>Incidentally, I even got in touch with the company behind Readability (now <a href="http://www.readability.com/">a stand alone product and service</a>), <a href="http://arc90.com/">Arc90</a>, and asked if they&#8217;d be willing to take a look at Breeze once we were ready to show. <a href="http://arc90.com/people/rich-ziade/">Rich Ziade&#8217;s</a> reply was enthusiastic, and he agreed. (In hindsight, I&#8217;m pretty sure he was humoring me. Roles reversed, I would have.)</p>
 

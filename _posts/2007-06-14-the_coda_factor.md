@@ -3,7 +3,7 @@ title: The Coda Factor
 date: 2007-06-14
 slug: the_coda_factor
 ---
-<p><img src="/assets/img/coda-leaf.jpg" border="0" height="100" width="100" alt="The Coda leaf" class="imgright" />Until <a href="http://www.panic.com/coda">Coda</a>&#8217;s release, my workflow was relatively set and regimented. I used a simple combination of tools that consisted of:</p>
+<p><img src="/assets/img/coda-leaf.jpg" border="0" height="100" width="100" alt="The Coda leaf" align="right" />Until <a href="http://www.panic.com/coda">Coda</a>&#8217;s release, my workflow was relatively set and regimented. I used a simple combination of tools that consisted of:</p>
 
 <ul>
 <li>Design and imagery &#8211; <a href="http://www.adobe.com/products/photoshop/photoshop/">Photoshop CS3</a>.</li>

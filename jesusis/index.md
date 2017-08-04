@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: portfolio
 ---
 
 # JESUS IS ____
@@ -35,6 +35,8 @@ After a couple of quick design iterations, I landed on a tiled presentation, whe
 Because the site invited answers from anyone, I also built a moderation and approval mechanism and workflow for someone to monitor. As you can imagine, that wasn't always an easy job, particularly when the community on 4chan got wind of the site.
 
 One of the coolest aspects of the site was the homepage, which selected from the pool of approved answers and randomly rotated them through 11 spots -- with one kept empty, inviting the visitor to answer for themselves.
+
+## Cultural relevance
 
 I was also surprised and humbled by how the community adopted the idea and made it their own. Over the years I've spotted several lookalikes and iterations, and they always bring a smile to my face.
 

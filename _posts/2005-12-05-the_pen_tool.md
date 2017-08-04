@@ -12,6 +12,6 @@ I&#8217;ve taken these type of crash courses before so I knew what to expect tod
 
 <p>Here&#8217;s a flower I made for my wife when I got home:</p>
 
-<p><img src="/assets/img/illustrator_flower.jpg" width="237" height="218" alt="Illustration of a flower" class="imgcenter" /></p>
+<p><img src="/assets/img/illustrator_flower.jpg" width="237" height="218" alt="Illustration of a flower"  /></p>
 
 <p>It took about 90 seconds.</p>

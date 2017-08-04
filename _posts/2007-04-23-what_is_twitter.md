@@ -5,7 +5,7 @@ slug: what_is_twitter
 ---
 <p>[This article has been updated <a href="http://twitter.com/blog/2007/07/friends-followers-and-notifications.html">after Twitter made some changes</a> to the semantics of their services, especially regarding &#8220;friends&#8221; and notifications.]</p>
 
-<p><img src="/assets/img/twitter-logo.jpg" border="0" height="75" width="229" alt="Twitter" align="right" class="imgright" />That&#8217;s the question that everyone&#8217;s been asking and trying to answer for a year. What, exactly, is Twitter? Or, even better, why should you care?</p>
+<p><img src="/assets/img/twitter-logo.jpg" border="0" height="75" width="229" alt="Twitter" align="right" align="right" />That&#8217;s the question that everyone&#8217;s been asking and trying to answer for a year. What, exactly, is Twitter? Or, even better, why should you care?</p>
 
 <p>It&#8217;s been labeled as web-based chat, microblogging, and &#8220;<a href="http://www.smallbusinessbrief.com/articles/marketing/008115.html">mobile social software</a>&#8221;. John Gruber, web and technology pundit, said, &#8220;<a href="http://daringfireball.net/linked/2007/march#wed-21-kottke_twitter">Twitter is to IM and SMS what weblogs were to email and Usenet</a>&#8221;, while critics say it&#8217;s just another social networking website, or <a href="http://www.usatoday.com/tech/columnist/andrewkantor/2007-04-05-twitter_N.htm">an added distraction</a> in an already over-distracted culture.</p>
 
@@ -25,7 +25,7 @@ slug: what_is_twitter
 
 <p>All three protocols allow you to answer the question, &#8220;What are you doing?&#8221; and have it posted on your Twitter profile page (and, as I&#8217;ll show you, also forwarded onto those &#8220;following&#8221; you). To answer, simply text-message, IM or enter into web-form field whenever &#8211; or wherever &#8211; you want.</p>
 
-<p><img src="/assets/img/twitter-statuses.jpg" border="0" height="98" width="200" alt="My Twitter status page" align="right" class="imgright" />Once you&#8217;ve sent your update (also known as &#8220;status&#8221; or &#8220;tweet&#8221; or a number of other terms relating), it appears on your Twitter profile page, and is automatically forwarded to other users who&#8217;ve chosen to follow you. This is where it gets a little tricky, though, because not everyone who choses to follow you will also chose to be notified. But I&#8217;m getting ahead of myself &#8230;</p>
+<p><img src="/assets/img/twitter-statuses.jpg" border="0" height="98" width="200" alt="My Twitter status page" align="right" align="right" />Once you&#8217;ve sent your update (also known as &#8220;status&#8221; or &#8220;tweet&#8221; or a number of other terms relating), it appears on your Twitter profile page, and is automatically forwarded to other users who&#8217;ve chosen to follow you. This is where it gets a little tricky, though, because not everyone who choses to follow you will also chose to be notified. But I&#8217;m getting ahead of myself &#8230;</p>
 
 <h3>Followers</h3>
 

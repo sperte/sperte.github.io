@@ -3,11 +3,11 @@ title: Adobe Announces Creative Suite 3
 date: 2007-03-27
 slug: adobe_announces_creative_suite_3
 ---
-<p><img src="/assets/img/cs3-productgrid_20070327.jpg" border="0" height="233" width="300" alt="Adobe's CS3 Product Grid" class="imgright" />Today <a href="http://www.adobe.com/products/creativesuite/">Adobe announced Creative Suite 3</a>. The accompanying product matrix makes even Microsoft&#8217;s Windows Vista version grid look simple. It&#8217;s a mess to sort out, even for a veteran Adobe user.</p>
+<p><img src="/assets/img/cs3-productgrid_20070327.jpg" border="0" height="233" width="300" alt="Adobe's CS3 Product Grid" align="right" />Today <a href="http://www.adobe.com/products/creativesuite/">Adobe announced Creative Suite 3</a>. The accompanying product matrix makes even Microsoft&#8217;s Windows Vista version grid look simple. It&#8217;s a mess to sort out, even for a veteran Adobe user.</p>
 
 <p>Visiting the product page I thought to myself, &#8220;it would be nice if they offered some sort of &#8216;select the products you use/need and we&#8217;ll show you which package to buy&#8217; feature.&#8221; Further exploration revealed a handy <a href="http://www.adobe.com/products/creativesuite/?cs3Tabs=cs3products">Product Selector applet</a> (Flash, of course) that seemed to fit the bill perfectly. Unfortunately, as soon as it was done pre-loading I realized it fell short; offering <em>areas</em> of design, rather than specific products for use.</p>
 
-<p><img src="/assets/img/cs3-questionnaire.jpg" border="0" height="293" width="557" alt="Adobe's CS3 Product Finder applet" class="imgcenter" /></p>
+<p><img src="/assets/img/cs3-questionnaire.jpg" border="0" height="293" width="557" alt="Adobe's CS3 Product Finder applet"  /></p>
 
 <p>I think, Adobe, it&#8217;s safe to assume the majority of your consumers know which products they need already.</p>
 

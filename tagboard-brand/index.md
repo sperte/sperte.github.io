@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: portfolio
 ---
 
 # Tagboard brand
@@ -20,7 +20,7 @@ I also created an icon mark that integrated the hash symbol and Seravek's lowerc
 
 <a href="final-logos.png"><img src="final-logos.png"></a>
 
-## Color me surprised
+## Color codified
 
 As part of my research I also looked into color cognition and response. I knew color is an extremely important part of establishing a lasting and strong brand, and I determined although the blue-green spectrum of the wheel was overcrowded, breaking convention just for the sake of being unique wasn't wise, especially given the type of emotional reactions we wanted to engage -- things like friendliness, accessibility, ease of use, etc.
 
@@ -38,4 +38,4 @@ During the process, one unique tool I used to "test" the decisions I was making 
 
 <img src="poweredby-blue.png" align="right">The logo itself was later integrated into an attribution badge to help viewers identify Tagboard's public screens. It actually became an important part of our partnership strategy with source networks like Twitter and Facebook because if a public social screen had our logo it meant the content being shown was sanctioned. And despite early push-back from customers, the "Powered by Tagboard" badge eventually became a sort of badge of honor, signaling a company's forward-thinking and taste. (Tagboard has a reputation of having the best looking and most natural social screens).
 
-<a href="tagboard-in-the-wild.jpg"><img src="tagboard-in-the-wild.jpg"></a>
+<a href="tagboard-in-the-wild.jpg"><img src="tagboard-in-the-wild.jpg" class="hero"></a>

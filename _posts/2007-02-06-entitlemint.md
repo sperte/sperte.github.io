@@ -3,7 +3,7 @@ title: Entitlemint
 date: 2007-02-06
 slug: entitlemint
 ---
-<p><img src="/assets/img/mintlogo.jpg" height="66" width="63" alt="Mint logo" class="imgright" /></p>
+<p><img src="/assets/img/mintlogo.jpg" height="66" width="63" alt="Mint logo" align="right" /></p>
 
 <p><a href="http://www.shauninman.com">Shaun Inman</a> recently released a new version of his website stat-tracking software, <a href="http://www.haveamint.com">Mint</a>. The upgrade features many new improvements to the previous version, but the bulk of the full version change came in the form of speed increases, a new(ish) interface, and updated default modules (called Peppers). Oh, and it now supports IE PC &#8211; which is perhaps the reason for the influx of crazys on the Mint support forums, but I&#8217;m getting ahead of myself. 
 Now let me get this out of the way before I go on: Though I own licenses for Mint, and read Shaun&#8217;s blog regularly, I do not know him personally. I think we&#8217;ve had one off-site conversation over email, but that&#8217;s it. Beyond what I&#8217;ve read on his site and what others say about him, I don&#8217;t have any other point of reference with which to judge his character.</p>

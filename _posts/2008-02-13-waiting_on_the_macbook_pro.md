@@ -3,7 +3,7 @@ title: Waiting on the MacBook Pro
 date: 2008-02-13
 slug: waiting_on_the_macbook_pro
 ---
-<p><img src="/assets/img/mbp2008-mockup.jpg" alt="MacBook Pro mockup by 'bayol05' of MacRumors forums" border="0" width="250" height="158" class="imgright" />It was with disbelief and frustration that I read this statement in <a href="http://www.macrumors.com/2008/02/03/new-macbook-pros-appearing-in-retail-inventory/">an article</a> published on MacRumors ten days ago (emphasis mine):</p>
+<p><img src="/assets/img/mbp2008-mockup.jpg" alt="MacBook Pro mockup by 'bayol05' of MacRumors forums" border="0" width="250" height="158" align="right" />It was with disbelief and frustration that I read this statement in <a href="http://www.macrumors.com/2008/02/03/new-macbook-pros-appearing-in-retail-inventory/">an article</a> published on MacRumors ten days ago (emphasis mine):</p>
 
 <blockquote>
   <p>While the new MacBook Pros will likely incorporate only modest updates (Penryn and Multi-Touch), with their imminent release, <em>its hard to justify the purchase of the current 8 month old models</em>.</p>

@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 03 Aug 2017 15:28:31 -0700</pubDate>
-    <lastBuildDate>Thu, 03 Aug 2017 15:28:31 -0700</lastBuildDate>
+    <pubDate>Thu, 03 Aug 2017 23:11:17 -0700</pubDate>
+    <lastBuildDate>Thu, 03 Aug 2017 23:11:17 -0700</lastBuildDate>
     <generator>Jekyll v3.5.1</generator>
     
       <item>
@@ -181,7 +181,7 @@
 
 &lt;p&gt;I think this expresses well the overall sentiment in Seattle. We&amp;#8217;re all just sort of reeling. Happy for Ichiro? Sure. He has a much better shot at getting a championship ring now. But he was a part of Seattle culture &amp;#8211; as much as an athlete can up here. We had Ichiro bobble-head nights at Safeco Field, local commercials with every day workers mimicking his at-bat stance, and the &amp;#8220;ICH-EE-RO&amp;#8221; chant. Not to mention his face and name plastered all over the city &amp;#8211; especially at the stadium.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/tumblr_m7niloN21I1qbt9u6o1_1280.jpg&quot; alt=&quot;Ichiro bowing as a Yankee&quot; border=&quot;0&quot; width=&quot;600&quot; height=&quot;374&quot; class=&quot;imgcenter&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/tumblr_m7niloN21I1qbt9u6o1_1280.jpg&quot; alt=&quot;Ichiro bowing as a Yankee&quot; border=&quot;0&quot; width=&quot;600&quot; height=&quot;374&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;It was by Ichiro&amp;#8217;s request, I understand. That the Mariners received a couple of minor leaguer pitchers in trade underscores this: the Mariners made the decision in order to honor Ichiro. That part of the story is great, and I wish Ichiro well. I really do. I&amp;#8217;ll be rooting for him and his new team &amp;#8211; hopefully all the way through the World Series.&lt;/p&gt;
 
@@ -316,7 +316,7 @@
 
 &lt;p&gt;Come to think of it, I&amp;#8217;m not sure we actually had a plan. We just knew we wanted a better browser &amp;#8211; one with the features I&amp;#8217;m about to outline &amp;#8211; and I had imagined one up.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/breeze-icon.jpg&quot; alt=&quot;Breeze icon&quot; border=&quot;0&quot; width=&quot;130&quot; height=&quot;147&quot; class=&quot;imgright&quot; /&gt;We called it Breeze. Like, &amp;#8220;this browser is such a breeze to use&amp;#8221; or &amp;#8220;wow, browsing with this app is so easy&amp;#8221; or &amp;#8220;honey, come look at these chumps who made a web browser like Safari and are trying to be cool naming it a one-word, nondescript noun&amp;#8221;. The tagline was, &amp;#8220;Browse more awesomely on iPad.&amp;#8221;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/breeze-icon.jpg&quot; alt=&quot;Breeze icon&quot; border=&quot;0&quot; width=&quot;130&quot; height=&quot;147&quot; align=&quot;right&quot; /&gt;We called it Breeze. Like, &amp;#8220;this browser is such a breeze to use&amp;#8221; or &amp;#8220;wow, browsing with this app is so easy&amp;#8221; or &amp;#8220;honey, come look at these chumps who made a web browser like Safari and are trying to be cool naming it a one-word, nondescript noun&amp;#8221;. The tagline was, &amp;#8220;Browse more awesomely on iPad.&amp;#8221;&lt;/p&gt;
 
 &lt;p&gt;I&amp;#8217;m so embarrassed.&lt;/p&gt;
 
@@ -330,7 +330,7 @@
 
 &lt;p&gt;Now we come to the good stuff. Our tabs really were something to behol&amp;#8211;oh, crap. I forgot, Apple added our tabs to Safari recently. Anyway, this is what they looked like:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/breeze-tabs_1.jpg&quot; alt=&quot;Breeze tabs&quot; border=&quot;0&quot; width=&quot;600&quot; height=&quot;84&quot; class=&quot;imgcenter&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/breeze-tabs_1.jpg&quot; alt=&quot;Breeze tabs&quot; border=&quot;0&quot; width=&quot;600&quot; height=&quot;84&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Those were coded up, by the way. That&amp;#8217;s not a Photoshop mockup. And you have to remember, back then Safari&amp;#8217;s tabs weren&amp;#8217;t tabs at all. They were a 3x3 grid view of web pages that often needed to be reloaded once switched to.&lt;/p&gt;
 
@@ -340,7 +340,7 @@
 
 &lt;p&gt;Apparently, Apple thought it &lt;em&gt;needed&lt;/em&gt; to be on the Mac too, because only a few weeks after we began development, Safari for Mac shipped with &amp;#8220;Reader Mode&amp;#8221;, powered by the Readability script.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/breeze-readingmode.jpg&quot; alt=&quot;Breeze readingmode&quot; border=&quot;0&quot; width=&quot;269&quot; height=&quot;358&quot; class=&quot;imgright&quot; /&gt;Although we knew Safari for iPad would likely get Reader Mode, we thought we could either (1) get there first, or (2) do ours better. We designed a couple of really great themes for Breeze&amp;#8217;s Reading Mode, and decided that, even if Apple beat us to the punch, our themes might be enough to hedge out a healthy and loyal user base.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/breeze-readingmode.jpg&quot; alt=&quot;Breeze readingmode&quot; border=&quot;0&quot; width=&quot;269&quot; height=&quot;358&quot; align=&quot;right&quot; /&gt;Although we knew Safari for iPad would likely get Reader Mode, we thought we could either (1) get there first, or (2) do ours better. We designed a couple of really great themes for Breeze&amp;#8217;s Reading Mode, and decided that, even if Apple beat us to the punch, our themes might be enough to hedge out a healthy and loyal user base.&lt;/p&gt;
 
 &lt;p&gt;Incidentally, I even got in touch with the company behind Readability (now &lt;a href=&quot;http://www.readability.com/&quot;&gt;a stand alone product and service&lt;/a&gt;), &lt;a href=&quot;http://arc90.com/&quot;&gt;Arc90&lt;/a&gt;, and asked if they&amp;#8217;d be willing to take a look at Breeze once we were ready to show. &lt;a href=&quot;http://arc90.com/people/rich-ziade/&quot;&gt;Rich Ziade&amp;#8217;s&lt;/a&gt; reply was enthusiastic, and he agreed. (In hindsight, I&amp;#8217;m pretty sure he was humoring me. Roles reversed, I would have.)&lt;/p&gt;
 
