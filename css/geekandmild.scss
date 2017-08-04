@@ -104,6 +104,9 @@ img[align="left"] {
 	height: auto;
 	margin-right: 1.5rem;
 	margin-left: -10%;
+	@media (max-width: 959px) {
+		margin-left: 0;
+	}
 }
 
 img[align="right"] {
@@ -112,6 +115,9 @@ img[align="right"] {
 	height: auto;
 	margin-left: 1.5rem;
 	margin-right: -10%;
+	@media (max-width: 959px) {
+		margin-right: 0;
+	}
 }
 
 img.full {
@@ -124,9 +130,13 @@ img.hero {
 	max-height: none;
 	width: 100vw;
 	margin-left: -50%;
+	@media (max-width: 959px) {
+		margin-left: -1rem;
+	}
 	padding: 0;
 	background: transparent;
 	box-shadow: none;
+
 }
 
 [class^='image-group'] {
@@ -134,6 +144,10 @@ img.hero {
 	margin-left: -10%;
 	text-align: center;
 	vertical-align: middle;
+	@media (max-width: 959px) {
+		width: calc(100% + 2rem);
+		margin-left: -1rem;
+	}
 	a,
 	img {
 		display: inline-block;

@@ -412,6 +412,9 @@ img[align="left"] {
   height: auto;
   margin-right: 1.5rem;
   margin-left: -10%; }
+  @media (max-width: 959px) {
+    img[align="left"] {
+      margin-left: 0; } }
 
 img[align="right"] {
   float: right;
@@ -419,6 +422,9 @@ img[align="right"] {
   height: auto;
   margin-left: 1.5rem;
   margin-right: -10%; }
+  @media (max-width: 959px) {
+    img[align="right"] {
+      margin-right: 0; } }
 
 img.full {
   width: calc(100% - 1rem);
@@ -432,12 +438,19 @@ img.hero {
   padding: 0;
   background: transparent;
   box-shadow: none; }
+  @media (max-width: 959px) {
+    img.hero {
+      margin-left: -1rem; } }
 
 [class^='image-group'] {
   width: 120%;
   margin-left: -10%;
   text-align: center;
   vertical-align: middle; }
+  @media (max-width: 959px) {
+    [class^='image-group'] {
+      width: calc(100% + 2rem);
+      margin-left: -1rem; } }
   [class^='image-group'] a,
   [class^='image-group'] img {
     display: inline-block;
