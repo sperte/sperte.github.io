@@ -10,7 +10,7 @@ Despite market and investor interest, Tagboard didn't have an actual product to 
 
 I started by sketching some basic layout compositions I felt would lend themselves to the type of experience we hoped would resonate with users: a tiled mosaic, popularized by Pinterest.
 
-<a href="sketch-to-ship.jpg"><img src="sketch-to-ship.jpg" class="full"></a>
+<img src="sketch-to-ship.jpg" class="full" data-action="zoom">
 
 From there I launched Photoshop to create low-fidelity mockups. I continued to iterate on ideas as I began experimenting in code -- adding styling and visual treatments along the way as necessary.
 
