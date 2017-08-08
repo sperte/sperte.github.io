@@ -14,9 +14,10 @@ The first thing to do was figure out how to invite a conversation without offend
 
 I can't take credit for the timeless composition of the logotype but did help select the typeface and provide feedback on the sizing and layout.
 
-<div class="image-group-2">
+<div class="image-group-3">
   <img src="/jesusis/billboard.jpg" data-action="zoom">
   <img src="/jesusis/bus.jpg" data-action="zoom">
+  <img src="/jesusis/jesus-is_31.jpeg" data-action="zoom">
 </div>
 
 ## A customizable answer
@@ -40,10 +41,11 @@ One of the coolest aspects of the site was the homepage, which selected from the
 
 I was also surprised and humbled by how the community adopted the idea and made it their own. Over the years I've spotted several lookalikes and iterations, and they always bring a smile to my face.
 
-<div class="image-group-3">
+<div class="image-group-4">
   <img src="/jesusis/yoda-bumpersticker.JPG" data-action="zoom">
   <img src="/jesusis/enrollment-poster.JPG" data-action="zoom">
   <img src="/jesusis/jesustaco.jpg" data-action="zoom">
+  <img src="/jesusis/graffiti.jpg" data-action="zoom">
 </div>
 
-During the official campaign period, the site received over 160,000 submissions, and it's still active today. The JESUS IS ____ brand is also still being used for books and other resources.
+During the official campaign period, the site received over 160,000 submissions, and it's still active today. The JESUS IS `____` brand is also still being used for books and other resources.
