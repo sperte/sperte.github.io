@@ -13,24 +13,25 @@ Currently looking for a new role, I'm a designer with 20 years experience in pro
 
 My professional career began as a teenager in 1995 with my first job designing yellow page advertisements for local businesses. Prior to that I'd dabbled with some graphic design as a hobby and had won a few logo design competitions.
 
-For almost 12 years I helped lead digital and media productions at [The City Church](http://thecity.org), where I launched several **award-winning websites and campaigns**, the most notable being "Jesus Is ____", which was [nationally recognized](http://www.churchmarketingsucks.com/2011/03/jesus-is/) and inspired dozens of lookalike projects and installations.
+For almost 12 years I helped lead digital and media productions at [The City Church](http://thecity.org), where I launched several **award-winning websites and campaigns**, the most notable being "JESUS IS `____`", which was [nationally recognized](http://www.churchmarketingsucks.com/2011/03/jesus-is/) and inspired dozens of lookalike projects and installations.
 
-<div class="image-group-2">
+<div class="image-group-2 index">
   <a href="/jesusis"><img src="/img/thumb-jesusis.png">Read about JESUS IS ____</a>
 </div>
 
-During that time I also co-founded a side business called [Sky Balloon](http://skyballoonstudio.com) with two friends. We developed iPhone apps in our spare time to hone our skills. We worked on over a dozen apps and shipped five. Our most popular app (with over 300k downloads) was a quick-launch video camera called Capture, which was featured on [CNN](http://www.cnn.com/2011/TECH/web/07/20/useful.apps.sites.tools/index.html), [CNET](https://www.cnet.com/news/record-video-in-an-instant-with-capture-app/), [Gizmodo](https://gizmodo.com/5818925/captures-big-fat-video-icon-starts-recording-as-soon-as-its-pressed), [Lifehacker](https://lifehacker.com/5819454/add-an-instant-record-button-to-your-home-screen-and-never-miss-the-money-shot), [Wired](https://www.wired.com/2011/07/capture-app-a-record-button-for-your-home-screen/), and dozens of [smaller publications and blogs](https://www.macstories.net/reviews/capture-the-fastest-app-to-record-video-on-your-iphone/).
+During that time I also co-founded a side company called [Sky Balloon](http://skyballoonstudio.com) with two friends. We developed iPhone apps in our spare time to hone our skills. We worked on over a dozen apps and shipped five. Our most popular app (with over 300k downloads) was a quick-launch video camera called Capture, which was featured on [CNN](http://www.cnn.com/2011/TECH/web/07/20/useful.apps.sites.tools/index.html), [CNET](https://www.cnet.com/news/record-video-in-an-instant-with-capture-app/), [Gizmodo](https://gizmodo.com/5818925/captures-big-fat-video-icon-starts-recording-as-soon-as-its-pressed), [Lifehacker](https://lifehacker.com/5819454/add-an-instant-record-button-to-your-home-screen-and-never-miss-the-money-shot), [Wired](https://www.wired.com/2011/07/capture-app-a-record-button-for-your-home-screen/), and dozens of [smaller publications and blogs](https://www.macstories.net/reviews/capture-the-fastest-app-to-record-video-on-your-iphone/).
 
-<div class="image-group-2">
+<div class="image-group-3 index">
   <a href="/capture"><img src="/img/thumb-capture.png">Read about about the Capture app</a>  
+  <a href="/canned"><img src="/img/thumb-canned.png">Read about the Canned app</a>
   <a href="/rhema"><img src="/img/thumb-rhema.png">Read about the Rhema app</a>
 </div>
 
-In 2011, I left my career at the church to help start [Tagboard], a social media software company. After creating the brand, **I helped lead the product team** to build, deliver, and manage the whole of Tagboard's product offering, and then transitioned to a more central role in the company as Chief of Staff.
+In 2011, I left my career at the church to help start [Tagboard], a social media software company. After creating the brand and product prototype, I assumed a Chief Product Officer role and helped lead a team of designers and developers to build, deliver, and manage the whole of Tagboard's product. Later, I transitioned to a more central role in the company as Chief of Staff, providing coaching and support for the leadership team, as well as inside counsel for the rest of the organization worldwide.
 
-<div class="image-group-2">
+<div class="image-group-2 index">
   <a href="/tagboard-brand"><img src="/img/thumb-tagboard-brand.png">Read about the Tagboard brand</a>
-  <a href="/tagboard-site"><img src="/img/thumb-tagboard-site.jpg">Read about the Tagboard site</a>  
+  <a href="/tagboard-site"><img src="/img/thumb-tagboard-site.jpg">Read about Tagboard</a>  
 </div>
 
 [Tagboard]: https://tagboard.com

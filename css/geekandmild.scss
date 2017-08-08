@@ -159,20 +159,21 @@ img.hero {
 		border: none;
 	}
 	a:hover {
-		background-color: none;
+		opacity: .8;
+		background-color: transparent;
 	}
-}
-.image-group-2 > * {
-	max-width: calc(50% - 1.5rem);
-}
-.image-group-3 > * {
-	max-width: calc(33.333% - 1.5rem);
-}
-.image-group-4 > * {
-	max-width: calc(25% - 1.5rem);
-}
-.image-group-5 > * {
-	max-width: calc(20% - 1.5rem);
+	&.image-group-2 > * {
+		max-width: calc(50% - 1.5rem);
+	}
+	&.image-group-3 > * {
+		max-width: calc(33.333% - 1.5rem);
+	}
+	&.image-group-4 > * {
+		max-width: calc(25% - 1.5rem);
+	}
+	&.image-group-5 > * {
+		max-width: calc(20% - 1.5rem);
+	}
 }
 
 
@@ -228,39 +229,6 @@ article {
 		&:hover {
 			color: #000;
 			background-color: transparent;
-		}
-	}
-}
-
-
-// Portfolio index
-.index {
-	margin-bottom: 40px;
-	&.image-group-2 > * {
-		width: calc(50% - 1.5rem);
-	}
-	&.image-group-3 > * {
-		width: calc(33.333% - 1.5rem);
-	}
-	&.image-group-4 > * {
-		width: calc(25% - 1.5rem);
-	}
-	&.image-group-5 > * {
-		width: calc(20% - 1.5rem);
-	}
-	a {
-		position: relative;
-		height: 15vw;
-		background-size: cover;
-		box-shadow: 0 0 1px $grey-color-light, inset 0 0 50px rgba(0,0,0,.2);
-		span {
-			display: block;
-			position: absolute;
-			bottom: -25px;
-			width: 100%;
-		}
-		&:hover {
-			opacity: .8;
 		}
 	}
 }
