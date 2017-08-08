@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<img src="http://tgb.d.pr/LBthX2.jpg" alt="Sean Sperte" class="photo_img">
+<img src="/img/seansperte.jpg" alt="Sean Sperte">
 
 # Sean Sperte
 
