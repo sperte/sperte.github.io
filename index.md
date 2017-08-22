@@ -31,7 +31,7 @@ In 2011, I left my career at the church to help start [Tagboard], a social media
 
 <div class="image-group-2 index">
   <a href="/tagboard-brand"><img src="/img/thumb-tagboard-brand.png">Read about the Tagboard brand</a>
-  <a href="/tagboard-site"><img src="/img/thumb-tagboard-site.jpg">Read about Tagboard</a>  
+  <a href="/tagboard-site"><img src="/img/thumb-tagboard-site.jpg">Read about launching Tagboard</a>  
 </div>
 
 [Tagboard]: https://tagboard.com
@@ -41,7 +41,7 @@ In 2011, I left my career at the church to help start [Tagboard], a social media
 
 My core competencies are **software design, user experience design, and product management**. I'm fluent with most design tools (Photoshop, Sketch, typography, color, etc.) and can pick up and start using modern software with ease. Lately, my preferred tools have been words (written and verbal) and whiteboards.
 
-Because of my experience path, I sometimes feel I lack some tactical skills common to trained managers. I make up for it with technical knowledge and intuition. **I know how to code** HTML and CSS (including SASS and LESS), and can at least do some damage with JavaScript. (I also git and grunt and all that.)
+I'm a generalist, and have good technical knowledge and intuition. **I know how to code** HTML and CSS (including SASS and LESS), and can at least do some damage with JavaScript. (I also git and grunt and all that.)
 
 I enjoy coaching and leading ([through serving](https://www.youtube.com/watch?v=ReRcHdeUG9Y)) others. My leadership style and approach is summarized with three P's:
 
@@ -78,7 +78,7 @@ I believe in **diversity**, and I believe diverse teams perform better. I'm a st
 
 - Follow me on [Twitter](http://twitter.com/sperte)
 - Connect with me on [LinkedIn](https://www.linkedin.com/in/sperte)
-- [Download my resume](/assets/sperte-resume.pdf) (updated: 3-Aug 2017)
+- [Download my resume](/assets/sperte-resume.pdf) (updated: 15-Aug 2017)
 - See glimpses of some of my work on [Dribbble](https://dribbble.com/sperte)
 - Stalk me on [Instagram](https://www.instagram.com/sperte/)
 - Browse my [blog archive](/archive)
