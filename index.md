@@ -77,7 +77,7 @@ I believe in **diversity**, and I believe diverse teams perform better. I'm a st
 
 - Follow me on [Twitter](http://twitter.com/sperte)
 - Connect with me on [LinkedIn](https://www.linkedin.com/in/sperte)
-- [Download my resume](/assets/sperte-resume.pdf) (updated: 15-Aug 2017)
+- [Download my resume](/assets/sperte-resume.pdf) (updated: 14-Apr 2018)
 - See glimpses of some of my work on [Dribbble](https://dribbble.com/sperte)
 - Stalk me on [Instagram](https://www.instagram.com/sperte/)
 - Browse my [blog archive](/archive)
