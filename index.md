@@ -6,8 +6,7 @@ layout: default
 
 # Sean Sperte
 
-Currently looking for a new role, I'm a designer with 20 years experience in products, media, and marketing.
-
+Currently Senior Product Marketing Manager at [Remitly](http://remitly.com), I'm a designer with 20 years experience in products, media, and marketing.
 
 ## My experience
 
