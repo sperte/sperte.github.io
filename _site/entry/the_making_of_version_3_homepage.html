@@ -12,7 +12,7 @@
 	<link rel="alternate" type="application/rss+xml" title="Sean Sperte" href="/feed.xml">
 	<link rel="shortcut icon" href="/favicon.ico">
 
-	<link rel="stylesheet" href="//cloud.webtype.com/css/fa92cf68-f469-44c7-8d0f-335148ff8952.css">
+	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Oswald:200,300,400,500,600,700|PT+Mono|PT+Serif:400,400i,700,700i|Playfair+Display:400,400i,700,700i,900,900i|Volkhov:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
 	<link rel="stylesheet" href="/css/geekandmild.css">
 
 </head>
@@ -20,75 +20,205 @@
 
 <body class="post">
 
-	<article>
-	<h2>The Making of Version 3: Homepage</h2>
-	<h4>09 February 2007</h4>
-	<p>My favorite ExpressionEngine customization on Geek &amp; Mild is found on the homepage; the displaying of article and link entries. They&#8217;re both listed chronologically, as you can see, but are displayed uniquely. Out of the box the <code>&#123;exp:weblog:entries&#125;</code> tag doesn&#8217;t have a <code>category_id</code> variable, so I have to query the database to get one. Thankfully <abbr title="ExpressionEngine">EE</abbr> does have a query tag so no PHP code is needed. 
-Here&#8217;s what I do:</p>
+	<header id="top">
+			<h1>Sean Sperte<span> &mdash; </span><i>designer etc.</i></h1>
+	</header>
 
-<ol class="code">
-<li>&#123;exp:weblog:entries weblog=&quot;myblog&quot; limit=&quot;20&quot; paginate=&quot;bottom&quot;&#125;</li>
-<li>&#123;exp:query sql=&quot;SELECT cat_id AS mycategory FROM exp_category_posts WHERE entry_id = &apos;&#123;entry_id&#125;&apos;&quot;&#125;</li>
-<li>&#123;if mycategory == &apos;#&apos;&#125;</li>
-<li>&lt;div class=&quot;link&quot;&gt;</li>
-<li>    &#123;if summary&#125;&#123;summary&#125;&#123;if:else&#125;&#123;body&#125;&#123;/if&#125;</li>
-<li>&#123;if:else&#125;&lt;div class=&quot;post&quot;&gt;</li>
-<li>    &lt;h2&gt;&lt;em&gt;&#123;entry_date format=&quot;%M %j%S&quot;&#125; &lt;/em&gt;&lt;a href=&quot;/entry/&#123;url_title&#125;&quot;&gt;&#123;title&#125;&lt;/a&gt;&lt;/h2&gt;</li>
-<li>    &#123;summary&#125;</li>
-<li>    &#123;if body&#125;&#123;body&#125;&#123;/if&#125;</li>
-<li>    &lt;p class=&quot;post-links&quot;&gt;&lt;a href=&quot;/entry/&#123;url_title&#125;#comments&quot;&gt;&#123;comment_total&#125; comment&#123;if comment_total != &apos;1&apos;&#125;s&#123;/if&#125;&lt;/a&gt;&lt;span&gt; | &lt;/span&gt;&lt;a href=&quot;/entry/&#123;url_title&#125;&quot;&gt;permalink&lt;/a&gt;&lt;/p&gt;</li>
-<li>&#123;/if&#125;</li>
-<li>&lt;/div&gt;</li>
+	<section id="jenny-quote">
+			<blockquote>
+				&ldquo;Sean is one of the most thoughtful visionaries I've ever met. He has the magic gift of seeing things that no one else can see and then inspiring a team to move towards that vision with innovative ideas and execution.&rdquo;
+			</blockquote>
+			<cite>&mdash;Jenny Hogan</cite>
+	</section>
 
-<li>&lt;hr /&gt;</li>
+	<section id="current-role">
+			<p>Currently&hellip;</p>
+			<h3>Senior Product Marketing Manager at <a href="https://remitly.com/" target="_blank">Remitly</a></h3>
+			<p>Since October 2017</p>
+	</section>
 
-<li>&#123;paginate&#125;&lt;p id=&quot;pagination&quot;&gt;&#123;if next_page&#125;&lt;span&gt;&lt;a href=&quot;&#123;auto_path&#125;&quot;&gt;&amp;#171; Previous entries&lt;/a&gt;&lt;/span&gt; &#123;/if&#125;&#123;if previous_page&#125;&lt;a href=&quot;&#123;auto_path&#125;&quot;&gt;Newer entries &amp;#187;&lt;/a&gt;&#123;/if&#125;&lt;/p&gt;&#123;/paginate&#125;</li>
+	<section id="previous-roles">
 
-<li>&#123;/exp:query&#125;</li>
-<li>&#123;/exp:weblog:entries&#125;</li>
-</ol>
+			<h3>Previously</h3>
+			<ul>
+				<li>
+					Co-founder &amp; Chief Product Officer<br>
+					<b>Tagboard</b>
+				</li>
+				<li>
+					Co-founder &amp; Principle Designer<br>
+					<b>Sky Balloon</b>
+				</li>
+				<li>
+					Web Director<br>
+					<b>The City Church</b>
+				</li>
+			</ul>
+			<a href="#the-good-stuff">View previous work</a>
 
-<p>Firstly, everything&#8217;s wrapped in the <code>&#123;exp:weblog:entries&#125;</code> tag, allowing 20 entries (regardless of entry type, or category), and pagination is set at the bottom. Pretty simple and standard. If you plan on implementing or testing this code block out for your own, just replace the &#8220;myblog&#8221; value with your own blog short-name.</p>
+	</section>
 
-<p>Line 2 is where the query magic happens:</p>
+	<section id="josh-quote">
 
-<ol class="code">
-<li>&#123;exp:query sql=&#8221;SELECT cat_id AS mycategory FROM exp_category_posts WHERE entry_id = &#8216;&#123;entry_id&#125;&#8217;&#8221;&#125;</li>
-</ol>
+			<blockquote>
+				&ldquo;He has an unmatched work ethic and attitude, and empowers and strengthens any team that he is on&hellip;&rdquo;
+			</blockquote>
+			<cite>Joshua Decker</cite>
 
-<p>Here I&#8217;m grabbing the category ID (<code>cat_id</code>) from the table <code>exp_category_posts</code> for each entry and naming it <code>mycategory</code>. After that I have that precious variable <code>&#123;mycategory&#125;</code> available to me.</p>
+	</section>
 
-<p>Note: I think if multiple categories have been assigned to an entry, every ID will be listed when the variable is parsed. So, for instance, if categories 5, 11, and 14 have been selected, the <code>&#123;mycategory&#125;</code> variable will render <code>51114</code>. I&#8217;m not sure about that since I&#8217;m careful to only assign one category for each of my entries, but you should know if you plan on trying this out yourself.</p>
+	<section id="intro">
 
-<p>Now that I have the category ID available as a variable, I use a conditional statement to display entries based on their categories. That&#8217;s where the first <code>if</code> comes into play. My &#8220;links&#8221; category ID happens to be 21, so my conditional looks like:</p>
+			<h2>Graphic &<br>
+			Production &<br>
+			User Experience &<br>
+			Systems &<br>
+			Web&hellip;</h2>
+			<p><i>Design is my thing</i></p>
 
-<ol class="code">
-<li>&#123;if mycategory == &#8216;21&#8217;&#125;Content for links&#123;if:else&#125;Content for other types of entries&#123;/if&#125;</li>
-</ol>
+	</section>
 
-<p>Simple, eh? Once the initial query is done, the rest &#8230; <a href="http://www.silvermac.com/scrolls-like-butter/" title="Scrolls like butter reference">scrolls like butter</a>, as Steve would say.</p>
+	<section id="about-me">
 
-<p>One other note about my homepage code: You&#8217;ll notice I don&#8217;t use <code>&#123;url_title_path&#125;</code> for any of my entry links. I opted against that based on the simplicity of my website and the fact that linking to a specific anchor (e.g. #comments) doesn&#8217;t work that well when using the <abbr title="ExpressionEngine">EE</abbr> path variables. I&#8217;ll gladly change my ways if someone can explain to me why that is or how to avoid it.</p>
+			<h3>it's pronounced <i>spurdy*</i></h3>
+			<small>(* in ’merica, at least)</small>
+			<p>It&rsquo;s French, but I&rsquo;m actually French-Irish-Jewish &mdash; a mutt of nationalities, really.</p>
+			<p>I&rsquo;m 37 years-old, married, and have four children. I love my family.</p>
+			<p>I was born and raised in Colorado and moved around a lot during my formative years &mdash; Florida, Georgia, Virgina &mdash; finally landing in Seattle, WA in 1998. I&rsquo;ve been here ever since.</p>
+			<p>I&rsquo;m a Christian, and I try to live and love like Jesus did. My faith is important to me, but I don&rsquo;t consider myself religious.</p>
 
-<p><strong>UPDATE</strong>: It&#8217;s like pulling teeth to get EE to <em>not</em> parse code in this entry! Until I can get it worked out, I&#8217;ve added &#8220;VARIABLE&#8221; to the category ID tag.</p>
+	</section>
 
-<p><strong>UPDATE 2</strong>: I&#8217;ve changed the variable name altogether.</p>
+	<section id="my-story">
 
-<p><strong>UPDATE 3</strong>: Sorry for the outage all day! That&#8217;s what I get for messing around with templates during lunch break. Showing EE code blocks when using the Markdown plugin is proving <a href="http://www.pmachine.com/forums/viewthread/41449/" title="ExpressionEngine Forum thread">more trouble than it&#8217;s worth</a>, but I&#8217;ve been getting help from the pMachine Ninjas. Until a proper solution is found, the code blocks above will be backslash-escaped and have some parsed variables (on the homepage). Best not to copy/paste; just ask me if you want the original source.</p>
+			<h3>My story</h3>
+			<p>My professional career began as a teenager in 1995 with my first job designing yellow page advertisements for local businesses. Prior to that I&rsquo;d dabbled with some graphic design as a hobby and had won a few logo design competitions.</p>
+			<p>For almost 12 years I helped lead digital and media productions at The City Church, where I launched several award-winning websites and campaigns, the most notable being &ldquo;JESUS IS ____&rdquo;, which was nationally recognized and inspired dozens of lookalike projects and installations.</p>
+			<p>During that time I also co-founded a side company called Sky Balloon with two friends. We developed iPhone apps in our spare time to hone our skills. We worked on over a dozen apps and shipped five. Our most popular app (with over 300k downloads) was a quick-launch video camera called Capture, which was featured on CNN, CNET, Gizmodo, Lifehacker, Wired, and dozens of smaller publications and blogs.</p>
+			<p>In 2011, I left my career at the church to help start Tagboard, a social media software company. After creating the brand and product prototype, I assumed a Chief Product Officer role and helped lead a team of designers and developers to build, deliver, and manage the whole of Tagboard&rsquo;s product. Later, I transitioned to a more central role in the company as Chief of Staff, providing coaching and support for the leadership team, as well as inside counsel for the rest of the organization worldwide.</p>
 
-<p><strong>UPDATE 4</strong>: Finally got it working! I was provided a new version of the Markdown plugin (much thanks to <a href="http://www.pmachine.com/member/4359/" title="Paul Burdick">Paul Burdick</a>) that encodes EE tags and doesn&#8217;t allow them to be parsed when inside an entry. Certain tags on my homepage still get parsed somehow (notice the <code>&#123;url_title&#125;</code> and <code>&#123;entry_date&#125;</code> tags) because I&#8217;m using query. I&#8217;m not sure if there&#8217;s a way around that, so I am considering other solutions for displaying linked entries versus other types.</p>
+	</section>
 
-<article>
+	<section id="chris-quote">
 
-	<hr>
+			<blockquote>
+				<span>&ldquo;</span>Sean’s always<span> [&hellip;]</span> fought for the <b>best product&nbsp;ideas</b><span>&rdquo;</span>
+			</blockquote>
+			<cite>&mdash;Chris Messina</cite>
 
-	<footer>
-	<small>Site handcrafted using <a href="http://www.sublimetext.com/">Sublime Text</a>, powered by <a href="http://jekyllrb.com/">Jekyll</a> and hosted on <a href="https://pages.github.com/">Github Pages</a>.</small>
-</footer>
+	</section>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-<script src="/js/zoom.min.js"></script>
+	<section id="axioms">
+
+			<div class="paper">
+				<h3>Notes from the field</h3>
+				<ul>
+					<li>* Just because you can doesn&rsquo;t mean you should</li>
+					<li>* Think deeply, but not too deep</li>
+					<li>* Take your job seriously, yourself not so much</li>
+					<li>* Go for &ldquo;WOW&rdquo;</li>
+					<li>* Build bridges, don&rsquo;t burn them</li>
+					<li>* Be generous</li>
+					<li>* Smile more</li>
+					<li>* Be authentic</li>
+					<li>* Give a shit</li>
+					<li>* SIMPLIFY!</li>
+					<li>* Don&rsquo;t over-simplify</li>
+					<li>* We&apos;re better together</li>
+					<li>* Build-in flexibility</li>
+					<li>* No decision is final</li>
+					<li>* Don&apos;t settle</li>
+					<li>* Progress over perfection (1 > 0)</li>
+					<li>* Hope scales</li>
+					<li>* Impact wins the long game, output the short</li>
+					<li>* Be kind to everyone</li>
+					<li>* Comparison is the enemy of creativity</li>
+					<li>* Shipping is only the beginning</li>
+					<li>* Embrace uncertainty</li>
+					<li>* Invest only in the things you can control</li>
+					<li>* Learn people's names</li>
+					<li>* Build trust by communicating more</li>
+					<li>* Do not capitalize on the ignorance of others</li>
+					<li>* Approach with humility</li>
+					<li>* Play the long game</li>
+					<li>* People don't follow fingers (pointing the way)</li>
+				</ul>
+			</div>
+
+	</section>
+
+	<section id="the-good-stuff">
+		<h2>The good stuff</h2>
+	</section>
+
+	<section id="previous-work">
+
+			<h3><b>Previous</b> work</h3>
+
+			<div class="case-study">
+				<a href="/tagboard-brand"><img src="img/thumb-tagboard-brand.png" alt="Tagboard logomark"></a>
+				<h4>Tagboard Brand</h4>
+				<p>The pressure was on to create a visual identity that would both establish and distinguish us in the market &mdash; and it had to stand the test of time.</p>
+				<a href="/tagboard-brand">Read more</a>
+			</div>
+
+			<div class="case-study">
+				<a href="/tagboard"><img src="img/thumb-tagboard-site.jpg" alt="Tagboard at an event"></a>
+				<h4>Tagboard MVP</h4>
+				<p>Whiteboards and brainstorming weren&apos;t enough to get a company off the ground. We needed a prototype to demo.</p>
+				<a href="/tagboard">Read more</a>
+			</div>
+
+			<div class="case-study">
+				<a href="/jesusis"><img src="img/thumb-jesusis.png" alt="Screenshot of jesus-is.org"></a>
+				<h4>Jesus Is</h4>
+				<p>Inviting a city-wide conversation about the most controversial individual in the history of the world&hellip; it'll be fun, they said.</p>
+				<a href="/jesusis">Read more</a>
+			</div>
+
+			<div class="case-study">
+				<a href="/capture"><img src="img/thumb-capture.png" alt=""></a>
+				<h4>Capture</h4>
+				<p>Missing moments because the camera is slow to launch&hellip; the stuff of nightmores for parents. That&rsquo;s where Capture came in.</p>
+				<a href="/capture">Read more</a>
+			</div>
+
+			<div class="case-study">
+				<a href="/canned"><img src="img/thumb-canned.png" alt=""></a>
+				<h4>Canned</h4>
+				<p>Working within the strict constraits of the developer devkit, we set out to enable text message templates for iPhone.</p>
+				<a href="/canned">Read more</a>
+			</div>
+
+			<div class="case-study">
+				<a href="/rhema"><img src="img/thumb-rhema.png" alt=""></a>
+				<h4>Rhema</h4>
+				<p>It wasn&rsquo;t enough to digitize timeless and personalized Bible verses, we wanted to make them more accessible than ever with a native iPhone app.</p>
+				<a href="/rhema">Read more</a>
+			</div>
+
+	</section>
+
+	<section id="whats-next">
+
+			<h3>What&apos;s next?</h3>
+			<ul>
+				<li><span>Follow me on</span> <a href="">Twitter</a></li>
+				<li><span>Connect with me on</span> <a href="">LinkedIn</a></li>
+				<li><span>Download my</span> <a href="">resume</a></li>
+				<li><span>See glimpses of my work on</span> <a href="">Dribbble</a></li>
+				<li><span>Stalk me on</span> <a href="">Instagram</a></li>
+				<li><span>Browse my blog</span> <a href="">archive</a></li>
+				<li><span>Contact me via</span> <a href="">email</a></li>
+			</ul>
+
+	</section>
+
+	<section id="fin">
+		<h3>Thanks for visiting.</h3>
+		<a href="#top"><span>^</span> Back to top</a>
+	</section>
+
 
 </body>
 

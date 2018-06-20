@@ -1,10 +1,9 @@
 ---
 layout: portfolio
+title: "Capture"
+summary: "Missing moments because the camera is slow to launch… the stuff of nightmares for parents. That's where Capture came in."
+thumbnail: thumb-capture.png
 ---
-
-# Capture app
-
-As a new father I found myself missing important moments while fumbling through my iPhone's user interface, trying to get to the video camera. I knew there had to be a better way...
 
 <img src="/capture/hero.png" data-action="zoom">
 

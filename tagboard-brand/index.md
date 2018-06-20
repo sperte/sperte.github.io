@@ -1,10 +1,9 @@
 ---
 layout: portfolio
+title: "Tagboard Brand"
+summary: "The pressure was on to create a visual identity that would both establish and distinguish us in the market — and it had to stand the test of time."
+thumbnail: thumb-tagboard-brand.png
 ---
-
-# Tagboard brand
-
-As the design co-founder of a new technology startup the pressure was on to create a logo and associated brand that would help both establish and distinguish us in the market -- and it had to stand the test of time...
 
 ## Type, face, and mark
 
@@ -39,6 +38,8 @@ As part of the process I developed a presentation slide deck to help anchor the 
 
 ## Powered by Tagboard
 
-<img src="poweredby-blue.png" align="right" data-action="zoom">The logo itself was integrated into an attribution badge to help viewers identify Tagboard's public screens. It actually became an important part of our partnership strategy with source networks like Twitter and Facebook because if a public social screen had our logo it meant the content being shown was sanctioned. And despite early push-back from customers, the "Powered by Tagboard" badge eventually became a sort of badge of honor, signaling a company's forward-thinking and taste. (Tagboard has a reputation of having the best looking and most natural social screens).
+<img src="poweredby-blue.png" data-action="zoom">
+
+The logo itself was integrated into an attribution badge to help viewers identify Tagboard's public screens. It actually became an important part of our partnership strategy with source networks like Twitter and Facebook because if a public social screen had our logo it meant the content being shown was sanctioned. And despite early push-back from customers, the "Powered by Tagboard" badge eventually became a sort of badge of honor, signaling a company's forward-thinking and taste. (Tagboard has a reputation of having the best looking and most natural social screens).
 
 <img src="tagboard-in-the-wild.jpg" class="hero">

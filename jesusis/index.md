@@ -1,10 +1,9 @@
 ---
 layout: portfolio
+title: "Jesus Is"
+summary: "Inviting a city-wide conversation about the most controversial individual in the history of the world… it'll be fun, they said."
+thumbnail: thumb-jesusis.png
 ---
-
-# JESUS IS `____`
-
-"Let's get people to talk about Jesus in Seattle" was the directive that came down from my pastor and boss at The City Church. That was it. There wasn't more to go off of, and no other goal(s).
 
 ## Inviting a conversation
 

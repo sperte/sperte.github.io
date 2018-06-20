@@ -12,7 +12,7 @@
 	<link rel="alternate" type="application/rss+xml" title="Sean Sperte" href="/feed.xml">
 	<link rel="shortcut icon" href="/favicon.ico">
 
-	<link rel="stylesheet" href="//cloud.webtype.com/css/fa92cf68-f469-44c7-8d0f-335148ff8952.css">
+	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Oswald:200,300,400,500,600,700|PT+Mono|PT+Serif:400,400i,700,700i|Playfair+Display:400,400i,700,700i,900,900i|Volkhov:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
 	<link rel="stylesheet" href="/css/geekandmild.css">
 
 </head>
@@ -20,72 +20,205 @@
 
 <body class="post">
 
-	<article>
-	<h2>Rootkit 2: Doom and gloom</h2>
-	<h4>09 November 2005</h4>
-	<p>A followup on my post yesterday about the Sony rootkit issue, and why the DRM war is everyone&#8217;s battle. 
-Where do I begin with this? Sony has a massive PR mess on their hands, one that could potentially spell disaster for their BMG division.</p>
+	<header id="top">
+			<h1>Sean Sperte<span> &mdash; </span><i>designer etc.</i></h1>
+	</header>
 
-<p>I was, as confessed, a wee bit off on the details in my last post. After investigating further I now understand the rootkit nature and the [admitted] reason for the software in the first place. Let&#8217;s rehash (again), shall we:</p>
+	<section id="jenny-quote">
+			<blockquote>
+				&ldquo;Sean is one of the most thoughtful visionaries I've ever met. He has the magic gift of seeing things that no one else can see and then inspiring a team to move towards that vision with innovative ideas and execution.&rdquo;
+			</blockquote>
+			<cite>&mdash;Jenny Hogan</cite>
+	</section>
 
-<ol>
-<li>A rights-protected CD from Sony BMG is bought and placed in a computer CD drive</li>
-<li>The CD can be copied to three other &#8220;backup CD&#8217;s&#8221; but isn&#8217;t able to be played by Windows Media Player or any other CD player software but instead:</li>
-<li>Asks to install and use its own software to play the CD (see the <a href="http://www.sysinternals.com/blog/sony-eula.htm">ELA</a>)</li>
-<li>The installer places more than the named player on the computer, but also installs a rootkit, which cloaks Sony&#8217;s DRM software and a process called Aries.sys</li>
-<li>Attempts to uncloak and unload the Sony DRM result in loss of CD drive operation (which can be restored with genius-like care and strategy)</li>
-</ol>
+	<section id="current-role">
+			<p>Currently&hellip;</p>
+			<h3>Senior Product Marketing Manager at <a href="https://remitly.com/" target="_blank">Remitly</a></h3>
+			<p>Since October 2017</p>
+	</section>
 
-<p>Now here&#8217;s where it gets interesting because, as <a href="http://www.sysinternals.com/blog/2005/11/more-on-sony-dangerous-decloaking.html">Mark points out</a>, not only is this rootkit undisclosed, but there&#8217;s also no way to effectively uninstall the software. <strong>And Sony has yet to come clean about it!</strong></p>
+	<section id="previous-roles">
 
-<p>Since the story broke Sony (or First 4 Internet, the developers of the Sony DRM) has released a &#8220;Service Pack 2&#8221; which claims to &#8220;patch&#8221; the problem, but it only updates the Sony DRM and can <em>potentially crash the system</em> when unloading the drivers. Yeah, nice fix. Most users don&#8217;t even know there&#8217;s a problem (<em>since it&#8217;s a rootkit and hides every evidence of its existence</em>).</p>
+			<h3>Previously</h3>
+			<ul>
+				<li>
+					Co-founder &amp; Chief Product Officer<br>
+					<b>Tagboard</b>
+				</li>
+				<li>
+					Co-founder &amp; Principle Designer<br>
+					<b>Sky Balloon</b>
+				</li>
+				<li>
+					Web Director<br>
+					<b>The City Church</b>
+				</li>
+			</ul>
+			<a href="#the-good-stuff">View previous work</a>
 
-<p>And there&#8217;s still no uninstaller &#8211; at least not one readily available to the public!</p>
+	</section>
 
-<p>So here we are, midway through November, and still no formal apology or fix from Sony or <abbr title="First 4 Internet">F4I</abbr>. Here&#8217;s what Mark has to say (emphasis mine):</p>
+	<section id="josh-quote">
 
-<blockquote>
-  <p>&#8230; the EULA does not disclose the software’s use of cloaking or the fact that it comes with no uninst facility. An end user is not only installing software when they agree to the EULA, they are <strong>losing control of part of the computer</strong>, which has both reliability and security implications. There&#8217;s no way to ensure that you have up-to-date security patches for software you don&#8217;t know you have and there&#8217;s no way to remove, update or even identify hidden software that&#8217;s crashing your computer.</p>
-  
-  <p>Instead of admitting fault for installing a rootkit and installing it without proper disclosure, both Sony and First 4 Internet claim innocence. By not coming clean they are making clear to any potential customers that they are a not only technically incompetent, but also dishonest.</p>
-</blockquote>
+			<blockquote>
+				&ldquo;He has an unmatched work ethic and attitude, and empowers and strengthens any team that he is on&hellip;&rdquo;
+			</blockquote>
+			<cite>Joshua Decker</cite>
 
-<p>Then there&#8217;s the quote/soundbite from Sony Global Digital Business prez:</p>
+	</section>
 
-<blockquote>
-  <p>Most people, I think, don’t even know what a rootkit is, so why should they care about it?</p>
-</blockquote>
+	<section id="intro">
 
-<p>As one commenter said, that&#8217;s like saying, &#8220;most people don&#8217;t even know what a thermite grenade is, so they won&#8217;t care if an active one is underneath their pillow.&#8221;</p>
+			<h2>Graphic &<br>
+			Production &<br>
+			User Experience &<br>
+			Systems &<br>
+			Web&hellip;</h2>
+			<p><i>Design is my thing</i></p>
 
-<p>It gets even worse, though, because Sony is making this crap <abbr title="Standard Operating Procedure">SOP</abbr> before the end of the year, and <a href="http://www.xcp-aurora.com/press_article.aspx?art=aug_05_art3">others are following suit</a>.</p>
+	</section>
 
-<p>This gets back to my previous post regarding the nature of DRM and the war that&#8217;s brewing. Make no mistake, our freedoms, be they digital or otherwise, are being threatened. It goes beyond being able to burn our own CD&#8217;s or listen to music; it stems all the way to the way we interact with each other online, the ability to download files, and even ownership of content we&#8217;ve <em>purchased</em>.</p>
+	<section id="about-me">
 
-<p>Here&#8217;s the doom and gloom: The water&#8217;s already heating up, and if we&#8217;re not careful to take action, we&#8217;ll be boiling before we know it. We will be living in a rental world, where we own nothing and everything comes with a pricing scheme that rises and falls based on the whims of CEO&#8217;s and &#8220;creators&#8221; of content. The liberties we now have (to watch TV, record shows, buy and play movies, buy and play music, et al.) will be told of in stories, and remembered as the days of freedom and choice.</p>
+			<h3>it's pronounced <i>spurdy*</i></h3>
+			<small>(* in ’merica, at least)</small>
+			<p>It&rsquo;s French, but I&rsquo;m actually French-Irish-Jewish &mdash; a mutt of nationalities, really.</p>
+			<p>I&rsquo;m 37 years-old, married, and have four children. I love my family.</p>
+			<p>I was born and raised in Colorado and moved around a lot during my formative years &mdash; Florida, Georgia, Virgina &mdash; finally landing in Seattle, WA in 1998. I&rsquo;ve been here ever since.</p>
+			<p>I&rsquo;m a Christian, and I try to live and love like Jesus did. My faith is important to me, but I don&rsquo;t consider myself religious.</p>
 
-<ul>
-<li>We will no longer be able to show our friends our favorite track on the new Dave Matthews CD because our alloted playbacks have expired.</li>
-<li>We will miss the cliff-hanger episode of our favorite show because even though we TiVo&#8217;d it, the system deleted it after a predefined time period, and we forgot to watch it before it had.</li>
-<li>We will have to pay for each time we play a song, whether in the car, on iPod, from computer, as ringtone, or otherwise.</li>
-<li>We will have to pay for every time we watch a DVD</li>
-<li>We will have to pay extra for the burger at Red Robin because the franchise has to pay for each show on each TV they display, and each song that&#8217;s played, every time it&#8217;s played.</li>
-<li>We will no longer be able to keep our home movies, because the maker of the camera we used embedded a destruction algorithm in the media that, if not paid for, will corrode the data.</li>
-</ul>
+	</section>
 
-<p>The possibilities go on, and get darker. Is DRM by nature evil? No. But just like money, what can come from the <em>love of it</em>, is evil. That is why this Sony thing scares me so much; and why I&#8217;m boycotting them. Once a company has become so paranoid about protecting their cash flow that they lower themselves to criminal-type methods of retaining control, they must be boycotted.</p>
+	<section id="my-story">
 
-<article>
+			<h3>My story</h3>
+			<p>My professional career began as a teenager in 1995 with my first job designing yellow page advertisements for local businesses. Prior to that I&rsquo;d dabbled with some graphic design as a hobby and had won a few logo design competitions.</p>
+			<p>For almost 12 years I helped lead digital and media productions at The City Church, where I launched several award-winning websites and campaigns, the most notable being &ldquo;JESUS IS ____&rdquo;, which was nationally recognized and inspired dozens of lookalike projects and installations.</p>
+			<p>During that time I also co-founded a side company called Sky Balloon with two friends. We developed iPhone apps in our spare time to hone our skills. We worked on over a dozen apps and shipped five. Our most popular app (with over 300k downloads) was a quick-launch video camera called Capture, which was featured on CNN, CNET, Gizmodo, Lifehacker, Wired, and dozens of smaller publications and blogs.</p>
+			<p>In 2011, I left my career at the church to help start Tagboard, a social media software company. After creating the brand and product prototype, I assumed a Chief Product Officer role and helped lead a team of designers and developers to build, deliver, and manage the whole of Tagboard&rsquo;s product. Later, I transitioned to a more central role in the company as Chief of Staff, providing coaching and support for the leadership team, as well as inside counsel for the rest of the organization worldwide.</p>
 
-	<hr>
+	</section>
 
-	<footer>
-	<small>Site handcrafted using <a href="http://www.sublimetext.com/">Sublime Text</a>, powered by <a href="http://jekyllrb.com/">Jekyll</a> and hosted on <a href="https://pages.github.com/">Github Pages</a>.</small>
-</footer>
+	<section id="chris-quote">
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-<script src="/js/zoom.min.js"></script>
+			<blockquote>
+				<span>&ldquo;</span>Sean’s always<span> [&hellip;]</span> fought for the <b>best product&nbsp;ideas</b><span>&rdquo;</span>
+			</blockquote>
+			<cite>&mdash;Chris Messina</cite>
+
+	</section>
+
+	<section id="axioms">
+
+			<div class="paper">
+				<h3>Notes from the field</h3>
+				<ul>
+					<li>* Just because you can doesn&rsquo;t mean you should</li>
+					<li>* Think deeply, but not too deep</li>
+					<li>* Take your job seriously, yourself not so much</li>
+					<li>* Go for &ldquo;WOW&rdquo;</li>
+					<li>* Build bridges, don&rsquo;t burn them</li>
+					<li>* Be generous</li>
+					<li>* Smile more</li>
+					<li>* Be authentic</li>
+					<li>* Give a shit</li>
+					<li>* SIMPLIFY!</li>
+					<li>* Don&rsquo;t over-simplify</li>
+					<li>* We&apos;re better together</li>
+					<li>* Build-in flexibility</li>
+					<li>* No decision is final</li>
+					<li>* Don&apos;t settle</li>
+					<li>* Progress over perfection (1 > 0)</li>
+					<li>* Hope scales</li>
+					<li>* Impact wins the long game, output the short</li>
+					<li>* Be kind to everyone</li>
+					<li>* Comparison is the enemy of creativity</li>
+					<li>* Shipping is only the beginning</li>
+					<li>* Embrace uncertainty</li>
+					<li>* Invest only in the things you can control</li>
+					<li>* Learn people's names</li>
+					<li>* Build trust by communicating more</li>
+					<li>* Do not capitalize on the ignorance of others</li>
+					<li>* Approach with humility</li>
+					<li>* Play the long game</li>
+					<li>* People don't follow fingers (pointing the way)</li>
+				</ul>
+			</div>
+
+	</section>
+
+	<section id="the-good-stuff">
+		<h2>The good stuff</h2>
+	</section>
+
+	<section id="previous-work">
+
+			<h3><b>Previous</b> work</h3>
+
+			<div class="case-study">
+				<a href="/tagboard-brand"><img src="img/thumb-tagboard-brand.png" alt="Tagboard logomark"></a>
+				<h4>Tagboard Brand</h4>
+				<p>The pressure was on to create a visual identity that would both establish and distinguish us in the market &mdash; and it had to stand the test of time.</p>
+				<a href="/tagboard-brand">Read more</a>
+			</div>
+
+			<div class="case-study">
+				<a href="/tagboard"><img src="img/thumb-tagboard-site.jpg" alt="Tagboard at an event"></a>
+				<h4>Tagboard MVP</h4>
+				<p>Whiteboards and brainstorming weren&apos;t enough to get a company off the ground. We needed a prototype to demo.</p>
+				<a href="/tagboard">Read more</a>
+			</div>
+
+			<div class="case-study">
+				<a href="/jesusis"><img src="img/thumb-jesusis.png" alt="Screenshot of jesus-is.org"></a>
+				<h4>Jesus Is</h4>
+				<p>Inviting a city-wide conversation about the most controversial individual in the history of the world&hellip; it'll be fun, they said.</p>
+				<a href="/jesusis">Read more</a>
+			</div>
+
+			<div class="case-study">
+				<a href="/capture"><img src="img/thumb-capture.png" alt=""></a>
+				<h4>Capture</h4>
+				<p>Missing moments because the camera is slow to launch&hellip; the stuff of nightmores for parents. That&rsquo;s where Capture came in.</p>
+				<a href="/capture">Read more</a>
+			</div>
+
+			<div class="case-study">
+				<a href="/canned"><img src="img/thumb-canned.png" alt=""></a>
+				<h4>Canned</h4>
+				<p>Working within the strict constraits of the developer devkit, we set out to enable text message templates for iPhone.</p>
+				<a href="/canned">Read more</a>
+			</div>
+
+			<div class="case-study">
+				<a href="/rhema"><img src="img/thumb-rhema.png" alt=""></a>
+				<h4>Rhema</h4>
+				<p>It wasn&rsquo;t enough to digitize timeless and personalized Bible verses, we wanted to make them more accessible than ever with a native iPhone app.</p>
+				<a href="/rhema">Read more</a>
+			</div>
+
+	</section>
+
+	<section id="whats-next">
+
+			<h3>What&apos;s next?</h3>
+			<ul>
+				<li><span>Follow me on</span> <a href="">Twitter</a></li>
+				<li><span>Connect with me on</span> <a href="">LinkedIn</a></li>
+				<li><span>Download my</span> <a href="">resume</a></li>
+				<li><span>See glimpses of my work on</span> <a href="">Dribbble</a></li>
+				<li><span>Stalk me on</span> <a href="">Instagram</a></li>
+				<li><span>Browse my blog</span> <a href="">archive</a></li>
+				<li><span>Contact me via</span> <a href="">email</a></li>
+			</ul>
+
+	</section>
+
+	<section id="fin">
+		<h3>Thanks for visiting.</h3>
+		<a href="#top"><span>^</span> Back to top</a>
+	</section>
+
 
 </body>
 

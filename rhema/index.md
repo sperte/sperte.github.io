@@ -1,10 +1,9 @@
 ---
 layout: portfolio
+title: "Rhema"
+summary: "It wasn't enough to digitize timeless and personalized Bible verses, we wanted to make them more accessible than ever with a native iPhone app."
+thumbnail: thumb-rhema.png
 ---
-
-# Rhema app
-
-"Rhema cards" as they were called, were categorized and personalized verses from the Bible, formatted to be easily read during meditation or study. But they were awkward and analog...
 
 ## Personalized scripture in your pocket
 

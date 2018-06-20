@@ -1,21 +1,15 @@
 ---
 layout: portfolio
+title: "Canned"
+summary: "Working within the strict constraits of the developer devkit, we set out to enable text message templates for iPhone."
+thumbnail: thumb-canned.png
 ---
-
-# Canned
-
-Tapping out the same text message multiple times for multiple people can be cumbersome, but I knew it didn't have to be that way...
 
 ## Launch, tap, send
 
 I worked with the small, 3-man Sky Balloon team to create an iPhone app that gave the ability to quickly send pre-drafted texts. The app also included a feature for sending to a preset person or group of people -- and since the draft template could be blank, the app was also used for group messaging.
 
-<div class="image-group-4">
-  <img src="canned-0.png" data-action="zoom">
-  <img src="canned-1.png" data-action="zoom">
-  <img src="canned-2.png" data-action="zoom">
-  <img src="canned-3.png" data-action="zoom">
-</div>
+<img src="screenshots.png" data-action="zoom">
 
 The goal was to remove as much friction as possible from the process of sending a common text messages. I imagined an optimized user experience that could safely be used with one hand while driving.
 
@@ -28,4 +22,3 @@ When we released Canned it was the height of skeuomorphism in mobile UI design. 
 <img src="canned-icons.png" data-action="zoom">
 
 Canned ended up selling to a few thousand people and spawning a new trend in single-purpose, utilitarian type apps (and ripoffs). We would later create an email version of it called Canned Mail.
-

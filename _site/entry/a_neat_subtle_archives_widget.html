@@ -12,7 +12,7 @@
 	<link rel="alternate" type="application/rss+xml" title="Sean Sperte" href="/feed.xml">
 	<link rel="shortcut icon" href="/favicon.ico">
 
-	<link rel="stylesheet" href="//cloud.webtype.com/css/fa92cf68-f469-44c7-8d0f-335148ff8952.css">
+	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Oswald:200,300,400,500,600,700|PT+Mono|PT+Serif:400,400i,700,700i|Playfair+Display:400,400i,700,700i,900,900i|Volkhov:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
 	<link rel="stylesheet" href="/css/geekandmild.css">
 
 </head>
@@ -20,126 +20,205 @@
 
 <body class="post">
 
-	<article>
-	<h2>A Neat, Subtle Archives Widget</h2>
-	<h4>23 February 2010</h4>
-	<p><strong>Update:</strong> I&#8217;ve removed the archives widget in favor of a <a href="/archive">dedicated page/section</a>. The widget was a fun experiment, but never really worked the way I wanted it to. I&#8217;m leaving this article up for posterity and so others can still use and adapt the widget if they so desire.</p>
+	<header id="top">
+			<h1>Sean Sperte<span> &mdash; </span><i>designer etc.</i></h1>
+	</header>
 
-<hr />
+	<section id="jenny-quote">
+			<blockquote>
+				&ldquo;Sean is one of the most thoughtful visionaries I've ever met. He has the magic gift of seeing things that no one else can see and then inspiring a team to move towards that vision with innovative ideas and execution.&rdquo;
+			</blockquote>
+			<cite>&mdash;Jenny Hogan</cite>
+	</section>
 
-<p>You may have noticed I rearranged some elements of Geek &amp; Mild over the weekend. Or maybe you didn&#8217;t.</p>
+	<section id="current-role">
+			<p>Currently&hellip;</p>
+			<h3>Senior Product Marketing Manager at <a href="https://remitly.com/" target="_blank">Remitly</a></h3>
+			<p>Since October 2017</p>
+	</section>
 
-<p>The biggest change is the location of the archives widget timeline thing, which I moved to the opposite side of the window. The reasoning has to do with <a href="http://particletree.com/features/visualizing-fittss-law/">Fitt&#8217;s law</a> and the widget sharing vicinity with the browser scrollbar. I was never comfortable with how close the two interface elements were.</p>
+	<section id="previous-roles">
 
-<p>I&#8217;m still unsure if the widget works for its purpose, but since I haven&#8217;t gotten any particularly negative feedback about it, I figure it must do its job adequately.</p>
+			<h3>Previously</h3>
+			<ul>
+				<li>
+					Co-founder &amp; Chief Product Officer<br>
+					<b>Tagboard</b>
+				</li>
+				<li>
+					Co-founder &amp; Principle Designer<br>
+					<b>Sky Balloon</b>
+				</li>
+				<li>
+					Web Director<br>
+					<b>The City Church</b>
+				</li>
+			</ul>
+			<a href="#the-good-stuff">View previous work</a>
 
-<p>The widget itself &#8211; the code, I mean &#8211; is so simple I thought I&#8217;d share it.</p>
+	</section>
 
-<h3>The HTML (plus ExpressionEngine)</h3>
+	<section id="josh-quote">
 
-<div style="text-align:left;color:#000000; background-color:#ffffff; border:solid black 1px; padding:0.5em 1em 0.5em 1em; overflow:auto;font-size:small; font-family:monospace; "><span style="color:#881280;">&lt;ul </span><span style="color:#994500;">id</span><span style="color:#881280;">=</span><span style="color:#1a1aa6;">&quot;archives&quot;</span><span style="color:#881280;">&gt;</span><br />
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#881280;">&lt;li </span><span style="color:#994500;">id</span><span style="color:#881280;">=</span><span style="color:#1a1aa6;">&quot;now&quot;</span><span style="color:#881280;">&gt;&lt;a </span><span style="color:#994500;">href</span><span style="color:#881280;">=</span><span style="color:#1a1aa6;">&quot;/&quot;</span><span style="color:#881280;">&gt;&lt;span&gt;</span>Now<span style="color:#881280;">&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;</span><br />
-&nbsp;&nbsp;&nbsp;&nbsp;&#123;exp:weblog:month_links&#125;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#881280;">&lt;li </span><span style="color:#994500;">id</span><span style="color:#881280;">=</span><span style="color:#1a1aa6;">&quot;a&#123;year&#125;-&#123;month_num&#125;&quot;</span><span style="color:#881280;">&gt;&lt;a </span><span style="color:#994500;">href</span><span style="color:#881280;">=</span><span style="color:#1a1aa6;">&quot;&#123;path=index&#125;&quot;</span><span style="color:#881280;">&gt;&lt;span&gt;</span>&#123;month&#125; &#123;year&#125;<span style="color:#881280;">&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;</span><br />
-&nbsp;&nbsp;&nbsp;&nbsp;&#123;/exp:weblog:month_links&#125;<br />
-<span style="color:#881280;">&lt;/ul&gt;</span><br />
-</div>
+			<blockquote>
+				&ldquo;He has an unmatched work ethic and attitude, and empowers and strengthens any team that he is on&hellip;&rdquo;
+			</blockquote>
+			<cite>Joshua Decker</cite>
 
-<h3>The CSS</h3>
+	</section>
 
-<div style="text-align:left;color:#000000; background-color:#ffffff; border:solid black 1px; padding:0.5em 1em 0.5em 1em; overflow:auto;font-size:small; font-family:monospace; ">#archives &#123;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">position</span>: <span style="color:#9b4400;">absolute</span>;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">top</span>: <span style="color:#0000ff;">185px</span>;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">left</span>: <span style="color:#0000ff;">0</span>;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">width</span>: <span style="color:#0000ff;">75px</span>;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">margin</span>: -<span style="color:#0000ff;">20px</span> <span style="color:#0000ff;">0</span>;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">padding</span>: <span style="color:#0000ff;">20px</span> <span style="color:#0000ff;">0 20px</span> <span style="color:#0000ff;">0</span>;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">overflow</span>: <span style="color:#9b4400;">hidden</span>;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">list-style</span>: <span style="color:#9b4400;">none</span>;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">font</span>: <span style="color:#9b4400;">bold</span> <span style="color:#0000ff;">10px</span>/<span style="color:#0000ff;">1 </span><span style="color:#760f15;">&#8216;helvetica neue&#8217;</span>, helvetica, <span style="color:#9b4400;">sans-serif</span>;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">text-transform</span>: <span style="color:#9b4400;">uppercase</span>;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">list-style</span>: <span style="color:#9b4400;">none</span>;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">z-index</span>: <span style="color:#0000ff;">2</span>;<br />
-&#125;<br />
-<br />
-#archives:hover &#123;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">width</span>: <span style="color:#0000ff;">150px</span>;<br />
-&#125;<br />
-<br />
-#archives li &#123;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">margin-left</span>: -<span style="color:#0000ff;">120px</span>;<br />
-&#125;<br />
-<br />
-#archives:hover li &#123;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">margin-left</span>: -<span style="color:#0000ff;">10px</span>;<br />
-&#125;<br />
-<br />
-#archives li a &#123;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">display</span>: <span style="color:#9b4400;">block</span>;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">position</span>: <span style="color:#9b4400;">relative</span>;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">width</span>: <span style="color:#0000ff;">120px</span>;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">height</span>: <span style="color:#0000ff;">6px</span>;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">margin</span>: <span style="color:#0000ff;">0 0 4px</span>;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">padding</span>: <span style="color:#0000ff;">0 4px</span>;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">text-align</span>: <span style="color:#9b4400;">right</span>;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">color</span>: <span style="color:#760f15;">#ededed</span>;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">background</span>: <span style="color:#760f15;">#ccc</span>;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">border</span>: <span style="color:#9b4400;">none</span>;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">-moz-border-radius</span>: <span style="color:#0000ff;">2px</span>;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">-webkit-border-radius</span>: <span style="color:#0000ff;">2px</span>;<br />
-&#125;<br />
-<br />
-<br />
-#archives li a:hover &#123;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">height</span>: <span style="color:#0000ff;">10px</span>;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">margin</span>: -<span style="color:#0000ff;">4px</span> <span style="color:#0000ff;">0 0</span>;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">padding</span>: <span style="color:#0000ff;">2px</span> <span style="color:#0000ff;">4px</span>;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">color</span>: <span style="color:#760f15;">#ededed</span>;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">background</span>: <span style="color:#760f15;">#222</span>;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">z-index</span>: <span style="color:#0000ff;">2</span>;<br />
-&#125;<br />
-<br />
-#archives li a span &#123;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">visibility</span>: <span style="color:#9b4400;">hidden</span>;<br />
-&#125;<br />
-<br />
-#archives li a:hover span &#123;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">visibility</span>: <span style="color:#9b4400;">visible</span>;<br />
-&#125;<br />
-</div>
+	<section id="intro">
 
-<p>Then I stick this in the <code>&amp;lt;head&amp;gt;</code> of the index page:</p>
+			<h2>Graphic &<br>
+			Production &<br>
+			User Experience &<br>
+			Systems &<br>
+			Web&hellip;</h2>
+			<p><i>Design is my thing</i></p>
 
-<div style="text-align:left;color:#000000; background-color:#ffffff; border:solid black 1px; padding:0.5em 1em 0.5em 1em; overflow:auto;font-size:small; font-family:monospace; ">&#123;if segment_1 != <span style="color:#760f15;">&quot;entry&quot;</span> &amp;&amp; segment_1 != <span style="color:#760f15;">&quot;&quot;</span>&#125;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;#archives #a&#123;segment_2&#125;-&#123;segment_3&#125; a &#123;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">width</span>: <span style="color:#0000ff;">130px</span>;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">margin-left</span>: -<span style="color:#0000ff;">5px</span>;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">background</span>: <span style="color:#760f15;">#222</span>;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&#125;<br />
-&#123;if:else&#125;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;#archives #now a &#123;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">width</span>: <span style="color:#0000ff;">130px</span>;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">margin-left</span>: -<span style="color:#0000ff;">5px</span>;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#88134f;">background</span>: <span style="color:#760f15;">#222</span>;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&#125;<br />
-&#123;/if&#125;<br />
-</div>
+	</section>
 
-<p>There you have it. Feel free to reuse and repurpose the widget for your own project or website. Let me know if you do, I&#8217;d love to see how it&#8217;s adapted.</p>
+	<section id="about-me">
 
-<p>(Thanks to <a href="http://panic.com/coda">Coda</a> for the code formatting via &#8216;copy-as-XHTML&#8217; function!)</p>
+			<h3>it's pronounced <i>spurdy*</i></h3>
+			<small>(* in ’merica, at least)</small>
+			<p>It&rsquo;s French, but I&rsquo;m actually French-Irish-Jewish &mdash; a mutt of nationalities, really.</p>
+			<p>I&rsquo;m 37 years-old, married, and have four children. I love my family.</p>
+			<p>I was born and raised in Colorado and moved around a lot during my formative years &mdash; Florida, Georgia, Virgina &mdash; finally landing in Seattle, WA in 1998. I&rsquo;ve been here ever since.</p>
+			<p>I&rsquo;m a Christian, and I try to live and love like Jesus did. My faith is important to me, but I don&rsquo;t consider myself religious.</p>
 
-<article>
+	</section>
 
-	<hr>
+	<section id="my-story">
 
-	<footer>
-	<small>Site handcrafted using <a href="http://www.sublimetext.com/">Sublime Text</a>, powered by <a href="http://jekyllrb.com/">Jekyll</a> and hosted on <a href="https://pages.github.com/">Github Pages</a>.</small>
-</footer>
+			<h3>My story</h3>
+			<p>My professional career began as a teenager in 1995 with my first job designing yellow page advertisements for local businesses. Prior to that I&rsquo;d dabbled with some graphic design as a hobby and had won a few logo design competitions.</p>
+			<p>For almost 12 years I helped lead digital and media productions at The City Church, where I launched several award-winning websites and campaigns, the most notable being &ldquo;JESUS IS ____&rdquo;, which was nationally recognized and inspired dozens of lookalike projects and installations.</p>
+			<p>During that time I also co-founded a side company called Sky Balloon with two friends. We developed iPhone apps in our spare time to hone our skills. We worked on over a dozen apps and shipped five. Our most popular app (with over 300k downloads) was a quick-launch video camera called Capture, which was featured on CNN, CNET, Gizmodo, Lifehacker, Wired, and dozens of smaller publications and blogs.</p>
+			<p>In 2011, I left my career at the church to help start Tagboard, a social media software company. After creating the brand and product prototype, I assumed a Chief Product Officer role and helped lead a team of designers and developers to build, deliver, and manage the whole of Tagboard&rsquo;s product. Later, I transitioned to a more central role in the company as Chief of Staff, providing coaching and support for the leadership team, as well as inside counsel for the rest of the organization worldwide.</p>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-<script src="/js/zoom.min.js"></script>
+	</section>
+
+	<section id="chris-quote">
+
+			<blockquote>
+				<span>&ldquo;</span>Sean’s always<span> [&hellip;]</span> fought for the <b>best product&nbsp;ideas</b><span>&rdquo;</span>
+			</blockquote>
+			<cite>&mdash;Chris Messina</cite>
+
+	</section>
+
+	<section id="axioms">
+
+			<div class="paper">
+				<h3>Notes from the field</h3>
+				<ul>
+					<li>* Just because you can doesn&rsquo;t mean you should</li>
+					<li>* Think deeply, but not too deep</li>
+					<li>* Take your job seriously, yourself not so much</li>
+					<li>* Go for &ldquo;WOW&rdquo;</li>
+					<li>* Build bridges, don&rsquo;t burn them</li>
+					<li>* Be generous</li>
+					<li>* Smile more</li>
+					<li>* Be authentic</li>
+					<li>* Give a shit</li>
+					<li>* SIMPLIFY!</li>
+					<li>* Don&rsquo;t over-simplify</li>
+					<li>* We&apos;re better together</li>
+					<li>* Build-in flexibility</li>
+					<li>* No decision is final</li>
+					<li>* Don&apos;t settle</li>
+					<li>* Progress over perfection (1 > 0)</li>
+					<li>* Hope scales</li>
+					<li>* Impact wins the long game, output the short</li>
+					<li>* Be kind to everyone</li>
+					<li>* Comparison is the enemy of creativity</li>
+					<li>* Shipping is only the beginning</li>
+					<li>* Embrace uncertainty</li>
+					<li>* Invest only in the things you can control</li>
+					<li>* Learn people's names</li>
+					<li>* Build trust by communicating more</li>
+					<li>* Do not capitalize on the ignorance of others</li>
+					<li>* Approach with humility</li>
+					<li>* Play the long game</li>
+					<li>* People don't follow fingers (pointing the way)</li>
+				</ul>
+			</div>
+
+	</section>
+
+	<section id="the-good-stuff">
+		<h2>The good stuff</h2>
+	</section>
+
+	<section id="previous-work">
+
+			<h3><b>Previous</b> work</h3>
+
+			<div class="case-study">
+				<a href="/tagboard-brand"><img src="img/thumb-tagboard-brand.png" alt="Tagboard logomark"></a>
+				<h4>Tagboard Brand</h4>
+				<p>The pressure was on to create a visual identity that would both establish and distinguish us in the market &mdash; and it had to stand the test of time.</p>
+				<a href="/tagboard-brand">Read more</a>
+			</div>
+
+			<div class="case-study">
+				<a href="/tagboard"><img src="img/thumb-tagboard-site.jpg" alt="Tagboard at an event"></a>
+				<h4>Tagboard MVP</h4>
+				<p>Whiteboards and brainstorming weren&apos;t enough to get a company off the ground. We needed a prototype to demo.</p>
+				<a href="/tagboard">Read more</a>
+			</div>
+
+			<div class="case-study">
+				<a href="/jesusis"><img src="img/thumb-jesusis.png" alt="Screenshot of jesus-is.org"></a>
+				<h4>Jesus Is</h4>
+				<p>Inviting a city-wide conversation about the most controversial individual in the history of the world&hellip; it'll be fun, they said.</p>
+				<a href="/jesusis">Read more</a>
+			</div>
+
+			<div class="case-study">
+				<a href="/capture"><img src="img/thumb-capture.png" alt=""></a>
+				<h4>Capture</h4>
+				<p>Missing moments because the camera is slow to launch&hellip; the stuff of nightmores for parents. That&rsquo;s where Capture came in.</p>
+				<a href="/capture">Read more</a>
+			</div>
+
+			<div class="case-study">
+				<a href="/canned"><img src="img/thumb-canned.png" alt=""></a>
+				<h4>Canned</h4>
+				<p>Working within the strict constraits of the developer devkit, we set out to enable text message templates for iPhone.</p>
+				<a href="/canned">Read more</a>
+			</div>
+
+			<div class="case-study">
+				<a href="/rhema"><img src="img/thumb-rhema.png" alt=""></a>
+				<h4>Rhema</h4>
+				<p>It wasn&rsquo;t enough to digitize timeless and personalized Bible verses, we wanted to make them more accessible than ever with a native iPhone app.</p>
+				<a href="/rhema">Read more</a>
+			</div>
+
+	</section>
+
+	<section id="whats-next">
+
+			<h3>What&apos;s next?</h3>
+			<ul>
+				<li><span>Follow me on</span> <a href="">Twitter</a></li>
+				<li><span>Connect with me on</span> <a href="">LinkedIn</a></li>
+				<li><span>Download my</span> <a href="">resume</a></li>
+				<li><span>See glimpses of my work on</span> <a href="">Dribbble</a></li>
+				<li><span>Stalk me on</span> <a href="">Instagram</a></li>
+				<li><span>Browse my blog</span> <a href="">archive</a></li>
+				<li><span>Contact me via</span> <a href="">email</a></li>
+			</ul>
+
+	</section>
+
+	<section id="fin">
+		<h3>Thanks for visiting.</h3>
+		<a href="#top"><span>^</span> Back to top</a>
+	</section>
+
 
 </body>
 

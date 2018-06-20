@@ -2,12 +2,17 @@
 
 <body class="{{ page.layout }}">
 
+	<header>
+		<h1>{{ page.title | smartify }}</h1>
+		<h2>{{ page.summary | smartify }}</h2>
+		<hr>
+	</header>
+
 	{{ content }}
 
-	<a href="/">&larr; Back to home</a>
 	<hr>
 
-	{% include footer.html %}
+	<a href="/" class="home-link">&larr; Back to home</a>
 
 </body>
 
