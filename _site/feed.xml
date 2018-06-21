@@ -4,10 +4,10 @@
     <title>Sean Sperte</title>
     <description>Hello. Welcome to the weblog of Sean Sperte. This is a collection of notes related to design, technology, and faith.
 </description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 19 Jun 2018 23:07:35 -0700</pubDate>
-    <lastBuildDate>Tue, 19 Jun 2018 23:07:35 -0700</lastBuildDate>
+    <link>http://seansperte.com/</link>
+    <atom:link href="http://seansperte.com/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Wed, 20 Jun 2018 22:15:52 -0700</pubDate>
+    <lastBuildDate>Wed, 20 Jun 2018 22:15:52 -0700</lastBuildDate>
     <generator>Jekyll v3.5.1</generator>
     
       <item>
@@ -23,8 +23,8 @@
 &lt;p&gt;Incidentally, Geek &amp;amp; Mild is now open source, so if you’re interested in seeing how I’ve got things hooked up you can &lt;a href=&quot;https://github.com/sperte/sperte.github.io&quot;&gt;peruse the code&lt;/a&gt; – for now a least.&lt;/p&gt;
 </description>
         <pubDate>Fri, 29 Aug 2014 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/entry/jekyll</link>
-        <guid isPermaLink="true">http://localhost:4000/entry/jekyll</guid>
+        <link>http://seansperte.com/entry/jekyll</link>
+        <guid isPermaLink="true">http://seansperte.com/entry/jekyll</guid>
         
         
       </item>
@@ -66,8 +66,8 @@
 &lt;p&gt;I’m a 12. And I’m United in Orange. If I have a problem it’s not that I love two teams, it’s that I have no idea how to be a fan of a winning team.&lt;/p&gt;
 </description>
         <pubDate>Mon, 03 Feb 2014 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/entry/fairweather</link>
-        <guid isPermaLink="true">http://localhost:4000/entry/fairweather</guid>
+        <link>http://seansperte.com/entry/fairweather</link>
+        <guid isPermaLink="true">http://seansperte.com/entry/fairweather</guid>
         
         
       </item>
@@ -115,8 +115,8 @@
 &lt;p&gt;People are awesome. That&amp;#8217;s my big revelation from this past week. No duh, right?&lt;/p&gt;
 </description>
         <pubDate>Wed, 25 Sep 2013 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/entry/people_of_the_internet</link>
-        <guid isPermaLink="true">http://localhost:4000/entry/people_of_the_internet</guid>
+        <link>http://seansperte.com/entry/people_of_the_internet</link>
+        <guid isPermaLink="true">http://seansperte.com/entry/people_of_the_internet</guid>
         
         
       </item>
@@ -142,8 +142,8 @@
 &lt;p&gt;My opinion of hashtags is admittedly biased, and the root of my distaste for them is my design sense; they just look bad. Meanwhile, the engineer in me sees the yet-unrealized potential hashtags have. And then “Sensible Sean” sees hashtags as just harmless and fun.&lt;/p&gt;
 </description>
         <pubDate>Thu, 28 Mar 2013 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/entry/on_hashtags</link>
-        <guid isPermaLink="true">http://localhost:4000/entry/on_hashtags</guid>
+        <link>http://seansperte.com/entry/on_hashtags</link>
+        <guid isPermaLink="true">http://seansperte.com/entry/on_hashtags</guid>
         
         
       </item>
@@ -165,8 +165,8 @@
 &lt;p&gt;Well, let&amp;#8217;s just say I disagree that marketers &amp;#8216;make websites&amp;#8217;. They may be part of the process, but to suggest they can just throw together a slide deck and hand it off to a developer, and say they&amp;#8217;re &amp;#8216;building the web&amp;#8217; … &lt;em&gt;that&lt;/em&gt; is silly. &lt;a href=&quot;http://sethgodin.typepad.com/all_marketers_are_liars/&quot;&gt;Marketers are liars&lt;/a&gt;, not makers.&lt;/p&gt;
 </description>
         <pubDate>Mon, 24 Dec 2012 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/entry/marketers_are_liars_not_makers</link>
-        <guid isPermaLink="true">http://localhost:4000/entry/marketers_are_liars_not_makers</guid>
+        <link>http://seansperte.com/entry/marketers_are_liars_not_makers</link>
+        <guid isPermaLink="true">http://seansperte.com/entry/marketers_are_liars_not_makers</guid>
         
         
       </item>
@@ -198,8 +198,8 @@
 &lt;p&gt;Seattle sports culture extends beyond the small amount of actual fans. It goes to the living room, coffee house, and neighborhood community, where the majority of people now can&amp;#8217;t name a Mariners player on the roster.&lt;/p&gt;
 </description>
         <pubDate>Tue, 24 Jul 2012 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/entry/ichiro</link>
-        <guid isPermaLink="true">http://localhost:4000/entry/ichiro</guid>
+        <link>http://seansperte.com/entry/ichiro</link>
+        <guid isPermaLink="true">http://seansperte.com/entry/ichiro</guid>
         
         
       </item>
@@ -209,8 +209,8 @@
         <description>&lt;p&gt;A &lt;a href=&quot;http://om.co/2012/04/05/the-of-course-principle-of-design/&quot;&gt;lot&lt;/a&gt; of &lt;a href=&quot;http://daringfireball.net/2012/04/obviousness&quot;&gt;talk&lt;/a&gt; about &lt;a href=&quot;http://dewith.com/2012/simplicity-and-obviousness/&quot;&gt;designing for obviousness&lt;/a&gt; in the design community lately. I just have one observation beyond agreement. Designing for obviousness is hard because you have to account for existing user conventions despite their weaknesses. That means good, obvious design has to take into account all three tenses: past, present, and future.&lt;/p&gt;
 </description>
         <pubDate>Mon, 09 Apr 2012 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/entry/obvious_isnt_easy</link>
-        <guid isPermaLink="true">http://localhost:4000/entry/obvious_isnt_easy</guid>
+        <link>http://seansperte.com/entry/obvious_isnt_easy</link>
+        <guid isPermaLink="true">http://seansperte.com/entry/obvious_isnt_easy</guid>
         
         
       </item>
@@ -236,8 +236,8 @@
 &lt;p&gt;The only caveat is that friends and family won&amp;#8217;t be able to find my profile using my email address when they sign up or look for contacts. And, obviously, I&amp;#8217;m not really unsubscribed. But now I won&amp;#8217;t have my inbox flooded with LinkedIn Connection notifications either.&lt;/p&gt;
 </description>
         <pubDate>Mon, 19 Mar 2012 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/entry/how_to_unsubscribe_from_linkedin_email</link>
-        <guid isPermaLink="true">http://localhost:4000/entry/how_to_unsubscribe_from_linkedin_email</guid>
+        <link>http://seansperte.com/entry/how_to_unsubscribe_from_linkedin_email</link>
+        <guid isPermaLink="true">http://seansperte.com/entry/how_to_unsubscribe_from_linkedin_email</guid>
         
         
       </item>
@@ -296,8 +296,8 @@
 &lt;p&gt;That&amp;#8217;s it. That&amp;#8217;s all it takes to win me as a customer. If you want to charge me $19.99 for each app, that&amp;#8217;s fine. If you want to charge me $45 per year, that&amp;#8217;s fine, too. As long as you deliver on those items I listed above, you can have my money.&lt;/p&gt;
 </description>
         <pubDate>Thu, 15 Mar 2012 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/entry/plain_text_in_a_field</link>
-        <guid isPermaLink="true">http://localhost:4000/entry/plain_text_in_a_field</guid>
+        <link>http://seansperte.com/entry/plain_text_in_a_field</link>
+        <guid isPermaLink="true">http://seansperte.com/entry/plain_text_in_a_field</guid>
         
         
       </item>
@@ -370,8 +370,8 @@
 &lt;p&gt;(Also: I can&amp;#8217;t wait &amp;#8216;til you see what we&amp;#8217;re working on now.)&lt;/p&gt;
 </description>
         <pubDate>Mon, 12 Mar 2012 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/entry/a_story_about_an_ipad_browser_that_never_was</link>
-        <guid isPermaLink="true">http://localhost:4000/entry/a_story_about_an_ipad_browser_that_never_was</guid>
+        <link>http://seansperte.com/entry/a_story_about_an_ipad_browser_that_never_was</link>
+        <guid isPermaLink="true">http://seansperte.com/entry/a_story_about_an_ipad_browser_that_never_was</guid>
         
         
       </item>
