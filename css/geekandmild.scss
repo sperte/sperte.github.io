@@ -65,6 +65,10 @@ body {
 		width: 3px;
 		background: #A76BB4;
 		z-index: 2;
+		@media (min-width: 768px) {
+			right: 25%;
+			height: 80vh;
+		}
 	}
 }
 
@@ -72,13 +76,16 @@ body {
 #jenny-quote {
 	background: white;
 	padding: 60px 15vw;
+	@media (min-width: 768px) {
+		padding: 12vh 35vw;
+	}
 	blockquote {
 		margin: 0 auto 1em;
 		font: 400 italic 12px/1.4 'Volkhov';
 		color: #454545;
 		text-indent: -.3em;
 		@media (min-width: 768px) {
-			font-size: 14px;
+			font-size: 18px;
 		}
 	}
 	cite {
@@ -88,9 +95,6 @@ body {
 		font: 400 normal 12px/1 'Volkhov';
 		color: #A76CB3;
 	}
-	@media (min-width: 768px) {
-		padding: 70px 35vw;
-	}
 }
 
 
@@ -99,6 +103,9 @@ body {
 	background: #5681D4;
 	padding: 150px 0 50px 10vw;
 	z-index: 1;
+	@media (min-width: 768px) {
+		padding: 150px 0 50px 25vw;
+	}
 	p {
 		font: 100 normal 14px/1 'Oswald';
 		color: #9DBFFF;
@@ -115,7 +122,7 @@ body {
 	@media (min-width: 768px) {
 		h3,
 		p {
-			max-width: 40vw;
+			max-width: 370px;
 		}
 	}
 	&:before {
@@ -221,7 +228,7 @@ body {
 	padding: 75px 20px;
 	text-align: center;
 	@media (min-width: 768px) {
-		padding: 100px 20vw;
+		padding: 20vh 35vw;
 	}
 	blockquote {
 		margin: 0 auto 2em;
@@ -603,7 +610,8 @@ body {
 		}
 	}
 	h2 {
-		font: 400 italic 16px/1 'Playfair Display'
+		margin: 2em auto 1em;
+		font: 400 italic 20px/1 'Playfair Display'
 	}
 	p {
 		font: 400 normal 16px/1.35 'PT Serif';
