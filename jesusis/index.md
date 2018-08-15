@@ -12,7 +12,7 @@ thumbnail: thumb-jesusis.png
 
 ## Inviting a conversation
 
-I served on a small panel team that would both drive creative and execution for the campaign -- which had a mediocre budget, but a big goal: invite a city-wide conversation about Jesus. Off the bat, we knew it would be a challenge.
+I served on a small panel team that would both drive creative and execution for the campaign -- which had a modest budget and a big goal: invite a city-wide conversation about Jesus. Off the bat, we knew it would be a challenge.
 
 The first thing to do was figure out how to even bring up Jesus, the most controversial person in history without offending. I came up with the idea of adding a blank to "JESUS IS" to invite people to mentally fill it in. We wanted it to be a question that would stick with people, so we also took cues from the timeless "Got Milk?" identity for the logotype.
 
