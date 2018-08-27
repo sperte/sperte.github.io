@@ -16,9 +16,9 @@ thumbnail: thumb-tagboard-brand.png
 
 As the design co-founder of a social media company, I was responsible for establishing the brand &mdash; the visual identity and the voice.
 
-Research started months earlier. Because we had no customer base to survey or study, I audited the technology industry, mostly from consumer brands and companies. I knew I wanted to create a simple brand that included the name in the logo -- a logotype -- but also recognized the need to have a strong mark that would double as the app's icon. It had to be both distinctive and timeless, so I avoided the temptation to use current trends: gradients, overlaps, and simple shapes.
+Because we had no customer base to survey or study, I audited the technology industry, mostly from consumer brands and companies. I knew I wanted to create a simple brand that included the name in the logo -- a logotype -- but also recognized the need to have a strong mark that would double as the app icon. It had to be both distinctive and timeless, so I avoided the temptation to use then-current trends: gradients, overlaps, simple shapes, etc.
 
-After test driving dozens of typefaces, I landed on [Seravek](https://processtypefoundry.com/fonts/seravek/), from the same foundry as the Facebook font, [Klavika](https://processtypefoundry.com/fonts/klavika/). It satisfied the requirements of being familiar and friendly but was also customizable and felt high-brow. I used it to set our company name, then modified it to have unique character qualities.
+I "sketch" ideas in Photoshop, and so after test driving dozens of typefaces, I landed on [Seravek](https://processtypefoundry.com/fonts/seravek/), from the same foundry as the Facebook font, [Klavika](https://processtypefoundry.com/fonts/klavika/). It satisfied the requirements of being familiar and friendly but was also customizable and felt high-brow. I used it to set our company name, then modified it to have unique character qualities.
 
 <img src="logotype-comparison.jpg" data-action="zoom">
 
@@ -44,6 +44,6 @@ As part of the process I developed a slide deck to help communicate the brand st
 
 The logotype was also integrated into an attribution badge to help viewers identify Tagboard's public screens. The badge became an important part of our partnership strategy with source networks like Twitter and Facebook: if a public social screen had our logo, it meant the display was licensed. And despite early push-back from customers, the "Powered by Tagboard" badge eventually became a sort of badge of honor, signaling a sanctioned (and high-quality) social display.
 
-<img src="poweredby-blue.png" data-action="zoom" style="padding: 2em;">
+<img src="poweredby-blue.png" data-action="zoom" style="box-sizing: border-box; padding: 2em;">
 
 <img src="tagboard-in-the-wild.jpg" class="hero">
