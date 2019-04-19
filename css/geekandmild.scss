@@ -655,6 +655,11 @@ body {
       width: 80vw;
       max-width: none;
       margin-left: -18vw;
+      @media (max-width: 767px) {
+        width: 100%;
+        max-width: none;
+        margin: 1em auto 1em;
+  		}
     }
     &.slbImage {
       margin: 0 auto;
