@@ -108,7 +108,7 @@ body {
 }
 
 
-#jenny-quote {
+#jenni-quote {
 	background: white;
 	padding: 60px 15vw;
 	@media (min-width: 768px) {
@@ -459,6 +459,8 @@ body {
 	@include clearfix;
 	position: relative;
 	z-index: 1;
+  width: 80%;
+  margin: 0 auto;
 	padding: 0 40px 75px;
 	&:before {
 		display: block;
@@ -485,7 +487,7 @@ body {
 		}
 	}
 	.case-study {
-		margin-bottom: 80px;
+		min-height: 570px;
 		img {
 			max-width: 100%;
 			box-shadow: 0 40px 40px -20px rgba(0, 0, 0, 0.2);
@@ -493,10 +495,10 @@ body {
 		}
 		h4 {
 			margin: .5em auto .25em;
-			font: 800 italic 48px/1 'Playfair Display';
+			font: 800 italic 2rem/1 'Playfair Display';
 			color: #454545;
 		}
-		p {
+		p, li {
 			font: 600 normal 14px/1.35 'Playfair Display';
 			color: #454545;
 			letter-spacing: .1em;
@@ -509,7 +511,7 @@ body {
 			letter-spacing: .1em;
 			&:before {
 				display: inline-block;
-				content: "▶";
+				content: "➜";
 				margin-right: 10px;
 				color: #454545;
 			}
@@ -517,12 +519,25 @@ body {
 		@media (min-width: 768px) {
 			float: left;
 			max-width: calc(50% - 40px);
-			margin: 0 20px 80px;
+			margin: 0 20px 0;
 		}
 		@media (min-width: 1024px) {
 			max-width: calc(25% - 40px);
 		}
 	}
+}
+
+.gallery {
+  clear: both;
+  margin: 0 20px;
+  a {
+    display: inline-block;
+    width: 120px;
+    margin: 0 20px 20px 0;
+    img {
+      max-width: 100%;
+    }
+  }
 }
 
 
@@ -623,7 +638,7 @@ body {
 		margin: 2em auto 1em;
 		font: 400 italic 20px/1 'Playfair Display'
 	}
-	p {
+	p, li {
 		font: 400 normal 16px/1.35 'PT Serif';
 		color: #454545;
 	}
@@ -632,6 +647,19 @@ body {
 		margin: 1em auto 2em;
 		box-shadow: 0 40px 40px -20px rgba(0, 0, 0, 0.2);
 		background: white;
+    &.no-style {
+      background: none;
+      box-shadow: none;
+    }
+    &.break {
+      width: 80vw;
+      max-width: none;
+      margin-left: -18vw;
+    }
+    &.slbImage {
+      margin: 0 auto;
+      background: none;
+    }
 	}
 	hr {
 		margin: 2em auto;
@@ -641,6 +669,13 @@ body {
 	a {
 		color: #77000E;
 	}
+  .gallery {
+    margin: 0 auto;
+    a {
+      width: calc(25% - 25px);
+      margin: 0 20px 0 0;
+    }
+  }
 }
 
 a.home-link {
@@ -652,4 +687,11 @@ a.home-link {
 	span {
 		display: block;
 	}
+}
+
+.slbCaption {
+  bottom: 2vh;
+  font: 800 normal 18px/1 'Oswald';
+  text-transform: uppercase;
+  text-shadow: 0 1px 10px rgba(0,0,0,.25);
 }

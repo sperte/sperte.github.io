@@ -5,13 +5,18 @@ summary: "It wasn't enough to digitize timeless and personalized Bible verses, w
 thumbnail: thumb-rhema.png
 ---
 
+**Type**: Mobile app; marketing site  
+**Role**: Lead designer; web developer  
+**Tasks**: UX/UI design, visual design, front-end (web) development, marketing
+
+<a href="icon-iterations.png"><img src="icon-iterations.png"></a>
+
 ## Personalized scripture in your pocket
 
 Me and two others took on designing and building a Rhema card iPhone app. We weren't sure if it was something others would want, but we did -- and we wanted to hone our skills for creating mobile apps.
 
-<div class="image-group-5">
+<div class="gallery">
   <a href="browse-1.jpg"><img src="browse-1.jpg"></a>
-  <a href="browse-2.jpg"><img src="browse-2.jpg"></a>
   <a href="browse-3.jpg"><img src="browse-3.jpg"></a>
   <a href="browse-5.jpg"><img src="browse-5.jpg"></a>
   <a href="browse-6.jpg"><img src="browse-6.jpg"></a>
@@ -29,7 +34,6 @@ I had opinionated preference for how iPhone app icons should look, so I took gre
 
 The original Rhema cards had an emblem as part of the masthead that had -- along with the colors and typography -- become a sort of the brand. I didn't want to depart too much from this established aesthetic, so I attempted to integrate the emblem into the icon with varying degrees of success across iterations.
 
-<a href="icon-iterations.png"><img src="icon-iterations.png"></a>
 
 I finally landed on an icon that both honored the past, but also looked and felt great on the iPhone's digital screen.
 

@@ -1,15 +1,20 @@
 ---
 layout: portfolio
 title: "Canned"
-summary: "Working within the strict constraits of the developer devkit, we set out to enable text message templates for iPhone."
+summary: "Working within the strict constraints of the developer devkit, we set out to enable text message templates for iPhone."
 thumbnail: thumb-canned.png
 ---
+
+**Type**: Mobile app; marketing site  
+**Role**: Lead designer; web developer  
+**Tasks**: UX/UI design, visual design, front-end (web) development, marketing
+
+<img src="screenshots.png" class="break full">
 
 ## Launch, tap, send
 
 I worked with the small, 3-man Sky Balloon team to create an iPhone app that gave the ability to quickly send pre-drafted texts. The app also included a feature for sending to a preset person or group of people -- and since the draft template could be blank, the app was also used for group messaging.
 
-<img src="screenshots.png" data-action="zoom">
 
 The goal was to remove as much friction as possible from the process of sending a common text messages. I imagined an optimized user experience that could safely be used with one hand while driving.
 

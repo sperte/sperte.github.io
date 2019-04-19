@@ -433,21 +433,21 @@ body {
         right: 25%;
         height: 80vh; } }
 
-#jenny-quote {
+#jenni-quote {
   background: white;
   padding: 60px 15vw; }
   @media (min-width: 768px) {
-    #jenny-quote {
+    #jenni-quote {
       padding: 12vh 35vw; } }
-  #jenny-quote blockquote {
+  #jenni-quote blockquote {
     margin: 0 auto 1em;
     font: 400 italic 12px/1.4 'Volkhov';
     color: #454545;
     text-indent: -.3em; }
     @media (min-width: 768px) {
-      #jenny-quote blockquote {
+      #jenni-quote blockquote {
         font-size: 18px; } }
-  #jenny-quote cite {
+  #jenni-quote cite {
     display: block;
     width: 70vw;
     margin: 0 auto;
@@ -727,6 +727,8 @@ body {
 #previous-work {
   position: relative;
   z-index: 1;
+  width: 80%;
+  margin: 0 auto;
   padding: 0 40px 75px; }
   #previous-work::after {
     display: block;
@@ -754,16 +756,16 @@ body {
       text-transform: uppercase;
       color: #1588B9; }
   #previous-work .case-study {
-    margin-bottom: 80px; }
+    min-height: 570px; }
     #previous-work .case-study img {
       max-width: 100%;
       box-shadow: 0 40px 40px -20px rgba(0, 0, 0, 0.2);
       background: white; }
     #previous-work .case-study h4 {
       margin: .5em auto .25em;
-      font: 800 italic 48px/1 'Playfair Display';
+      font: 800 italic 2rem/1 'Playfair Display';
       color: #454545; }
-    #previous-work .case-study p {
+    #previous-work .case-study p, #previous-work .case-study li {
       font: 600 normal 14px/1.35 'Playfair Display';
       color: #454545;
       letter-spacing: .1em; }
@@ -775,17 +777,27 @@ body {
       letter-spacing: .1em; }
       #previous-work .case-study a:last-child:before {
         display: inline-block;
-        content: "▶";
+        content: "➜";
         margin-right: 10px;
         color: #454545; }
     @media (min-width: 768px) {
       #previous-work .case-study {
         float: left;
         max-width: calc(50% - 40px);
-        margin: 0 20px 80px; } }
+        margin: 0 20px 0; } }
     @media (min-width: 1024px) {
       #previous-work .case-study {
         max-width: calc(25% - 40px); } }
+
+.gallery {
+  clear: both;
+  margin: 0 20px; }
+  .gallery a {
+    display: inline-block;
+    width: 120px;
+    margin: 0 20px 20px 0; }
+    .gallery a img {
+      max-width: 100%; }
 
 #whats-next {
   background: #E6E6E6;
@@ -861,7 +873,7 @@ body {
   .portfolio h2 {
     margin: 2em auto 1em;
     font: 400 italic 20px/1 "Playfair Display"; }
-  .portfolio p {
+  .portfolio p, .portfolio li {
     font: 400 normal 16px/1.35 'PT Serif';
     color: #454545; }
   .portfolio img {
@@ -869,12 +881,27 @@ body {
     margin: 1em auto 2em;
     box-shadow: 0 40px 40px -20px rgba(0, 0, 0, 0.2);
     background: white; }
+    .portfolio img.no-style {
+      background: none;
+      box-shadow: none; }
+    .portfolio img.break {
+      width: 80vw;
+      max-width: none;
+      margin-left: -18vw; }
+    .portfolio img.slbImage {
+      margin: 0 auto;
+      background: none; }
   .portfolio hr {
     margin: 2em auto;
     border: 0 none;
     border: 1px solid rgba(0, 0, 0, 0.2); }
   .portfolio a {
     color: #77000E; }
+  .portfolio .gallery {
+    margin: 0 auto; }
+    .portfolio .gallery a {
+      width: calc(25% - 25px);
+      margin: 0 20px 0 0; }
 
 a.home-link {
   display: inline-block;
@@ -884,3 +911,9 @@ a.home-link {
   text-decoration: none; }
   a.home-link span {
     display: block; }
+
+.slbCaption {
+  bottom: 2vh;
+  font: 800 normal 18px/1 'Oswald';
+  text-transform: uppercase;
+  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.25); }

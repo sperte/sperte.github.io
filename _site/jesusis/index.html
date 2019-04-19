@@ -13,7 +13,8 @@
 	<link rel="shortcut icon" href="/favicon.ico">
 
 	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Oswald:200,300,400,500,600,700|PT+Mono|PT+Serif:400,400i,700,700i|Playfair+Display:400,400i,700,700i,900,900i|Volkhov:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
-	<link rel="stylesheet" href="/css/geekandmild.css?v=20180625">
+	<link rel="stylesheet" href="/css/simpleLightbox.min.css">
+	<link rel="stylesheet" href="/css/geekandmild.css?v=20190325">
 
 </head>
 
@@ -78,6 +79,7 @@
 
 </body>
 
+<script src="/js/simpleLightbox.min.js"></script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -86,6 +88,8 @@
 
   ga('create', 'UA-46810847-1', 'auto');
   ga('send', 'pageview');
+
+	new SimpleLightbox({elements: '.gallery a'});
 
 </script>
 
