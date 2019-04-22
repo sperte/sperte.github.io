@@ -438,7 +438,7 @@ body {
   padding: 60px 15vw; }
   @media (min-width: 768px) {
     #jenni-quote {
-      padding: 12vh 35vw; } }
+      padding: 12vh 30vw; } }
   #jenni-quote blockquote {
     margin: 0 auto 1em;
     font: 400 italic 12px/1.4 'Volkhov';
@@ -729,7 +729,7 @@ body {
   z-index: 1;
   width: 80%;
   margin: 0 auto;
-  padding: 0 40px 75px; }
+  padding: 0 30px 75px; }
   #previous-work::after {
     display: block;
     content: "";
