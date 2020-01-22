@@ -22,12 +22,13 @@ body {
 
 #intro {
 	padding: 10vmax 10vw;
+  background-color: #262626;
 	background-image: url(/img/seansperte.jpg);
 	background-position: left center;
 	background-size: 215vw;
 	color: white;
 	@media (min-width: 768px) {
-		background-size: cover;
+		background-image: none;
 	}
 	h2 {
 		margin: 90px auto 0;
@@ -501,7 +502,7 @@ body {
 		p, li {
 			font: 600 normal 14px/1.35 'Playfair Display';
 			color: #454545;
-			letter-spacing: .1em;
+			letter-spacing: .02em;
 		}
 		a:last-child {
 			font: 600 normal 12px/1 'Oswald';
