@@ -2,15 +2,25 @@
 html {
     padding: 0 30px;
     background-color: white;
+    overflow-x: hidden;
     font-size: 10px;
 }
 
+@media (max-device-width: 480px) {
+    html {
+        padding: 0 21px;
+        font-size: 7px;
+    }
+}
+
+
+
 body {
-    padding: 30px 0;
+    
+    padding: 3rem 0;
     color: #6A6059;
     background-color: #F8F4EF;
     z-index: 0;
-    overflow-x: hidden;
 }
 
 body:before,
@@ -20,7 +30,7 @@ body:after {
     content: "";
     left: 0;
     width: 100vw;
-    height: 30px;
+    height: 3rem;
     z-index: 1;
     background: white;
 }
@@ -265,7 +275,9 @@ section hr {
 }
 
 #tagboard .feature:nth-of-type(3) {
-    overflow: visible;
+    margin: 0 -100px;
+    padding: 0 100px;
+    overflow-x: hidden;
 }
 
 #tagboard .feature:nth-of-type(3) > img:nth-child(1) {
