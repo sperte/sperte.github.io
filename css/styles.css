@@ -452,6 +452,7 @@ section hr {
 #contact a {
     font-family: 'Epilogue', sans-serif;
     font-size: 3.6rem;
+    font-weight: 300;
     color: white;
     text-decoration: none;
 }
