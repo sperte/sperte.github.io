@@ -1,10 +1,10 @@
 # Site settings
 title: "Sean Sperte"
 email: sean@sperte.com
-description: > # this means to ignore newlines until "baseurl:"
-  Hello. Welcome to the weblog of Sean Sperte. This is a collection of notes related to design, technology, and faith.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://seansperte.com" # the base hostname & protocol for your site
+description: >
+  Product designer. Leading design at Pinwheel; previously founding designer at Passbook (Remitly), co-founder of Tagboard.
+baseurl: ""
+url: "https://seansperte.com"
 twitter_username: sperte
 github_username: sperte
 
