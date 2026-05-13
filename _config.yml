@@ -5,8 +5,10 @@ description: >
   Product designer. Leading design at Pinwheel; previously founding designer at Passbook (Remitly), co-founder of Tagboard.
 baseurl: ""
 url: "https://seansperte.com"
+lang: en
 twitter_username: sperte
 github_username: sperte
+google_analytics: UA-46810847-1
 
 # Build settings
 permalink: /entry/:title
@@ -14,15 +16,19 @@ paginate: 10
 paginate_path: "/:num"
 markdown: kramdown
 
-# Defaults
 defaults:
   -
     scope:
       path: ""
-      type: "post"
     values:
-      layout: "post"
+      layout: default
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
 
-# Plugins
+# Plugins (GitHub Pages whitelist)
 # gems:
   # - jekyll-redirect-from

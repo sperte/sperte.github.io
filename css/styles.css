@@ -142,6 +142,23 @@ a:hover {
     font-weight: 300;
 }
 
+/* Blog posts (_layouts/post.html) */
+.post-header .post-meta {
+    margin-top: 0;
+    margin-bottom: 0.35rem;
+    font-family: Karla, sans-serif;
+    font-size: 0.95rem;
+    opacity: 0.85;
+}
+
+.post-header h1 {
+    margin-top: 0;
+}
+
+.post-body > :first-child {
+    margin-top: 0;
+}
+
 @media screen and (max-width: 479px) {
     h1 {
         margin-bottom: 2rem;

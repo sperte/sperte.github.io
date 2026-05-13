@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<article class="section post">
+    <header class="content-body post-header">
+        <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time></p>
+        <h1>{{ page.title | escape }}</h1>
+    </header>
+    <div class="content-body post-body">
+        {{ content }}
+    </div>
+</article>
