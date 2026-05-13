@@ -4,7 +4,11 @@ email: sean@sperte.com
 description: >
   Product designer. Leading design at Pinwheel; previously founding designer at Passbook (Remitly), co-founder of Tagboard.
 baseurl: ""
+# Canonical base for absolute_url, feeds, and <link rel="canonical">. GitHub Pages still serves the same
+# build at https://sperte.github.io (user Pages default) when this repo name is sperte.github.io.
 url: "https://seansperte.com"
+pages_mirror_url: "https://sperte.github.io"
+repository: sperte/sperte.github.io
 lang: en
 twitter_username: sperte
 github_username: sperte
